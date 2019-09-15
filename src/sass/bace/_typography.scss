@@ -1,6 +1,7 @@
 .body {
   font-size: 1.4rem;
   line-height: 1.6;
+  color: $font_color;
   @include font_regular;
 }
 

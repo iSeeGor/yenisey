@@ -67,9 +67,40 @@ html {
   -webkit-box-sizing: inherit;
   box-sizing: inherit; }
 
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+.button {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  border-radius: 30px;
+  line-height: 40px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  height: 40px;
+  padding: 0 33px;
+  color: white;
+  background-color: #FF8617; }
+  .button:focus {
+    outline: none; }
+
+.button--blue {
+  background-color: #0A3163; }
+
+.button--small {
+  font-size: 1.2rem;
+  line-height: 28px;
+  height: 30px;
+  padding: 0 27px; }
+
 .body {
   font-size: 1.4rem;
   line-height: 1.6;
+  color: #0A3163;
   font-family: "Montserrat", sans-serif;
   font-weight: 400; }
 

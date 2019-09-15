@@ -9,3 +9,45 @@ html {
   box-sizing: inherit;
 }
 
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.button {
+    cursor: pointer;
+    @include font_semiBold;
+    font-size: 1.4rem;
+    border-radius: 30px;
+    line-height: 40px;
+    box-shadow: none;
+    border: none;
+    height: 40px;
+    padding: 0 33px;
+    color: white;
+    background-color: $orange_color;
+
+
+    &:focus {
+        outline: none;
+    }
+
+    &:active {
+        
+    }
+}
+
+.button--blue {
+    background-color: $font_color;
+}
+
+.button--small {
+    font-size: 1.2rem;
+    line-height: 28px;
+    height: 30px;
+    padding: 0 27px; 
+}
+
+// .button_main {
+//     background: 
+// }

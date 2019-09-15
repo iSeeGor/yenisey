@@ -26,13 +26,24 @@
     <link rel="stylesheet" href="assets/css/media.css" />
 </head>
 <body class="body">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 offset-lg-3">
-                <h1>Yenisey</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, similique?</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis voluptate eligendi hic, non quibusdam molestias, eius doloribus repudiandae perspiciatis ducimus, illum beatae provident rerum eum reprehenderit ipsam natus nihil est.</p>
+    <div class="page">
+
+        <header class="header">
+            <div class="container">
+                <div class="topbar">
+                    <div class="phones">
+                        <select name="phone-list">
+                            <option value="+90 242 528 3388"><a href="tel:+902425283388" class="link phone-list__link" title="+902425283388">+90 242 528 3388</a></option>
+                            <option value="+90 242 528 3388"><a href="tel:+902425283388" class="link phone-list__link" title="+802425283388">+80 242 528 3388</a></option>
+                            <option value="+90 242 528 3388"><a href="tel:+902425283388" class="link phone-list__link" title="+702425283388">+70 242 528 3388</a></option>
+                        </select>
+                    </div>
+                    <div class="logo">
+                        <a href="/" title="Yenisey Logo"><img src="../assets/images/yenisey_logo.png" alt="Yenisey Logo"></a>
+                    </div>
+                    <button class="button button--blue button--small">Перезвоните мне</button>
+                </div>
             </div>
-        </div>
-    </div>
-    
+        </header>
+
+    </div><!-- page -->
