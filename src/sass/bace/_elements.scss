@@ -9,9 +9,26 @@ html {
   box-sizing: inherit;
 }
 
+.body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #ccc;
+}
+
 img {
     max-width: 100%;
     vertical-align: middle;
+}
+
+.link {
+    text-decoration: none;
+    color: $font_color;
+
+    &:active,
+    &:focus {
+        color: $font_color;
+    }
 }
 
 .button {
@@ -39,6 +56,11 @@ img {
 
 .button--blue {
     background-color: $font_color;
+    @include transition(background-color);
+
+    &:hover {
+        background-color: $sky_color;
+    }
 }
 
 .button--small {

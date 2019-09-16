@@ -1,0 +1,1 @@
+<img src="../assets/images/fon_glavnaya.png" alt="">

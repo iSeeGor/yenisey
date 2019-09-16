@@ -29,21 +29,62 @@
     <div class="page">
 
         <header class="header">
-            <div class="container">
-                <div class="topbar">
-                    <div class="phones">
-                        <select name="phone-list">
-                            <option value="+90 242 528 3388"><a href="tel:+902425283388" class="link phone-list__link" title="+902425283388">+90 242 528 3388</a></option>
-                            <option value="+90 242 528 3388"><a href="tel:+902425283388" class="link phone-list__link" title="+802425283388">+80 242 528 3388</a></option>
-                            <option value="+90 242 528 3388"><a href="tel:+902425283388" class="link phone-list__link" title="+702425283388">+70 242 528 3388</a></option>
-                        </select>
+            <div class="topbar header__topbar">
+                <div class="container topbar__container">
+                    <div class="row">
+                        <div class="col-xl-10 offset-xl-1">
+                            <div class="topbar__inner">
+                                <div class="topbar__phones phones">
+
+                                    <ul class="phones__select-list">
+                                        <li class="phones__item"><a href="tel:+902425283388" class="link phones__item-link phones__item-link_tur" title="+902425283388">+90 242 528 3388</a></li>
+                                        <li class="phones__item"><a href="tel:+902425283388" class="link phones__item-link phones__item-link_kaz" title="+902425283388">+90 242 528 3388</a></li>                                               
+                                        <li class="phones__item"><a href="tel:+902425283388" class="link phones__item-link phones__item-link_ukr" title="+902425283388">+38 098 600 7886</a></li>
+                                        <li class="phones__item"><a href="tel:+902425283388" class="link phones__item-link phones__item-link_rus" title="+902425283388">+90 242 528 3388</a></li>
+                                    </ul>
+                                </div>
+                                <div class="logo">
+                                    <a href="/" title="Yenisey Logo"><img src="../assets/images/yenisey_logo.png" alt="Yenisey Logo"></a>
+                                </div>
+                                <button class="button button--blue button--small">Перезвоните мне</button>
+                            </div>    
+                        </div>
                     </div>
-                    <div class="logo">
-                        <a href="/" title="Yenisey Logo"><img src="../assets/images/yenisey_logo.png" alt="Yenisey Logo"></a>
-                    </div>
-                    <button class="button button--blue button--small">Перезвоните мне</button>
                 </div>
             </div>
+            
+            <nav class="nav header__nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-10 offset-xl-1">
+                            <ul class="menu nav__menu">
+                                <li class="menu__item"><a href="#" class="link menu__item-link" title="Главная">Главная</a></li>
+                                <li class="menu__item menu__item_dropdown dropdown">
+                                    <a href="#" class="link menu__item-link" title="Каталог недвижимости">Каталог недвижимости</a>
+
+                                    <ul class="menu menu__dropdown">
+                                        <li class="menu__item"><a href="#" class="link menu__item-link" title="Квартиры">Квартиры</a></li>
+                                        <li class="menu__item"><a href="#" class="link menu__item-link" title="Виллы">Виллы</a></li>
+                                        <li class="menu__item"><a href="#" class="link menu__item-link" title="Коммерческая недвижимость">Коммерческая недвижимость</a></li>
+                                        <li class="menu__item"><a href="#" class="link menu__item-link" title="Аренда">Аренда</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu__item"><a href="#" class="link menu__item-link" title="Наши комплексы">Наши комплексы</a></li>
+                                <li class="menu__item"><a href="#" class="link menu__item-link" title="О нас">О нас</a></li>
+                                <li class="menu__item menu__item_dropdown dropdown">
+                                    <a href="#" class="link menu__item-link" title="Для вас">Для вас</a>
+
+                                    <ul class="menu menu__dropdown">
+                                        <li class="menu__item"><a href="#" class="link menu__item-link" title="Услуги для клиентов">Услуги для клиентов</a></li>
+                                        <li class="menu__item"><a href="#" class="link menu__item-link" title="Сотрудничество">Сотрудничество</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu__item"><a href="#" class="link menu__item-link">Полезные публикации</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
         </header>
 
-    </div><!-- page -->

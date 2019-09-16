@@ -18,3 +18,10 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
+
+
+//
+
+@mixin transition($prop: all, $sec: 0.3s){
+  transition: $prop $sec ease;
+} 

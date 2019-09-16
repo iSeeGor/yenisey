@@ -1,0 +1,213 @@
+/* Header
+   ============================================================== */
+
+.header {
+   background: white;    
+}
+
+
+
+.phones {
+    
+
+    &__select-list {
+        position: absolute;
+        min-width: 200px;
+        padding: 0 12px 10px 12px;
+        margin: 0;
+        list-style: 0;
+        list-style-type: none;
+        height: 22px;
+        overflow: hidden;
+        background: #fff;
+        position: absolute;
+        top: 38%;
+        left: 9px;
+        @include font_medium;
+        font-size: 1.3rem;
+        // background: #ddd;
+        border-radius: 20px;
+        z-index: 10;
+
+        &:hover {
+            height: auto;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 9px;
+            height: 22px;
+            width: 22px;
+            background: #C8E4F9 url(../images/icons/menu_angel_arrow.svg) no-repeat center 8px;
+            background-size: 12px;
+            border-radius: 50%;
+            z-index: 11;
+            cursor: pointer;
+            
+        }
+    }
+
+    &__item {
+        margin-bottom: 15px;
+
+        &:first-child {
+            margin-bottom: 21px;
+        }
+    }
+
+    &__item-link {
+        position: relative;
+        padding-left: 35px;
+        line-height: 22px;
+        color: #174682;
+        display: block;
+
+        &:active, &:focus { color: #174682 }
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: calc(50% - 11px);
+            left: 2px;
+            height: 22px;
+            width: 22px;
+            // background-image: url(../images/icons/flag_tur.svg);
+            background-repeat: no-repeat;
+            background-position: 0 0;
+        }
+    }
+
+    &__item-link_tur::before {
+        background-image: url(../images/icons/flag_tur.svg);
+    }
+
+    &__item-link_kaz::before {
+        background-image: url(../images/icons/flag_kaz.svg);
+    }
+
+    &__item-link_ukr::before {
+        background-image: url(../images/icons/flag_ukr.svg);
+    }
+
+    &__item-link_rus::before {
+        background-image: url(../images/icons/flag_rus.svg);
+    }
+}
+
+.topbar {
+
+    &__container {
+        position: relative;
+       
+        &::after {
+            content:'';
+            position: absolute;
+            left: 4px;
+            bottom: -1px;
+            display: block;
+            height: 1px;
+            width: calc(100% - 8px);
+            background-color: #C6E7FF;
+        }
+    }
+
+    &__phones {
+        min-width: 170px;
+    }
+   
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 5px;
+        height: 57px;
+    }
+}
+
+.menu {
+    margin: 0;
+    padding: 11px 7px 20px;
+    list-style: none;
+
+    display: flex;
+    justify-content: space-between;
+
+    &__item {
+        position: relative;
+    }
+
+    &__item-link {
+        @include font_medium;
+        color: $menu_color;
+        display: block;
+        @include transition(color);
+
+        &:active, &:visited {
+            color: $menu_color;
+        }
+
+        &:hover {
+            color: $orange_color;
+        }
+
+    }
+
+    &__item_dropdown {
+        position: relative;
+        padding-right: 14px;
+
+        &:hover > .menu__dropdown { display: block; }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: calc(50% - 2px);
+            padding-left:8px; 
+            right: 0px;
+            height: 8px;
+            width: 8px;
+            display: block;
+            background-image: url('../images/icons/menu_angel_arrow.svg');
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        
+    }
+
+    &__dropdown {
+        font-size: 1.3rem;
+        position: absolute;
+        left: -32px;
+        top: 18px;
+        flex-direction: column;
+        background-color: white;
+        padding: 14px 32px 30px;
+        width: 273px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        display: none;
+
+        .menu__item {
+            margin-bottom: 7px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            &::before {
+                content: ""; 
+                background-color: $orange_color;
+                width: 5px;
+                height: 5px;
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: -14px;
+                border-radius: 50%;    
+
+            }
+        }
+    }
+}
