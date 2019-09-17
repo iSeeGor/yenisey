@@ -31,6 +31,30 @@ img {
     }
 }
 
+.input {
+    @include font_regular;
+    font-size: 1.4rem;
+    appearance: none;
+    -webkit-appearance: none; 
+    box-shadow: none;
+    padding: 11px 25px;
+    // line-height: 40px;
+    border: none;
+    background: #ececec;
+    border-radius: 12px;
+    
+    &:focus {
+        outline: none;
+    }
+}
+
+.input,
+.input::-webkit-inner-spin-button,
+.input::-webkit-outer-spin-button {
+    appearance: none;
+    -webkit-appearance: none; 
+}
+
 .button {
     cursor: pointer;
     @include font_semiBold;
@@ -43,14 +67,16 @@ img {
     padding: 0 33px;
     color: white;
     background-color: $orange_color;
+    @include transition(background-color);
 
 
     &:focus {
         outline: none;
     }
 
-    &:active {
-        
+    &:hover {
+        background-color: #FFB674;
+
     }
 }
 

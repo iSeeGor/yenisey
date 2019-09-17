@@ -1,0 +1,113 @@
+/* Home Page
+   ============================================================== */
+
+.hero {
+    text-align: center;
+    background: url('../images/hero-banner.png')no-repeat center;
+    background-size: cover;
+
+    &__container {
+        padding:120px 0 400px;
+        display: flex;
+        justify-content: center; 
+    }
+
+    &__inner {
+        max-width: 750px;
+    }
+
+    &__title {
+        @include font_bold;
+        font-size: 4.8rem;
+        line-height: 1.25;
+        margin: 0 0 16px 0;
+        color: $sky_color;
+    }
+
+    &__subtitle {
+        @include font_medium;
+        font-size: 2.4rem;
+        line-height: 1.5;
+        margin: 0 0 54px 0;
+        color: #174782;
+    }
+
+    &__button {
+        width: 275px;
+        line-height: 1.6;
+        height: auto;
+        padding-top:10px;
+        padding-bottom:10px;
+        border-radius: 40px;
+    }
+}
+
+.search {
+    
+    &__area {
+        padding: 49px 40px 46px;
+        border-radius: 30px;
+        background-color: white;
+        box-shadow: 0px 16px 46px rgba(207, 207, 207, 0.25);
+    }
+}
+
+.search-form {
+    // font-size: 0;
+
+    &__row-top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    &__item-title {
+        color: #15427A;
+        padding-left: 20px;
+        margin-bottom: 5px;
+        @include font_medium;
+    }
+
+    &__item {
+        display: inline-block;
+        // flex-direction: column;
+    }
+
+    &__select_status {
+        width: 120px; 
+    }
+
+    &__select_type {
+        width: 184px; 
+    }
+
+    &__select_rooms {
+        width: 100px; 
+    }
+
+    &__select_area {
+        width: 184px;
+    }
+
+    &__input {
+        background-color: #F3F3F3;
+        color: #9DADC1;
+        padding:0 19px;
+        height: 33px;
+        line-height: 35px;
+        margin-right: 7px;
+        max-width: 184px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &:active,&:focus {
+            box-shadow: inset 0 0 0 1px #15427A;
+        } 
+    }
+
+    &__button {
+        margin-left: 37px;
+    }
+}

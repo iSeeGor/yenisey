@@ -37,9 +37,15 @@
 
 
 
-// Layouts
-@import 'layouts/header.scss';
-@import 'layouts/footer.scss';
+// Layouts & pages
+@import 'layouts/header';
+
+@import 'pages/home';
+
+@import 'layouts/footer';
+
+
+
 
 
 // // Fonts

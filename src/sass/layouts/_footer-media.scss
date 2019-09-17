@@ -1,0 +1,13 @@
+/* Media Footer
+   ============================================================== */
+
+@media screen and (max-width: 768px){
+    .footer {
+        padding-top: 60px;
+    }
+
+    .widget {
+        max-width: 250px;
+        margin: 0 auto;
+    }
+}
