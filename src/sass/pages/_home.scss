@@ -1,6 +1,16 @@
-/* Home Page
+/* ##Home Page
    ============================================================== */
 
+/* #all */
+.section-title {
+    @include font_semiBold;
+    font-size: 3.6rem;
+    margin: 0 0 0 0;
+    color: $sky_color;
+    text-align: center;
+} 
+
+/* #hero */
 .hero {
     text-align: center;
     background: url('../images/hero-banner.png')no-repeat center;
@@ -42,11 +52,25 @@
     }
 }
 
+/* #Search */
 .search {
+    position: relative;
+    width: 100%;
+    
+    &__container {
+        position: absolute;
+        width: 100%;   
+        margin: 0 auto;
+        left: 10px;
+        right: 0;
+        bottom: -100px;
+        z-index: 11;
+    }
     
     &__area {
         padding: 49px 40px 46px;
         border-radius: 30px;
+        height: 100%;
         background-color: white;
         box-shadow: 0px 16px 46px rgba(207, 207, 207, 0.25);
     }
@@ -109,5 +133,310 @@
 
     &__button {
         margin-left: 37px;
+    }
+}
+
+.search-filters {
+
+    padding-top: 43px;
+    padding-right: 20px;
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__item {
+        padding-left: 30px;
+
+        position: relative;
+        margin-bottom: 25px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &::before {
+            content:'';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            width: 12px;
+            height: 12px;
+            background-color: $orange_color;
+            border-radius: 50%;
+
+        }
+    }
+
+    &__link {
+        color: $menu_color;
+        
+    }
+
+     &__link_active {
+        color: $orange_color;
+        @include font_medium;
+    }
+
+}
+
+/* #About */
+.section-about {
+    margin: 205px 0 100px;
+    background: white;
+    overflow: hidden;
+    background: url('../images/about-section_bg.png')no-repeat center center;
+    background-size: cover;
+
+}
+
+.about {
+
+    &__content {
+
+        min-height: 394px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &::after {
+            content: url('../images/about-section_poligon.svg');
+            position: absolute;
+            top: -377px;
+            left: -405px;
+            
+        }
+        
+    }
+
+    &__text {
+        margin: 20px 0 0 70px;
+        position: relative;
+        z-index: 10;
+        @include font_medium;
+        font-size: 1.6rem;
+        line-height: 1.65;
+        max-width: 340px;
+        letter-spacing: 0.04em;
+    }
+
+    &__text-heading {
+        display: inline;
+        color: $orange_color;
+        @include font_semiBold;
+        font-size: 1.8rem;
+    }
+}
+
+/* #Video */
+.section-video {
+    position: relative;
+    min-height: 878px;
+    padding-top: 174px;
+    background: url('../images/video-section_bg.png') no-repeat center top;
+    background-size: cover;
+
+    &__title {
+        width: 210px;
+        letter-spacing: 0.04em;
+        line-height: 1.4;
+        text-align: left;
+    }
+
+    &::before {
+        content: url('../images/video-section_bg-before.png');
+        display: block;
+        position: absolute;
+        top: 0;
+
+    }
+}
+
+.video {
+
+    &__content {
+        display: flex;
+        max-width: 399px;
+        justify-content: space-between;
+        margin: 0 auto;
+        position: relative;
+        left: 16px;
+    }
+
+    &__button-box {
+        position: relative;
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        margin-top: 33px;
+        margin-left: 12px;
+
+        &:hover .video__button::before {
+            width: 104px;
+            height: 104px;
+        }
+
+        &:hover .video__button-overlay {
+            width: 152px;
+            height: 152px;
+        }
+
+    }
+
+    &__button {
+        display: block;
+        background: $orange_color;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        text-align: center;
+        padding: 25px 29px;
+        position: relative;
+        z-index: 2;
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 114px;
+            height: 114px;
+            background: transparent;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            z-index: -1;
+            border: 1.5px solid $orange_color;
+            @include transition;
+        }
+        
+    }
+
+    &__button-overlay {
+        position: absolute;
+        width: 192px;
+        height: 192px;
+        background: #F9F9F9;
+        opacity: 0.3;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        display: block;
+        transform: translate(-50%,-50%);
+        z-index: 1;
+        @include transition;
+    }
+
+}
+
+/* #Privilages */
+.section-privilages {
+    position: relative;
+    margin-top: -319px;
+    padding: 40px 0 40px;
+    z-index: 10;
+    background: url('../images/privilages_bg.svg') no-repeat center center;
+    background-position: center 120px;
+
+}
+
+.privilages {
+
+    &__container {
+        padding: 0 164px;
+    }
+
+    &__title {
+        line-height: 1.4;
+        max-width: 380px;
+        text-align: left;
+        margin: 0 auto;
+        transform: translateX(81px);
+        letter-spacing: 0.05em;
+        margin-bottom: 40px;
+    }
+
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__item {
+        max-width: 226px;
+        flex: 0 0 226px;
+    }
+
+    &__icon {
+        margin-bottom: 14px;
+        padding-left: 20px;
+        max-height: 45px; 
+    }
+
+    &__text {
+        color: #174782;
+        line-height: 1.5;
+        margin-bottom: 60px;
+        letter-spacing: 0.04em;
+    }
+}
+
+/* #Benefit */
+.benefit-section {
+    padding:18px 0 0 0; 
+}
+
+.benefit {
+    letter-spacing: 0.04em;
+
+    &__header {
+        display: flex;
+        margin-bottom: 28px;
+        
+    }
+
+    &__header-image {
+        min-width: 516px;
+        height: 600px;
+        padding: 37px 60px;
+        margin: 0 70px 0 54px;
+
+        background: url('../images/benefit_title_bg.png')no-repeat center left;
+    }
+
+    &__title {
+        text-align: left;
+        line-height: 1.4;
+        letter-spacing: 0;
+    }
+
+    &__header-text {
+        padding-top: 36px;
+        padding-right: 20px;
+        position: relative;
+
+        &:before {
+            content:'';
+            position: absolute;
+            height: 2px;
+            width: 290px;
+            background-color: #C7E2F8;
+            top: 0;
+            left: 0;
+        }
+
+    }
+
+    &__text-heading {
+        margin: 0 0 20px 0;
+        font-size: 1.6rem;
+        line-height: 1.65;
+    }
+
+    &__text {
+        margin-bottom: 25px;
     }
 }

@@ -13,7 +13,7 @@ html {
     margin: 0;
     padding: 0;
 
-    background-color: #ccc;
+    // background-color: #ccc;
 }
 
 img {
@@ -21,13 +21,23 @@ img {
     vertical-align: middle;
 }
 
+strong {
+    @include font_semiBold;
+}
+
 .link {
     text-decoration: none;
     color: $font_color;
 
+    @include transition(color);
+
     &:active,
     &:focus {
         color: $font_color;
+    }
+
+    &:hover {
+        color: $orange_color;
     }
 }
 
