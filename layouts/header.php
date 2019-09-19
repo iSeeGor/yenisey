@@ -18,6 +18,7 @@
 
     <!--== Plugins -->
     <link rel="stylesheet" href="assets/css/plugins/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css" />
 
     <!--== CSS main style -->
     <link rel="stylesheet" href="assets/css/main.css" />

@@ -186,59 +186,362 @@
     <section class="benefit-section benefit">
         <div class="container">
         
-        <div class="benefit__header">
-            <div class="benefit__header-image">
-                <h2 class="section-title benefit__title">Почему стоит приобрести недвижимость в Алании</h2>
+            <div class="benefit__header">
+                <div class="benefit__header-image">
+                    <h2 class="section-title benefit__title">Почему стоит приобрести недвижимость в Алании</h2>
+                </div>
+
+                <div class="benefit__header-text">
+                    <h4 class="benefit__text-heading">Аланья – аутентичный курортный город на побережье Средиземного моря в Турции с невероятной атмосферой, в котором гармонично сочетаются восточный колорит и европейский уровень жизни.</h4>
+
+                    <p class="benefit__text">Это место считается одним из самых перспективных в державе и сосредотачивает в себе все преимущества отдыха и проживания высокого уровня: уникальный климат - 300 солнечных дней в году, образцовый сервис, хорошо развитая инфраструктура, радушное местное население. </p>
+
+                    <p class="benefit__text">К услугам отдыхающих и жителей города круглогодичный отдых: в теплый сезон – у моря, в зимнее время – на новом горнолыжном курорте в горах недалеко от города. А также увлекательный шопинг, большой выбор развлечений на любой вкус, престижные рестораны мировой и национальной кухни, уютные кафе, пляжи, обустроенные по самым высоким стандартам, спортивные комплексы, яркие ночные клубы, квалифицированные медицинские центры, а также разнообразие первоклассных учебных заведений (в том числе детских садов, школ и университетов с возможностью обучения на русском языке).</p>
+                </div>
+
             </div>
 
-            <div class="benefit__header-text">
-                <h4 class="benefit__text-heading">Аланья – аутентичный курортный город на побережье Средиземного моря в Турции с невероятной атмосферой, в котором гармонично сочетаются восточный колорит и европейский уровень жизни.</h4>
+            <div class="benefit__content">
+            
+                <div class="benefit__item">
+                    <div class="benefit__icon">
+                        <img src="../assets/images/icons/benefit/item_icon_01.svg" alt="Benefit Icon #01">
+                    </div>
+                    <p class="benefit__text"><strong>Удобное авиасообщение</strong> со многими городами стран СНГ, используя услуги двух расположенных рядом аэропортов Анталии и Аланьи. </p>
 
-                <p class="benefit__text">Это место считается одним из самых перспективных в державе и сосредотачивает в себе все преимущества отдыха и проживания высокого уровня: уникальный климат - 300 солнечных дней в году, образцовый сервис, хорошо развитая инфраструктура, радушное местное население. </p>
+                    <p class="benefit__text">Продолжительность полета из России или Украины до Антальи или Алании в среднем занимает <strong>от 2 до 4 часов.</strong></p>
 
-                <p class="benefit__text">К услугам отдыхающих и жителей города круглогодичный отдых: в теплый сезон – у моря, в зимнее время – на новом горнолыжном курорте в горах недалеко от города. А также увлекательный шопинг, большой выбор развлечений на любой вкус, престижные рестораны мировой и национальной кухни, уютные кафе, пляжи, обустроенные по самым высоким стандартам, спортивные комплексы, яркие ночные клубы, квалифицированные медицинские центры, а также разнообразие первоклассных учебных заведений (в том числе детских садов, школ и университетов с возможностью обучения на русском языке).</p>
+                    <p class="benefit__text">Курорт Алания предлагает <strong>европейский уровень комфорта</strong> и обслуживания, при этом стоимость проживания на <strong>60 % дешевле</strong>, нежели в Европе. </p>
+                </div>
+
+                <div class="benefit__item">
+                    <div class="benefit__icon">
+                        <img src="../assets/images/icons/benefit/item_icon_02.svg" alt="Benefit Icon #02">
+                    </div>
+                    <p class="benefit__text"><strong>Низкие коммунальные тарифы и Айдат</strong>, включающий оплату за содержание жилого комплекса (от 10 € в зависимости от уровня комплекса).</p>
+
+                    <p class="benefit__text">Показатели среднего роста цен на рынке недвижимости составляют <strong>до 7 % в год</strong>, в то время, как средний показатель по миру насчитывает <strong>2,7%.</strong></p>
+
+                    <p class="benefit__text"><strong>Низкое налогообложение</strong> (годовой налог – 0,2% от кадастровой стоимости) и отсутствие бюрократических издержек. </p>
+                </div>
+
+                <div class="benefit__item">
+                    <div class="benefit__icon">
+                        <img src="../assets/images/icons/benefit/item_icon_03.svg" alt="Benefit Icon #03">
+                    </div>
+                    <p class="benefit__text"><strong>Низкие процентные ставки по ипотечному кредиту в евро или долларах</strong>. Покупая квартиру в Аланье от застройщика можно оформить ипотеку в турецком банке на сумму до 50% от оценочной стоимости объекта под 11%-13% годовых на срок в среднем до 10 лет.</p>
+
+                    <p class="benefit__text">Хорошая окупаемость вложений при сдаче в аренду апартаментов, получение стабильного пассивного дохода.</p>
+
+                    <p class="benefit__text"><strong>Простая процедура оформления сделки</strong> и быстрое получение документов о праве собственности на недвижимость (в среднем занимает 3 дня).</p>
+                </div>
+            
+            </div>
+
+            <div class="benefit__slogan">
+                В идеальном месте идеально всё!
+            </div>
+
+            <button class="button benefit__button">Отправить запрос</button>
+        
+        </div>
+    </section>
+
+    <!--== Featured  -->
+    <section class="section-featured featured">
+        <div class="container featured__container">
+          
+            <h2 class="section-title featured__section-title">Горячие предложения</h2>
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="card featured__card">
+                        
+                        <div class="card__image-area">
+                            <img src="../assets/images/products/card_image_01.png" class="card__image" alt="Product Image #01" width="293" height="261">
+                        </div>
+
+                        <div class="card__body">
+
+                            <div class="card__title">
+                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence asasaad ada asdasdddasdas sdddsaas asdasasdd</a>
+                            </div>
+
+                            <ul class="card__property">
+                                <li class="card__property-item">Квартира / 2+1 / 65 м2 asdada asdad asd ad</li>
+                                <li class="card__property-item">Расстояние до моря / 200м</li>
+                                <li class="card__property-item">Аланья, Махмутлар</li>
+                            </ul>
+
+                            <div class="card__price">132 000 €</div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card featured__card">
+                        
+                        <div class="card__image-area">
+                            <img src="../assets/images/products/card_image_02.png" class="card__image" alt="Product Image #02" width="293" height="261">
+                        </div>
+
+                        <div class="card__body">
+
+                            <div class="card__title">
+                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence</a>
+                            </div>
+
+                            <ul class="card__property">
+                                <li class="card__property-item">Квартира / 2+1 / 65 м2 </li>
+                                <li class="card__property-item">Расстояние до моря / 200м</li>
+                                <li class="card__property-item">Аланья, Махмутлар</li>
+                            </ul>
+
+                            <div class="card__price">132 000 €</div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card featured__card">
+                        
+                        <div class="card__image-area">
+                            <img src="../assets/images/products/card_image_03.png" class="card__image" alt="Product Image #03" width="293" height="261">
+                        </div>
+
+                        <div class="card__body">
+
+                            <div class="card__title">
+                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence</a>
+                            </div>
+
+                            <ul class="card__property">
+                                <li class="card__property-item">Квартира / 2+1 / 65 м2 </li>
+                                <li class="card__property-item">Расстояние до моря / 200м</li>
+                                <li class="card__property-item">Аланья, Махмутлар</li>
+                            </ul>
+
+                            <div class="card__price">132 000 €</div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card featured__card">
+                        
+                        <div class="card__image-area">
+                            <img src="../assets/images/products/card_image_04.png" class="card__image" alt="Product Image #04" width="293" height="261">
+                        </div>
+
+                        <div class="card__body">
+
+                            <div class="card__title">
+                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence</a>
+                            </div>
+
+                            <ul class="card__property">
+                                <li class="card__property-item">Квартира / 2+1 / 65 м2 </li>
+                                <li class="card__property-item">Расстояние до моря / 200м</li>
+                                <li class="card__property-item">Аланья, Махмутлар</li>
+                            </ul>
+
+                            <div class="card__price">132 000 €</div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="button featured__button">Смотреть все</button>
+
+
+        </div>
+    </section>
+
+    <!--== Advantage  -->
+    <section class="advantage-section advantage">
+        <div class="container">
+
+            <h2 class="section-title advantage__title">Преимущества комплексов Yenisesy</h2>
+            <p class="advantage__description"><strong>Наши жилые комплексы</strong> – это сочетание безупречных архитектурных форм с высоким уровнем благоустроенности и уюта. Мы готовы удовлетворить все пожелания наших покупателей и предлагаем свои неизменные преимущества:</p>
+
+            <div class="advantage__items">
+
+                <div class="advantage__item">
+                    <div class="advantage__item-icon">
+                        <img src="../assets/images/icons/advantage/item_icon_01.svg" alt="Advantage Icon #01">
+                    </div>
+
+                    <p class="advantage__item-text">Расстояние до моря не более 200 м</p>
+                </div>
+
+                <div class="advantage__item">
+                    <div class="advantage__item-icon">
+                        <img src="../assets/images/icons/advantage/item_icon_02.svg" alt="Advantage Icon #02">
+                    </div>
+
+                    <p class="advantage__item-text">Развитая внутренняя и внешняя инфраструктура</p>
+                </div>
+
+                <div class="advantage__item">
+                    <div class="advantage__item-icon">
+                        <img src="../assets/images/icons/advantage/item_icon_03.svg" alt="Advantage Icon #03">
+                    </div>
+
+                    <p class="advantage__item-text">Гарантированные высокие стандарты качества</p>
+                </div>
+
+                <div class="advantage__item">
+                    <div class="advantage__item-icon">
+                        <img src="../assets/images/icons/advantage/item_icon_04.svg" alt="Advantage Icon #04">
+                    </div>
+
+                    <p class="advantage__item-text">Профессиональный менеджмент и обслуживание</p>
+                </div>
+
+                <div class="advantage__item">
+                    <div class="advantage__item-icon">
+                        <img src="../assets/images/icons/advantage/item_icon_06.svg" alt="Advantage Icon #06">
+                    </div>
+
+                    <p class="advantage__item-text">Все включено: спутниковое TV, интернет, видеодомофон</p>
+                </div>
+
+                <div class="advantage__item">
+                    <div class="advantage__item-icon">
+                        <img src="../assets/images/icons/advantage/item_icon_07.svg" alt="Advantage Icon #07">
+                    </div>
+
+                    <p class="advantage__item-text">Бесперебойная подача э/энергии (генератор)</p>
+                </div>
+
             </div>
 
         </div>
+    </section>
 
-        <div class="benefit__content">
-        
-            <div class="benefit__item">
-                <div class="benefit__icon">
-                    <img src="../assets/images/icons/benefit/item_icon_01.svg" alt="Benefit Icon #01">
+    <!--== Testimonial  -->
+    <section class="testimonial-section testimonial">
+        <div class="container testimonial__container">
+
+            <div class="swiper-container testimonial__slider">
+
+                <div class="swiper-wrapper">
+            
+                    <div class="testimonial__card swiper-slide">
+
+                        <div class="testimonial__image-area">
+                            <img src="../assets/images/testimonial_avatar.png" alt="Testimonial Avatar" width="355">
+                        </div>
+
+                        <div class="testimonial__body">
+
+                            <h4 class="testimonial__client-name">Семья Московчук</h4>
+                            
+                            <div class="testimonial__meta">
+                                <div class="testimonial__city">Киев</div>
+                                <div class="testimonial__date">10.09.2019</div>
+                            </div>
+
+                            <p class="testimonial__massage">
+                                Когда встал вопрос о покупке недвижимости в Турции, пересмотрев много разных вариантов, случайно наткнулись на офис компании застройщика “Yenisey” и решили зайти. Очень доброжелательные сотрудники  ответили на все интересующие нас вопросы, рассказали очень подробно о дальнейшем оформлении документов и получении ВНЖ на территории Турции. Индивидуальный подход к каждому клиенту позволил нам без проблем общаться со специалистом отдела продаж строительной компания “Yenisey” - Анастасией. Общение оказалось очень продуктивным, и мы решили посмотреть имеющиеся на рынке недвижимости предложения от компании “Yenisey”.
+                            </p>
+
+                            <a href="#" class="testimonial__readmore-link link" title="Читать полностью">Читать полностью</a>
+                        </div>
+
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+
+                        <div class="testimonial__image-area">
+                            <img src="../assets/images/testimonial_avatar.png" alt="Testimonial Avatar" width="355">
+                        </div>
+
+                        <div class="testimonial__body">
+
+                            <h4 class="testimonial__client-name">Семья Московчук</h4>
+                            
+                            <div class="testimonial__meta">
+                                <div class="testimonial__city">Киев</div>
+                                <div class="testimonial__date">10.09.2019</div>
+                            </div>
+
+                            <p class="testimonial__massage">
+                                Когда встал вопрос о покупке недвижимости в Турции, пересмотрев много разных вариантов, случайно наткнулись на офис компании застройщика “Yenisey” и решили зайти. Очень доброжелательные сотрудники  ответили на все интересующие нас вопросы, рассказали очень подробно о дальнейшем оформлении документов и получении ВНЖ на территории Турции. Индивидуальный подход к каждому клиенту позволил нам без проблем общаться со специалистом отдела продаж строительной компания “Yenisey” - Анастасией. Общение оказалось очень продуктивным, и мы решили посмотреть имеющиеся на рынке недвижимости предложения от компании “Yenisey”.
+                            </p>
+
+                            <a href="#" class="testimonial__readmore-link link" title="Читать полностью">Читать полностью</a>
+                        </div>
+
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+
+                        <div class="testimonial__image-area">
+                            <img src="../assets/images/testimonial_avatar.png" alt="Testimonial Avatar" width="355">
+                        </div>
+
+                        <div class="testimonial__body">
+
+                            <h4 class="testimonial__client-name">Семья Московчук</h4>
+                            
+                            <div class="testimonial__meta">
+                                <div class="testimonial__city">Киев</div>
+                                <div class="testimonial__date">10.09.2019</div>
+                            </div>
+
+                            <p class="testimonial__massage">
+                                Когда встал вопрос о покупке недвижимости в Турции, пересмотрев много разных вариантов, случайно наткнулись на офис компании застройщика “Yenisey” и решили зайти. Очень доброжелательные сотрудники  ответили на все интересующие нас вопросы, рассказали очень подробно о дальнейшем оформлении документов и получении ВНЖ на территории Турции. Индивидуальный подход к каждому клиенту позволил нам без проблем общаться со специалистом отдела продаж строительной компания “Yenisey” - Анастасией. Общение оказалось очень продуктивным, и мы решили посмотреть имеющиеся на рынке недвижимости предложения от компании “Yenisey”.
+                            </p>
+
+                            <a href="#" class="testimonial__readmore-link link" title="Читать полностью">Читать полностью</a>
+                        </div>
+
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+
+                        <div class="testimonial__image-area">
+                            <img src="../assets/images/testimonial_avatar.png" alt="Testimonial Avatar" width="355">
+                        </div>
+
+                        <div class="testimonial__body">
+
+                            <h4 class="testimonial__client-name">Семья Московчук</h4>
+                            
+                            <div class="testimonial__meta">
+                                <div class="testimonial__city">Киев</div>
+                                <div class="testimonial__date">10.09.2019</div>
+                            </div>
+
+                            <p class="testimonial__massage">
+                                Когда встал вопрос о покупке недвижимости в Турции, пересмотрев много разных вариантов, случайно наткнулись на офис компании застройщика “Yenisey” и решили зайти. Очень доброжелательные сотрудники  ответили на все интересующие нас вопросы, рассказали очень подробно о дальнейшем оформлении документов и получении ВНЖ на территории Турции. Индивидуальный подход к каждому клиенту позволил нам без проблем общаться со специалистом отдела продаж строительной компания “Yenisey” - Анастасией. Общение оказалось очень продуктивным, и мы решили посмотреть имеющиеся на рынке недвижимости предложения от компании “Yenisey”.
+                            </p>
+
+                            <a href="#" class="testimonial__readmore-link link" title="Читать полностью">Читать полностью</a>
+                        </div>
+
+                    </div>
+              
                 </div>
-                <p class="benefit__text"><strong>Удобное авиасообщение</strong> со многими городами стран СНГ, используя услуги двух расположенных рядом аэропортов Анталии и Аланьи. </p>
 
-                <p class="benefit__text">Продолжительность полета из России или Украины до Антальи или Алании в среднем занимает <strong>от 2 до 4 часов.</strong></p>
-
-                <p class="benefit__text">Курорт Алания предлагает <strong>европейский уровень комфорта</strong> и обслуживания, при этом стоимость проживания на <strong>60 % дешевле</strong>, нежели в Европе. </p>
             </div>
 
-            <div class="benefit__item">
-                <div class="benefit__icon">
-                    <img src="../assets/images/icons/benefit/item_icon_02.svg" alt="Benefit Icon #02">
-                </div>
-                <p class="benefit__text"><strong>Низкие коммунальные тарифы и Айдат</strong>, включающий оплату за содержание жилого комплекса (от 10 € в зависимости от уровня комплекса).</p>
+            <div class="testimonial__button-prev"></div>
+            <div class="testimonial__button-next"></div>
 
-                <p class="benefit__text">Показатели среднего роста цен на рынке недвижимости составляют <strong>до 7 % в год</strong>, в то время, как средний показатель по миру насчитывает <strong>2,7%.</strong></p>
+            <div class="testimonial__pagination"></div>
 
-                <p class="benefit__text"><strong>Низкое налогообложение</strong> (годовой налог – 0,2% от кадастровой стоимости) и отсутствие бюрократических издержек. </p>
-            </div>
-
-            <div class="benefit__item">
-                <div class="benefit__icon">
-                    <img src="../assets/images/icons/benefit/item_icon_03.svg" alt="Benefit Icon #03">
-                </div>
-                <p class="benefit__text"><strong>Низкие процентные ставки по ипотечному кредиту в евро или долларах</strong>. Покупая квартиру в Аланье от застройщика можно оформить ипотеку в турецком банке на сумму до 50% от оценочной стоимости объекта под 11%-13% годовых на срок в среднем до 10 лет.</p>
-
-                <p class="benefit__text">Хорошая окупаемость вложений при сдаче в аренду апартаментов, получение стабильного пассивного дохода.</p>
-
-                <p class="benefit__text"><strong>Простая процедура оформления сделки</strong> и быстрое получение документов о праве собственности на недвижимость (в среднем занимает 3 дня).</p>
-            </div>
-        
-        </div>
-
-        
         </div>
     </section>
 
