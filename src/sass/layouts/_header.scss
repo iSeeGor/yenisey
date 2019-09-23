@@ -5,11 +5,8 @@
    background: white;    
 }
 
-
-
 .phones {
     
-
     &__select-list {
         position: absolute;
         min-width: 200px;
@@ -22,7 +19,7 @@
         background: #fff;
         position: absolute;
         top: 38%;
-        left: 9px;
+        left: 20px;
         @include font_medium;
         font-size: 1.3rem;
         // background: #ddd;
@@ -121,14 +118,14 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0 5px;
+        padding: 0 21px;
         height: 57px;
     }
 }
 
 .menu {
     margin: 0;
-    padding: 11px 7px 20px;
+    padding: 11px 20px 20px;
     list-style: none;
 
     display: flex;

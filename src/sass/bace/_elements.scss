@@ -25,6 +25,25 @@ strong {
     @include font_semiBold;
 }
 
+.paragraph {
+    margin: 0 0 22px 0; 
+}
+
+.paragraph_dott {
+
+
+    &::before {
+        content: "";
+        display: inline-block;
+        height: 7px;
+        width: 7px;
+        margin-right: 6px;
+        background-color: $orange_color;
+        transform: translateY(-30%);
+        border-radius: 50%;
+    }
+}
+
 .link {
     text-decoration: none;
     color: $font_color;

@@ -28,6 +28,7 @@ const swiperTestimonial = () => {
         // If we need pagination
         pagination: {
           el: '.testimonial__pagination',
+          clickable: true,
         },
     
         // Navigation arrows
