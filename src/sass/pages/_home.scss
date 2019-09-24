@@ -453,38 +453,37 @@
     }
 
     &__content {
-        margin: 0 100px 7px 97px;
-        display: flex;
-        justify-content: space-between;
+        margin: 0 0 7px 0;
 
         .benefit__text {
             margin-bottom: 28px;
         }
     }
 
+    &__content-inner {
+        padding: 0;
+    }
+
     &__item {
         max-width: 260px;
-        flex: 0 0 260px;
+        // flex: 0 0 260px;
         color: #174782;
         line-height: 1.5;
         height: auto;
         position: relative;
 
-        &:last-child::after {
-            display: none;
-        }
+    }
 
-        &:after {
-            content: "";
-            position: absolute;
-            top:54%;
-            right: -40px;
-            transform: translateY(-50%);
-            height: 290px;
-            width: 2px;
-            background-color: #C7E2F8;
-            
-        }
+    &__item_line::after {
+        content: "";
+        position: absolute;
+        top:54%;
+        right: -43px;
+        transform: translateY(-50%);
+        height: 290px;
+        width: 2px;
+        background-color: #C7E2F8;
+        
     }
 
     &__icon {
@@ -1014,10 +1013,10 @@
     }
 
     &__inner {
-        padding: 0 42px;
+        padding: 0 56px;
         margin-bottom: 55px;
-        display: flex;
-        justify-content: space-between;
+        // display: flex;
+        // justify-content: space-between;
     }
 
     &__button {
@@ -1028,7 +1027,7 @@
 }
 
 .article-card {
-    width: 322px;
+    max-width: 322px;
     height: 409px;
     position: relative;
     overflow: hidden;
@@ -1150,31 +1149,26 @@
 
     &__section-title {
         max-width: 580px;
-        margin: 0 auto 43px;
+        margin: 0 auto 28px;
         line-height: 1.4;
         transform: translateY(-12px);
     }
 
     &__header-inner {
-        padding: 0 70px;
-        display: flex;
-        justify-content: space-between;
+        padding: 0 85px;
     }
 
     &__header-text {
         max-width: 460px;
-        flex: 0 0 460px;
     }
 
     &__body {
-        padding: 0 51px 0 71px;
-        display: flex;
-        justify-content: space-between;
+        padding: 0 68px 0 86px;
         margin-bottom: 135px;
     }
 
     &__text-block {
-        width: 460px;
+        max-width: 460px;
     }
 
     &__text {
@@ -1193,6 +1187,10 @@
             border-radius: 50%;
             margin-right: 6px;
         }
+    }
+
+    &__image-column {
+        padding: 0 5px;
     }
 
     &__image-block {
@@ -1235,16 +1233,14 @@
 .company-bio {
     padding: 0 0 0 52px ;
     position: relative;
-    display: flex;
     margin-bottom: 100px;
 
     &__text-block {
         margin: 26px 0;
         position: relative;
         padding: 40px 0;
-        width: 520px;
+        max-width: 520px;
         margin-right: 20px;
-        height: 100%; 
 
         &::before, &::after {
             content:'';

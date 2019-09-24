@@ -51,7 +51,9 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
   .benefit__header-image {
-    margin-bottom: 60px; } }
+    margin-bottom: 60px; }
+  .benefit__item:after {
+    right: -29px; } }
 
 /* Media Footer
    ============================================================== */
