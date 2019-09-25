@@ -84,6 +84,20 @@ strong {
     -webkit-appearance: none; 
 }
 
+.textarea {
+    @include font_regular;
+    font-size: 1.4rem;
+    padding: 11px 25px;
+    border: none;
+    border-radius: 12px;
+    background: #ececec;
+    box-shadow: none;
+
+    &:focus {
+        outline: none;
+    }
+}
+
 .button {
     cursor: pointer;
     @include font_semiBold;

@@ -29,7 +29,7 @@
 <body class="body">
     <div class="page">
 
-        <div class="sidenav">
+        <div class="sidenav sidenav_disabled">
             <ul class="mobile-menu">
                 <li class="mobile-menu__item"><a href="#" class="link mobile-menu__link" title="Главная">Главная</a></li>
                 <li class="mobile-menu__item mobile-menu__item_dropdown is-dropdown">

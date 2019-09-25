@@ -131,6 +131,8 @@
     </div>
 </footer>
 
+<?php include 'popup.php'; ?>
+
 </div><!-- page -->
 
     <!--== JS JQuery -->

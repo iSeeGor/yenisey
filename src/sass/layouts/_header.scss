@@ -1,18 +1,9 @@
 /* Header
    ============================================================== */
-   main {
-    display: none;
-}
-@media screen and (min-width:992px){
-    .mobile-header {
-        display: flex;
-    }
-    
-}
 
 /* #mobile */
 .mobile-header {
-    display: none;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     height: 70px;
@@ -39,9 +30,39 @@
 }
 
 .sidenav {
-    margin-top: 70px;
+    display: block;
+    top: 70px;
+    width: 100%;
     padding: 40px 40px 56px 40px;
     background-color: #E3F1FC ;
+    position: absolute;
+
+    
+    @include transition(transform);
+
+    &_disabled {
+        transform: translateX(-100%);
+    }
+}
+
+.is-dropdown > {
+
+    .link {
+        padding-right: 30px;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 6px;
+            right: 0;
+            width: 16px;
+            height: 16px;
+            background: url('../images/icons/menu_angel_arrow.svg') no-repeat center center;
+            background-size: contain;
+            @include transition(transform,0.4s);
+        }
+    }
 }
 
 .mobile-menu {
@@ -58,31 +79,16 @@
         @include font_medium;
         font-size: 2.0rem;
     }
-}
 
-.is-dropdown > {
-
-    .link {
-        padding-right: 30px;
-        position: relative;
+    &__link_active {
+        color: $orange_color;
 
         &::after {
-            content: '';
-            position: absolute;
-            top: 50%;
-            right: 0;
-            width: 16px;
-            height: 16px;
-            transform: translateY(-30%);
-            background: url('../images/icons/menu_angel_arrow.svg') no-repeat center center;
-            background-size: contain;
+            transform: rotate(-180deg);
+            background: url('../images/icons/menu_angel_arrow_active.svg') no-repeat center center !important;
+            background-size: contain !important;
         }
     }
-}
-
-.is-dropdown:hover .dropdown-menu {
-    display: block;
-    visibility: visible;
 }
 
 .dropdown-menu {
@@ -90,8 +96,6 @@
     padding-top: 12px; 
     border-top: 2px solid #fff;
     display: none;
-    visibility: hidden;
-    transition: all 0.3s ease; 
 
     &__item {
        margin-bottom: 15px;
@@ -130,6 +134,15 @@
     }
 }
 
+@media only screen and (min-width:992px){
+    .mobile-header {
+        display: none;
+    }
+    
+    .sidenav {
+        display: none;
+    }
+}
 
 
 /* #main header */
@@ -265,7 +278,9 @@
 }
 
 .menu {
-
+    margin: 0;
+    // padding: 0;
+    list-style: none;
     &__item {
         position: relative;
     }

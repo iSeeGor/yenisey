@@ -8,7 +8,7 @@
                 <h1 class="hero__title">Квартиры от застройщика <br> в солнечной Аланье</h1>
                 <h2 class="hero__subtitle">Мечтаете жить на побережье Средиземного моря?<br> С нашей компанией Ваши мечты становятся реальностью!</h2>
 
-                <button class="button hero__button">Заказать бесплатную консультацию</button>
+                <button class="button hero__button openpopup">Заказать бесплатную консультацию</button>
             </div>
 
         </div>
