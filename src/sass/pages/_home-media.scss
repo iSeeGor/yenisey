@@ -1,13 +1,64 @@
 /* ##Media Home
 * ======================================= */
-
-
 @media screen and (max-width:1200px){
 
     /* #Search */
-    .search__container {
-        max-width: 960px;
-        display: none;
+    .search__area {
+        padding: 40px 30px 40px;
+    }
+
+    .search-form {
+        flex: 0 0 55%;
+        max-width: 55%;
+
+        &__row-top {
+            flex-wrap: wrap;
+            margin-bottom: 0;
+        }
+
+        &__row-bottom {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 30px;
+
+            .search-form__item-title {
+                width: 100%;
+            }
+
+            .search-form__input {
+                width: 48%;
+                max-width: 48%;
+                margin-right: 0;
+
+            }
+        }
+
+        &__item {
+            // width: 48%;
+            margin-bottom: 30px;
+    
+            .select {
+                width: 100%;
+            }
+
+            &:nth-child(odd){
+                width: 35%;
+            }
+
+            &:nth-child(even){
+                width: 60%;
+            }
+        }
+        
+        &__button {
+            margin: 0 auto;
+            display: block;
+        }
+    }
+
+    .search-filters {
+        height: auto;
     }
 
     /* #About */
@@ -16,43 +67,266 @@
     }
 
     /* #Benefit */
-    .benefit__header-image {
-        min-width: 48%;
+    .benefit {
+        &__header-image {
+            min-width: 48%;
+            margin: 0 40px 0 0;
+            background-size: cover;
+        }
+    
+        &__content {
+            margin: 0 20px 7px 20px;
+        }
+    
+        &__item:after {
+            right: -29px;
+        }
+    }
+    
+    /* #Privilages */
+    .privilages__container {
+        padding: 0 40px 0 40px;
     }
 
-    .benefit__content {
-        margin: 0 20px 7px 20px;
+    /* #News */
+    .article-card {
+        margin: 0 auto 40px;
     }
 
-    .benefit__item:after {
-        right: -29px;
+    /* #Property */ 
+    .property__header {
+        margin-bottom: 260px;
+    }
+
+    .property__body {
+        padding: 0 20px 0 20px;
+    }
+
+    .widget-links_central-column {
+        padding: 0 0 0 40px;
     }
 } 
 
-
 @media screen and (max-width:992px){
 
-    /* #About */
-    .section-about {
-        background-position-x: left;
-        position: relative;
-        
+    /* #Hero */
+    .hero {     
+        margin-top: 69px;       
+    }    
 
-        &::before {
-            content: '';
-            height: 100%;
-            width: 100%;
-            position: absolute;
-            background: #fff;
-            opacity: 0.6;
-            // filter: blur(10px);
-            
+    /* #Search */
+    .search-form__item {
+
+        &:nth-child(odd){
+            width: 40%;
         }
 
+        &:nth-child(even){
+            width: 56%;
+        }
+    }
+
+    /* #About */
+    .about__content::after {
+        left: -620px;
     }
 
     .about__text {
         margin-left: 0;
+    }
+
+
+    /* #Privilages */
+    .privilages__title{
+        transform: none;
+    }
+
+    .privilages__text {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    /* #Benefit */
+    .benefit {
+        &__header {
+            flex-wrap: wrap;
+        }
+    
+        &__header-image {
+            margin-bottom: 60px;
+            height: 400px;
+            margin-right: 0;
+        }
+    
+        &__item:after {
+            right: -29px;
+        }
+    
+        &__item_line::after {
+            display: none;
+        }
+    }
+
+    /* #Testimonial */
+    .testimonial__button-prev {
+        left: -40px;
+    } 
+    .testimonial__button-next {
+        right: -40px;
+    }
+    .testimonial__body::before, .testimonial__body::after {
+        z-index: 11;
+    }
+
+
+    /* #Excellence */
+    .excellence__text-box {
+        padding: 0;
+    }
+    .excellence__image-box {
+        padding: 0;
+    }
+
+    .excellence__item::after {
+        display: none;
+    }
+
+    /* #Property */
+    .property__text-block {
+        max-width: 100%;
+    }
+
+    .property__image-block {
+        margin: 0 auto;
+    }
+
+    .how-buy__image {
+        width: 100%;
+    }
+
+    .how-buy__right {
+        padding: 0 15px;
+    }
+
+    .company-bio__text-block {
+        max-width: 100%;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .company-bio__text-block::before, .company-bio__text-block::after{
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+
+    .company-bio__image {
+        width: 100%;
+    }
+
+    .footer {
+        padding-top: 60px;
+    }
+
+    .widget {
+        font-size: 1.6rem;
+    }
+
+    .widget-links_central-column {
+        padding: 0;
+    }
+
+    .widget-logo {
+        margin-bottom: 40px;
+        &__image {
+            width: 165px !important;
+        }
+    }
+
+    .widget-links__item {
+        display: block;
+    }
+
+    .widget-links {
+        margin-bottom: 20px;
+    }
+
+    .footer__widget-address {
+        padding-left: 0px;
+        margin-top: 40px;
+    }
+
+    .widget-address__item_winter-time {
+        padding-left: 38px;
+    }
+
+    .social-media_list {
+        padding: 6px 0 6px 0;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .footer__copyright {
+        padding-left: 0;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .copyrights__art-sites {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .art-sites__text {
+        max-width: 150px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .art-sites__link {
+        display: block;
+        margin-top: 10px;
+    }
+} 
+
+@media screen and (max-width:767px) {
+    /* #Hero */
+    .hero { 
+
+        &__container {
+            padding: 60px 0 250px;
+        }
+
+        &__title {
+            font-size: 3.3rem;
+            line-height: 1.35;
+        }
+
+        &__subtitle {
+            font-size: 1.8rem;
+        }
+    }    
+
+    /* #Search */
+    .search__container {
+        flex-wrap: wrap;     
+    }
+
+    .search-form {
+        flex: 0 0 auto;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* About */
+    .section-about {
+        margin: 160px 0 30px;
+        background: white;
+    }
+
+    .about__content {
+        min-height: auto;
     }
 
     .about__content::after {
@@ -61,28 +335,158 @@
 
     /* #Privilages */
     .privilages__container {
-        padding: 0 60px;
-    }
-
-    .privilages__title{
-        transform: none;
+        padding: 0 15px;
     }
 
     /* #Benefit */
+    .benefit__content {
+        margin: 0;
+    }
+    .benefit__item {
+        max-width: 100%;
+    } 
 
-    .benefit__header {
-        flex-wrap: wrap;
+    /* #Featered */
+    .featured__card {
+        flex-direction: column;
+        max-height: 100%;
+        padding-bottom: 20px;
     }
 
-    .benefit__header-image {
-        margin-bottom: 60px;
+    .card__image-area{
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .card__image {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .card__property-item {
+        max-width: 100%;
+    }
+
+    /* #Testimonial */
+    .testimonial__button-prev, .testimonial__button-next {
+        width: 40px;
+        height: 40px;
+        z-index: 11;
+    }
+
+    .testimonial__button-prev {
+        left: -4px;
+
+        &::before {
+            top: 11px;
+            left: 13px;
+        }
+    }
+
+    .testimonial__button-next {
+        right: -4px;
+
+        &::before {
+            top: 5px;
+            left: 16px;
+        }
+    }
+
+    /* #Exellence */
+    .excellence__item{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* #Property */
+    .property__header-inner {
+        padding: 0 40px;
+    }
+
+    .company-bio {
+        padding: 0;
+    }
+
+    .how-buy__content {
+        padding: 0;
+    }
+
+    .section-news__inner {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:575px){
+    
+    .section-title {
+        font-size: 3rem;
     }
     
-    .benefit__content {
-        
+    /* #Video */
+    .section-video {
+        padding-top: 120px;
+        background-position-x: 28%;
+
+        &__title {
+            width: auto;
+            text-align: center;
+            margin-bottom: 60px;
+            order: 0;
+        }
     }
 
-    .benefit__item:after {
-        right: -29px;
+    .video__content {
+        left: 0;
     }
-} 
+    .video {
+
+        &__content {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__button-box {
+            margin-left: 0;
+            order: 1;
+        }
+
+    }
+
+    /* #Privilages */
+    .privilages__item {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .privilages__title {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .testimonial__button-prev {
+        left: 6px;
+
+    }
+
+    .testimonial__button-next {
+        right: 6px;
+
+    }
+}
+
+@media screen and (max-width:420px){
+    /* #Privilages */
+    .privilages__item {
+        // max-width: 90%;
+    }
+
+    /* #Benefit */
+    .benefit__content {
+        // max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .company-bio__text-block::before, .company-bio__text-block::after {
+        width: 280px;
+    }
+}

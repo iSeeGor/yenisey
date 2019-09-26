@@ -44,10 +44,6 @@
         height: 100%;
     }
 
-    &__social-media {
-        padding: 6px 0 6px 46px;
-    }
-
     &__copyrights {
         color: #537095;
         padding-top: 0;
@@ -61,6 +57,10 @@
         align-items: center;
     }
 
+}
+
+.social-media_list {
+    padding: 12px 0 12px 64px;
 }
 
 .widget-logo {
@@ -110,6 +110,10 @@
             color: white;
         }
 
+    }
+
+    &_central-column {
+        padding: 0 0 0 60px;
     }
 
 }

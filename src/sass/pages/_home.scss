@@ -15,9 +15,11 @@
     text-align: center;
     background: url('../images/hero-banner.png')no-repeat center;
     background-size: cover;
+    // margin-top: 110px;
 
     &__container {
-        padding:120px 0 400px;
+        // padding:120px 0 400px;
+        padding:230px 0 400px;
         display: flex;
         justify-content: center; 
     }
@@ -56,17 +58,10 @@
 .search {
     position: relative;
     width: 100%;
+    margin: -160px 0 -100px 0; 
     
-    &__container {
-        position: absolute;
-        max-width: 1170px;   
-        margin: 0 auto;
-        left: 0;
-        right: 0;
-        bottom: -100px;
-        z-index: 11;
+    &__container {  
         display: flex;
-        // justify-content: space-between;
     }
     
     &__area {
@@ -89,6 +84,10 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 40px;
+    }
+
+    &__row-bottom {
+        display: inline-block;
     }
 
     &__item-title {
@@ -726,6 +725,11 @@
         position: relative;
         // width: 758px;
         margin-bottom: 30px;
+        margin-right: 300px;
+
+        &:last-child {
+            margin-right: 0;
+        }
     }
 
     &__image-area {
@@ -834,7 +838,7 @@
             width: 12px;
             background: #C8E3F9;
             opacity: 1;
-            margin: 20px 0.75rem 0;
+            margin: 26px 0.7rem 0;
             outline: none;
         }
 
@@ -846,7 +850,7 @@
 
 /* #Excellence */
 .section-excellence {
-    padding: 540px 0 100px;
+    padding: 536px 0 95px;
     background: url('../images/exellence_bg-section.png') no-repeat center top,
     url('../images/exellence_bg-items.png') no-repeat center 87%;
 }
@@ -1144,7 +1148,9 @@
 .property {
 
     &__header {
-        padding-bottom: 382px;
+        padding-bottom: 50px;
+        background: #fff;
+        margin-bottom: 338px;
     }
 
     &__section-title {
@@ -1164,7 +1170,7 @@
 
     &__body {
         padding: 0 68px 0 86px;
-        margin-bottom: 135px;
+        margin-bottom: 132px;
     }
 
     &__text-block {
@@ -1195,7 +1201,7 @@
 
     &__image-block {
         position: relative;
-        width: 488px;
+        max-width: 488px;
         height: 586px;
         overflow: hidden;
         
@@ -1211,29 +1217,33 @@
 
 .how-buy {
 
-    margin-bottom: 74px;
+    margin-bottom: 50px;
 
     &__title {
         margin-bottom: 85px;
     }
 
     &__content {
-        padding: 0 72px;
+        padding: 0 96px;
     }
 
     &__right {
-        padding-left: 30px;
+        padding-left: 40px;
     }
 
     &__image {
         margin:0px 0 80px; 
+    }
+
+    &__image_left {
+        margin: 53px 0 0 0;
     }
 }
 
 .company-bio {
     padding: 0 0 0 52px ;
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 97px;
 
     &__text-block {
         margin: 26px 0;
@@ -1274,3 +1284,4 @@
         @include font_semiBold;
     }
 }
+

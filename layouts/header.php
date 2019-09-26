@@ -19,6 +19,8 @@
     <!--== Plugins -->
     <link rel="stylesheet" href="assets/css/plugins/nice-select.css" />
     <link rel="stylesheet" href="assets/css/plugins/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins/aos.css" />
+    <link rel="stylesheet" href="assets/css/plugins/splitting.css" />
 
     <!--== CSS main style -->
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -82,7 +84,7 @@
             <button class="button button--blue button--small">Перезвоните мне</button>
         </div>
 
-        <header class="header">
+        <header class="header" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" data-aos-delay="600">
             <div class="mobile-header header__mobile-header">
                 <div class="logo mobile-logo">
                     <a href="/" title="Yenisey Logo"><img src="../assets/images/yenisey_logo.png" alt="Yenisey Logo" width="117"></a>
@@ -117,7 +119,7 @@
                                 <div class="logo">
                                     <a href="/" title="Yenisey Logo"><img src="../assets/images/yenisey_logo.png" alt="Yenisey Logo" width="142"></a>
                                 </div>
-                                <button class="button button--blue button--small">Перезвоните мне</button>
+                                <button class="button button--blue button--small button__popup">Перезвоните мне</button>
                             </div>    
                         </div>
                     </div>
@@ -140,7 +142,32 @@
                                         <li class="menu__item"><a href="#" class="link menu__item-link" title="Аренда">Аренда</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu__item"><a href="#" class="link menu__item-link" title="Наши комплексы">Наши комплексы</a></li>
+                                <li class="menu__item menu__item_dropdown dropdown">
+                                    <a href="#" class="link menu__item-link" title="Наши комплексы">Наши комплексы</a>
+
+                                    <div class="menu__dropdown mega-menu">
+                                        <ul class="menu mega-menu__column">
+                                            <li class="menu__item"><a href="#" class="link menu__item-link" title="Yenisey Residence">Yenisey Residence</a></li>
+                                            <li class="menu__item"><a href="#" class="link menu__item-link" title="Yaparlı VI">Yaparlı VI</a></li>
+                                            <li class="menu__item"><a href="#" class="link menu__item-link" title="Yenisey V">Yenisey V</a></li>
+                                            <li class="menu__item"><a href="#" class="link menu__item-link" title="Yenisey IV A+B">Yenisey IV A+B</a></li>
+                                            <li class="menu__item"><a href="#" class="link menu__item-link" title="Yenisey III">Yenisey III</a></li>
+                                            <li class="menu__item"><a href="#" class="link menu__item-link" title="Yenisey II">Yenisey II</a></li>
+                                            <li class="menu__item"><a href="#" class="link menu__item-link" title="Yenisey I">Yenisey I</a></li>
+
+                                        </ul>
+
+                                        <ul class="menu mega-menu__column">
+                                            <li class="menu__item">
+                                                <a href="#" class="link menu__item-link menu__item-link_new" title="Yenisey Palace">Yenisey Palace<span class="pref-new">New</span></a>
+                                            </li>
+                                            <li class="menu__item">
+                                                <a href="#" class="link menu__item-link menu__item-link_new" title="Yenisey VII">Yenisey VII<span class="pref-new">New</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    
+                                </li>
                                 <li class="menu__item"><a href="#" class="link menu__item-link" title="О нас">О нас</a></li>
                                 <li class="menu__item menu__item_dropdown dropdown">
                                     <a href="#" class="link menu__item-link" title="Для вас">Для вас</a>

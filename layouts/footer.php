@@ -3,15 +3,15 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-6 col-lg-3">
+                <div class="offset-sm-4 col-sm-4 offset-lg-0 col-lg-3">
                     <div class="widget footer__social-widget">
                         <div class="widget-logo">
-                            <a href="#" title="Footer Logo"><img src="../assets/images/yenisey_footer_logo.png" alt="Footer Logo" width="127"></a>
+                            <a href="#" title="Footer Logo"><img src="../assets/images/yenisey_footer_logo.png" alt="Footer Logo" width="127" class="widget-logo__image"></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-2">
+                <div class="offset-sm-4 col-sm-4 offset-lg-0 col-lg-2">
                     <div class="widget">
                         <ul class="widget-links">
                             <li class="widget-links__item"><a href="#" class="widget-links__link link" title="Yenisey Palace">Yenisey Palace</a></li>
@@ -23,9 +23,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-2 ">
+                <div class="offset-sm-4 col-sm-4 offset-lg-0 col-lg-2">
                     <div class="widget">
-                        <ul class="widget-links">
+                        <ul class="widget-links widget-links_central-column">
                             <li class="widget-links__item"><a href="#" class="widget-links__link link" title="Yaparli VI ">Yaparli VI </a></li>
                             <li class="widget-links__item"><a href="#" class="widget-links__link link" title="Yenisey III">Yenisey III</a></li>
                             <li class="widget-links__item"><a href="#" class="widget-links__link link" title="Yenisey II">Yenisey II</a></li>
@@ -34,7 +34,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-5">
+                <div class="offset-sm-4 col-sm-5 offset-lg-0 col-lg-5">
                     <div class="widget">
                         <ul class="widget-address footer__widget-address">
                             <li class="widget-address__item widget-address__item_address">Mahmutlar Mahallesi, 130 nolu sokak<br> no: 6/A-B 07450 Alanya / Antalya</li>
@@ -63,7 +63,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <ul class="social-media footer__social-media">
+                    <ul class="social-media social-media_list">
                         <li class="social-media__item">
                             <a href="#" title="facebook" class="social-media__link">
                                 <svg class="social-media__icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -96,10 +96,10 @@
                             </a>
                         </li>
                         <li class="social-media__item">
-                            <a href="#" title="vk" class="social-media__link">
+                            <a href="#" title="ok" class="social-media__link">
                                 <svg class="social-media__icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M15.014 12.4318C16.4463 12.4266 17.5871 11.276 17.5819 9.84059C17.5767 8.40458 16.4334 7.26197 15.0005 7.26074C13.5556 7.25921 12.4016 8.42299 12.4127 9.87189C12.4234 11.3021 13.5771 12.437 15.014 12.4318Z" fill="#C7E2F8"/>
-                                    <path d="M15 0C6.7157 0 0 6.71601 0 15C0 23.284 6.7157 30 15 30C23.2843 30 30 23.284 30 15C30 6.71601 23.2843 0 15 0ZM15.0215 4.56153C17.9432 4.56951 20.2883 6.95939 20.2732 9.91335C20.2585 12.7992 17.8751 15.1381 14.9583 15.1283C12.0712 15.1185 9.70343 12.7249 9.72061 9.83325C9.73688 6.90997 12.1059 4.55356 15.0215 4.56153ZM20.9392 17.2042C20.2932 17.8674 19.5155 18.3474 18.6519 18.6823C17.8355 18.9987 16.9409 19.158 16.0551 19.2641C16.1893 19.4096 16.2522 19.4811 16.3357 19.5646C17.5375 20.7729 18.7452 21.975 19.943 23.1867C20.3512 23.5998 20.4362 24.1117 20.2116 24.5914C19.9663 25.1162 19.4161 25.4612 18.8762 25.424C18.5343 25.4004 18.2676 25.2307 18.031 24.9922C17.1238 24.0795 16.1994 23.183 15.3112 22.2531C15.0519 21.9824 14.9279 22.034 14.6992 22.2691C13.7868 23.2088 12.8593 24.1335 11.9266 25.0533C11.5077 25.4664 11.0093 25.5413 10.5232 25.305C10.0066 25.0551 9.67826 24.5276 9.70343 23.9969C9.72123 23.6391 9.89739 23.3647 10.1435 23.1198C11.3334 21.9324 12.5196 20.7413 13.7061 19.5511C13.785 19.4722 13.858 19.3884 13.9725 19.2657C12.3542 19.0966 10.8948 18.6982 9.64542 17.7213C9.49013 17.5998 9.33023 17.4826 9.18905 17.3463C8.64184 16.8212 8.58691 16.2193 9.01933 15.6C9.38977 15.0697 10.0109 14.9279 10.657 15.2326C10.7822 15.2913 10.9013 15.3655 11.0154 15.4441C13.3436 17.044 16.5422 17.0879 18.8796 15.5156C19.111 15.3388 19.3587 15.1933 19.6456 15.12C20.203 14.9764 20.7235 15.1817 21.0224 15.6697C21.3646 16.2273 21.3606 16.7712 20.9392 17.2042Z" fill="#C7E2F8"/>
+                                    <path d="M15.014 12.4318C16.4463 12.4266 17.5871 11.276 17.5819 9.84059C17.5767 8.40458 16.4334 7.26197 15.0005 7.26074C13.5556 7.25921 12.4016 8.42299 12.4127 9.87189C12.4234 11.3021 13.5771 12.437 15.014 12.4318Z" />
+                                    <path d="M15 0C6.7157 0 0 6.71601 0 15C0 23.284 6.7157 30 15 30C23.2843 30 30 23.284 30 15C30 6.71601 23.2843 0 15 0ZM15.0215 4.56153C17.9432 4.56951 20.2883 6.95939 20.2732 9.91335C20.2585 12.7992 17.8751 15.1381 14.9583 15.1283C12.0712 15.1185 9.70343 12.7249 9.72061 9.83325C9.73688 6.90997 12.1059 4.55356 15.0215 4.56153ZM20.9392 17.2042C20.2932 17.8674 19.5155 18.3474 18.6519 18.6823C17.8355 18.9987 16.9409 19.158 16.0551 19.2641C16.1893 19.4096 16.2522 19.4811 16.3357 19.5646C17.5375 20.7729 18.7452 21.975 19.943 23.1867C20.3512 23.5998 20.4362 24.1117 20.2116 24.5914C19.9663 25.1162 19.4161 25.4612 18.8762 25.424C18.5343 25.4004 18.2676 25.2307 18.031 24.9922C17.1238 24.0795 16.1994 23.183 15.3112 22.2531C15.0519 21.9824 14.9279 22.034 14.6992 22.2691C13.7868 23.2088 12.8593 24.1335 11.9266 25.0533C11.5077 25.4664 11.0093 25.5413 10.5232 25.305C10.0066 25.0551 9.67826 24.5276 9.70343 23.9969C9.72123 23.6391 9.89739 23.3647 10.1435 23.1198C11.3334 21.9324 12.5196 20.7413 13.7061 19.5511C13.785 19.4722 13.858 19.3884 13.9725 19.2657C12.3542 19.0966 10.8948 18.6982 9.64542 17.7213C9.49013 17.5998 9.33023 17.4826 9.18905 17.3463C8.64184 16.8212 8.58691 16.2193 9.01933 15.6C9.38977 15.0697 10.0109 14.9279 10.657 15.2326C10.7822 15.2913 10.9013 15.3655 11.0154 15.4441C13.3436 17.044 16.5422 17.0879 18.8796 15.5156C19.111 15.3388 19.3587 15.1933 19.6456 15.12C20.203 14.9764 20.7235 15.1817 21.0224 15.6697C21.3646 16.2273 21.3606 16.7712 20.9392 17.2042Z" />
                                 </svg>
                             </a>
                         </li>
@@ -112,12 +112,12 @@
     <div class="footer__copyrights copyrights">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5">
+                <div class="offset-sm-3 col-sm-6 offset-lg-0 col-lg-5">
                     <div class="copyright footer__copyright">
                         Copyright 2019. Yenisey
                     </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-sm-12 col-lg-7">
                     <div class="art-sites copyrights__art-sites">
                         <span class="art-sites__text">Сайт разработан и поддерживается: 
                             <a href="https://art-sites.org" class="art-sites__link" title="art-sites.org">
@@ -141,6 +141,9 @@
     <!--== JS Plugins -->
     <script src="assets/js/plugins/jquery.nice-select.min.js"></script>
     <script src="assets/js/plugins/swiper.min.js"></script>
+    <script src="assets/js/plugins/aos.min.js"></script>
+    <script src="assets/js/plugins/scroll-out.min.js"></script>
+    <script src="assets/js/plugins/splitting.js"></script>
 
     <!--== JS Scripts -->
     <script src="assets/js/script.min.js"></script>

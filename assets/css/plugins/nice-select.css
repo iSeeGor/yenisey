@@ -37,7 +37,7 @@
 .nice-select.open,
 .nice-select:focus {
   border-color: #999;
-  box-shadow: inset 0 0 0 1px #15427A;
+  box-shadow: inset 0 0 0 1px #D6DBE2;
 }
 
 .nice-select:after {
@@ -116,7 +116,7 @@
 .nice-select .list {
   background-color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.11);
+  /* box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.11); */
   box-sizing: border-box;
   margin-top: 4px;
   opacity: 0;
@@ -126,6 +126,7 @@
   position: absolute;
   top: 100%;
   left: 0;
+  width: 100%;
   -webkit-transform-origin: 50% 0;
   -ms-transform-origin: 50% 0;
   transform-origin: 50% 0;

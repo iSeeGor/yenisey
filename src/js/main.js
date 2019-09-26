@@ -5,7 +5,7 @@ $(function() {
   mobileMenuToggle();
   accordionMenu();
   popUpWindow();
-
+  AOS.init();
 });
 
 // Phone List Show
@@ -24,6 +24,8 @@ const swiperTestimonial = () => {
     // Optional parameters
     // direction: 'vertical',
     loop: true,
+    speed: 1000,
+    slidesPerView: 'auto',
 
     // If we need pagination
     pagination: {
@@ -89,9 +91,13 @@ const accordionMenu = () => {
 // PopUp Window 
 const popUpWindow = () => {
   const popup = document.querySelector('.popup');
-  const openPopup = document.querySelectorAll('.button');
+  const openPopup = document.querySelectorAll('.button__popup');
   const overlay = document.querySelector('.popup-overlay');
   const closeBtn = document.querySelector('.popup__close-btn');
+
+  const openPopupVideo = document.querySelector('.button__popup-video');
+  const videoPopup = document.querySelector('.video-popup');
+  const closeVideoPopup = document.querySelector('.video-popup__close-btn');
 
   for(let i = 0; i < openPopup.length; i++){
     openPopup[i].onclick = function() {
@@ -100,11 +106,23 @@ const popUpWindow = () => {
       document.body.style = "overflow:hidden";    
     };
   }
-  
+
+  openPopupVideo.onclick = function() {
+    overlay.classList.add('popup-overlay_opened');
+    videoPopup.classList.add('video-popup_opened');
+    document.body.style = "overflow:hidden";   
+  };
+
+  closeVideoPopup.onclick = function() {
+    overlay.classList.remove('popup-overlay_opened');
+    videoPopup.classList.remove('video-popup_opened');
+    document.body.style = "overflow:auto";  
+  };
+
   closeBtn.onclick = function() {
     overlay.classList.remove('popup-overlay_opened');
     popup.classList.remove('popup_show');
-    document.body.style = "overflow:auto";       
+    document.body.style = "overflow:auto";     
   };
 
   window.onclick = function(e) {
@@ -115,3 +133,12 @@ const popUpWindow = () => {
     }
   }
 }
+
+var _window = window,
+Splitting = _window.Splitting,
+ScrollOut = _window.ScrollOut;
+Splitting();
+ScrollOut({
+  targets: '.word',
+  once: true,
+});

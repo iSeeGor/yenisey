@@ -1,3 +1,4 @@
+<!--== Main  -->
 <main class="main">
 
     <!--== Hero  -->
@@ -5,17 +6,21 @@
         <div class="container hero__container">
 
             <div class="hero__inner">
-                <h1 class="hero__title">Квартиры от застройщика <br> в солнечной Аланье</h1>
-                <h2 class="hero__subtitle">Мечтаете жить на побережье Средиземного моря?<br> С нашей компанией Ваши мечты становятся реальностью!</h2>
+                <h1 class="hero__title" data-aos="fade-up"
+     data-aos-duration="1200" data-aos-delay="1000">Квартиры от застройщика <br> в солнечной Аланье</h1>
+                <h2 class="hero__subtitle" data-aos="fade-up"
+     data-aos-duration="1200" data-aos-delay="1400">Мечтаете жить на побережье Средиземного моря?<br> С нашей компанией Ваши мечты становятся реальностью!</h2>
 
-                <button class="button hero__button openpopup">Заказать бесплатную консультацию</button>
+                <button class="button hero__button button__popup" data-aos="fade-up"
+     data-aos-duration="1200" data-aos-delay="1800">Заказать бесплатную консультацию</button>
             </div>
 
         </div>
     </section>
 
     <!--== Search  -->
-    <section class="section-search search">
+    <section class="section-search search" data-aos="fade-up"
+     data-aos-duration="1200" data-aos-delay="2200">
         <div class="container search__container">
 
             <form action="" class="search-form search__area">
@@ -67,12 +72,12 @@
                     </span>
                 </div>    
 
-                <span class="search-form__item">
+                <div class="search-form__row-bottom">
                     <div class="search-form__item-title">Стоимость (€)</div>
 
                     <input class="input search-form__input" type="number" name="coast-from" placeholder="От" >
                     <input class="input search-form__input" type="number" name="coast-to" placeholder="До">
-                </span>
+                </div>
 
                 <button class="button search-form__button" type="submit">Искать</button>    
             </form>
@@ -115,7 +120,7 @@
             <div class="video__content">
 
                 <div class="video__button-box">
-                    <a href="#" class="video__button" title="play button">
+                    <a href="#" class="video__button button__popup-video" title="play button">
                         <svg class="video__icon" width="27" height="30" viewBox="0 0 27 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M25.0007 11.4636C27.6674 13.0032 27.6674 16.8522 25.0007 18.3918L6.25073 29.2172C3.58406 30.7568 0.250731 28.8323 0.250731 25.7531L0.250732 4.10242C0.250732 1.02321 3.58407 -0.901287 6.25073 0.638314L25.0007 11.4636Z" fill="white"/>
                         </svg>
@@ -123,7 +128,7 @@
                     <span class="video__button-overlay"></span>
                 </div>
 
-                <h2 class="section-title section-video__title">Видео о компании Yenisey</h2>
+                <h2 class="section-title section-video__title text text--enter" data-scroll="out" data-splitting="">Видео о компании Yenisey</h2>
             </div>
         
         </div>
@@ -184,7 +189,7 @@
         
             <div class="benefit__header">
                 <div class="benefit__header-image">
-                    <h2 class="section-title benefit__title">Почему стоит приобрести недвижимость в Алании</h2>
+                    <h2 class="section-title benefit__title">Почему стоит приобрести недвижимость <br> в Алании</h2>
                 </div>
 
                 <div class="benefit__header-text">
@@ -384,7 +389,7 @@
 
             <div class="advantage__items row">
 
-                <div class="advantage__item col-md-4 col-lg-2">
+                <div class="advantage__item col-sm-6 col-md-4 col-lg-2">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_01.svg" alt="Advantage Icon #01">
                     </div>
@@ -392,7 +397,7 @@
                     <p class="advantage__item-text">Расстояние до моря не более 200 м</p>
                 </div>
 
-                <div class="advantage__item col-md-4 col-lg-2">
+                <div class="advantage__item col-sm-6 col-md-4 col-lg-2">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_02.svg" alt="Advantage Icon #02">
                     </div>
@@ -400,7 +405,7 @@
                     <p class="advantage__item-text">Развитая внутренняя и внешняя инфраструктура</p>
                 </div>
 
-                <div class="advantage__item col-md-4 col-lg-2">
+                <div class="advantage__item col-sm-6 col-md-4 col-lg-2">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_03.svg" alt="Advantage Icon #03">
                     </div>
@@ -408,7 +413,7 @@
                     <p class="advantage__item-text">Гарантированные высокие стандарты качества</p>
                 </div>
 
-                <div class="advantage__item col-md-4 col-lg-2">
+                <div class="advantage__item col-sm-6 col-md-4 col-lg-2">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_04.svg" alt="Advantage Icon #04">
                     </div>
@@ -416,7 +421,7 @@
                     <p class="advantage__item-text">Профессиональный менеджмент и обслуживание</p>
                 </div>
 
-                <div class="advantage__item col-md-4 col-lg-2">
+                <div class="advantage__item col-sm-6 col-md-4 col-lg-2">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_06.svg" alt="Advantage Icon #06">
                     </div>
@@ -424,7 +429,7 @@
                     <p class="advantage__item-text">Все включено: спутниковое TV, интернет, видеодомофон</p>
                 </div>
 
-                <div class="advantage__item col-md-4 col-lg-2">
+                <div class="advantage__item col-sm-6 col-md-4 col-lg-2">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_07.svg" alt="Advantage Icon #07">
                     </div>
@@ -570,7 +575,7 @@
 
                 <div class="excellence__top row">
 
-                    <div class="col-lg-6">
+                    <div class="col-md-6">
                         <div class="excellence__text-box">
                             <h2 class="section-title excellence__title">Преимущества компании Yenisey</h2>
 
@@ -584,7 +589,7 @@
                         </div>    
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-md-6">
                         <div class="excellence__image-box">
                             <img src="../assets/images/excellence_no-image.png" class="excellence__icon" alt="Excellence Image" width="488" height="586">
                         </div>                       
@@ -704,7 +709,7 @@
 
                 </div>
 
-                <button class="button excellence__button">Задать вопрос</button>
+                <button class="button excellence__button button__popup">Задать вопрос</button>
 
             </div>
         </div>
@@ -720,7 +725,7 @@
             <div class="section-news__inner row">
 
 
-                <div class="col-lg-4">
+                <div class="col-xl-4">
                     <article class="article-card">
 
                         <div class="article-card__overlay">
@@ -749,7 +754,7 @@
                     </article>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-xl-4">
                     <article class="article-card">
 
                         <div class="article-card__overlay">
@@ -778,7 +783,7 @@
                     </article>
                 </div>    
 
-                <div class="col-lg-4">
+                <div class="col-xl-4">
                     <article class="article-card">
 
                         <div class="article-card__overlay">
@@ -873,19 +878,19 @@
                 <div class="how-buy__content row">
                     <div class="col-lg-6">
                         <p class="paragraph"><strong>Успешность человека подтверждается его результатами в труде и наличием широких возможностей для улучшения своей жизни. </strong></p>
-                        <p class="paragraph">В современном мире свидетельством успеха являются не только хорошая профессия, блестящая карьера, семья, дом, но и собственность за границей. Поэтому, многие сегодня выбирают Аланию, где действительно можно выгодно приобрести качественные метры квадратные. </p>
+                        <p class="paragraph">В современном мире свидетельством успеха являются не только хорошая профессия, блестящая карьера, семья, дом, но и собственность за границей. Поэтому, многие сегодня выбирают Аланию, где действительно можно выгодно приобрести качественные квадратные метры. </p>
                         <p class="paragraph">На рынке представлены самые разные объекты – от вторичной жилплощади до вариантов без посредников.</p>
 
-                        <img src="../assets/images/how-buy_image_01.png" class="how-buy__image" alt="Image 01">
+                        <img src="../assets/images/how-buy_image_01.png" class="how-buy__image how-buy__image_left" alt="Image 01">
                     </div>
 
                     <div class="col-lg-6 how-buy__right">
                         <img src="../assets/images/how-buy_image_02.png" class="how-buy__image" alt="Image 02">
 
                         <p class="paragraph"><strong>Популярность покупки жилья от застройщика в Турции обоснована следующими важными особенностями: </strong></p>
-                        <p class="paragraph paragraph_dott">Девелоперские компании предлагают соискателям купить новые квартиры на этапе строительства. Вкладывая таким образом свои средства, можно значительно сэкономить.</p>
+                        <p class="paragraph paragraph_dott">Девелоперские компании предлагают соискателям купить новые квартиры на этапе строительства. Вкладывая таким образом свои деньги, можно значительно сэкономить.</p>
                         <p class="paragraph paragraph_dott">Как правило, строительные фирмы предоставляют клиенту на выбор удобные схемы расчета: ипотечное кредитование и беспроцентную рассрочку. </p>
-                        <p class="paragraph paragraph_dott">Купить квартиру в Аланье без посредников выгодно и с точки зрения прямых договоренностей непосредственно с продавцом. То есть, соискатель будет иметь дело с первым лицом, что дополнительно гарантирует безопасность денежных вложений.</p>
+                        <p class="paragraph paragraph_dott">Купить квартиру в Аланье без посредников выгодно и с точки зрения прямых договоренностей непосредственно с продавцом. То есть, покупатель будет иметь дело с первым лицом, что дополнительно гарантирует безопасность денежных вложений.</p>
                     </div>
                 </div>
             </div>
@@ -899,7 +904,7 @@
                 
                 <div class="col-lg-6">
                     <div class="company-bio__image-block">
-                        <img src="../assets/images/company-bio_image.png" alt="company photo">
+                        <img src="../assets/images/company-bio_image.png" alt="company photo" class="company-bio__image">
                     </div>
                 </div>                
             </div>
