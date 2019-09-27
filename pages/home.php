@@ -120,15 +120,15 @@
             <div class="video__content">
 
                 <div class="video__button-box">
-                    <a href="#" class="video__button button__popup-video" title="play button">
+                    <button class="video__button button__popup-video" title="play button">
                         <svg class="video__icon" width="27" height="30" viewBox="0 0 27 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M25.0007 11.4636C27.6674 13.0032 27.6674 16.8522 25.0007 18.3918L6.25073 29.2172C3.58406 30.7568 0.250731 28.8323 0.250731 25.7531L0.250732 4.10242C0.250732 1.02321 3.58407 -0.901287 6.25073 0.638314L25.0007 11.4636Z" fill="white"/>
                         </svg>
-                    </a>
+                    </button>
                     <span class="video__button-overlay"></span>
                 </div>
 
-                <h2 class="section-title section-video__title text text--enter" data-scroll="out" data-splitting="">Видео о компании Yenisey</h2>
+                <h2 class="section-title section-video__title text_fade-up" data-scroll="out" data-splitting="">Видео о компании Yenisey</h2>
             </div>
         
         </div>
@@ -143,37 +143,37 @@
             <div class="privilages__content row">
 
                 <div class="privilages__item col-sm-6 col-lg-4">
-                    <div class="privilages__icon"><img src="../assets/images/icons/privilages/item_icon_01.svg" alt="Достоинства #01"></div>
+                    <div class="privilages__icon" data-aos="fade-up" data-aos-delay="100"><img src="../assets/images/icons/privilages/item_icon_01.svg" alt="Достоинства #01"></div>
 
                     <p class="privilages__text">Благоприятный субтропический климат, уникальное территориальное расположение: Средиземное море с одной стороны и Торосские горы - с другой.</p>
                 </div>
 
                 <div class="privilages__item col-sm-6 col-lg-4">
-                    <div class="privilages__icon"><img src="../assets/images/icons/privilages/item_icon_02.svg" alt="Достоинства #02"></div>
+                    <div class="privilages__icon" data-aos="fade-up" data-aos-delay="200"><img src="../assets/images/icons/privilages/item_icon_02.svg" alt="Достоинства #02"></div>
 
                     <p class="privilages__text">Яркая культура, бесценное историческое наследие прошлого в сочетании с лучшими курортами европейского стандарта качества создают ощущение самобытности и исключительности жизни и отдыха.</p>
                 </div>
 
                 <div class="privilages__item col-sm-6 col-lg-4">
-                    <div class="privilages__icon"><img src="../assets/images/icons/privilages/item_icon_03.svg" alt="Достоинства #03"></div>
+                    <div class="privilages__icon" data-aos="fade-up" data-aos-delay="300"><img src="../assets/images/icons/privilages/item_icon_03.svg" alt="Достоинства #03"></div>
 
                     <p class="privilages__text">Большой экономический потенциал и активные темпы развития державы во всех сферах деятельности обеспечивают благоприятные перспективы уже сейчас для иностранных инвесторов. </p>
                 </div>
 
                 <div class="privilages__item col-sm-6 col-lg-4">
-                    <div class="privilages__icon"><img src="../assets/images/icons/privilages/item_icon_04.svg" alt="Достоинства #04"></div>
+                    <div class="privilages__icon" data-aos="fade-up" data-aos-delay="400"><img src="../assets/images/icons/privilages/item_icon_04.svg" alt="Достоинства #04"></div>
 
                     <p class="privilages__text">Легкое оформление вида на жительство и открытие банковского счета при покупке недвижимости от застройщика в Турции или вторичного жилья. </p>
                 </div>
 
                 <div class="privilages__item col-sm-6 col-lg-4">
-                    <div class="privilages__icon"><img src="../assets/images/icons/privilages/item_icon_05.svg" alt="Достоинства #05"></div>
+                    <div class="privilages__icon" data-aos="fade-up" data-aos-delay="500"><img src="../assets/images/icons/privilages/item_icon_05.svg" alt="Достоинства #05"></div>
 
                     <p class="privilages__text">Современная медицина, которая по праву считается одной из лучших в мире. Простое оформление страховки и условия пользования всем спектром предоставляемых услуг. </p>
                 </div>
 
                 <div class="privilages__item col-sm-6 col-lg-4">
-                    <div class="privilages__icon"><img src="../assets/images/icons/privilages/item_icon_06.svg" alt="Достоинства #06"></div>
+                    <div class="privilages__icon" data-aos="fade-up" data-aos-delay="600"><img src="../assets/images/icons/privilages/item_icon_06.svg" alt="Достоинства #06"></div>
 
                     <p class="privilages__text">Доступная стоимость проживания: платежи за коммунальные услуги, продукты, необходимые товары для жизни, медикаменты, сервисное обслуживание.</p>
                 </div>
@@ -189,7 +189,7 @@
         
             <div class="benefit__header">
                 <div class="benefit__header-image">
-                    <h2 class="section-title benefit__title">Почему стоит приобрести недвижимость <br> в Алании</h2>
+                    <h2 class="section-title benefit__title text_fade-up" data-scroll="out" data-splitting="">Почему стоит приобрести недвижимость <br> в Алании</h2>
                 </div>
 
                 <div class="benefit__header-text">
@@ -209,7 +209,7 @@
 
                         <div class="col-lg-4 col-md-6 d-flex ">
                             <div class="benefit__item benefit__item_line">
-                                <div class="benefit__icon">
+                                <div class="benefit__icon " data-aos="fade-up" data-aos-delay="200">
                                     <img src="../assets/images/icons/benefit/item_icon_01.svg" alt="Benefit Icon #01">
                                 </div>
                                 <p class="benefit__text"><strong>Удобное авиасообщение</strong> со многими городами стран СНГ, используя услуги двух расположенных рядом аэропортов Анталии и Аланьи. </p>
@@ -222,7 +222,7 @@
 
                         <div class="col-lg-4 col-md-6 d-flex justify-content-lg-center ">
                             <div class="benefit__item benefit__item_line">
-                                <div class="benefit__icon">
+                                <div class="benefit__icon " data-aos="fade-up" data-aos-delay="400">
                                     <img src="../assets/images/icons/benefit/item_icon_02.svg" alt="Benefit Icon #02">
                                 </div>
                                 <p class="benefit__text"><strong>Низкие коммунальные тарифы и Айдат</strong>, включающий оплату за содержание жилого комплекса (от 10 € в зависимости от уровня комплекса).</p>
@@ -235,7 +235,7 @@
 
                         <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3 d-flex justify-content-lg-end">
                             <div class="benefit__item">
-                                <div class="benefit__icon">
+                                <div class="benefit__icon " data-aos="fade-up" data-aos-delay="600">
                                     <img src="../assets/images/icons/benefit/item_icon_03.svg" alt="Benefit Icon #03">
                                 </div>
                                 <p class="benefit__text"><strong>Низкие процентные ставки по ипотечному кредиту в евро или долларах</strong>. Покупая квартиру в Аланье от застройщика можно оформить ипотеку в турецком банке на сумму до 50% от оценочной стоимости объекта под 11%-13% годовых на срок в среднем до 10 лет.</p>
@@ -266,113 +266,122 @@
           
             <h2 class="section-title featured__section-title">Горячие предложения</h2>
 
-            <div class="row">
+            <div class="product-slider">
+                <div class="swiper-wrapper row">
 
-                <div class="col-md-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-0">
-                    <div class="card featured__card">
-                        
-                        <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_01.png" class="card__image" alt="Product Image #01" width="293" height="261">
-                        </div>
-
-                        <div class="card__body">
-
-                            <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence asasaad ada asdasdddasdas sdddsaas asdasasdd</a>
+                    <div class="col-md-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-0 swiper-slide">
+                        <div class="card featured__card">
+                            
+                            <div class="card__image-area">
+                                <img src="../assets/images/products/card_image_01.png" class="card__image" alt="Product Image #01" width="293" height="261">
                             </div>
 
-                            <ul class="card__property">
-                                <li class="card__property-item">Квартира / 2+1 / 65 м2 asdada asdad asd ad</li>
-                                <li class="card__property-item">Расстояние до моря / 200м</li>
-                                <li class="card__property-item">Аланья, Махмутлар</li>
-                            </ul>
+                            <div class="card__body">
 
-                            <div class="card__price">132 000 €</div>
+                                <div class="card__title">
+                                    <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence asasaad ada asdasdddasdas sdddsaas asdasasdd</a>
+                                </div>
 
-                        </div>
+                                <ul class="card__property">
+                                    <li class="card__property-item">Квартира / 2+1 / 65 м2 asdada asdad asd ad</li>
+                                    <li class="card__property-item">Расстояние до моря / 200м</li>
+                                    <li class="card__property-item">Аланья, Махмутлар</li>
+                                </ul>
 
-                    </div>
-                </div>
+                                <div class="card__price">132 000 €</div>
 
-                <div class="col-md-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-0">
-                    <div class="card featured__card">
-                        
-                        <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_02.png" class="card__image" alt="Product Image #02" width="293" height="261">
-                        </div>
-
-                        <div class="card__body">
-
-                            <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence</a>
                             </div>
 
-                            <ul class="card__property">
-                                <li class="card__property-item">Квартира / 2+1 / 65 м2 </li>
-                                <li class="card__property-item">Расстояние до моря / 200м</li>
-                                <li class="card__property-item">Аланья, Махмутлар</li>
-                            </ul>
-
-                            <div class="card__price">132 000 €</div>
-
                         </div>
-
                     </div>
-                </div>
 
-                <div class="col-md-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-0">
-                    <div class="card featured__card">
-                        
-                        <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_03.png" class="card__image" alt="Product Image #03" width="293" height="261">
-                        </div>
-
-                        <div class="card__body">
-
-                            <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence</a>
+                    <div class="col-md-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-0 swiper-slide">
+                        <div class="card featured__card">
+                            
+                            <div class="card__image-area">
+                                <img src="../assets/images/products/card_image_02.png" class="card__image" alt="Product Image #02" width="293" height="261">
                             </div>
 
-                            <ul class="card__property">
-                                <li class="card__property-item">Квартира / 2+1 / 65 м2 </li>
-                                <li class="card__property-item">Расстояние до моря / 200м</li>
-                                <li class="card__property-item">Аланья, Махмутлар</li>
-                            </ul>
+                            <div class="card__body">
 
-                            <div class="card__price">132 000 €</div>
+                                <div class="card__title">
+                                    <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence</a>
+                                </div>
 
-                        </div>
+                                <ul class="card__property">
+                                    <li class="card__property-item">Квартира / 2+1 / 65 м2 </li>
+                                    <li class="card__property-item">Расстояние до моря / 200м</li>
+                                    <li class="card__property-item">Аланья, Махмутлар</li>
+                                </ul>
 
-                    </div>
-                </div>
+                                <div class="card__price">132 000 €</div>
 
-                <div class="col-md-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-0">
-                    <div class="card featured__card">
-                        
-                        <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_04.png" class="card__image" alt="Product Image #04" width="293" height="261">
-                        </div>
-
-                        <div class="card__body">
-
-                            <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence</a>
                             </div>
 
-                            <ul class="card__property">
-                                <li class="card__property-item">Квартира / 2+1 / 65 м2 </li>
-                                <li class="card__property-item">Расстояние до моря / 200м</li>
-                                <li class="card__property-item">Аланья, Махмутлар</li>
-                            </ul>
+                        </div>
+                    </div>
 
-                            <div class="card__price">132 000 €</div>
+                    <div class="col-md-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-0 swiper-slide">
+                        <div class="card featured__card">
+                            
+                            <div class="card__image-area">
+                                <img src="../assets/images/products/card_image_03.png" class="card__image" alt="Product Image #03" width="293" height="261">
+                            </div>
+
+                            <div class="card__body">
+
+                                <div class="card__title">
+                                    <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence</a>
+                                </div>
+
+                                <ul class="card__property">
+                                    <li class="card__property-item">Квартира / 2+1 / 65 м2 </li>
+                                    <li class="card__property-item">Расстояние до моря / 200м</li>
+                                    <li class="card__property-item">Аланья, Махмутлар</li>
+                                </ul>
+
+                                <div class="card__price">132 000 €</div>
+
+                            </div>
 
                         </div>
-
                     </div>
+
+                    <div class="col-md-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-0 swiper-slide">
+                        <div class="card featured__card">
+                            
+                            <div class="card__image-area">
+                                <img src="../assets/images/products/card_image_04.png" class="card__image" alt="Product Image #04" width="293" height="261">
+                            </div>
+
+                            <div class="card__body">
+
+                                <div class="card__title">
+                                    <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence</a>
+                                </div>
+
+                                <ul class="card__property">
+                                    <li class="card__property-item">Квартира / 2+1 / 65 м2 </li>
+                                    <li class="card__property-item">Расстояние до моря / 200м</li>
+                                    <li class="card__property-item">Аланья, Махмутлар</li>
+                                </ul>
+
+                                <div class="card__price">132 000 €</div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    
+
                 </div>
 
+                <div class="product-slider__pagination"></div>
+                
             </div>
+
+            
 
             <button class="button featured__button">Смотреть все</button>
 
@@ -389,7 +398,7 @@
 
             <div class="advantage__items row">
 
-                <div class="advantage__item col-sm-6 col-md-4 col-lg-2">
+                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="100">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_01.svg" alt="Advantage Icon #01">
                     </div>
@@ -397,7 +406,7 @@
                     <p class="advantage__item-text">Расстояние до моря не более 200 м</p>
                 </div>
 
-                <div class="advantage__item col-sm-6 col-md-4 col-lg-2">
+                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="200">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_02.svg" alt="Advantage Icon #02">
                     </div>
@@ -405,7 +414,7 @@
                     <p class="advantage__item-text">Развитая внутренняя и внешняя инфраструктура</p>
                 </div>
 
-                <div class="advantage__item col-sm-6 col-md-4 col-lg-2">
+                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="300">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_03.svg" alt="Advantage Icon #03">
                     </div>
@@ -413,7 +422,7 @@
                     <p class="advantage__item-text">Гарантированные высокие стандарты качества</p>
                 </div>
 
-                <div class="advantage__item col-sm-6 col-md-4 col-lg-2">
+                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="400">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_04.svg" alt="Advantage Icon #04">
                     </div>
@@ -421,7 +430,7 @@
                     <p class="advantage__item-text">Профессиональный менеджмент и обслуживание</p>
                 </div>
 
-                <div class="advantage__item col-sm-6 col-md-4 col-lg-2">
+                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="500">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_06.svg" alt="Advantage Icon #06">
                     </div>
@@ -429,7 +438,7 @@
                     <p class="advantage__item-text">Все включено: спутниковое TV, интернет, видеодомофон</p>
                 </div>
 
-                <div class="advantage__item col-sm-6 col-md-4 col-lg-2">
+                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="600">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_07.svg" alt="Advantage Icon #07">
                     </div>
@@ -577,7 +586,7 @@
 
                     <div class="col-md-6">
                         <div class="excellence__text-box">
-                            <h2 class="section-title excellence__title">Преимущества компании Yenisey</h2>
+                            <h2 class="section-title excellence__title text_fade-up" data-scroll="out" data-splitting="">Преимущества компании Yenisey</h2>
 
                             <p class="paragraph">Для реализации масштабных строительных проектов требуется четкая организация трудового процесса, сплоченный коллектив настоящих профессионалов своего дела, наличие собственных источников инвестирования, хороших производственных мощностей. </p>
 
@@ -602,7 +611,7 @@
                     <div class="col-lg-4 col-md-6 d-flex justify-content-lg-end">
                         <div class="excellence__item">
                             <div class="excellence__item-head">
-                                <img src="../assets/images/icons/exellence/item_icon_01.svg" class="excellence__icon" alt="Excellence Icon #01">
+                                <img src="../assets/images/icons/exellence/item_icon_01.svg" class="excellence__icon" alt="Excellence Icon #01" data-aos="zoom-in" data-aos-delay="0">
                             </div>
 
                             <div class="excellence__item-body">
@@ -621,7 +630,7 @@
                     <div class="col-lg-4 col-md-6 d-flex justify-content-lg-center">
                         <div class="excellence__item">
                             <div class="excellence__item-head">
-                                <img src="../assets/images/icons/exellence/item_icon_02.svg" class="excellence__icon" alt="Excellence Icon #02">
+                                <img src="../assets/images/icons/exellence/item_icon_02.svg" class="excellence__icon" alt="Excellence Icon #02" data-aos="zoom-in" data-aos-delay="150">
                             </div>
 
                             <div class="excellence__item-body">
@@ -638,7 +647,7 @@
                     <div class="col-lg-4 col-md-6 d-flex">
                         <div class="excellence__item">
                             <div class="excellence__item-head">
-                                <img src="../assets/images/icons/exellence/item_icon_03.svg" class="excellence__icon" alt="Excellence Icon #03">
+                                <img src="../assets/images/icons/exellence/item_icon_03.svg" class="excellence__icon" alt="Excellence Icon #03" data-aos="zoom-in" data-aos-delay="300">
                             </div>
 
                             <div class="excellence__item-body">
@@ -655,7 +664,7 @@
                     <div class="col-lg-4 col-md-6 d-flex justify-content-lg-end">
                         <div class="excellence__item">
                             <div class="excellence__item-head">
-                                <img src="../assets/images/icons/exellence/item_icon_04.svg" class="excellence__icon" alt="Excellence Icon #04">
+                                <img src="../assets/images/icons/exellence/item_icon_04.svg" class="excellence__icon" alt="Excellence Icon #04" data-aos="zoom-in" data-aos-delay="0">
                             </div>
 
                             <div class="excellence__item-body">
@@ -674,7 +683,7 @@
                     <div class="col-lg-4 col-md-6 d-flex justify-content-lg-center">
                         <div class="excellence__item">
                             <div class="excellence__item-head">
-                                <img src="../assets/images/icons/exellence/item_icon_05.svg" class="excellence__icon" alt="Excellence Icon #05">
+                                <img src="../assets/images/icons/exellence/item_icon_05.svg" class="excellence__icon" alt="Excellence Icon #05" data-aos="zoom-in" data-aos-delay="150">
                             </div>
 
                             <div class="excellence__item-body">
@@ -692,7 +701,7 @@
                     <div class="col-lg-4 col-md-6 d-flex">
                         <div class="excellence__item">
                             <div class="excellence__item-head">
-                                <img src="../assets/images/icons/exellence/item_icon_06.svg" class="excellence__icon" alt="Excellence Icon #06">
+                                <img src="../assets/images/icons/exellence/item_icon_06.svg" class="excellence__icon" alt="Excellence Icon #06" data-aos="zoom-in" data-aos-delay="300">
                             </div>
 
                             <div class="excellence__item-body">
@@ -722,96 +731,97 @@
 
             <h2 class="section-title section-news__title">Новые публикации</h2>
 
-            <div class="section-news__inner row">
+            <div class="section-news__inner row news-slider">
 
+                <div class="swiper-wrapper">
+                    <div class="col-xl-4 swiper-slide">
+                        <article class="article-card">
 
-                <div class="col-xl-4">
-                    <article class="article-card">
+                            <div class="article-card__overlay">
+                                <a href="#" class="article-card__overlay-link">
+                                    <svg class="article-card__icon" width="69" height="69" viewBox="0 0 69 69"  xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M51.8753 34.5362C51.8753 35.0552 51.6772 35.5752 51.2807 35.971L38.6656 48.5861C37.8734 49.3788 36.5882 49.3788 35.796 48.5861C35.0033 47.7935 35.0033 46.5091 35.796 45.7165L44.9462 36.5656L2.02939 36.5656C0.908451 36.5656 -5.91131e-07 35.6572 -6.40129e-07 34.5362C-6.89101e-07 33.4159 0.908451 32.5068 2.02939 32.5068L44.7951 32.5068L35.7837 23.3439C34.9999 22.548 35.0073 21.2679 35.8017 20.4805C36.595 19.6931 37.8755 19.6963 38.6656 20.4858L51.2807 33.1009C51.677 33.4972 51.8753 34.0172 51.8753 34.5362Z" />
+                                    <path d="M68.9999 34.5001C68.9999 51.0028 55.5742 64.4287 39.0714 64.4287C26.0086 64.4287 14.5541 56.0779 10.5677 43.6495C10.2258 42.584 10.8134 41.4398 11.8804 41.0969C12.948 40.755 14.0905 41.3426 14.433 42.4096C17.8782 53.1523 27.7796 60.3699 39.0714 60.3699C53.3359 60.3699 64.9411 48.7647 64.9411 34.5001C64.9411 20.2351 53.3359 8.63035 39.0714 8.63035C27.7796 8.63036 17.8783 15.8485 14.433 26.5907C14.0905 27.6583 12.948 28.2459 11.8804 27.9034C10.8145 27.562 10.2252 26.4216 10.5677 25.3518C14.554 12.9228 26.0086 4.57157 39.0714 4.57157C55.5742 4.57157 68.9999 17.9975 68.9999 34.5001Z" />
+                                    </svg>
+                                </a>
+                            </div>
 
-                        <div class="article-card__overlay">
-                            <a href="#" class="article-card__overlay-link">
-                                <svg class="article-card__icon" width="69" height="69" viewBox="0 0 69 69" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M51.8753 34.5362C51.8753 35.0552 51.6772 35.5752 51.2807 35.971L38.6656 48.5861C37.8734 49.3788 36.5882 49.3788 35.796 48.5861C35.0033 47.7935 35.0033 46.5091 35.796 45.7165L44.9462 36.5656L2.02939 36.5656C0.908451 36.5656 -5.91131e-07 35.6572 -6.40129e-07 34.5362C-6.89101e-07 33.4159 0.908451 32.5068 2.02939 32.5068L44.7951 32.5068L35.7837 23.3439C34.9999 22.548 35.0073 21.2679 35.8017 20.4805C36.595 19.6931 37.8755 19.6963 38.6656 20.4858L51.2807 33.1009C51.677 33.4972 51.8753 34.0172 51.8753 34.5362Z" fill="white"/>
-                                <path d="M68.9999 34.5001C68.9999 51.0028 55.5742 64.4287 39.0714 64.4287C26.0086 64.4287 14.5541 56.0779 10.5677 43.6495C10.2258 42.584 10.8134 41.4398 11.8804 41.0969C12.948 40.755 14.0905 41.3426 14.433 42.4096C17.8782 53.1523 27.7796 60.3699 39.0714 60.3699C53.3359 60.3699 64.9411 48.7647 64.9411 34.5001C64.9411 20.2351 53.3359 8.63035 39.0714 8.63035C27.7796 8.63036 17.8783 15.8485 14.433 26.5907C14.0905 27.6583 12.948 28.2459 11.8804 27.9034C10.8145 27.562 10.2252 26.4216 10.5677 25.3518C14.554 12.9228 26.0086 4.57157 39.0714 4.57157C55.5742 4.57157 68.9999 17.9975 68.9999 34.5001Z" fill="white"/>
-                                </svg>
-                            </a>
-                        </div>
+                            <div class="article-cart__image-box">
+                                <img src="../assets/images/news/article-card_image_01.jpg" alt="Смотровая обзорная площадка I love Alanya" class="article-cart__image">
+                            </div>
+                        
+                            <div class="article-card__date">11.09.2019</div>
 
-                        <div class="article-cart__image-box">
-                            <img src="../assets/images/news/article-card_image_01.jpg" alt="Смотровая обзорная площадка I love Alanya" class="article-cart__image">
-                        </div>
-                    
-                        <div class="article-card__date">11.09.2019</div>
+                            <div class="article-card__content">
+                                <h3 class="article-card__title">
+                                    <a href="#" class="article-card__link link" title="Смотровая обзорная площадка I love Alanya">Смотровая обзорная площадка I love Alanya</a>
+                                </h3>
 
-                        <div class="article-card__content">
-                            <h3 class="article-card__title">
-                                <a href="#" class="article-card__link link" title="Смотровая обзорная площадка I love Alanya">Смотровая обзорная площадка I love Alanya</a>
-                            </h3>
+                                <p class="article-card__description">Достопримечательность Алании, которую обязательно нужно посетить - это смотровая обзорная площадка ... </p>
+                            </div>
 
-                            <p class="article-card__description">Достопримечательность Алании, которую обязательно нужно посетить - это смотровая обзорная площадка ... </p>
-                        </div>
+                        </article>
+                    </div>
 
-                    </article>
+                    <div class="col-xl-4 swiper-slide">
+                        <article class="article-card">
+                            <div class="article-card__overlay">
+                                <a href="#" class="article-card__overlay-link">
+                                    <svg class="article-card__icon" width="69" height="69" viewBox="0 0 69 69" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M51.8753 34.5362C51.8753 35.0552 51.6772 35.5752 51.2807 35.971L38.6656 48.5861C37.8734 49.3788 36.5882 49.3788 35.796 48.5861C35.0033 47.7935 35.0033 46.5091 35.796 45.7165L44.9462 36.5656L2.02939 36.5656C0.908451 36.5656 -5.91131e-07 35.6572 -6.40129e-07 34.5362C-6.89101e-07 33.4159 0.908451 32.5068 2.02939 32.5068L44.7951 32.5068L35.7837 23.3439C34.9999 22.548 35.0073 21.2679 35.8017 20.4805C36.595 19.6931 37.8755 19.6963 38.6656 20.4858L51.2807 33.1009C51.677 33.4972 51.8753 34.0172 51.8753 34.5362Z" />
+                                    <path d="M68.9999 34.5001C68.9999 51.0028 55.5742 64.4287 39.0714 64.4287C26.0086 64.4287 14.5541 56.0779 10.5677 43.6495C10.2258 42.584 10.8134 41.4398 11.8804 41.0969C12.948 40.755 14.0905 41.3426 14.433 42.4096C17.8782 53.1523 27.7796 60.3699 39.0714 60.3699C53.3359 60.3699 64.9411 48.7647 64.9411 34.5001C64.9411 20.2351 53.3359 8.63035 39.0714 8.63035C27.7796 8.63036 17.8783 15.8485 14.433 26.5907C14.0905 27.6583 12.948 28.2459 11.8804 27.9034C10.8145 27.562 10.2252 26.4216 10.5677 25.3518C14.554 12.9228 26.0086 4.57157 39.0714 4.57157C55.5742 4.57157 68.9999 17.9975 68.9999 34.5001Z" />
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div class="article-cart__image-box">
+                                <img src="../assets/images/news/article-card_image_02.jpg" alt="Смотровая обзорная площадка I love Alanya" class="article-cart__image">
+                            </div>
+                        
+                            <div class="article-card__date">11.09.2019</div>
+
+                            <div class="article-card__content">
+                                <h3 class="article-card__title">
+                                    <a href="#" class="article-card__link link" title="Смотровая обзорная площадка I love Alanya">Смотровая обзорная площадка I love Alanya</a>
+                                </h3>
+
+                                <p class="article-card__description">Достопримечательность Алании, которую обязательно нужно посетить - это смотровая обзорная площадка ... </p>
+                            </div>
+
+                        </article>
+                    </div>
+
+                    <div class="col-xl-4 swiper-slide">
+                        <article class="article-card">
+                            <div class="article-card__overlay">
+                                <a href="#" class="article-card__overlay-link">
+                                    <svg class="article-card__icon" width="69" height="69" viewBox="0 0 69 69" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M51.8753 34.5362C51.8753 35.0552 51.6772 35.5752 51.2807 35.971L38.6656 48.5861C37.8734 49.3788 36.5882 49.3788 35.796 48.5861C35.0033 47.7935 35.0033 46.5091 35.796 45.7165L44.9462 36.5656L2.02939 36.5656C0.908451 36.5656 -5.91131e-07 35.6572 -6.40129e-07 34.5362C-6.89101e-07 33.4159 0.908451 32.5068 2.02939 32.5068L44.7951 32.5068L35.7837 23.3439C34.9999 22.548 35.0073 21.2679 35.8017 20.4805C36.595 19.6931 37.8755 19.6963 38.6656 20.4858L51.2807 33.1009C51.677 33.4972 51.8753 34.0172 51.8753 34.5362Z" />
+                                        <path d="M68.9999 34.5001C68.9999 51.0028 55.5742 64.4287 39.0714 64.4287C26.0086 64.4287 14.5541 56.0779 10.5677 43.6495C10.2258 42.584 10.8134 41.4398 11.8804 41.0969C12.948 40.755 14.0905 41.3426 14.433 42.4096C17.8782 53.1523 27.7796 60.3699 39.0714 60.3699C53.3359 60.3699 64.9411 48.7647 64.9411 34.5001C64.9411 20.2351 53.3359 8.63035 39.0714 8.63035C27.7796 8.63036 17.8783 15.8485 14.433 26.5907C14.0905 27.6583 12.948 28.2459 11.8804 27.9034C10.8145 27.562 10.2252 26.4216 10.5677 25.3518C14.554 12.9228 26.0086 4.57157 39.0714 4.57157C55.5742 4.57157 68.9999 17.9975 68.9999 34.5001Z"/>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div class="article-cart__image-box">
+                                <img src="../assets/images/news/article-card_image_03.jpg" alt="Смотровая обзорная площадка I love Alanya" class="article-cart__image">
+                            </div>
+
+                            <div class="article-card__date">11.09.2019</div>
+
+                            <div class="article-card__content">
+                                <h3 class="article-card__title">
+                                    <a href="#" class="article-card__link link" title="Смотровая обзорная площадка I love Alanya">Смотровая обзорная площадка I love Alanya</a>
+                                </h3>
+
+                                <p class="article-card__description">Достопримечательность Алании, которую обязательно нужно посетить - это смотровая обзорная площадка ... </p>
+                            </div>
+
+                        </article>
+                    </div>
                 </div>
 
-                <div class="col-xl-4">
-                    <article class="article-card">
-
-                        <div class="article-card__overlay">
-                            <a href="#" class="article-card__overlay-link">
-                                <svg class="article-card__icon" width="69" height="69" viewBox="0 0 69 69" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M51.8753 34.5362C51.8753 35.0552 51.6772 35.5752 51.2807 35.971L38.6656 48.5861C37.8734 49.3788 36.5882 49.3788 35.796 48.5861C35.0033 47.7935 35.0033 46.5091 35.796 45.7165L44.9462 36.5656L2.02939 36.5656C0.908451 36.5656 -5.91131e-07 35.6572 -6.40129e-07 34.5362C-6.89101e-07 33.4159 0.908451 32.5068 2.02939 32.5068L44.7951 32.5068L35.7837 23.3439C34.9999 22.548 35.0073 21.2679 35.8017 20.4805C36.595 19.6931 37.8755 19.6963 38.6656 20.4858L51.2807 33.1009C51.677 33.4972 51.8753 34.0172 51.8753 34.5362Z" fill="white"/>
-                                <path d="M68.9999 34.5001C68.9999 51.0028 55.5742 64.4287 39.0714 64.4287C26.0086 64.4287 14.5541 56.0779 10.5677 43.6495C10.2258 42.584 10.8134 41.4398 11.8804 41.0969C12.948 40.755 14.0905 41.3426 14.433 42.4096C17.8782 53.1523 27.7796 60.3699 39.0714 60.3699C53.3359 60.3699 64.9411 48.7647 64.9411 34.5001C64.9411 20.2351 53.3359 8.63035 39.0714 8.63035C27.7796 8.63036 17.8783 15.8485 14.433 26.5907C14.0905 27.6583 12.948 28.2459 11.8804 27.9034C10.8145 27.562 10.2252 26.4216 10.5677 25.3518C14.554 12.9228 26.0086 4.57157 39.0714 4.57157C55.5742 4.57157 68.9999 17.9975 68.9999 34.5001Z" fill="white"/>
-                                </svg>
-                            </a>
-                        </div>
-
-                        <div class="article-cart__image-box">
-                            <img src="../assets/images/news/article-card_image_02.jpg" alt="Смотровая обзорная площадка I love Alanya" class="article-cart__image">
-                        </div>
-                    
-                        <div class="article-card__date">11.09.2019</div>
-
-                        <div class="article-card__content">
-                            <h3 class="article-card__title">
-                                <a href="#" class="article-card__link link" title="Смотровая обзорная площадка I love Alanya">Смотровая обзорная площадка I love Alanya</a>
-                            </h3>
-
-                            <p class="article-card__description">Достопримечательность Алании, которую обязательно нужно посетить - это смотровая обзорная площадка ... </p>
-                        </div>
-
-                    </article>
-                </div>    
-
-                <div class="col-xl-4">
-                    <article class="article-card">
-
-                        <div class="article-card__overlay">
-                            <a href="#" class="article-card__overlay-link">
-                                <svg class="article-card__icon" width="69" height="69" viewBox="0 0 69 69" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M51.8753 34.5362C51.8753 35.0552 51.6772 35.5752 51.2807 35.971L38.6656 48.5861C37.8734 49.3788 36.5882 49.3788 35.796 48.5861C35.0033 47.7935 35.0033 46.5091 35.796 45.7165L44.9462 36.5656L2.02939 36.5656C0.908451 36.5656 -5.91131e-07 35.6572 -6.40129e-07 34.5362C-6.89101e-07 33.4159 0.908451 32.5068 2.02939 32.5068L44.7951 32.5068L35.7837 23.3439C34.9999 22.548 35.0073 21.2679 35.8017 20.4805C36.595 19.6931 37.8755 19.6963 38.6656 20.4858L51.2807 33.1009C51.677 33.4972 51.8753 34.0172 51.8753 34.5362Z" fill="white"/>
-                                    <path d="M68.9999 34.5001C68.9999 51.0028 55.5742 64.4287 39.0714 64.4287C26.0086 64.4287 14.5541 56.0779 10.5677 43.6495C10.2258 42.584 10.8134 41.4398 11.8804 41.0969C12.948 40.755 14.0905 41.3426 14.433 42.4096C17.8782 53.1523 27.7796 60.3699 39.0714 60.3699C53.3359 60.3699 64.9411 48.7647 64.9411 34.5001C64.9411 20.2351 53.3359 8.63035 39.0714 8.63035C27.7796 8.63036 17.8783 15.8485 14.433 26.5907C14.0905 27.6583 12.948 28.2459 11.8804 27.9034C10.8145 27.562 10.2252 26.4216 10.5677 25.3518C14.554 12.9228 26.0086 4.57157 39.0714 4.57157C55.5742 4.57157 68.9999 17.9975 68.9999 34.5001Z" fill="white"/>
-                                </svg>
-                            </a>
-                        </div>
-
-                        <div class="article-cart__image-box">
-                            <img src="../assets/images/news/article-card_image_03.jpg" alt="Смотровая обзорная площадка I love Alanya" class="article-cart__image">
-                        </div>
-
-                        <div class="article-card__date">11.09.2019</div>
-
-                        <div class="article-card__content">
-                            <h3 class="article-card__title">
-                                <a href="#" class="article-card__link link" title="Смотровая обзорная площадка I love Alanya">Смотровая обзорная площадка I love Alanya</a>
-                            </h3>
-
-                            <p class="article-card__description">Достопримечательность Алании, которую обязательно нужно посетить - это смотровая обзорная площадка ... </p>
-                        </div>
-
-                    </article>
-                </div>
-
+                <div class="news-slider__pagination"></div>
+     
             </div>
 
             <button class="button section-news__button">Все статьи</button>
@@ -881,11 +891,11 @@
                         <p class="paragraph">В современном мире свидетельством успеха являются не только хорошая профессия, блестящая карьера, семья, дом, но и собственность за границей. Поэтому, многие сегодня выбирают Аланию, где действительно можно выгодно приобрести качественные квадратные метры. </p>
                         <p class="paragraph">На рынке представлены самые разные объекты – от вторичной жилплощади до вариантов без посредников.</p>
 
-                        <img src="../assets/images/how-buy_image_01.png" class="how-buy__image how-buy__image_left" alt="Image 01">
+                        <img src="../assets/images/how-buy_image_01.png" class="how-buy__image how-buy__image_left" alt="Image 01" data-aos="fade-up-right">
                     </div>
 
                     <div class="col-lg-6 how-buy__right">
-                        <img src="../assets/images/how-buy_image_02.png" class="how-buy__image" alt="Image 02">
+                        <img src="../assets/images/how-buy_image_02.png" class="how-buy__image" alt="Image 02" data-aos="fade-up-left">
 
                         <p class="paragraph"><strong>Популярность покупки жилья от застройщика в Турции обоснована следующими важными особенностями: </strong></p>
                         <p class="paragraph paragraph_dott">Девелоперские компании предлагают соискателям купить новые квартиры на этапе строительства. Вкладывая таким образом свои деньги, можно значительно сэкономить.</p>

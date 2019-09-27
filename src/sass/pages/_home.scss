@@ -288,11 +288,13 @@
         &:hover .video__button::before {
             width: 104px;
             height: 104px;
+            animation: none;
         }
 
         &:hover .video__button-overlay {
             width: 152px;
             height: 152px;
+            animation: none;
         }
 
     }
@@ -307,6 +309,8 @@
         padding: 25px 29px;
         position: relative;
         z-index: 2;
+        border: 0;
+        cursor: pointer;
 
         &::before {
             content: '';
@@ -321,6 +325,7 @@
             z-index: -1;
             border: 1.5px solid $orange_color;
             @include transition;
+            animation: playButton 1.4s linear infinite;
         }
         
     }
@@ -337,9 +342,45 @@
         display: block;
         transform: translate(-50%,-50%);
         z-index: 1;
+        cursor: pointer;
         @include transition;
+        animation: overlayButton 1.4s linear infinite;
     }
 
+}
+
+@keyframes playButton {
+    0%{
+        transform: translate(-50%,-50%) scale(0.5) ;
+        opacity: 0;
+    }
+
+    50%{
+        transform: translate(-50%,-50%) scale(1) ;
+        opacity: 1;
+    }
+
+    100%{
+        transform: translate(-50%,-50%) scale(1.2) ;
+        opacity: 0;
+    }
+}
+
+@keyframes overlayButton {
+    0%{
+        transform: translate(-50%,-50%) scale(0.5) ;
+        opacity: 0;
+    }
+
+    50%{
+        transform: translate(-50%,-50%) scale(0.9) ;
+        opacity: 0.4;
+    }
+
+    100%{
+        transform: translate(-50%,-50%) scale(1.1) ;
+        opacity: 0;
+    }
 }
 
 /* #Privilages */
@@ -567,6 +608,14 @@
     color: #174782;
     background: white;
     max-height: 261px;
+    @include transition(border-color, .5s);
+    
+    &:hover {
+        border-color: $orange_color;
+        .card__image {
+            transform: scale(1.1);
+        }
+    }
 
     &__image-area {
         margin: -2px;
@@ -574,6 +623,12 @@
         border-radius: 20px;
         max-width: 293px;
         flex: 0 0 auto;
+    }
+
+    &__image {
+        cursor: pointer;
+        @include transition(transform);
+
     }
 
     &__body {
@@ -645,6 +700,11 @@
     }
 
 
+}
+
+.product-slider__pagination {
+    text-align: center;
+    margin: 10px 0;
 }
 
 /* #Advantage */
@@ -832,20 +892,20 @@
 
     &__pagination {
         text-align: center;
-
-        .swiper-pagination-bullet {
-            height: 12px;
-            width: 12px;
-            background: #C8E3F9;
-            opacity: 1;
-            margin: 26px 0.7rem 0;
-            outline: none;
-        }
-
-        .swiper-pagination-bullet-active {
-            background: #174682;
-        }
     }
+}
+
+.swiper-pagination-bullet {
+    height: 12px;
+    width: 12px;
+    background: #C8E3F9;
+    opacity: 1;
+    margin: 26px 0.7rem 0;
+    outline: none;
+}
+
+.swiper-pagination-bullet-active {
+    background: #174682;
 }
 
 /* #Excellence */
@@ -915,6 +975,15 @@
         border-radius: 20px;
         box-shadow: 0px 16px 46px rgba(207, 207, 207, 0.25);
 
+        &:hover .excellence__item-head::after {
+            bottom: 10px;
+        }
+
+        &:hover .excellence__icon {
+            transition-delay: 0!important;
+            transform: scale(1.2) !important;         
+        }
+
         &::after {
             content: '';
             position: absolute;
@@ -936,10 +1005,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 130px;
+        height: 150px;
         overflow: hidden;
-        margin-bottom: 50px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
         border-radius: 20px;
+        
 
         
 
@@ -950,8 +1021,8 @@
             height: 544px;
             background: #C7E2F8;
             border-radius: 50%;
-            bottom: 0;
-
+            bottom: 20px;
+            @include transition(bottom);
         }
 
     }
@@ -1019,6 +1090,7 @@
     &__inner {
         padding: 0 56px;
         margin-bottom: 55px;
+        overflow: hidden;
         // display: flex;
         // justify-content: space-between;
     }
@@ -1044,15 +1116,16 @@
         }
 
         .article-card__content {
-            bottom: -100%;
+            bottom: -60%;
         }
 
         .article-card__overlay {
-            transform: scale(1);
+            opacity: 1;
+            visibility: visible;
         }
 
         .article-card__icon {
-            opacity: 1;
+            transform: translateY(0);
         }
     }
 
@@ -1064,16 +1137,23 @@
         justify-content: center;
         align-items: center;
         background: rgba(23, 69, 130, 0.6);
-        transform: scale(0);
-
-        @include transition;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.5s ease-out,
+                    visibility 0.5s ease-out;
     }
 
     &__icon {
         position: relative;
         z-index: 10;
-        opacity: 0;
-        @include transition;
+        fill: white;
+        transform: translateY(-200%);
+        transition: transform .3s ease-in-out,
+        fill .3s ease-in-out;
+
+        &:hover {
+            fill: $orange_color;
+        }
     }
 
     &__image-box {
@@ -1136,6 +1216,10 @@
         color: #174782;
         z-index: 10;
     }
+}
+
+.news-slider__pagination {
+    text-align: center;
 }
 
 /* #Property */

@@ -74,7 +74,11 @@
   .property__body {
     padding: 0 20px 0 20px; }
   .widget-links_central-column {
-    padding: 0 0 0 40px; } }
+    padding: 0 0 0 40px; }
+  /* #Testimonial */
+  .section-news .swiper-slide,
+  .section-news__inner {
+    padding: 0; } }
 
 @media screen and (max-width: 992px) {
   /* #Hero */
@@ -263,7 +267,23 @@
   .how-buy__content {
     padding: 0; }
   .section-news__inner {
-    padding: 0; } }
+    padding: 0; }
+  /* #Products */
+  .product-slider .swiper-wrapper.row {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0; }
+  .featured__card {
+    max-width: 420px;
+    margin: 0 auto; }
+  .section-featured .swiper-slide {
+    padding: 0;
+    margin-right: 100px; }
+    .section-featured .swiper-slide::last-child {
+      margin-right: 0; }
+  .section-featured .container {
+    overflow: hidden; } }
 
 @media screen and (max-width: 575px) {
   .section-title {
@@ -313,6 +333,13 @@
     margin: 0 auto; }
   .company-bio__text-block::before, .company-bio__text-block::after {
     width: 280px; } }
+
+@media screen and (min-width: 768px) {
+  .product-slider .swiper-wrapper {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    height: auto;
+    width: auto; } }
 
 /* Media Footer
    ============================================================== */
