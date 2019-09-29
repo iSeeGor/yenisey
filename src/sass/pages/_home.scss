@@ -766,11 +766,10 @@
 /* #Testimonials */
 .section-testimonial{
     padding: 36px 0 153px;
-
-    background: url('../images/testimonial_bg.png')no-repeat center 120px;
 }
 
 .testimonial {
+    background: url('../images/testimonial_bg.png')no-repeat center 120px;
 
     &__container {
         position: relative;

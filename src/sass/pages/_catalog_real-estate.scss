@@ -1,0 +1,255 @@
+/* #Breadcrumbs */
+.breadcrumb {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    &__item {
+        &:not(:last-child)::after {
+            content: '/';
+            display: inline-block;
+            padding: 0 3px 0 4px;
+        }
+    }
+
+    &__link {
+        text-decoration: underline;
+    }
+}
+
+/* #Favorits */
+.favorits {
+    font-size: 1.6rem;
+    
+    &__link {
+        color: $sky_color;
+    }
+
+    &__count {
+        @include font_semiBold;
+    }
+}
+
+/* #Page Header */
+.page-title {
+    color: $sky_color;
+    font-size: 3.6rem;
+    text-align: center;
+    @include font_semiBold;
+    margin: 0 auto;
+}
+
+.page-header {
+    padding: 158px 0 0;
+    margin-top: 110px;
+    min-height: 370px;
+    background-image: url('../images/pages/page-header__real-estate_bg.png');
+    background-position: center top;
+
+
+    &__inner {
+        padding: 0 20px;
+    }
+
+    &__breadcrumb {
+        margin: 0 0 37px 0;
+    }
+
+    &__favorits {
+        margin-bottom: 20px;
+    }
+
+}
+
+
+/* #Order By */
+.order-by {
+    @include font_medium;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10px 84px;
+    }
+
+    &__select-block {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-right: 80px;
+    }
+
+    &__label {
+        margin-right: 10px;
+    }
+    
+    &__select {
+        float: none;
+        color: $bace_color;
+        padding-right: 40px;
+        min-width: 260px;
+    }
+} 
+
+/* #Page Content */
+.content {
+
+    &__search {
+        margin: -28px 0 35px 0;
+    }
+
+    &__testimonial {
+        padding-bottom: 213px;
+    }
+}
+
+/* #Product List/Grid */
+.card {
+
+    &__image-area {
+        position: relative;
+    }
+
+    &__to-favorits {
+        position: absolute;
+        top: -4px;
+        right: 0px;
+    }
+}
+
+.to-favorits {
+    height: 46px;
+    width: 46px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+
+    &__icon {
+        fill: $bace_color;
+        margin: 1px 0 0 1px;
+
+        &_active .to-favorits__path-star {
+            fill: $orange_color;
+        }
+    }
+
+    &__path-star {
+        fill: transparent;
+        @include transition(fill,0.4s);
+    }
+}
+
+.product-list {
+    margin: 48px 0 100px;
+
+    &__pagination {
+        margin: 26px 0 60px;
+    }
+
+    &__button {
+        display: block;
+        margin: 0 auto;
+        min-width: 220px;
+    }
+}
+
+.pagination {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+    // &__item {
+    //     padding: 0 10px;
+    // }
+
+    &__link {
+        color: $bace_color;
+        font-size: 1.6rem;
+        padding: 0 10px;
+        display: block;
+        position: relative;
+        line-height: 3.2rem;
+
+        &_current {
+            @include font_bold;
+            color: $orange_color;
+
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                height: 2px;
+                width: 20px;
+                background: $orange_color;
+                transform: translateX(-50%);
+
+            }
+        }
+
+        &:hover {
+            color:$orange_color;
+        }
+    }
+}
+
+/* #Seo Block */
+
+.seo-block {
+    padding: 0px 0 75px 0;
+    margin-top: -130px;
+
+    &__row {
+        padding: 0 66px;
+    }
+
+    &__heading-title {
+        text-align: center;
+        margin: 0 0 54px 0;
+
+    }
+
+    &__text-box {
+        padding: 0 100px;
+    }
+
+    &__box-title {
+        margin: 0  0  21px 0;
+    }
+
+    &__image-box {
+        padding: 16px 0 44px;
+    }
+
+}
+
+.ul-list {
+    margin: 0 0 23px 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+        // padding-left:17px;
+
+        &::before {
+            content: '';
+            width: 7px;
+            height: 7px;
+            background: $orange_color;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 8px;
+        }
+
+    }
+}

@@ -4,13 +4,19 @@ $(function() {
   swiperTestimonial();
   mobileMenuToggle();
   accordionMenu();
-  popUpWindow();
+  // popUpWindow();
+  // aosRun();
+});
+
+const aosRun = () => {
+
   AOS.init({
     offset: 140,
     duration: 800,
     once: true,
   });
-});
+
+}
 
 // Phone List Show
 const phoneListToggle = () => {
@@ -245,3 +251,5 @@ ScrollOut({
   targets: '.word',
   once: true,
 });
+
+// Toggle For toFavorit Button
