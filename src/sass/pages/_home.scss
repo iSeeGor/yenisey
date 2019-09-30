@@ -13,15 +13,30 @@
 /* #hero */
 .hero {
     text-align: center;
-    background: url('../images/hero-banner.png')no-repeat center;
-    background-size: cover;
+    position: relative;
+    background: transparent;
+    // background-size: cover;
+    // background-attachment: fixed;
     // margin-top: 110px;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: url('../images/hero-banner__overlay.png')no-repeat center;
+    }
 
     &__container {
         // padding:120px 0 400px;
         padding:230px 0 400px;
         display: flex;
         justify-content: center; 
+        position: relative;
     }
 
     &__inner {
@@ -578,13 +593,31 @@
 
 }
 
+.section__header {
+    position: relative;
+    background: transparent;
+
+    &::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: -1px;
+        background: url('../images/section-header__overlay.png')no-repeat bottom;
+    }
+}
+
 /* #Featured */
 .section-featured {
-    padding: 615px 0 40px;
-    background: url('../images/featured_bg.png')no-repeat center top;
+    padding: 0 0 40px;
+    // background: url('../images/featured_bg.png')no-repeat center top;
 }
 
 .featured {
+
+    &__header {
+        min-height: 615px;
+    }
 
     &__section-title {
         margin-bottom: 57px; 
@@ -909,9 +942,8 @@
 
 /* #Excellence */
 .section-excellence {
-    padding: 536px 0 95px;
-    background: url('../images/exellence_bg-section.png') no-repeat center top,
-    url('../images/exellence_bg-items.png') no-repeat center 87%;
+    padding: 0 0 95px;
+    background: url('../images/exellence_bg-items.png') no-repeat center 87%;
 }
 
 .excellence {
@@ -919,6 +951,10 @@
     &__inner {
         padding-top: 63px;
         background: url('../images/exellence_bg-top.png') no-repeat center top;
+    }
+
+    &__header {
+        min-height: 536px;
     }
     
     &__top {
@@ -1090,8 +1126,6 @@
         padding: 0 56px;
         margin-bottom: 55px;
         overflow: hidden;
-        // display: flex;
-        // justify-content: space-between;
     }
 
     &__button {
@@ -1147,8 +1181,8 @@
         z-index: 10;
         fill: white;
         transform: translateY(-200%);
-        transition: transform .3s ease-in-out,
-        fill .3s ease-in-out;
+        transition: transform .6s ease,
+        fill .3s ease;
 
         &:hover {
             fill: $orange_color;
@@ -1170,7 +1204,7 @@
         line-height: 37px;
         padding: 0 19px;
 
-        @include transition;
+        transition: top .6s ease;
     }
 
     &__image-box {
@@ -1181,8 +1215,7 @@
         position: absolute;
         bottom: 0;
         padding: 50px 20px 40px;
-
-        @include transition;
+        transition: bottom .6s ease;
 
         &::before {
             content: '';
@@ -1225,7 +1258,9 @@
 .section-property {
     background: url('../images/property__bg.png')no-repeat center top,
                 url('../images/how-buy_bg.svg') no-repeat center 50%,
-                url('../images/property__bg-bottom.png') no-repeat center 111.5%;;
+                url('../images/property__bg-bottom.png') no-repeat center 106%;
+    
+    padding: 0 0 97px 0; 
 }
 
 .property {
@@ -1326,7 +1361,6 @@
 .company-bio {
     padding: 0 0 0 52px ;
     position: relative;
-    margin-bottom: 97px;
 
     &__text-block {
         margin: 26px 0;

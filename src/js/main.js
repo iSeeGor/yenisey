@@ -4,8 +4,8 @@ $(function() {
   swiperTestimonial();
   mobileMenuToggle();
   accordionMenu();
-  // popUpWindow();
-  // aosRun();
+  popUpWindow();
+  aosRun();
 });
 
 const aosRun = () => {
@@ -243,13 +243,23 @@ const popUpWindow = () => {
   }
 }
 
-var _window = window,
-Splitting = _window.Splitting,
-ScrollOut = _window.ScrollOut;
+// var _window = window,
+// Splitting = _window.Splitting,
+// ScrollOut = _window.ScrollOut;
+
 Splitting();
+
 ScrollOut({
-  targets: '.word',
+  threshold: .8,
+  // targets: '.word',
+  // // offset: 200,
+  
   once: true,
 });
 
 // Toggle For toFavorit Button
+$(window).stellar();
+
+$('.parallax-window').parallax({
+  
+});

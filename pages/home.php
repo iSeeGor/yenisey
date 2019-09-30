@@ -2,7 +2,7 @@
 <main class="main">
 
     <!--== Hero  -->
-    <section class="section-hero hero">
+    <section class="section-hero hero parallax-window" data-parallax="scroll" data-image-src="../assets/images/hero-banner.jpg">
         <div class="container hero__container">
 
             <div class="hero__inner">
@@ -88,7 +88,7 @@
                         <a href="#" class="search-filters__link link" title="Недвижимость в Турции от застройщика">Недвижимость в Турции от застройщика</a>
                     </li>
                     <li class="search-filters__item">
-                        <a href="#" class="search-filters__link search-filters__link_active link" title="Недвижимость в Аланье от застройщика">Недвижимость в Аланье от застройщика</a>
+                        <a href="#" class="search-filters__link link" title="Недвижимость в Аланье от застройщика">Недвижимость в Аланье от застройщика</a>
                     </li>
                     <li class="search-filters__item">
                         <a href="#" class="search-filters__link link" title="Купить квартиру от застройщика в Аланье">Купить квартиру от застройщика в Аланье</a>
@@ -128,7 +128,7 @@
                     <span class="video__button-overlay"></span>
                 </div>
 
-                <h2 class="section-title section-video__title text_fade-up" data-scroll="out" data-splitting="">Видео о компании Yenisey</h2>
+                <h2 class="section-title section-video__title" data-scroll="" data-splitting="">Видео о компании Yenisey</h2>
             </div>
         
         </div>
@@ -138,7 +138,7 @@
     <section class="section-privilages privilages">
         <div class="container privilages__container">
 
-            <h2 class="section-title privilages__title">Достоинства жизни в Турции</h2>
+            <h2 class="section-title privilages__title" data-scroll="" data-splitting="">Достоинства жизни в Турции</h2>
 
             <div class="privilages__content row">
 
@@ -189,7 +189,7 @@
         
             <div class="benefit__header">
                 <div class="benefit__header-image">
-                    <h2 class="section-title benefit__title text_fade-up" data-scroll="out" data-splitting="">Почему стоит приобрести недвижимость <br> в Алании</h2>
+                    <h2 class="section-title benefit__title" data-scroll="" data-splitting="">Почему стоит приобрести недвижимость <br> в Алании</h2>
                 </div>
 
                 <div class="benefit__header-text">
@@ -262,9 +262,10 @@
 
     <!--== Featured  -->
     <section class="section-featured featured">
+        <div class="section__header featured__header parallax-window" data-parallax="scroll" data-image-src="../assets/images/products-section__bg.jpg"></div>
         <div class="container">
           
-            <h2 class="section-title featured__section-title">Горячие предложения</h2>
+            <h2 class="section-title featured__section-title" data-scroll="" data-splitting="">Горячие предложения</h2>
 
             <div class="product-slider">
                 <div class="swiper-wrapper row">
@@ -393,12 +394,12 @@
     <section class="section-advantage advantage">
         <div class="container">
 
-            <h2 class="section-title advantage__title">Преимущества комплексов Yenisesy</h2>
+            <h2 class="section-title advantage__title" data-scroll="" data-splitting="">Преимущества комплексов Yenisesy</h2>
             <p class="advantage__description"><strong>Наши жилые комплексы</strong> – это сочетание безупречных архитектурных форм с высоким уровнем благоустроенности и уюта. Мы готовы удовлетворить все пожелания наших покупателей и предлагаем свои неизменные преимущества:</p>
 
             <div class="advantage__items row">
 
-                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="100">
+                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1400">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_01.svg" alt="Advantage Icon #01">
                     </div>
@@ -406,7 +407,7 @@
                     <p class="advantage__item-text">Расстояние до моря не более 200 м</p>
                 </div>
 
-                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="200">
+                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1400">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_02.svg" alt="Advantage Icon #02">
                     </div>
@@ -414,7 +415,7 @@
                     <p class="advantage__item-text">Развитая внутренняя и внешняя инфраструктура</p>
                 </div>
 
-                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="300">
+                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1400">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_03.svg" alt="Advantage Icon #03">
                     </div>
@@ -422,7 +423,7 @@
                     <p class="advantage__item-text">Гарантированные высокие стандарты качества</p>
                 </div>
 
-                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="400">
+                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1400">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_04.svg" alt="Advantage Icon #04">
                     </div>
@@ -430,7 +431,7 @@
                     <p class="advantage__item-text">Профессиональный менеджмент и обслуживание</p>
                 </div>
 
-                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="500">
+                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="900" data-aos-duration="1400">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_06.svg" alt="Advantage Icon #06">
                     </div>
@@ -438,7 +439,7 @@
                     <p class="advantage__item-text">Все включено: спутниковое TV, интернет, видеодомофон</p>
                 </div>
 
-                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="600">
+                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="1100" data-aos-duration="1400">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_07.svg" alt="Advantage Icon #07">
                     </div>
@@ -578,7 +579,7 @@
 
     <!--== Excellence  -->
     <section class="section-excellence excellence">
-
+        <div class="excellence__header featured__header parallax-window" data-parallax="scroll" data-image-src="../assets/images/exellence-section__bg.jpg"></div>
         <div class="excellence__inner">
             <div class="container">
 
@@ -586,7 +587,7 @@
 
                     <div class="col-md-6">
                         <div class="excellence__text-box">
-                            <h2 class="section-title excellence__title text_fade-up" data-scroll="out" data-splitting="">Преимущества компании Yenisey</h2>
+                            <h2 class="section-title excellence__title " data-scroll="" data-splitting="">Преимущества компании Yenisey</h2>
 
                             <p class="paragraph">Строительная компания "Yenisey&Yaparli" является ведущим девелопером региона.</p>
 
@@ -729,7 +730,7 @@
     <section class="section-news news">
         <div class="container">
 
-            <h2 class="section-title section-news__title">Новые публикации</h2>
+            <h2 class="section-title section-news__title" data-scroll="" data-splitting="">Новые публикации</h2>
 
             <div class="section-news__inner row news-slider">
 
@@ -834,7 +835,7 @@
         <div class="container">
 
             <div class="property__header">
-                <h2 class="section-title property__section-title">Качественная недвижимость от застройщика в Аланье</h2>
+                <h2 class="section-title property__section-title" data-scroll="" data-splitting="">Качественная недвижимость от застройщика в Аланье</h2>
 
                 <div class="property__header-inner row">
 
@@ -883,7 +884,7 @@
             </div>
 
             <div class="property__how-buy how-buy">
-                <h2 class="section-title how-buy__title">Как купить квартиру от застройщика в Алании?</h2>
+                <h2 class="section-title how-buy__title" data-scroll="" data-splitting="">Как купить квартиру от застройщика в Алании?</h2>
 
                 <div class="how-buy__content row">
                     <div class="col-lg-6">
