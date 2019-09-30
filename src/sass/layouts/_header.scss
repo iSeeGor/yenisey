@@ -40,7 +40,7 @@
     padding: 40px 40px 56px 40px;
     background-color: #E3F1FC ;
     position: absolute;
-    z-index: 111;
+    z-index: 100;
 
     
     @include transition(transform);
@@ -153,10 +153,11 @@
 /* #main header */
 .header {
    background: white; 
-   position: absolute;
+   position: fixed;
    width: 100%; 
    top: 0;
-   z-index: 10;  
+   z-index: 20;  
+   box-shadow: 0px 16px 46px rgba(207, 207, 207, 0.25);
 }
 
 .phones {
@@ -247,6 +248,7 @@
 }
 
 .topbar {
+    transition: margin 0.5s ease;
 
     &__container {
         position: relative;
@@ -434,4 +436,49 @@
     text-transform: lowercase;
     position: absolute;
     top: -6px;
+}
+
+/* #Sticky Nav Bar */
+.header_down .topbar{  
+    margin-top: 0;
+}
+
+.header_up .topbar{
+    margin-top:-58px;  
+}
+
+.menu__item_home {
+    width: 58px;
+    height: 22px;
+    position: relative;
+}
+.menu__image-logo {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    max-width: 100px !important;
+    transform: translateY(-50%);
+    visibility: hidden;
+    opacity: 0;
+    
+    
+}
+.header_down .menu__image-logo,
+.header_up .home__link-text {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease,
+    visibility 0.5s ease;
+}
+
+.header_up .menu__image-logo,
+.header_down .home__link-text {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s ease,
+    visibility 0.5s ease;
+}
+
+.header_up .nav__menu {
+    padding: 22px;
 }

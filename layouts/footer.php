@@ -11,7 +11,7 @@
                     </div>
                 </div>
 
-                <div class="offset-sm-4 col-sm-4 offset-lg-0 col-lg-2">
+                <div class="offset-sm-2 col-sm-4 offset-lg-0 col-lg-2">
                     <div class="widget">
                         <ul class="widget-links">
                             <li class="widget-links__item"><a href="#" class="widget-links__link link" title="Yenisey Palace">Yenisey Palace</a></li>
@@ -23,7 +23,7 @@
                     </div>
                 </div>
 
-                <div class="offset-sm-4 col-sm-4 offset-lg-0 col-lg-2">
+                <div class="offset-sm-2 col-sm-4 offset-lg-0 col-lg-2">
                     <div class="widget">
                         <ul class="widget-links widget-links_central-column">
                             <li class="widget-links__item"><a href="#" class="widget-links__link link" title="Yaparli VI ">Yaparli VI </a></li>
@@ -34,7 +34,7 @@
                     </div>
                 </div>
 
-                <div class="offset-sm-4 col-sm-5 offset-lg-0 col-lg-5">
+                <div class="offset-sm-2 col-sm-8 offset-lg-0 col-lg-5">
                     <div class="widget">
                         <ul class="widget-address footer__widget-address">
                             <li class="widget-address__item widget-address__item_address">Mahmutlar Mahallesi, 130 nolu sokak<br> no: 6/A-B 07450 Alanya / Antalya</li>

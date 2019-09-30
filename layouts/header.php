@@ -81,7 +81,7 @@
                 <li class="phones__item"><a href="tel:+902425283388" class="link phones__item-link phones__item-link_rus" title="+902425283388">+90 242 528 3388</a></li>
             </ul>
 
-            <button class="button button--blue button--small">Перезвоните мне</button>
+            <button class="button button--blue button--small button__popup">Перезвоните мне</button>
         </div>
 
         <header class="header" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" data-aos-delay="600">
@@ -131,7 +131,11 @@
                     <div class="row">
                         <div class="col-xl-10 offset-xl-1">
                             <ul class="menu nav__menu">
-                                <li class="menu__item"><a href="#" class="link menu__item-link" title="Главная">Главная</a></li>
+                                <li class="menu__item menu__item_home">
+                                    <a href="/" class="link menu__item-link home-link" title="Главная"><span class="home__link-text">Главная</span>
+                                    <img src="../assets/images/yenisey_logo.png" alt="Yenisey Logo" width="117" class="menu__image-logo">
+                                </a>
+                                </li>
                                 <li class="menu__item menu__item_dropdown dropdown">
                                     <a href="#" class="link menu__item-link" title="Каталог недвижимости">Каталог недвижимости</a>
 

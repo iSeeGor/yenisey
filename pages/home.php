@@ -255,7 +255,7 @@
                 В идеальном месте идеально всё!
             </div>
 
-            <button class="button benefit__button">Получить подробную информацию</button>
+            <button class="button benefit__button button__popup">Получить подробную информацию</button>
         
         </div>
     </section>
@@ -399,7 +399,7 @@
 
             <div class="advantage__items row">
 
-                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1400">
+                <div class="advantage__item col-6 col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1400">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_01.svg" alt="Advantage Icon #01">
                     </div>
@@ -407,7 +407,7 @@
                     <p class="advantage__item-text">Расстояние до моря не более 200 м</p>
                 </div>
 
-                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1400">
+                <div class="advantage__item col-6 col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1400">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_02.svg" alt="Advantage Icon #02">
                     </div>
@@ -415,7 +415,7 @@
                     <p class="advantage__item-text">Развитая внутренняя и внешняя инфраструктура</p>
                 </div>
 
-                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1400">
+                <div class="advantage__item col-6 col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1400">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_03.svg" alt="Advantage Icon #03">
                     </div>
@@ -423,7 +423,7 @@
                     <p class="advantage__item-text">Гарантированные высокие стандарты качества</p>
                 </div>
 
-                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1400">
+                <div class="advantage__item col-6 col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1400">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_04.svg" alt="Advantage Icon #04">
                     </div>
@@ -431,7 +431,7 @@
                     <p class="advantage__item-text">Профессиональный менеджмент и обслуживание</p>
                 </div>
 
-                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="900" data-aos-duration="1400">
+                <div class="advantage__item col-6 col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="900" data-aos-duration="1400">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_06.svg" alt="Advantage Icon #06">
                     </div>
@@ -439,7 +439,7 @@
                     <p class="advantage__item-text">Все включено: спутниковое TV, интернет, видеодомофон</p>
                 </div>
 
-                <div class="advantage__item col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="1100" data-aos-duration="1400">
+                <div class="advantage__item col-6 col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-delay="1100" data-aos-duration="1400">
                     <div class="advantage__item-icon">
                         <img src="../assets/images/icons/advantage/item_icon_07.svg" alt="Advantage Icon #07">
                     </div>
@@ -478,7 +478,7 @@
                                     <div class="testimonial__date">10.09.2019</div>
                                 </div>
 
-                                <p class="testimonial__massage">
+                                <p class="testimonial__massage toggle-text">
                                     Когда встал вопрос о покупке недвижимости в Турции, пересмотрев много разных вариантов, случайно наткнулись на офис компании застройщика “Yenisey” и решили зайти. Очень доброжелательные сотрудники  ответили на все интересующие нас вопросы, рассказали очень подробно о дальнейшем оформлении документов и получении ВНЖ на территории Турции. Индивидуальный подход к каждому клиенту позволил нам без проблем общаться со специалистом отдела продаж строительной компания “Yenisey” - Анастасией. Общение оказалось очень продуктивным, и мы решили посмотреть имеющиеся на рынке недвижимости предложения от компании “Yenisey”.
                                 </p>
 
@@ -579,7 +579,7 @@
 
     <!--== Excellence  -->
     <section class="section-excellence excellence">
-        <div class="excellence__header featured__header parallax-window" data-parallax="scroll" data-image-src="../assets/images/exellence-section__bg.jpg"></div>
+        <div class="excellence__header section__header parallax-window" data-parallax="scroll" data-image-src="../assets/images/exellence-section__bg.jpg"></div>
         <div class="excellence__inner">
             <div class="container">
 
@@ -832,6 +832,9 @@
 
     <!--== Property  -->
     <section class="section-property property">
+
+        <div class="property__paralax parallax-window" data-parallax="scroll" data-image-src="../assets/images/property__bg.jpg"></div>
+        
         <div class="container">
 
             <div class="property__header">

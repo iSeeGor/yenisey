@@ -1,11 +1,14 @@
 $(function() {
   themeSelect();
-  phoneListToggle();
   swiperTestimonial();
   mobileMenuToggle();
   accordionMenu();
   popUpWindow();
-  aosRun();
+  // aosRun();
+  textSplittEffect();
+  // newFF();
+  slideNav();
+
 });
 
 const aosRun = () => {
@@ -18,15 +21,36 @@ const aosRun = () => {
 
 }
 
-// Phone List Show
-const phoneListToggle = () => {
-  // let button = window.getComputedStyle(document.querySelector('.phones__select-list'), ':after').;
-};
+// const newFF = () => {
+//   var showChar = 196;  // How many characters are shown by default
+//     var ellipsestext = "...";
+//     var moretext = "Read more";
+//     var lesstext = "Read less";
+    
+//     //Cut content based on showChar length
+//     if ($(".toggle-text").length) {
+//         $(".toggle-text").each(function() {
+
+//             var content = $(this).html();
+     
+//             if(content.length > showChar) {
+     
+//                 var contentExcert = content.substr(0, showChar);
+//                 var contentRest = content.substr(showChar, content.length - showChar);
+//                 var html = contentExcert + '<span class="toggle-text-ellipses">' + ellipsestext + ' </span> <span class="toggle-text-content"><span>' + contentRest + '</span><a href="javascript:;" class="btn btn--primary btn--dark toggle-text-link">' + moretext + '</a></span>';
+     
+//                 $(this).html(html);
+//             }
+//         });
+//     }
+    
+// }
 
 // Custom Select's
 const themeSelect = () => {
   $("select").niceSelect();
 };
+
 
 // Swiper Slider 
 const swiperTestimonial = () => {
@@ -90,7 +114,7 @@ const swiperTestimonial = () => {
 
       } else if ( breakpointProd.matches === false ) {
 
-        return enableSwiper();
+        return enableSwiperProd();
       }
   };
 
@@ -107,20 +131,22 @@ const swiperTestimonial = () => {
       },
 
       breakpoints: {
-        // when window width is <= 499px
-        499: {
-            slidesPerView: 1,
+
+        320: {
+          slidesPerView: 1,
+          spaceBetweenSlides: 10
+        },
+
+        768: {
+            slidesPerView: 2,
             spaceBetweenSlides: 30
         },
-        // when window width is <= 999px
-        999: {
-            slidesPerView: 2,
-            spaceBetweenSlides: 60
-        }
       }
 
     });
+  };
 
+  const enableSwiperProd = function(){
     prodSlider = new Swiper(".product-slider", {
 
       loop: true,
@@ -145,7 +171,6 @@ const swiperTestimonial = () => {
       // }
 
     });
-
   };
 
   breakpoint.addListener(breakpointChecker);
@@ -243,23 +268,55 @@ const popUpWindow = () => {
   }
 }
 
-// var _window = window,
-// Splitting = _window.Splitting,
-// ScrollOut = _window.ScrollOut;
+// Text Splitt Effect
+const textSplittEffect = () => {
+  Splitting();
+  ScrollOut({
+    threshold: .8,
+    once: true,
+  });
+}
 
-Splitting();
 
-ScrollOut({
-  threshold: .8,
-  // targets: '.word',
-  // // offset: 200,
+
+// $('.parallax-window').parallax({
   
-  once: true,
-});
+// });
 
-// Toggle For toFavorit Button
-$(window).stellar();
+const slideNav = () => {
 
-$('.parallax-window').parallax({
-  
-});
+  var didScroll;
+  var lastScrollTop = 0;
+  var delta = 5;
+  var navbarHeight = $('.header').outerHeight();
+
+  $(window).scroll(function(event){
+      didScroll = true;
+  });
+
+  setInterval(function() {
+      if (didScroll) {
+          hasScrolled();
+          didScroll = false;
+      }
+  }, 250);
+
+  function hasScrolled() {
+      var st = $(this).scrollTop();
+      
+      if(Math.abs(lastScrollTop - st) <= delta)
+          return;
+      
+      if (st > lastScrollTop && st > navbarHeight){
+
+          $('.header').removeClass('header_down').addClass('header_up');
+      } else {
+
+          if(st + $(window).height() < $(document).height()) {
+              $('.header').removeClass('header_up').addClass('header_down');
+          }
+      }
+      
+      lastScrollTop = st;
+  }
+}
