@@ -195,12 +195,12 @@
 .char {
   display: inline-block;
 
-  transition: all 1s calc(0.05s + var(--char-index) * 0.08s) ease;
+  transition: all .6s calc(0.2s + var(--char-index) * 0.04s) ease;
   
 }
 [data-scroll="out"] .char {
   opacity: 0;
-  transform: translate(0, 160%);
+  transform: translate(0, 40%);
 }
 .char {
   opacity: 1;

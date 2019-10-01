@@ -29,8 +29,10 @@
     <link rel="stylesheet" href="assets/css/media.css" />
 </head>
 <body class="body">
+    <!--== Page  -->
     <div class="page">
 
+        <!--== Sidenav  -->
         <div class="sidenav sidenav_disabled">
             <ul class="mobile-menu">
                 <li class="mobile-menu__item"><a href="#" class="link mobile-menu__link" title="Главная">Главная</a></li>
@@ -84,21 +86,15 @@
             <button class="button button--blue button--small button__popup">Перезвоните мне</button>
         </div>
 
+        <!--== Header  -->
         <header class="header" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" data-aos-delay="600">
+            
             <div class="mobile-header header__mobile-header">
                 <div class="logo mobile-logo">
                     <a href="/" title="Yenisey Logo"><img src="../assets/images/yenisey_logo.png" alt="Yenisey Logo" width="117"></a>
                 </div>
 
-                <div class="hamberger">
-                    <svg class="hamberger__icon" width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M43.7057 39.7032H12.9457C11.6779 39.7032 10.6504 38.6757 10.6504 37.4079C10.6504 36.1402 11.6779 35.1126 12.9457 35.1126H43.7049C44.9727 35.1126 46.0002 36.1402 46.0002 37.4079C46.0002 38.6757 44.9735 39.7032 43.7057 39.7032Z" />
-                        <path d="M43.7057 25.2957H12.9457C11.6779 25.2957 10.6504 24.2682 10.6504 23.0004C10.6504 21.7326 11.6779 20.7051 12.9457 20.7051H43.7049C44.9727 20.7051 46.0002 21.7326 46.0002 23.0004C46.001 24.2682 44.9735 25.2957 43.7057 25.2957Z" />
-                        <path d="M43.7057 10.8881H12.9457C11.6779 10.8881 10.6504 9.86058 10.6504 8.59281C10.6504 7.32504 11.6779 6.29752 12.9457 6.29752H43.7049C44.9727 6.29752 46.0002 7.32504 46.0002 8.59281C46.0002 9.86058 44.9735 10.8881 43.7057 10.8881Z" />
-                        <path d="M3.08258 11.8529C4.78504 11.8529 6.16516 10.4728 6.16516 8.77033C6.16516 7.06786 4.78504 5.68774 3.08258 5.68774C1.38012 5.68774 0 7.06786 0 8.77033C0 10.4728 1.38012 11.8529 3.08258 11.8529Z" />
-                        <path d="M3.08258 26.083C4.78504 26.083 6.16516 24.7029 6.16516 23.0004C6.16516 21.2979 4.78504 19.9178 3.08258 19.9178C1.38012 19.9178 0 21.2979 0 23.0004C0 24.7029 1.38012 26.083 3.08258 26.083Z" />
-                        <path d="M3.08258 40.313C4.78504 40.313 6.16516 38.9329 6.16516 37.2304C6.16516 35.528 4.78504 34.1479 3.08258 34.1479C1.38012 34.1479 0 35.528 0 37.2304C0 38.9329 1.38012 40.313 3.08258 40.313Z" />
-                    </svg>
+                <div class="hamburger">                   
                 </div>
             </div>
 
@@ -177,8 +173,30 @@
                                     <a href="#" class="link menu__item-link" title="Для вас">Для вас</a>
 
                                     <ul class="menu menu__dropdown">
-                                        <li class="menu__item"><a href="#" class="link menu__item-link" title="Услуги для клиентов">Услуги для клиентов</a></li>
-                                        <li class="menu__item"><a href="#" class="link menu__item-link" title="Сотрудничество">Сотрудничество</a></li>
+                                        <li class="menu__item menu__item_submenu">
+                                            <a href="#" class="link menu__item-link" title="Услуги для клиентов">Услуги для клиентов</a>
+
+                                            <ul class="menu sub-menu__dropdown sub-menu">
+                                                <li class="menu__item"><a href="#" class="link menu__item-link" title="Ознакомительный тур">Ознакомительный тур</a></li>
+                                                <li class="menu__item"><a href="#" class="link menu__item-link" title="Сопроваждение сделки и оформление документов">Сопроваждение сделки и оформление документов</a></li>
+                                                <li class="menu__item"><a href="#" class="link menu__item-link" title="Продажа апартаментов под ключ">Продажа апартаментов под ключ</a></li>
+                                                <li class="menu__item"><a href="#" class="link menu__item-link" title="Бесплатный пост-продажный сервис">Бесплатный пост-продажный сервис</a></li>
+                                                <li class="menu__item"><a href="#" class="link menu__item-link" title="Менеджмент и обслуживание комплексов ">Менеджмент и обслуживание комплексов </a></li>
+                                                <li class="menu__item"><a href="#" class="link menu__item-link" title="Ипотека в Турции">Ипотека в Турции</a></li>
+                                                <li class="menu__item"><a href="#" class="link menu__item-link" title="Обмен недвижимости">Обмен недвижимости</a></li>
+                                                <li class="menu__item"><a href="#" class="link menu__item-link" title="Помощ в оформлении ВНЖ">Помощ в оформлении ВНЖ</a></li>
+                                                <li class="menu__item"><a href="#" class="link menu__item-link" title="Трансфер в аеропорт">Трансфер в аеропорт</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu__item menu__item_submenu">
+                                            <a href="#" class="link menu__item-link" title="Сотрудничество">Сотрудничество</a>
+
+                                            <ul class="menu sub-menu__dropdown sub-menu">
+                                                <li class="menu__item"><a href="#" class="link menu__item-link" title="Для агентов по недвижимости">Для агентов по недвижимости</a></li>
+                                                <li class="menu__item"><a href="#" class="link menu__item-link" title="Для инвесторов">Для инвесторов</a></li>
+                                                <li class="menu__item"><a href="#" class="link menu__item-link" title="Застройщикам">Застройщикам</a></li>
+                                            </ul>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="menu__item"><a href="#" class="link menu__item-link">Полезные публикации</a></li>

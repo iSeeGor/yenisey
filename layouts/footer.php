@@ -1,3 +1,4 @@
+<!--== Footer  -->
 <footer class="footer">
     <div class="footer__widgets">
         <div class="container">

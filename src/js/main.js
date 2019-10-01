@@ -4,7 +4,7 @@ $(function() {
   mobileMenuToggle();
   accordionMenu();
   popUpWindow();
-  // aosRun();
+  aosRun();
   textSplittEffect();
   // newFF();
   slideNav();
@@ -14,6 +14,7 @@ $(function() {
 const aosRun = () => {
 
   AOS.init({
+    disable: 'mobile',
     offset: 140,
     duration: 800,
     once: true,
@@ -84,7 +85,7 @@ const swiperTestimonial = () => {
   // News Slider + BreackPoin Checher
   //BreckPoint One Fore News
   const breakpoint = window.matchMedia( '(min-width:1199px)' );
-  const breakpointProd = window.matchMedia( '(min-width:767px)' );
+  const breakpointProd = window.matchMedia( '(min-width:820px)' );
 
   //BreackPoint Two For Products 
   let newsSlider;
@@ -182,14 +183,16 @@ const swiperTestimonial = () => {
 
 // Mobile Menu
 const mobileMenuToggle = () => {
-  const menuBtn = document.querySelector(".hamberger");
+  const menuBtn = document.querySelector(".hamburger");
   const sidenav = document.querySelector(".sidenav");
 
   menuBtn.onclick = function() {
     if (sidenav.classList.contains("sidenav_disabled")) {
       sidenav.classList.remove("sidenav_disabled");
+      menuBtn.classList.add("hamburger_closed");
     } else {
       sidenav.classList.add("sidenav_disabled");
+      menuBtn.classList.remove("hamburger_closed");
     }
   };
 };

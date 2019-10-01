@@ -138,7 +138,7 @@
     <section class="section-privilages privilages">
         <div class="container privilages__container">
 
-            <h2 class="section-title privilages__title" data-scroll="" data-splitting="">Достоинства жизни в Турции</h2>
+            <h2 class="section-title privilages__title">Достоинства жизни в Турции</h2>
 
             <div class="privilages__content row">
 
@@ -207,7 +207,7 @@
                 <div class="col-xl-10 offset-xl-1 benefit__content-inner">
                     <div class="row">
 
-                        <div class="col-lg-4 col-md-6 d-flex ">
+                        <div class="col-lg-4 col-sm-6 d-flex ">
                             <div class="benefit__item benefit__item_line">
                                 <div class="benefit__icon " data-aos="fade-up" data-aos-delay="200">
                                     <img src="../assets/images/icons/benefit/item_icon_01.svg" alt="Benefit Icon #01">
@@ -220,7 +220,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 d-flex justify-content-lg-center ">
+                        <div class="col-lg-4 col-sm-6 d-flex justify-content-lg-center ">
                             <div class="benefit__item benefit__item_line">
                                 <div class="benefit__icon " data-aos="fade-up" data-aos-delay="400">
                                     <img src="../assets/images/icons/benefit/item_icon_02.svg" alt="Benefit Icon #02">
@@ -265,12 +265,12 @@
         <div class="section__header featured__header parallax-window" data-parallax="scroll" data-image-src="../assets/images/products-section__bg.jpg"></div>
         <div class="container">
           
-            <h2 class="section-title featured__section-title" data-scroll="" data-splitting="">Горячие предложения</h2>
+            <h2 class="section-title featured__section-title">Горячие предложения</h2>
 
             <div class="product-slider">
                 <div class="swiper-wrapper row">
 
-                    <div class="col-md-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-0 swiper-slide">
+                    <div class="offset-md-1 col-md-10 col-lg-8 offset-lg-2 col-xl-6 offset-xl-0 swiper-slide">
                         <div class="card featured__card">
                             
                             <div class="card__image-area">
@@ -296,7 +296,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-0 swiper-slide">
+                    <div class="offset-md-1 col-md-10 col-lg-8 offset-lg-2 col-xl-6 offset-xl-0 swiper-slide">
                         <div class="card featured__card">
                             
                             <div class="card__image-area">
@@ -322,7 +322,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-0 swiper-slide">
+                    <div class="offset-md-1 col-md-10 col-lg-8 offset-lg-2 col-xl-6 offset-xl-0 swiper-slide">
                         <div class="card featured__card">
                             
                             <div class="card__image-area">
@@ -348,7 +348,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-12 col-lg-8 offset-lg-2 col-xl-6 offset-xl-0 swiper-slide">
+                    <div class="offset-md-1 col-md-10 col-lg-8 offset-lg-2 col-xl-6 offset-xl-0 swiper-slide">
                         <div class="card featured__card">
                             
                             <div class="card__image-area">
@@ -394,7 +394,7 @@
     <section class="section-advantage advantage">
         <div class="container">
 
-            <h2 class="section-title advantage__title" data-scroll="" data-splitting="">Преимущества комплексов Yenisesy</h2>
+            <h2 class="section-title advantage__title" >Преимущества комплексов Yenisesy</h2>
             <p class="advantage__description"><strong>Наши жилые комплексы</strong> – это сочетание безупречных архитектурных форм с высоким уровнем благоустроенности и уюта. Мы готовы удовлетворить все пожелания наших покупателей и предлагаем свои неизменные преимущества:</p>
 
             <div class="advantage__items row">
@@ -609,7 +609,7 @@
 
                 <div class="excellence__items row">
 
-                    <div class="col-lg-4 col-md-6 d-flex justify-content-lg-end">
+                    <div class="col-lg-4 col-sm-6 d-flex justify-content-lg-end">
                         <div class="excellence__item">
                             <div class="excellence__item-head">
                                 <img src="../assets/images/icons/exellence/item_icon_01.svg" class="excellence__icon" alt="Excellence Icon #01" data-aos="zoom-in" data-aos-delay="0">
@@ -628,7 +628,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 d-flex justify-content-lg-center">
+                    <div class="col-lg-4 col-sm-6 d-flex justify-content-lg-center">
                         <div class="excellence__item">
                             <div class="excellence__item-head">
                                 <img src="../assets/images/icons/exellence/item_icon_02.svg" class="excellence__icon" alt="Excellence Icon #02" data-aos="zoom-in" data-aos-delay="150">
@@ -645,7 +645,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 d-flex">
+                    <div class="col-lg-4 col-sm-6 d-flex">
                         <div class="excellence__item">
                             <div class="excellence__item-head">
                                 <img src="../assets/images/icons/exellence/item_icon_03.svg" class="excellence__icon" alt="Excellence Icon #03" data-aos="zoom-in" data-aos-delay="300">
@@ -662,7 +662,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 d-flex justify-content-lg-end">
+                    <div class="col-lg-4 col-sm-6 d-flex justify-content-lg-end">
                         <div class="excellence__item">
                             <div class="excellence__item-head">
                                 <img src="../assets/images/icons/exellence/item_icon_04.svg" class="excellence__icon" alt="Excellence Icon #04" data-aos="zoom-in" data-aos-delay="0">
@@ -681,7 +681,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 d-flex justify-content-lg-center">
+                    <div class="col-lg-4 col-sm-6 d-flex justify-content-lg-center">
                         <div class="excellence__item">
                             <div class="excellence__item-head">
                                 <img src="../assets/images/icons/exellence/item_icon_05.svg" class="excellence__icon" alt="Excellence Icon #05" data-aos="zoom-in" data-aos-delay="150">
@@ -699,7 +699,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 d-flex">
+                    <div class="col-lg-4 col-sm-6 d-flex">
                         <div class="excellence__item">
                             <div class="excellence__item-head">
                                 <img src="../assets/images/icons/exellence/item_icon_06.svg" class="excellence__icon" alt="Excellence Icon #06" data-aos="zoom-in" data-aos-delay="300">
@@ -730,7 +730,7 @@
     <section class="section-news news">
         <div class="container">
 
-            <h2 class="section-title section-news__title" data-scroll="" data-splitting="">Новые публикации</h2>
+            <h2 class="section-title section-news__title" >Новые публикации</h2>
 
             <div class="section-news__inner row news-slider">
 
@@ -838,7 +838,7 @@
         <div class="container">
 
             <div class="property__header">
-                <h2 class="section-title property__section-title" data-scroll="" data-splitting="">Качественная недвижимость от застройщика в Аланье</h2>
+                <h2 class="section-title property__section-title">Качественная недвижимость от застройщика в Аланье</h2>
 
                 <div class="property__header-inner row">
 
@@ -858,7 +858,7 @@
                 </div>
 
             </div>
-
+            <div class="property__content-image"></div>
             <div class="property__body row">
                 
                 <div class="col-lg-6">
@@ -879,7 +879,7 @@
 
                 <div class="col-lg-6 property__image-column">
                     <div class="property__image-block">                
-                        <img src="../assets/images/property_body-image.png" class="excellence__icon" alt="Excellence Image" width="488" height="586">
+                        <img src="../assets/images/property_body-image.png" class="excellence__icon excellence__image" alt="Excellence Image" width="488" height="586">
                     </div>
                 </div>
                 
@@ -887,7 +887,7 @@
             </div>
 
             <div class="property__how-buy how-buy">
-                <h2 class="section-title how-buy__title" data-scroll="" data-splitting="">Как купить квартиру от застройщика в Алании?</h2>
+                <h2 class="section-title how-buy__title">Как купить квартиру от застройщика в Алании?</h2>
 
                 <div class="how-buy__content row">
                     <div class="col-lg-6">
