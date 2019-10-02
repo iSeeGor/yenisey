@@ -262,7 +262,7 @@
 
     <!--== Featured  -->
     <section class="section-featured featured">
-        <div class="section__header featured__header parallax-window" data-parallax="scroll" data-image-src="../assets/images/products-section__bg.jpg"></div>
+        <div class="section__header featured__header" ></div>
         <div class="container">
           
             <h2 class="section-title featured__section-title">Горячие предложения</h2>

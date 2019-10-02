@@ -9,6 +9,10 @@
 /* ##Media Home
 * ======================================= */
 @media screen and (max-width: 1200px) {
+  .hero,
+  .featured__header,
+  .excellence__header {
+    background-attachment: scroll; }
   /* # sections */
   .section__header::before {
     background-size: 110%; }
@@ -51,8 +55,6 @@
     .search-form__button {
       margin: 0 auto;
       display: block; }
-  .search-filters {
-    height: auto; }
   /* #About */
   .about__content::after {
     left: -500px; }
@@ -182,6 +184,10 @@
     top: 400px; }
   .property__paralax::before {
     background-size: 120%; }
+  /* Featured */
+  .card:hover .card_image {
+    -webkit-transform: none;
+    transform: none; }
   /* #Footer */
   .footer {
     padding-top: 60px; }
@@ -269,7 +275,7 @@
     -ms-flex-pack: center;
     justify-content: center; }
   /* #Featered */
-  .featured__card {
+  .card {
     max-height: 100%; }
   .card__image-area {
     max-width: 100%;
@@ -322,6 +328,9 @@
   .testimonial__image-area {
     margin: 0 auto -100px;
     width: 260px; }
+  /* News */
+  .section-news .container {
+    max-width: 95%; }
   /* #Exellence */
   .excellence__item {
     margin-left: auto;
@@ -344,7 +353,7 @@
   /* #Popup Window */
   .popup {
     padding: 20px 20px;
-    width: 95%; }
+    margin: 20px; }
   .video-popup__content {
     width: 80%; } }
 
@@ -399,14 +408,16 @@
     margin: 0; }
   .section__header::before {
     background-size: 160%; }
-  .featured__card {
+  .card {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
     padding-bottom: 20px;
     -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap; }
+    flex-wrap: nowrap;
+    max-width: 400px;
+    margin: 0 auto; }
   .card__image {
     -webkit-transform: translateX(0);
     transform: translateX(0); }
@@ -438,6 +449,8 @@
   /* #Benefit */
   .benefit__content {
     margin: 0 auto; }
+  .benefit__header-image {
+    padding: 20px 30px; }
   .company-bio__text-block::before, .company-bio__text-block::after {
     width: 280px; }
   .property__paralax {
@@ -485,6 +498,54 @@
     margin: 0; }
   .product-slider {
     overflow: hidden; } }
+
+@media screen and (max-width: 992px) {
+  /* Page Headers */
+  .page-header {
+    margin-top: 70px; }
+  .order-by__container {
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .order-by__select-block {
+    margin-right: 0; }
+  .page-title {
+    margin-bottom: 60px; }
+  /* Article */
+  .article__row {
+    padding-right: 0;
+    padding-left: 0; } }
+
+@media screen and (max-width: 767px) {
+  /* Page Headers */
+  .order-by__select-block {
+    margin-bottom: 30px; }
+  /* Article */
+  .article__text-box {
+    padding-left: 0;
+    padding-right: 0; } }
+
+@media screen and (max-width: 575px) {
+  /* Product List/Grid */
+  .product-list__card {
+    margin-bottom: 40px; } }
+
+/* Media Queries Ranges */
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* Product List/Grid */
+  .product-list .card__image-area {
+    margin-left: -100px; }
+  .product-list .card__image {
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px); } }
+
+/* Custom Queries */
+@media screen and (max-width: 420px) {
+  /* Page Headers */
+  .order-by__label {
+    margin-bottom: 10px; } }
 
 /* Media Footer
    ============================================================== */

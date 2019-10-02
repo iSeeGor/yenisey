@@ -135,10 +135,10 @@ const swiperTestimonial = () => {
 
         320: {
           slidesPerView: 1,
-          spaceBetweenSlides: 10
+          spaceBetweenSlides: 40
         },
 
-        768: {
+        700: {
             slidesPerView: 2,
             spaceBetweenSlides: 30
         },
@@ -273,14 +273,31 @@ const popUpWindow = () => {
 
 // Text Splitt Effect
 const textSplittEffect = () => {
-  Splitting();
-  ScrollOut({
-    threshold: .8,
-    once: true,
-  });
+
+  const breakpoint = window.matchMedia( '(min-width:575px)' );
+
+  const breakpointChecker = function() {
+
+    if ( breakpoint.matches === true ) {
+
+      Splitting();
+      ScrollOut({
+        threshold: .8,
+        once: true,
+      });
+      
+
+    } else if ( breakpoint.matches === false ) {
+
+      ScrollOut.teardown();
+      
+    }
+  };
+
+
+  breakpoint.addListener(breakpointChecker);
+  breakpointChecker();
 }
-
-
 
 // $('.parallax-window').parallax({
   

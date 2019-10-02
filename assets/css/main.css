@@ -691,9 +691,9 @@ h5 {
   text-align: center;
   position: relative;
   background: transparent;
-  background-size: cover;
-  background: url("../images/hero-banner.jpg") no-repeat center;
-  background-attachment: fixed; }
+  background: url("../images/hero-banner.jpg") no-repeat top;
+  background-attachment: fixed;
+  background-size: cover; }
   .hero::before {
     content: '';
     position: absolute;
@@ -703,7 +703,18 @@ h5 {
     bottom: 0;
     left: 0;
     right: 0;
-    background: url("../images/hero-banner__overlay.png") no-repeat bottom; }
+    background: url("../images/hero-banner__overlay.png") no-repeat bottom;
+    background-size: cover; }
+  .hero::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("../images/hero_bottom_shadow.png") repeat-x bottom; }
   .hero__container {
     padding: 230px 0 400px;
     display: -webkit-box;
@@ -938,12 +949,16 @@ h5 {
     width: 104px;
     height: 104px;
     -webkit-animation: none;
-    animation: none; }
+    animation: none;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
   .video__button-box:hover .video__button-overlay {
     width: 152px;
     height: 152px;
     -webkit-animation: none;
-    animation: none; }
+    animation: none;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
 
 .video__button {
   display: block;
@@ -1208,7 +1223,8 @@ h5 {
   min-height: 615px;
   background: url("../images/products-section__bg-1920-c.jpg") no-repeat center center;
   background-size: cover;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  overflow: hidden; }
 
 .featured__section-title {
   margin-bottom: 57px; }
@@ -1714,8 +1730,8 @@ h5 {
     left: 0;
     right: 0;
     background: url("../images/property__bg-1920-c.jpg") no-repeat center;
-    background-size: cover;
-    background-attachment: fixed; }
+    background-attachment: fixed;
+    background-size: cover; }
     .property__paralax::before {
       content: '';
       position: absolute;
@@ -1856,10 +1872,17 @@ h5 {
 .favorits {
   font-size: 1.6rem; }
   .favorits__link {
-    color: #0071C2; }
+    color: #0071C2;
+    text-decoration: underline; }
   .favorits__count {
     font-family: "Montserrat", sans-serif;
-    font-weight: 600; }
+    font-weight: 600;
+    color: #0071C2;
+    text-decoration: none;
+    padding-left: 5px;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+    cursor: pointer; }
 
 /* #Page Header */
 .page-title {
@@ -1876,12 +1899,26 @@ h5 {
   min-height: 370px;
   background-image: url("../images/pages/page-header__real-estate_bg.png");
   background-position: center top; }
+  .page-header_real-astate {
+    background-image: url("../images/pages/page-header__real-estate_bg.png"); }
+  .page-header_flat-sale {
+    background-image: url("../images/pages/page-header__real-estate_flat-sale_bg.png"); }
+  .page-header_comercial {
+    background-image: url("../images/pages/page-header__real-estate_comercial_bg.png"); }
+  .page-header_rent {
+    background-image: url("../images/pages/page-header__real-estate_rent_bg.png"); }
+  .page-header__page-title {
+    margin-bottom: 60px; }
   .page-header__inner {
     padding: 0 20px; }
   .page-header__breadcrumb {
     margin: 0 0 37px 0; }
   .page-header__favorits {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    display: inline-block; }
+    .page-header__favorits:hover .favorits__count,
+    .page-header__favorits:hover .favorits__link {
+      color: #FF8617; }
 
 /* #Order By */
 .order-by {
@@ -1959,6 +1996,9 @@ h5 {
 
 .product-list {
   margin: 48px 0 100px; }
+  .product-list__card {
+    margin-bottom: 30px;
+    overflow: hidden; }
   .product-list__pagination {
     margin: 26px 0 60px; }
   .product-list__button {
@@ -2000,20 +2040,20 @@ h5 {
     .pagination__link:hover {
       color: #FF8617; }
 
-/* #Seo Block */
-.seo-block {
+/* #Article */
+.article {
   padding: 0px 0 75px 0;
   margin-top: -130px; }
-  .seo-block__row {
+  .article__row {
     padding: 0 66px; }
-  .seo-block__heading-title {
+  .article__heading-title {
     text-align: center;
     margin: 0 0 54px 0; }
-  .seo-block__text-box {
+  .article__text-box {
     padding: 0 100px; }
-  .seo-block__box-title {
+  .article__box-title {
     margin: 0  0  21px 0; }
-  .seo-block__image-box {
+  .article__image-box {
     padding: 16px 0 44px; }
 
 .ul-list {
@@ -2210,7 +2250,9 @@ h5 {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  margin: auto;
+  padding: 20px; }
 
 .popup-overlay_opened.popup-overlay {
   visibility: visible;

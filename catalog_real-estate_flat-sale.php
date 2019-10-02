@@ -1,7 +1,7 @@
 <?php include 'layouts/header.php'; ?>
 
 <!--== Page Header  -->
-<div class="page-header page-header_real-astate">
+<div class="page-header page-header_flat-sale">
     <div class="container">
         <div class="row">
             <div class="col-sm-10 offset-sm-1">
@@ -20,7 +20,7 @@
                     </div>
 
                     <div class="page-header__page-title">
-                        <h1 class="page-title">Продажа недвижимости в Алании</h1>
+                        <h1 class="page-title">Продажа квартир в Аланье</h1>
                     </div>
                 </div>
             </div>
