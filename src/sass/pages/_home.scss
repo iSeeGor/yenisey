@@ -326,17 +326,13 @@
         margin-left: 12px;
 
         &:hover .video__button::before {
-            width: 104px;
-            height: 104px;
+
             animation: none;
-            transform: translate(-50%,-50%);
         }
 
         &:hover .video__button-overlay {
-            width: 152px;
-            height: 152px;
+
             animation: none;
-            transform: translate(-50%,-50%);
         }
 
     }
@@ -667,6 +663,16 @@
     }
 }
 
+@media screen and (min-width:1199px){
+    .card {
+        &:hover {
+            .card__image {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
 .card {
     display: flex;
     border: 2px solid #C1E2FB;
@@ -679,7 +685,7 @@
     &:hover {
         border-color: $orange_color;
         .card__image {
-            transform: scale(1.1);
+            // transform: scale(1.1);
         }
     }
 
@@ -910,12 +916,18 @@
     }
 
     &__massage {
-        margin-bottom: 26px;
+        // margin-bottom: 26px;
     }
 
     &__readmore-link {
         text-decoration: underline;
         color: #1072BF;
+        margin-top: 26px;
+        display: block;
+    }
+
+    &__expanded-text {
+        display: none;
     }
 
     &__button-prev,
@@ -1334,6 +1346,7 @@
         height: 300px;
         width: 100%;
         // margin-bottom: 40px;
+        overflow: hidden;
         position: relative;
         background: url('../images/property__bg-1920-c.jpg') no-repeat center;
 
@@ -1341,10 +1354,11 @@
             content: '';
             position: absolute;
             bottom: -2px;
-            width: 100%;
+            width: 110%;
             height: 100%;
             background: url('../images/property__bg-overlay.png')no-repeat bottom;
             background-size: contain;
+            margin: 0 -10px;
         }
 
     }

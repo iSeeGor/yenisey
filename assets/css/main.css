@@ -139,6 +139,7 @@ strong {
     outline: none; }
 
 .button {
+  position: relative;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -153,18 +154,55 @@ strong {
   color: white;
   background-color: #FF8617;
   -webkit-transition: background-color 0.3s ease;
-  transition: background-color 0.3s ease; }
+  transition: background-color 0.3s ease;
+  overflow: hidden; }
+  .button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.25);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translate(20%, 210%) rotate(-30deg);
+    transform: translate(20%, 210%) rotate(-30deg);
+    -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+    border-radius: 30px; }
+  .button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.25);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translate(-20%, -210%) rotate(-30deg);
+    transform: translate(-20%, -210%) rotate(-30deg);
+    -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+    border-radius: 30px; }
+  .button:hover::before, .button:hover::after {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); }
   .button:focus {
     outline: none; }
-  .button:hover {
-    background-color: #FF9F47; }
+
+.button::before {
+  -webkit-transition-delay: 0.2s;
+  /* Safari */
+  transition-delay: 0.2s; }
 
 .button--blue {
   background-color: #0A3163;
   -webkit-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease; }
-  .button--blue:hover {
-    background-color: #0071C2; }
 
 .button--small {
   font-size: 1.2rem;
@@ -218,7 +256,7 @@ h5 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 70px;
+  height: 60px;
   padding: 0 20px;
   background: #C8E3F9;
   position: absolute;
@@ -230,16 +268,16 @@ h5 {
   max-width: 117px; }
 
 .hamburger {
-  height: 46px;
-  width: 46px;
+  height: 36px;
+  width: 36px;
   cursor: pointer;
   position: relative;
   overflow: hidden; }
   .hamburger::after {
     content: '';
     position: absolute;
-    width: 46px;
-    height: 46px;
+    width: 36px;
+    height: 36px;
     background: url("../images/icons/hamburger.svg") no-repeat center;
     -webkit-transform: translateX(0%);
     transform: translateX(0%);
@@ -251,8 +289,8 @@ h5 {
   .hamburger::before {
     content: '';
     position: absolute;
-    width: 46px;
-    height: 46px;
+    width: 36px;
+    height: 36px;
     background: url("../images/icons/close.svg") no-repeat center;
     -webkit-transform: translateX(140%);
     transform: translateX(140%);
@@ -272,7 +310,7 @@ h5 {
 
 .sidenav {
   display: block;
-  top: 70px;
+  top: 60px;
   height: 100%;
   width: 100%;
   padding: 40px 40px 56px 40px;
@@ -312,7 +350,7 @@ h5 {
   padding: 0;
   list-style: none; }
   .mobile-menu__item {
-    margin-bottom: 40px; }
+    margin-bottom: 30px; }
   .mobile-menu__link {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -961,19 +999,11 @@ h5 {
   margin-top: 33px;
   margin-left: 12px; }
   .video__button-box:hover .video__button::before {
-    width: 104px;
-    height: 104px;
     -webkit-animation: none;
-    animation: none;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); }
+    animation: none; }
   .video__button-box:hover .video__button-overlay {
-    width: 152px;
-    height: 152px;
     -webkit-animation: none;
-    animation: none;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); }
+    animation: none; }
 
 .video__button {
   display: block;
@@ -1252,6 +1282,11 @@ h5 {
   margin: 30px auto;
   width: 220px; }
 
+@media screen and (min-width: 1199px) {
+  .card:hover .card__image {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); } }
+
 .card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1265,9 +1300,6 @@ h5 {
   transition: border-color 0.5s ease; }
   .card:hover {
     border-color: #FF8617; }
-    .card:hover .card__image {
-      -webkit-transform: scale(1.1);
-      transform: scale(1.1); }
   .card__image-area {
     margin: -2px;
     overflow: hidden;
@@ -1434,11 +1466,13 @@ h5 {
     -ms-flex-pack: justify;
     justify-content: space-between;
     margin-bottom: 20px; }
-  .testimonial__massage {
-    margin-bottom: 26px; }
   .testimonial__readmore-link {
     text-decoration: underline;
-    color: #1072BF; }
+    color: #1072BF;
+    margin-top: 26px;
+    display: block; }
+  .testimonial__expanded-text {
+    display: none; }
   .testimonial__button-prev, .testimonial__button-next {
     background: #C8E4F9;
     border-radius: 50%;
@@ -1758,16 +1792,18 @@ h5 {
     display: none;
     height: 300px;
     width: 100%;
+    overflow: hidden;
     position: relative;
     background: url("../images/property__bg-1920-c.jpg") no-repeat center; }
     .property__content-image::before {
       content: '';
       position: absolute;
       bottom: -2px;
-      width: 100%;
+      width: 110%;
       height: 100%;
       background: url("../images/property__bg-overlay.png") no-repeat bottom;
-      background-size: contain; }
+      background-size: contain;
+      margin: 0 -10px; }
   @media screen and (max-width: 991px) {
     .property .property__content-image {
       display: block; } }
@@ -2384,7 +2420,7 @@ h5 {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out; }
   .video-popup__content {
-    width: 60%;
+    width: 70%;
     position: relative; }
   .video-popup__responsive-box {
     padding-top: 56.25%; }
@@ -2399,8 +2435,8 @@ h5 {
     background: #FFE;
     line-height: 0;
     padding: 3px;
-    top: -15px;
-    right: -15px; }
+    top: -20px;
+    right: -20px; }
 
 .video-popup_opened {
   -webkit-transform: translateY(0);

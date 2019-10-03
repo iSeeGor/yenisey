@@ -98,7 +98,9 @@ strong {
     }
 }
 
+
 .button {
+    position: relative;
     cursor: pointer;
     @include font_semiBold;
     font-size: 1.4rem;
@@ -111,16 +113,52 @@ strong {
     color: white;
     background-color: $orange_color;
     @include transition(background-color);
+    overflow: hidden;
+
+    &::before{
+        content: '';
+        position: absolute; 
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background-color: rgba(255,255,255,0.25);
+        transition: all 0.3s;
+        transform: translate(20%,210%) rotate(-30deg);
+        transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+        border-radius: 30px;
+    }
+
+    &::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background-color: rgba(255,255,255,0.25);
+        transition: all 0.3s;
+        transform: translate(-20%,-210%) rotate(-30deg);
+        transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+        border-radius: 30px;
+    }
+
+    &:hover::before, &:hover::after{
+        -webkit-transform: translate(0,0);
+        transform: translate(0,0);	
+    }
 
 
     &:focus {
         outline: none;
     }
+}
 
-    &:hover {
-        background-color: #FF9F47;
-
-    }
+.button::before{
+	-webkit-transition-delay: 0.2s; /* Safari */
+    transition-delay: 0.2s;
 }
 
 .button--blue {
@@ -128,7 +166,7 @@ strong {
     @include transition(background-color);
 
     &:hover {
-        background-color: $sky_color;
+        // background-color: $sky_color;
     }
 }
 

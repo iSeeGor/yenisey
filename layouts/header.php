@@ -58,8 +58,8 @@
                         <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Yenisey III">Yenisey III</a></li>
                         <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Yenisey II">Yenisey II</a></li>
                         <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Yenisey I">Yenisey I</a></li>
-                        <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Yenisey Palace">Yenisey Palace</a></li>
-                        <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Yenisey VII">Yenisey VII</a></li>
+                        <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Yenisey Palace">Yenisey Palace</a><span class="pref-new">New</span></li>
+                        <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Yenisey VII">Yenisey VII</a><span class="pref-new">New</span></li>
                     </ul>
                 </li>
                 <li class="mobile-menu__item"><a href="#" class="link mobile-menu__link" title="О нас">О нас</a></li>
@@ -159,10 +159,10 @@
 
                                         <ul class="menu mega-menu__column">
                                             <li class="menu__item">
-                                                <a href="#" class="link menu__item-link menu__item-link_new" title="Yenisey Palace">Yenisey Palace<span class="pref-new">New</span></a>
+                                                <a href="#" class="link menu__item-link menu__item-link_new" title="Yenisey Palace">Yenisey Palace</a><span class="pref-new">New</span>
                                             </li>
                                             <li class="menu__item">
-                                                <a href="#" class="link menu__item-link menu__item-link_new" title="Yenisey VII">Yenisey VII<span class="pref-new">New</span></a>
+                                                <a href="#" class="link menu__item-link menu__item-link_new" title="Yenisey VII">Yenisey VII</a><span class="pref-new">New</span>
                                             </li>
                                         </ul>
                                     </div>

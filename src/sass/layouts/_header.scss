@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 60px;
     padding: 0 20px;
     background: #C8E3F9;
     position: absolute;
@@ -24,8 +24,8 @@
 }
 
 .hamburger {
-    height: 46px;
-    width: 46px;
+    height: 36px;
+    width: 36px;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -33,8 +33,8 @@
     &::after {
         content: '';
         position: absolute;
-        width: 46px;
-        height: 46px;
+        width: 36px;
+        height: 36px;
         background: url('../images/icons/hamburger.svg') no-repeat center;
         transform: translateX(0%);
         transition: transform 0.4s ease;
@@ -44,8 +44,8 @@
     &::before {
         content: '';
         position: absolute;
-        width: 46px;
-        height: 46px;
+        width: 36px;
+        height: 36px;
         background: url('../images/icons/close.svg') no-repeat center;
         transform: translateX(140%);
         transition: transform 0.4s ease;
@@ -72,7 +72,7 @@
 
 .sidenav {
     display: block;
-    top: 70px;
+    top: 60px;
     height: 100%;
     width: 100%;
     padding: 40px 40px 56px 40px;
@@ -120,7 +120,7 @@
 
     &__item {
         // display: inline-block;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     &__link {

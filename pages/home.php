@@ -207,7 +207,7 @@
                 <div class="col-xl-10 offset-xl-1 benefit__content-inner">
                     <div class="row">
 
-                        <div class="col-lg-4 col-sm-6 d-flex ">
+                        <div class="col-lg-4 col-sm-12 d-flex">
                             <div class="benefit__item benefit__item_line">
                                 <div class="benefit__icon " data-aos="fade-up" data-aos-delay="200">
                                     <img src="../assets/images/icons/benefit/item_icon_01.svg" alt="Benefit Icon #01">
@@ -220,7 +220,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-sm-6 d-flex justify-content-lg-center ">
+                        <div class="col-lg-4 col-sm-12 d-flex justify-content-lg-center ">
                             <div class="benefit__item benefit__item_line">
                                 <div class="benefit__icon " data-aos="fade-up" data-aos-delay="400">
                                     <img src="../assets/images/icons/benefit/item_icon_02.svg" alt="Benefit Icon #02">
@@ -233,7 +233,7 @@
                             </div>
                         </div>    
 
-                        <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3 d-flex justify-content-lg-end">
+                        <div class="col-lg-4  col-sm-12  d-flex justify-content-lg-end">
                             <div class="benefit__item">
                                 <div class="benefit__icon " data-aos="fade-up" data-aos-delay="600">
                                     <img src="../assets/images/icons/benefit/item_icon_03.svg" alt="Benefit Icon #03">
@@ -478,11 +478,33 @@
                                     <div class="testimonial__date">10.09.2019</div>
                                 </div>
 
-                                <p class="testimonial__massage toggle-text">
+                                <p class="testimonial__massage">
                                     Когда встал вопрос о покупке недвижимости в Турции, пересмотрев много разных вариантов, случайно наткнулись на офис компании застройщика “Yenisey” и решили зайти. Очень доброжелательные сотрудники  ответили на все интересующие нас вопросы, рассказали очень подробно о дальнейшем оформлении документов и получении ВНЖ на территории Турции. Индивидуальный подход к каждому клиенту позволил нам без проблем общаться со специалистом отдела продаж строительной компания “Yenisey” - Анастасией. Общение оказалось очень продуктивным, и мы решили посмотреть имеющиеся на рынке недвижимости предложения от компании “Yenisey”.
                                 </p>
 
-                                <a href="#" class="testimonial__readmore-link link" title="Читать полностью">Читать полностью</a>
+                            </div>
+
+                        </div>
+
+                        <div class="testimonial__card swiper-slide">
+
+                            <div class="testimonial__image-area">
+                                <img src="../assets/images/testimonial_avatar.png" alt="Testimonial Avatar" width="355">
+                            </div>
+
+                            <div class="testimonial__body">
+
+                                <h4 class="testimonial__client-name">Семья Московчук</h4>
+                                
+                                <div class="testimonial__meta">
+                                    <div class="testimonial__city">Киев</div>
+                                    <div class="testimonial__date">10.09.2019</div>
+                                </div>
+
+                                <p class="testimonial__massage">
+                                <iframe width="100%" height="260" src="https://www.youtube.com/embed/Bey4XXJAqS8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </p>
+                               
                             </div>
 
                         </div>
@@ -506,7 +528,7 @@
                                     Когда встал вопрос о покупке недвижимости в Турции, пересмотрев много разных вариантов, случайно наткнулись на офис компании застройщика “Yenisey” и решили зайти. Очень доброжелательные сотрудники  ответили на все интересующие нас вопросы, рассказали очень подробно о дальнейшем оформлении документов и получении ВНЖ на территории Турции. Индивидуальный подход к каждому клиенту позволил нам без проблем общаться со специалистом отдела продаж строительной компания “Yenisey” - Анастасией. Общение оказалось очень продуктивным, и мы решили посмотреть имеющиеся на рынке недвижимости предложения от компании “Yenisey”.
                                 </p>
 
-                                <a href="#" class="testimonial__readmore-link link" title="Читать полностью">Читать полностью</a>
+                                
                             </div>
 
                         </div>
@@ -530,31 +552,7 @@
                                     Когда встал вопрос о покупке недвижимости в Турции, пересмотрев много разных вариантов, случайно наткнулись на офис компании застройщика “Yenisey” и решили зайти. Очень доброжелательные сотрудники  ответили на все интересующие нас вопросы, рассказали очень подробно о дальнейшем оформлении документов и получении ВНЖ на территории Турции. Индивидуальный подход к каждому клиенту позволил нам без проблем общаться со специалистом отдела продаж строительной компания “Yenisey” - Анастасией. Общение оказалось очень продуктивным, и мы решили посмотреть имеющиеся на рынке недвижимости предложения от компании “Yenisey”.
                                 </p>
 
-                                <a href="#" class="testimonial__readmore-link link" title="Читать полностью">Читать полностью</a>
-                            </div>
-
-                        </div>
-
-                        <div class="testimonial__card swiper-slide">
-
-                            <div class="testimonial__image-area">
-                                <img src="../assets/images/testimonial_avatar.png" alt="Testimonial Avatar" width="355">
-                            </div>
-
-                            <div class="testimonial__body">
-
-                                <h4 class="testimonial__client-name">Семья Московчук</h4>
                                 
-                                <div class="testimonial__meta">
-                                    <div class="testimonial__city">Киев</div>
-                                    <div class="testimonial__date">10.09.2019</div>
-                                </div>
-
-                                <p class="testimonial__massage">
-                                    Когда встал вопрос о покупке недвижимости в Турции, пересмотрев много разных вариантов, случайно наткнулись на офис компании застройщика “Yenisey” и решили зайти. Очень доброжелательные сотрудники  ответили на все интересующие нас вопросы, рассказали очень подробно о дальнейшем оформлении документов и получении ВНЖ на территории Турции. Индивидуальный подход к каждому клиенту позволил нам без проблем общаться со специалистом отдела продаж строительной компания “Yenisey” - Анастасией. Общение оказалось очень продуктивным, и мы решили посмотреть имеющиеся на рынке недвижимости предложения от компании “Yenisey”.
-                                </p>
-
-                                <a href="#" class="testimonial__readmore-link link" title="Читать полностью">Читать полностью</a>
                             </div>
 
                         </div>
@@ -585,7 +583,7 @@
 
                 <div class="excellence__top row">
 
-                    <div class="col-md-6">
+                    <div class="col-md-12 col-lg-6">
                         <div class="excellence__text-box">
                             <h2 class="section-title excellence__title " data-scroll="" data-splitting="">Преимущества компании Yenisey</h2>
 
@@ -599,9 +597,9 @@
                         </div>    
                     </div>
 
-                    <div class="col-md-6">
+                    <div class="col-md-12 col-lg-6">
                         <div class="excellence__image-box">
-                            <img src="../assets/images/excellence_no-image.png" class="excellence__icon" alt="Excellence Image" width="488" height="586">
+                            <img src="../assets/images/exellence-image.png" class="excellence__icon" alt="Excellence Image" width="488" height="586">
                         </div>                       
                     </div>
 

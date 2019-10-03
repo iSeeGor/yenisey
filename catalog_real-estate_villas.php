@@ -931,8 +931,7 @@
                                         получении ВНЖ на территории Турции.
                                     </p>
 
-                                    <a href="#" class="testimonial__readmore-link link" title="Читать полностью">Читать
-                                        полностью</a>
+                                    
                                 </div>
 
                             </div>
@@ -961,8 +960,7 @@
                                         получении ВНЖ на территории Турции.
                                     </p>
 
-                                    <a href="#" class="testimonial__readmore-link link" title="Читать полностью">Читать
-                                        полностью</a>
+                                    
                                 </div>
 
                             </div>
@@ -991,8 +989,7 @@
                                         получении ВНЖ на территории Турции.
                                     </p>
 
-                                    <a href="#" class="testimonial__readmore-link link" title="Читать полностью">Читать
-                                        полностью</a>
+                                    
                                 </div>
 
                             </div>
@@ -1021,8 +1018,7 @@
                                         получении ВНЖ на территории Турции.
                                     </p>
 
-                                    <a href="#" class="testimonial__readmore-link link" title="Читать полностью">Читать
-                                        полностью</a>
+                                    
                                 </div>
 
                             </div>

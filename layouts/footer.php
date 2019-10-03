@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="offset-sm-4 col-sm-4 offset-lg-0 col-lg-3">
+                <div class="offset-sm-4 col-sm-4 offset-lg-0 col-lg-2 col-xl-3">
                     <div class="widget footer__social-widget">
                         <div class="widget-logo">
                             <a href="#" title="Footer Logo"><img src="../assets/images/yenisey_footer_logo.png" alt="Footer Logo" width="127" class="widget-logo__image"></a>
@@ -35,7 +35,7 @@
                     </div>
                 </div>
 
-                <div class="offset-sm-2 col-sm-8 offset-lg-0 col-lg-5">
+                <div class="offset-sm-2 col-sm-10 col-md-9 offset-lg-0 col-lg-6 col-xl-5">
                     <div class="widget">
                         <ul class="widget-address footer__widget-address">
                             <li class="widget-address__item widget-address__item_address">Mahmutlar Mahallesi, 130 nolu sokak<br> no: 6/A-B 07450 Alanya / Antalya</li>
@@ -113,12 +113,12 @@
     <div class="footer__copyrights copyrights">
         <div class="container">
             <div class="row">
-                <div class="offset-sm-3 col-sm-6 offset-lg-0 col-lg-5">
+                <div class="col-sm-4 offset-lg-0 col-lg-5">
                     <div class="copyright footer__copyright">
                         Copyright 2019. Yenisey
                     </div>
                 </div>
-                <div class="col-sm-12 col-lg-7">
+                <div class="col-sm-8 col-lg-7">
                     <div class="art-sites copyrights__art-sites">
                         <span class="art-sites__text">Сайт разработан и поддерживается: 
                             <a href="https://art-sites.org" class="art-sites__link" title="art-sites.org">
