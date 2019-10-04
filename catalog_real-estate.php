@@ -1,7 +1,7 @@
 <?php include 'layouts/header.php'; ?>
 
 <!--== Page Header  -->
-<div class="page-header page-header_real-astate">
+<div class="page-header page-header_real-astate catalog-header">
     <div class="container">
         <div class="row">
             <div class="col-sm-10 offset-sm-1">
@@ -19,9 +19,6 @@
                         <a href="#" class="link favorits__link">Избранное:</a><span class="favorits__count">2</stron>
                     </div>
 
-                    <div class="page-header__page-title">
-                        <h1 class="page-title">Продажа недвижимости в Алании</h1>
-                    </div>
                 </div>
             </div>
 
@@ -31,6 +28,13 @@
 
 <!--== Page Content  -->
 <main class="content page__content">
+
+    <!--== Content Title  -->
+    <div class="content__title">
+        <div class="container">
+            <h1 class="content-title">Продажа недвижимости в Алании</h1>
+        </div>
+    </div>
 
     <!--== Search  -->
     <section class="section-search search content__search">

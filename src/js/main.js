@@ -10,6 +10,7 @@ $(function() {
   slideNav();
   toTopButton();
   homeFormValidate();
+  phoneMask();
 
 });
 
@@ -307,7 +308,12 @@ const textSplittEffect = () => {
 
     } else if ( breakpoint.matches === false ) {
 
-      ScrollOut.teardown();
+      // Splitting();
+      ScrollOut({
+        threshold: .8,
+        once: true,
+      }).teardown();
+      // ScrollOut.teardown();
       
     }
   };
@@ -392,19 +398,40 @@ const toTopButton = () => {
     scrollToTop();
   };
 };
-
+// Form Validation 
 const homeFormValidate = () => {
   $(".popup__form").validate({
+    errorClass: "send-form__error",
+
     rules: {
       name: {
         required: true,
-        minlength: 3
       },
       phone: {
         required: true,
         minlength: 10
       }
+    },
+
+    messages: {
+      name: {
+        required: 'Введите ваше Имя'
+      },
+      phone: {
+        required: 'Введите ваш номер телефона',
+        minlength: 'Минимальное количество символов - 10'
+      },
     }
   });
+};
+
+
+// Phone Number Mask
+const phoneMask = () => {
+  let element = document.querySelector('.send-form__input_phone');
   
+  let maskOptions = {
+    mask: '+{00} 000 000 0000'
+  };
+  let mask = IMask(element, maskOptions);
 };

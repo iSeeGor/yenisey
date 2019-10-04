@@ -153,6 +153,10 @@
     .how-buy__image_left {
         margin: 83px 0 0 0;
     }
+    .company-bio__text-block {
+        margin: 0px 0 26px 0;
+
+    } 
 
     /* #Testimonial */
     .section-news .swiper-slide,
@@ -500,6 +504,10 @@
         display: none;
     }
 
+    .about__text {
+        transform: translateX(0);
+    }
+
     /* #Privilages */
     .privilages__container {
         padding: 0 15px;
@@ -665,8 +673,10 @@
     
     /* #Video */
     .section-video {
-        padding-top: 120px;
-        background-position-x: 28%;
+        padding-top: 40px;
+        background-position-x: 40%;
+        background-position-y: 0px;
+        min-height: 700px;
 
         &__title {
             width: auto;
@@ -675,6 +685,7 @@
             order: 0;
         }
     }
+    
 
     .video__content {
         left: 0;
@@ -697,6 +708,9 @@
     .privilages__item {
         max-width: 90%;
         margin: 0 auto;
+    }
+    .section-privilages {
+        padding-bottom: 0;
     }
 
     .privilages__title {

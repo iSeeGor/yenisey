@@ -36,10 +36,30 @@
         // max-width: 250px;
         margin: 0 auto;
     }
+
+}
+
+@media screen and (max-width: 767px){
+    .footer__copyright {
+        align-items: flex-start;
+    }
 }
 
 @media screen and (max-width: 578px){
     .widget {
         max-width: 250px;
+    }
+
+    .footer__social-media {
+        margin-bottom: 10px;
+    }
+
+    .art-sites__text {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .art-sites__link {
+        display: block;
     }
 }

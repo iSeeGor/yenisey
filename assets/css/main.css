@@ -977,7 +977,7 @@ h5 {
     content: url("../images/video-section_bg-before.png");
     display: block;
     position: absolute;
-    top: 0; }
+    top: -2px; }
 
 .video__content {
   display: -webkit-box;
@@ -1936,20 +1936,14 @@ h5 {
     cursor: pointer; }
 
 /* #Page Header */
-.page-title {
-  color: #0071C2;
-  font-size: 3.6rem;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  margin: 0 auto; }
-
 .page-header {
   padding: 158px 0 0;
   margin-top: 110px;
-  min-height: 370px;
+  min-height: 556px;
   background-image: url("../images/pages/page-header__real-estate_bg.png");
-  background-position: center top; }
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover; }
   .page-header_real-astate {
     background-image: url("../images/pages/page-header__real-estate_bg.png"); }
   .page-header_flat-sale {
@@ -1958,8 +1952,8 @@ h5 {
     background-image: url("../images/pages/page-header__real-estate_comercial_bg.png"); }
   .page-header_rent {
     background-image: url("../images/pages/page-header__real-estate_rent_bg.png"); }
-  .page-header__page-title {
-    margin-bottom: 60px; }
+  .page-header_villas {
+    background-image: url("../images/pages/page-header__real-estate_villas_bg.png"); }
   .page-header__inner {
     padding: 0 20px; }
   .page-header__breadcrumb {
@@ -1970,6 +1964,10 @@ h5 {
     .page-header__favorits:hover .favorits__count,
     .page-header__favorits:hover .favorits__link {
       color: #FF8617; }
+
+/* #Catalog Header */
+.catalog-header {
+  margin-bottom: -294px; }
 
 /* #Order By */
 .order-by {
@@ -2004,11 +2002,23 @@ h5 {
     min-width: 260px; }
 
 /* #Page Content */
+.content-title {
+  color: #0071C2;
+  font-size: 3.6rem;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin: 0 auto;
+  line-height: 1.32; }
+
 .content__search {
-  margin: -28px 0 35px 0; }
+  margin: 0px 0 35px 0; }
 
 .content__testimonial {
   padding-bottom: 213px; }
+
+.content__title {
+  margin-bottom: 35px; }
 
 /* #Product List/Grid */
 .card__image-area {
@@ -2047,6 +2057,9 @@ h5 {
 
 .product-list {
   margin: 48px 0 100px; }
+  .product-list__title {
+    margin: 0 auto 53px;
+    text-align: center; }
   .product-list__card {
     margin-bottom: 30px;
     overflow: hidden; }
@@ -2091,12 +2104,77 @@ h5 {
     .pagination__link:hover {
       color: #FF8617; }
 
+/* #Villas Info Text */
+.villas-info {
+  padding: 30px 0 48px 0; }
+  .villas-info__container {
+    padding: 0 83px; }
+  .villas-info__image-box {
+    position: relative;
+    margin-bottom: 34px; }
+  .villas-info__image-title {
+    position: absolute;
+    margin: 60px;
+    margin-right: 10px;
+    font-size: 3rem; }
+  .villas-info__text-box {
+    color: #174782; }
+  .villas-info__head-box {
+    color: #174782;
+    position: relative;
+    padding: 30px 0 25px 0; }
+    .villas-info__head-box .paragraph {
+      margin: 0; }
+    .villas-info__head-box::before, .villas-info__head-box::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 360px;
+      height: 2px;
+      background-color: #C8E4F9; }
+    .villas-info__head-box::after {
+      top: inherit;
+      bottom: 0; }
+
+.villas-privilages {
+  padding-left: 68px;
+  padding-top: 32px; }
+  .villas-privilages__title {
+    font-size: 1.4rem;
+    color: #0A3163;
+    margin: 0 0 15px 0; }
+  .villas-privilages__list {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+  .villas-privilages__item {
+    margin-bottom: 23px;
+    position: relative; }
+    .villas-privilages__item::before {
+      content: url("../images/icons/catalogs/catalog__icon-01.svg");
+      position: absolute;
+      top: 3px;
+      left: -62px; }
+    .villas-privilages__item:nth-child(2)::before {
+      content: url("../images/icons/catalogs/catalog__icon-02.svg"); }
+    .villas-privilages__item:nth-child(3)::before {
+      content: url("../images/icons/catalogs/catalog__icon-03.svg");
+      left: -68px; }
+
+@media screen and (min-width: 1199px) {
+  /* Catalog - Villas */
+  .villas-info__left-column {
+    padding-right: 68px;
+    margin-right: -20px; } }
+
 /* #Article */
 .article {
   padding: 0px 0 75px 0;
   margin-top: -130px; }
   .article__row {
-    padding: 0 66px; }
+    padding: 0 66px;
+    margin-bottom: 20px; }
   .article__heading-title {
     text-align: center;
     margin: 0 0 54px 0; }
@@ -2105,7 +2183,7 @@ h5 {
   .article__box-title {
     margin: 0  0  21px 0; }
   .article__image-box {
-    padding: 16px 0 44px; }
+    padding: 16px 0 24px; }
 
 .ul-list {
   margin: 0 0 23px 0;
@@ -2285,7 +2363,7 @@ h5 {
   bottom: 0;
   left: 0;
   right: 0;
-  background: url("../images/popup_bg.png") no-repeat center;
+  background: url("../images/popup_bg.png") no-repeat top;
   background-size: cover;
   z-index: 100;
   overflow: auto;
@@ -2395,6 +2473,12 @@ h5 {
   resize: none;
   width: 100%;
   height: 115px; }
+
+.send-form__error {
+  color: red; }
+
+label.send-form__error {
+  padding-left: 20px; }
 
 .video-popup {
   display: -webkit-box;

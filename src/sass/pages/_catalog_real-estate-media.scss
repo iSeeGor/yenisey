@@ -1,12 +1,15 @@
 @media screen and (max-width:1200px){
-    
+    /* Catalog -- Villas Info */
+    .villas-info__container {
+        padding: 0;
+    }
 }
 
 @media screen and (max-width:992px){
 
     /* Page Headers */
     .page-header {
-        margin-top: 70px;
+        margin-top: 60px;
     }
 
     .order-by__container {
@@ -28,6 +31,9 @@
         padding-right: 0;
         padding-left: 0;
     } 
+
+    /* Catalog -- Villas Info */ 
+    
 }
 
 @media screen and (max-width:767px){

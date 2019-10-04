@@ -147,6 +147,7 @@
     <script src="assets/js/plugins/scroll-out.min.js"></script>
     <script src="assets/js/plugins/splitting.js"></script>
     <script src="assets/js/plugins/jquery.validate.min.js"></script>
+    <script src="https://unpkg.com/imask"></script>
 
     <!--== JS Scripts -->
     <script src="assets/js/script.min.js"></script>
