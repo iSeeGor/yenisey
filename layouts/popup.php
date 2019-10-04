@@ -39,7 +39,7 @@
         <div class="video-popup__content">
             <div class="video-popup__responsive-box"></div>
 
-            <iframe class="video-popup__iframe" src="https://www.youtube.com/embed/4pwXhzedNCI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <iframe class="video-popup__iframe" src="https://www.youtube.com/embed/4pwXhzedNCI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
             
 
             <button class="popup__close-btn video-popup__close-btn">

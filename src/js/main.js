@@ -9,6 +9,7 @@ $(function() {
   timonialsExpandText();
   slideNav();
   toTopButton();
+  homeFormValidate();
 
 });
 
@@ -390,4 +391,20 @@ const toTopButton = () => {
     e.preventDefault();
     scrollToTop();
   };
+};
+
+const homeFormValidate = () => {
+  $(".popup__form").validate({
+    rules: {
+      name: {
+        required: true,
+        minlength: 3
+      },
+      phone: {
+        required: true,
+        minlength: 10
+      }
+    }
+  });
+  
 };
