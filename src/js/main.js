@@ -11,6 +11,7 @@ $(function() {
   toTopButton();
   homeFormValidate();
   phoneMask();
+  articleToggle();
 
 });
 
@@ -244,50 +245,71 @@ const accordionMenu = () => {
 
 // PopUp Window 
 const popUpWindow = () => {
-  const popup = document.querySelector('.popup');
-  const openPopup = document.querySelectorAll('.button__popup');
-  const overlay = document.querySelector('.popup-overlay');
-  const closeBtn = document.querySelector('.popup__close-btn');
+  let popup = document.querySelector('.popup');
+  let openPopup = document.querySelectorAll('.button__popup');
+  let popupTitle = document.querySelector('.popup__title');
+  let popupText = document.querySelector('.popup__text');
+  
+  let overlay = document.querySelector('.popup-overlay');
+  let closeBtn = document.querySelector('.popup__close-btn');
 
-  const openPopupVideo = document.querySelector('.button__popup-video');
-  const videoPopup = document.querySelector('.video-popup');
-  const closeVideoPopup = document.querySelector('.video-popup__close-btn');
+  let openPopupVideo = document.querySelector('.button__popup-video');
+  let videoPopup = document.querySelector('.video-popup');
+  let closeVideoPopup = document.querySelector('.video-popup__close-btn');
 
   for(let i = 0; i < openPopup.length; i++){
     openPopup[i].onclick = function() {
+
+      if (this.hasAttribute('data-popup-title') && this.hasAttribute('data-popup-text')){
+        popupTitle.innerHTML = this.dataset.popupTitle;
+        popupText.innerHTML = this.dataset.popupText;       
+
+      } else if (this.hasAttribute('data-popup-text') === false ){
+        popupTitle.innerHTML = this.dataset.popupTitle;
+
+      } else {
+        popupTitle.innerHTML = 'Перезвоните мне';
+        popupText.innerHTML = 'Для получения подробной информации заполните форму и наш менеджер свяжется с Вами в ближайшее время';
+      }      
+
       overlay.classList.add('popup-overlay_opened');
       popup.classList.add('popup_show');
-      document.body.style = "overflow:hidden";    
+      // document.body.style = "overflow-y:scroll; width:100%; position:fixed;";
+      
     };
-  }
-
-  if (openPopupVideo){
-      openPopupVideo.addEventListener('click', function(){
-      overlay.classList.add('popup-overlay_opened');
-      videoPopup.classList.add('video-popup_opened');
-      document.body.style = "overflow:hidden"; 
-    });
-
-      closeVideoPopup.addEventListener('click', function(){
-      overlay.classList.remove('popup-overlay_opened');
-      videoPopup.classList.remove('video-popup_opened');
-      document.body.style = "overflow:auto"; 
-    });
   }
 
   closeBtn.onclick = function() {
     overlay.classList.remove('popup-overlay_opened');
     popup.classList.remove('popup_show');
-    document.body.style = "overflow:auto";     
+    // document.body.style = "overflow:auto; position:relative; width:auto;";     
   };
+
+  if (openPopupVideo){
+      openPopupVideo.addEventListener('click', function(){
+      overlay.classList.add('popup-overlay_opened');
+      videoPopup.classList.add('video-popup_opened');
+      // document.body.style = "overflow-y:scroll; width:100%; position:fixed;";
+       
+    });
+
+      closeVideoPopup.addEventListener('click', function(){
+      overlay.classList.remove('popup-overlay_opened');
+      videoPopup.classList.remove('video-popup_opened');
+      // document.body.style = "overflow:auto; position:relative; width:auto;"; 
+    });
+  }
 
   window.onclick = function(e) {
     if (e.target == overlay) {
       overlay.classList.remove('popup-overlay_opened');
       popup.classList.remove('popup_show');
-      document.body.style = "overflow:auto"; 
+      // document.body.style = "overflow:auto; position:relative; width:auto;"; 
     }
   }
+
+  
+  
 }
 
 // Text Splitt Effect
@@ -434,4 +456,26 @@ const phoneMask = () => {
     mask: '+{00} 000 000 0000'
   };
   let mask = IMask(element, maskOptions);
+};
+
+// Article Toggle 
+const articleToggle = () => {
+
+  let btn = document.querySelector('.article__toggle-btn');
+  let content = document.querySelector('.article__content');
+
+  if(btn){
+    btn.addEventListener('click', function(){
+      if(content.classList.contains('article-content_toggle')){
+        content.classList.remove('article-content_toggle');
+        btn.innerHTML = 'Скрыть текст';
+      } else {
+        content.classList.add('article-content_toggle');
+        btn.innerHTML = 'Читать все';
+      }
+  
+    });
+  }
+  
+
 };

@@ -679,7 +679,7 @@
     border-radius: 20px;
     color: #174782;
     background: white;
-    max-height: 261px;
+    height: 261px;
     @include transition(border-color, .5s);
     
     &:hover {

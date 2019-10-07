@@ -83,7 +83,10 @@
                 <li class="phones__item"><a href="tel:+902425283388" class="link phones__item-link phones__item-link_rus" title="+902425283388">+90 242 528 3388</a></li>
             </ul>
 
-            <button class="button button--blue button--small button__popup">Перезвоните мне</button>
+            <button class="button button--blue button--small button__popup"
+            data-popup-title="Перезвоните мне"
+            data-popup-text="Для получения подробной информации заполните форму и наш менеджер свяжется с Вами в ближайшее время">
+            Перезвоните мне</button>
         </div>
 
         <!--== Header  -->
@@ -115,7 +118,10 @@
                                 <div class="logo">
                                     <a href="/" title="Yenisey Logo"><img src="../assets/images/yenisey_logo.png" alt="Yenisey Logo" width="142"></a>
                                 </div>
-                                <button class="button button--blue button--small button__popup">Перезвоните мне</button>
+                                <button class="button button--blue button--small button__popup"
+                                    data-popup-title="Перезвоните мне"
+                                    data-popup-text="Для получения подробной информации заполните форму и наш менеджер свяжется с Вами в ближайшее время">
+                                    Перезвоните мне</button>
                             </div>    
                         </div>
                     </div>

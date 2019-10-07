@@ -12,7 +12,7 @@
      data-aos-duration="1200" data-aos-delay="1400">Мечтаете жить на побережье Средиземного моря?<br> С нашей компанией Ваши мечты становятся реальностью!</h2>
 
                 <button class="button hero__button button__popup" data-aos="fade-up"
-     data-aos-duration="1200" data-aos-delay="1800">Заказать бесплатную консультацию</button>
+     data-aos-duration="1200" data-aos-delay="1800" data-popup-title="Заказать бесплатную консультацию">Заказать бесплатную консультацию</button>
             </div>
 
         </div>
@@ -255,7 +255,8 @@
                 В идеальном месте идеально всё!
             </div>
 
-            <button class="button benefit__button button__popup">Получить подробную информацию</button>
+            <button class="button benefit__button button__popup" 
+            data-popup-title="Получить подробную информацию">Получить подробную информацию</button>
         
         </div>
     </section>
@@ -717,7 +718,7 @@
 
                 </div>
 
-                <button class="button excellence__button button__popup">Задать вопрос</button>
+                <button class="button excellence__button button__popup" data-popup-title="Задать вопрос">Задать вопрос</button>
 
             </div>
         </div>

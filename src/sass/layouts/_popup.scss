@@ -18,11 +18,13 @@
   align-items: flex-start;
   margin: auto;
   padding: 20px;
+  
 }
 
 .popup-overlay_opened.popup-overlay {
   visibility: visible;
   opacity: 1;
+  // overflow: scroll;
 }
 
 .popup.popup_show {
@@ -145,7 +147,17 @@
   &__error {
     color: red;
   }
+
+  .button{
+    &::before {
+      transform: translate(15%, 270%) rotate(-30deg);
+    }
+    &::after {
+      transform: translate(-15%, -270%) rotate(-30deg);
+    }
+  }
 }
+
 
 label.send-form__error {
   padding-left: 20px;

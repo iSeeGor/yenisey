@@ -551,7 +551,7 @@
 
     .card__image {
         width: 100% !important;
-        height: auto !important;
+        height: 100% !important;
     }
 
     .card__property-item {
@@ -663,6 +663,12 @@
     .video-popup__content {
         width: 70%;
     }
+
+    /* To Top */
+    .to-top {
+        bottom: 20px;
+        right: 20px;
+    }
 }
 
 @media screen and (max-width:575px){
@@ -748,12 +754,14 @@
         flex-wrap: nowrap;
         max-width: 400px;
         margin: 0 auto;
+        height: auto;
     }
     .card__image {
         transform: translateX(0);
     }
     .card__image-area {
         margin: 0;
+        height: 293px;
     }
 
     .card__body {

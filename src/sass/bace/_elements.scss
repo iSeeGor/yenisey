@@ -21,14 +21,6 @@ img {
     vertical-align: middle;
 }
 
-strong {
-    @include font_semiBold;
-}
-
-.paragraph {
-    margin: 0 0 22px 0; 
-}
-
 .paragraph_dott {
 
 
@@ -177,6 +169,54 @@ strong {
     padding: 0 27px; 
 }
 
-// .button_main {
-//     background: 
-// }
+
+/* Blog Text Content Styles */
+.article-content {
+
+    & > *:not(img) {
+        padding-left: 166px;
+        padding-right: 166px;
+    }
+
+    p { 
+        margin: 0 0 22px 0; 
+    }
+
+    img {
+        margin: 16px 0 42px;
+        width: 100%;
+        padding: 0 66px;
+        
+    }
+    
+    ul {
+        margin: 0 0 23px 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        list-style: none;
+
+        li {
+
+            &::before {
+                content: '';
+                width: 7px;
+                height: 7px;
+                background: #FF8617;
+                border-radius: 50%;
+                display: inline-block;
+                margin-right: 8px;
+            }
+        }
+    }
+
+    ol {
+        margin: 0 0 23px 0;
+        padding-top: 0;
+        padding-bottom: 0;  
+    }
+
+    strong {
+        display: inline-block;
+    }
+
+}

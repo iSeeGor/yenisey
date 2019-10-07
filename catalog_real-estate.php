@@ -145,11 +145,12 @@
             <div class="row">
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_01.png" class="card__image"
-                                alt="Product Image #01" >
+                                alt="Product Image #01">
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
@@ -206,11 +207,12 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_02.png" class="card__image"
-                                alt="Product Image #02" >
+                                alt="Product Image #02">
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -267,11 +269,12 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_03.png" class="card__image"
-                                alt="Product Image #03" >
+                                alt="Product Image #03">
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
@@ -328,11 +331,12 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_04.png" class="card__image"
-                                alt="Product Image #04" >
+                                alt="Product Image #04">
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -389,11 +393,12 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_01.png" class="card__image"
-                                alt="Product Image #01" >
+                                alt="Product Image #01">
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
@@ -450,11 +455,12 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_02.png" class="card__image"
-                                alt="Product Image #02" >
+                                alt="Product Image #02">
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -511,11 +517,12 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_03.png" class="card__image"
-                                alt="Product Image #03" >
+                                alt="Product Image #03">
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
                                     viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -571,11 +578,12 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_04.png" class="card__image"
-                                alt="Product Image #04" >
+                                alt="Product Image #04">
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -632,11 +640,12 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_03.png" class="card__image"
-                                alt="Product Image #03" >
+                                alt="Product Image #03">
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
                                     viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -692,11 +701,12 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_04.png" class="card__image"
-                                alt="Product Image #04" >
+                                alt="Product Image #04">
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -753,11 +763,12 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_03.png" class="card__image"
-                                alt="Product Image #03" >
+                                alt="Product Image #03">
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
                                     viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -813,11 +824,12 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_04.png" class="card__image"
-                                alt="Product Image #04" >
+                                alt="Product Image #04">
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -895,7 +907,10 @@
                 </ul>
             </div>
 
-            <button class="button product-list__button button__popup">Отправить запрос</button>
+            <button class="button product-list__button button__popup"
+                data-popup-title="Отправить запрос на подбор недвижимости"
+                data-popup-text="Пожалуйста, заполните форму и нажмите кнопку «Отправить». Наш специалист свяжется с Вами, согласует параметры для подбора объектов и предоставит всю необходимую информацию.">
+                Отправить запрос</button>
 
         </div>
     </div>
@@ -935,7 +950,7 @@
                                         получении ВНЖ на территории Турции.
                                     </p>
 
-                                    
+
                                 </div>
 
                             </div>
@@ -964,7 +979,7 @@
                                         получении ВНЖ на территории Турции.
                                     </p>
 
-                                    
+
                                 </div>
 
                             </div>
@@ -993,7 +1008,7 @@
                                         получении ВНЖ на территории Турции.
                                     </p>
 
-                                    
+
                                 </div>
 
                             </div>
@@ -1022,7 +1037,7 @@
                                         получении ВНЖ на территории Турции.
                                     </p>
 
-                                    
+
                                 </div>
 
                             </div>
@@ -1043,123 +1058,105 @@
     </div>
 
     <!--== Text Block  -->
-    <article class="article">
+    <article class="article catalog__article">
         <div class="container">
 
-            <div class="article__row">
-                <h2 class="article__heading-title">Квартиры от застройщика <br>в Алании, Турция</h2>
+            <h2 class="article__heading-title">Квартиры от застройщика <br>в Алании, Турция</h2>
 
-                <div class="article__text-box">
+            <div class="article__content article-content article-content_toggle">
 
-                    <p class="paragraph"><strong>Приобретение нового жилья – один из самых запоминающихся и частливых
-                            моментов в жизни человека.</strong></p>
+                <p><strong>Приобретение нового жилья – один из самых запоминающихся и частливых
+                        моментов в жизни человека.</strong></p>
 
-                    <p class="paragraph">В особенности если это покупка собственности за границей, например, в
-                        Турции. В наши дни эта уникальная страна интересна не только туристам в качестве
-                        места для хорошего отдыха, но и инвесторам из-за рубежа, которые уже на протяжении
-                        многих лет активно вкладывают свои средства в недвижимость.
-                        Южный средиземноморский город Алания - курортная область, где прекрасно всё:
-                        идеальный для отдыха климат, теплое и чистое море, хорошая экология, целебный
-                        воздух, живописные горы, множество отелей, работающих по системе «all inclusive»,
-                        развитая инфраструктура, а также большой спектр апартаментов для желающих стать
-                        полноправным жителем этого неповторимого пространства.</p>
+                <p>В особенности если это покупка собственности за границей, например, в
+                    Турции. В наши дни эта уникальная страна интересна не только туристам в качестве
+                    места для хорошего отдыха, но и инвесторам из-за рубежа, которые уже на протяжении
+                    многих лет активно вкладывают свои средства в недвижимость.
+                    Южный средиземноморский город Алания - курортная область, где прекрасно всё:
+                    идеальный для отдыха климат, теплое и чистое море, хорошая экология, целебный
+                    воздух, живописные горы, множество отелей, работающих по системе «all inclusive»,
+                    развитая инфраструктура, а также большой спектр апартаментов для желающих стать
+                    полноправным жителем этого неповторимого пространства.</p>
 
-                    <p class="paragraph">
-                        Среди представленных на рынке вариантов особое место занимает первичная
-                        недвижимость и в частности квартиры от застройщика в Аланье. Именно на эту категорию
-                        собственности наблюдается большой спрос среди иностранцев. Чем обусловлена такая
-                        популярность? В-первую очередь, теми неоспоримыми преимуществами, которые
-                        предлагают хорошие компании-застройщики своим покупателям.</p>
-                </div>
-                <div class="article__image-box">
-                    <img src="../assets/images/pages/article__real-estate_image_01.jpg" alt="Seo Block Image 01"
-                        class="article__image">
-                </div>
+                <p>
+                    Среди представленных на рынке вариантов особое место занимает первичная
+                    недвижимость и в частности квартиры от застройщика в Аланье. Именно на эту категорию
+                    собственности наблюдается большой спрос среди иностранцев. Чем обусловлена такая
+                    популярность? В-первую очередь, теми неоспоримыми преимуществами, которые
+                    предлагают хорошие компании-застройщики своим покупателям.</p>
+
+                <img src="../assets/images/pages/article__real-estate_image_01.jpg" alt="Seo Block Image 01">
+
+
+
+                <h3>Новые квартиры в Алании – преимущества покупки</h3>
+
+                <strong>Таковыми достоинствами безусловно являются:</strong>
+
+                <ul>
+                    <li>использование современных материалов в процессе возведения; </li>
+                    <li>прокладка добротных коммуникаций;</li>
+                    <li>хорошо рассчитанная, рациональная планировка помещений;</li>
+                    <li>наличие удобной внутренней и внешней инфраструктуры;</li>
+                    <li>своя закрытая территория возле комплекса;</li>
+                    <li>при сотрудничестве с надежным девелопером исключаются любые риски что до
+                        сроков окончания строительства и оформления всех документов;</li>
+                    <li>возможность выбрать подходящие условия покупки.</li>
+                </ul>
+
+                <p>
+                    Действительно, ведущие строительные компании в Турецкой республике в процессе
+                    работ используют только лучшие материалы, инновационные технологии, продуманную
+                    систему коммуникаций, что позволяет создать в помещении высокий уровень комфорта,
+                    получить в целом надежную, экологичную, энергоэффективную систему.
+                </p>
+
+                <p>В новых апартаментах планировка просторных комнат продумана до мелочей и
+                    часто в продаже есть жильё, полностью готовое к проживанию. Облагороженная придомовая
+                    территория, функционирующие объекты общественного пользования позволяют жителям
+                    получать все нужные услуги прямо на месте. Многие девелоперские организации
+                    предлагают своим клиентам удобный <br>варианты расчета. <br>Например, ипотечное
+                    кредитование или беспроцентную рассрочку.</p>
+
+                <img src="../assets/images/pages/article__real-estate_image_02.png" alt="Seo Block Image 02">
+
+                <h3>Как выбрать недвижимость от застройщика в Турции?</h3>
+
+                <strong>Вопрос выбора жилья от собственника в Турции является основополагающим
+                    для
+                    каждого потенциального покупателя. Стоит обратить внимание на несколько главных
+                    критериев:</strong>
+
+                <ul>
+                    <li>Репутация застройщика.</li>
+                    <li>Месторасположение жилого комплекса.</li>
+                    <li>Состояние окружающей среды.</li>
+                    <li>Наличие всех необходимых удобств для жизни и отдыха прямо в ЖК.</li>
+                    <li>Хорошие цены.</li>
+                </ul>
+
+                <p>
+                    Всё это и даже больше может предложить Вам строительная компания Yenisey!
+                    Мы имеем многолетний успешный трудовой стаж, построили и ввели в эксплуатацию
+                    одни из самых ярких и качественных жилых комплексов Алании. В нашей собственности
+                    лучшие земельные участки, каждый из которых имеет свою изюминку и расположен не
+                    далее, чем в 200 метрах от морского побережья, в экологически чистом регионе. Мы
+                    дорожим своей репутацией ведущего девелопера, поэтому предоставляем к продаже
+                    квартиры в Алании от собственника в разном ценовом диапазоне, над которыми начиная
+                    от взведения и заканчивая дизайнерским ремонтом, трудились лучшие специалисты. Все
+                    ЖК имеют свой авторский архитектурный дизайн, развитую инфраструктуру, на
+                    территории работает профессиональная обслуживающая организация.
+
+                </p>
+
+                <p>Если Вас заинтересовали новые квартиры в ЖК Yenisey, обращайтесь в отдел продаж.
+                    Мы предлагаем ознакомительный тур по понравившимся объектам, где Вы сможете
+                    увидеть все преимущества наших новостроек. Гарантируем полное сопровождение
+                    сделки купли-продажи и всестороннюю помощь на всех этапах сотрудничества, в том
+                    числе и после получения ТАПУ.</p>
             </div>
 
-            <div class="article__row">
-                <div class="article__text-box">
-
-                    <h3 class="article__box-title">Новые квартиры в Алании – преимущества покупки</h3>
-
-                    <strong>Таковыми достоинствами безусловно являются:</strong>
-
-                    <ul class="ul-list">
-                        <li>использование современных материалов в процессе возведения; </li>
-                        <li>прокладка добротных коммуникаций;
-                        </li>
-                        <li>хорошо рассчитанная, рациональная планировка помещений;
-                        </li>
-                        <li>наличие удобной внутренней и внешней инфраструктуры;
-                        </li>
-                        <li>своя закрытая территория возле комплекса;
-                        </li>
-                        <li>при сотрудничестве с надежным девелопером исключаются любые риски что до
-                            сроков окончания строительства и оформления всех документов;
-                        </li>
-                        <li>возможность выбрать подходящие условия покупки.
-                        </li>
-                    </ul>
-
-                    <p class="paragraph">
-                        Действительно, ведущие строительные компании в Турецкой республике в процессе
-                        работ используют только лучшие материалы, инновационные технологии, продуманную
-                        систему коммуникаций, что позволяет создать в помещении высокий уровень комфорта,
-                        получить в целом надежную, экологичную, энергоэффективную систему.
-                    </p>
-
-                    <p class="paragraph">В новых апартаментах планировка просторных комнат продумана до мелочей и
-                        часто в продаже есть жильё, полностью готовое к проживанию. Облагороженная придомовая
-                        территория, функционирующие объекты общественного пользования позволяют жителям
-                        получать все нужные услуги прямо на месте. Многие девелоперские организации
-                        предлагают своим клиентам удобный <br>варианты расчета. <br>Например, ипотечное
-                        кредитование или беспроцентную рассрочку.</p>
-                </div>
-                <div class="article__image-box">
-                    <img src="../assets/images/pages/article__real-estate_image_02.png" alt="Seo Block Image 02"
-                        class="article__image">
-                </div>
-            </div>
-
-            <div class="article__row">
-                <div class="article__text-box">
-                    <h3 class="article__box-title">Как выбрать недвижимость от застройщика в Турции?</h3>
-
-                    <strong>Вопрос выбора жилья от собственника в Турции является основополагающим
-                            для
-                            каждого потенциального покупателя. Стоит обратить внимание на несколько главных
-                            критериев:</strong>
-
-                    <ul class="ul-list">
-                        <li>Репутация застройщика.</li>
-                        <li>Месторасположение жилого комплекса.</li>
-                        <li>Состояние окружающей среды.</li>
-                        <li>Наличие всех необходимых удобств для жизни и отдыха прямо в ЖК.</li>
-                        <li>Хорошие цены.</li>
-                    </ul>
-
-                    <p class="paragraph">
-                            Всё это и даже больше может предложить Вам строительная компания Yenisey!
-                            Мы имеем многолетний успешный трудовой стаж, построили и ввели в эксплуатацию
-                            одни из самых ярких и качественных жилых комплексов Алании. В нашей собственности
-                            лучшие земельные участки, каждый из которых имеет свою изюминку и расположен не
-                            далее, чем в 200 метрах от морского побережья, в экологически чистом регионе. Мы
-                            дорожим своей репутацией ведущего девелопера, поэтому предоставляем к продаже
-                            квартиры в Алании от собственника в разном ценовом диапазоне, над которыми начиная
-                            от взведения и заканчивая дизайнерским ремонтом, трудились лучшие специалисты. Все
-                            ЖК имеют свой авторский архитектурный дизайн, развитую инфраструктуру, на
-                            территории работает профессиональная обслуживающая организация.
-                            
-                    </p>
-
-                    <p class="paragraph">Если Вас заинтересовали новые квартиры в ЖК Yenisey, обращайтесь в отдел продаж.
-                            Мы предлагаем ознакомительный тур по понравившимся объектам, где Вы сможете
-                            увидеть все преимущества наших новостроек. Гарантируем полное сопровождение
-                            сделки купли-продажи и всестороннюю помощь на всех этапах сотрудничества, в том
-                            числе и после получения ТАПУ.</p>
-                </div>
-            </div>
-
+            <div class="article__toggle-btn link">Читать все</div>
         </div>
     </article>
 

@@ -343,7 +343,7 @@
     max-width: 45%; }
   .card__image {
     width: 100% !important;
-    height: auto !important; }
+    height: 100% !important; }
   .card__property-item {
     max-width: 100%; }
   .featured__card {
@@ -409,7 +409,11 @@
   .popup {
     padding: 25px 25px; }
   .video-popup__content {
-    width: 70%; } }
+    width: 70%; }
+  /* To Top */
+  .to-top {
+    bottom: 20px;
+    right: 20px; } }
 
 @media screen and (max-width: 575px) {
   .section-title {
@@ -476,12 +480,14 @@
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
     max-width: 400px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    height: auto; }
   .card__image {
     -webkit-transform: translateX(0);
     transform: translateX(0); }
   .card__image-area {
-    margin: 0; }
+    margin: 0;
+    height: 293px; }
   .card__body {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 100%;
@@ -569,7 +575,25 @@
 @media screen and (max-width: 1200px) {
   /* Catalog -- Villas Info */
   .villas-info__container {
-    padding: 0; } }
+    padding: 0; }
+  .article-content_toggle {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .article-content_toggle::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(0%, rgba(239, 1, 124, 0)), color-stop(70%, rgba(250, 181, 217, 0)), to(white));
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(239, 1, 124, 0) 0%, rgba(250, 181, 217, 0) 70%, white 100%);
+      top: 0;
+      left: 0; }
+  .article__toggle-btn {
+    padding: 0 166px;
+    display: block; } }
 
 @media screen and (max-width: 992px) {
   /* Page Headers */
@@ -586,14 +610,23 @@
   .page-title {
     margin-bottom: 60px; }
   /* Article */
-  .article__row {
+  .article-content > *:not(img) {
     padding-right: 0;
     padding-left: 0; }
+  .article-content img {
+    padding: 0; }
+  .article__toggle-btn {
+    padding: 0; }
   /* Catalog -- Villas Info */
   .villas-info__head-box::before, .villas-info__head-box::after {
     width: 100%; }
   .villas-info__container {
-    padding: 15px; } }
+    padding: 0 15px; }
+  .villas-privilages {
+    margin-bottom: 50px; }
+  .villas-info__image {
+    margin: 0 auto;
+    display: block; } }
 
 @media screen and (max-width: 767px) {
   /* Page Headers */
@@ -607,7 +640,15 @@
 @media screen and (max-width: 575px) {
   /* Product List/Grid */
   .product-list__card {
-    margin-bottom: 40px; } }
+    margin-bottom: 40px; }
+  /* Article */
+  .content-title {
+    font-size: 2.8rem; }
+  .villas-info__image-title {
+    margin: 20px;
+    font-size: 2.8rem; }
+  .article-content h2 {
+    font-size: 2.8rem; } }
 
 /* Media Queries Ranges */
 @media (min-width: 992px) and (max-width: 1200px) {
