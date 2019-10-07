@@ -274,7 +274,7 @@
                         <div class="card featured__card">
                             
                             <div class="card__image-area">
-                                <img src="../assets/images/products/card_image_01.png" class="card__image" alt="Product Image #01" width="293" height="261">
+                                <img src="../assets/images/products/card_image_01.png" class="card__image" alt="Product Image #01" >
                             </div>
 
                             <div class="card__body">
@@ -300,7 +300,7 @@
                         <div class="card featured__card">
                             
                             <div class="card__image-area">
-                                <img src="../assets/images/products/card_image_02.png" class="card__image" alt="Product Image #02" width="293" height="261">
+                                <img src="../assets/images/products/card_image_02.png" class="card__image" alt="Product Image #02" >
                             </div>
 
                             <div class="card__body">
@@ -326,7 +326,7 @@
                         <div class="card featured__card">
                             
                             <div class="card__image-area">
-                                <img src="../assets/images/products/card_image_03.png" class="card__image" alt="Product Image #03" width="293" height="261">
+                                <img src="../assets/images/products/card_image_03.png" class="card__image" alt="Product Image #03" >
                             </div>
 
                             <div class="card__body">
@@ -352,7 +352,7 @@
                         <div class="card featured__card">
                             
                             <div class="card__image-area">
-                                <img src="../assets/images/products/card_image_04.png" class="card__image" alt="Product Image #04" width="293" height="261">
+                                <img src="../assets/images/products/card_image_04.png" class="card__image" alt="Product Image #04" >
                             </div>
 
                             <div class="card__body">

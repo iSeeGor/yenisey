@@ -145,11 +145,11 @@
             <div class="row">
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_01.png" class="card__image"
-                                alt="Product Image #01" width="293" height="261">
+                                alt="Product Image #01" >
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
@@ -206,11 +206,11 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_02.png" class="card__image"
-                                alt="Product Image #02" width="293" height="261">
+                                alt="Product Image #02" >
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -267,11 +267,11 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_03.png" class="card__image"
-                                alt="Product Image #03" width="293" height="261">
+                                alt="Product Image #03" >
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
@@ -328,11 +328,11 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_04.png" class="card__image"
-                                alt="Product Image #04" width="293" height="261">
+                                alt="Product Image #04" >
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -389,11 +389,11 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_01.png" class="card__image"
-                                alt="Product Image #01" width="293" height="261">
+                                alt="Product Image #01" >
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
@@ -450,11 +450,11 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_02.png" class="card__image"
-                                alt="Product Image #02" width="293" height="261">
+                                alt="Product Image #02" >
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -511,11 +511,11 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_03.png" class="card__image"
-                                alt="Product Image #03" width="293" height="261">
+                                alt="Product Image #03" >
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
                                     viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -571,11 +571,11 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_04.png" class="card__image"
-                                alt="Product Image #04" width="293" height="261">
+                                alt="Product Image #04" >
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -632,11 +632,11 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_03.png" class="card__image"
-                                alt="Product Image #03" width="293" height="261">
+                                alt="Product Image #03" >
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
                                     viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -692,11 +692,11 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_04.png" class="card__image"
-                                alt="Product Image #04" width="293" height="261">
+                                alt="Product Image #04" >
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -753,11 +753,11 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_03.png" class="card__image"
-                                alt="Product Image #03" width="293" height="261">
+                                alt="Product Image #03" >
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
                                     viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -813,11 +813,11 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
                             <img src="../assets/images/products/card_image_04.png" class="card__image"
-                                alt="Product Image #04" width="293" height="261">
+                                alt="Product Image #04" >
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -895,7 +895,7 @@
                 </ul>
             </div>
 
-            <button class="button product-list__button">Отправить запрос</button>
+            <button class="button product-list__button button__popup">Отправить запрос</button>
 
         </div>
     </div>

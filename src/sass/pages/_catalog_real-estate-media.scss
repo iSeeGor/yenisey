@@ -33,7 +33,13 @@
     } 
 
     /* Catalog -- Villas Info */ 
-    
+    .villas-info__head-box::before, .villas-info__head-box::after {
+        width: 100%;
+    }
+
+    .villas-info__container {
+        padding: 15px;
+    }
 }
 
 @media screen and (max-width:767px){
