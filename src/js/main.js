@@ -1,148 +1,146 @@
 $(function() {
-  themeSelect();
-  swiperTestimonial();
-  mobileMenuToggle();
-  accordionMenu();
-  popUpWindow();
+  selectCustom();
   aosRun();
+  testimonalTextExpand();
+  testimonialSlider();
+  poductHomeSlider();
+  newsHomeSlider();
+  mobileMenu();
+
+  accordionMenu();
+
+  modalTheme();
   textSplittEffect();
-  timonialsExpandText();
   slideNav();
   toTopButton();
-  homeFormValidate();
+  modalFormValidate();
   phoneMask();
   articleToggle();
-
 });
 
-const aosRun = () => {
-
-  AOS.init({
-    disable: 'mobile',
-    offset: 140,
-    duration: 800,
-    once: true,
-  });
-
-}
-
-const timonialsExpandText = () => {
-  
-    // Configure/customize these variables.
-    let showChar = 330;  // How many characters are shown by default
-    let ellipsestext = "...";
-    let moretext = "Читать полностью";
-    let lesstext = "Сверныть отзыв";
-    
-
-    $('.testimonial__massage').each(function() {
-        var content = $(this).html();
- 
-        if(content.length > showChar) {
- 
-            var c = content.substr(0, showChar);
-            var h = content.substr(showChar, content.length - showChar);
- 
-            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span class="testimonial__expanded-text">' + h + '</span>&nbsp;&nbsp;<a href="" class="testimonial__readmore-link link">' + moretext + '</a></span>';
- 
-            $(this).html(html);
-        }
- 
-    });
- 
-    $(".testimonial__readmore-link").click(function(){
-        if($(this).hasClass("less")) {
-            $(this).removeClass("less");
-            $(this).html(moretext);
-        } else {
-            $(this).addClass("less");
-            $(this).html(lesstext);
-        }
-        $(this).parent().prev().toggle();
-        $(this).prev().toggle();
-        return false;
-    });
-    
-}
-
-// Custom Select's
-const themeSelect = () => {
+// Select Custom
+const selectCustom = () => {
   $("select").niceSelect();
 };
 
+// AOS Aniation
+const aosRun = () => {
+  AOS.init({
+    disable: "mobile",
+    offset: 140,
+    duration: 800,
+    once: true
+  });
+};
 
-// Swiper Slider 
-const swiperTestimonial = () => {
+// Testimonial Text Readmore
+const testimonalTextExpand = () => {
+  let showChar = 330;
+  let ellipsestext = "...";
+  let moretext = "Читать полностью";
+  let lesstext = "Сверныть отзыв";
 
-  //Testimonials Slider
+  $(".testimonial__massage").each(function() {
+    let content = $(this).html();
+
+    if (content.length > showChar) {
+      let c = content.substr(0, showChar);
+      let h = content.substr(showChar, content.length - showChar);
+
+      let html = `${c} <span class="moreellipses"> ${ellipsestext} &nbsp;</span><span class="morecontent"><span class="testimonial__expanded-text"> ${h} </span>&nbsp;&nbsp;<a href="" class="testimonial__readmore-link link"> ${moretext} </a></span>`;
+
+      $(this).html(html);
+    }
+  });
+
+  $(".testimonial__readmore-link").click(function() {
+    if ($(this).hasClass("less")) {
+      $(this).removeClass("less");
+      $(this).html(moretext);
+    } else {
+      $(this).addClass("less");
+      $(this).html(lesstext);
+    }
+    $(this)
+      .parent()
+      .prev()
+      .toggle();
+    $(this)
+      .prev()
+      .toggle();
+    return false;
+  });
+};
+
+// Testimonial Slider -
+const testimonialSlider = () => {
   let testimonialsSlider = new Swiper(".testimonial__slider", {
-    // Optional parameters
-    // direction: 'vertical',
     loop: true,
     speed: 1000,
-    slidesPerView: 'auto',
+    slidesPerView: "auto",
 
-    // If we need pagination
     pagination: {
       el: ".testimonial__pagination",
       clickable: true
     },
-
-    // Navigation arrows
     navigation: {
       nextEl: ".testimonial__button-next",
       prevEl: ".testimonial__button-prev"
     }
-
-    // And if we need scrollbar
-    // scrollbar: {
-    //   el: '.swiper-scrollbar',
-    // },
   });
 
-  // News Slider + BreackPoin Checher
-  //BreckPoint One Fore News
-  const breakpoint = window.matchMedia( '(min-width:1199px)' );
-  const breakpointProd = window.matchMedia( '(min-width:820px)' );
+};  
 
-  //BreackPoint Two For Products 
-  let newsSlider;
+// Product Home Page Slider 
+const poductHomeSlider = () => {
+  let breakpoint = window.matchMedia("(min-width:820px)");
   let prodSlider;
 
-  const breakpointChecker = function() {
-
-    if ( breakpoint.matches === true ) {
-
-	  if ( newsSlider !== undefined ) newsSlider.destroy( true, true );
-    
-    return;
-
-      } else if ( breakpoint.matches === false ) {
-
-        return enableSwiper();
-      }
+  let breakpointChecker = function() {
+    if (breakpoint.matches === true) {
+      if (prodSlider !== undefined) prodSlider.destroy(true, true);
+      return;
+    } else if (breakpoint.matches === false) {
+      return enableSlider();
+    }
   };
 
-  const breakpointProductChecker = function() {
-
-    if ( breakpointProd.matches === true ) {
-
-	  if ( prodSlider !== undefined ) prodSlider.destroy( true, true );
-    
-    return;
-
-      } else if ( breakpointProd.matches === false ) {
-
-        return enableSwiperProd();
-      }
-  };
-
-  const enableSwiper = function() { 
-    newsSlider = new Swiper(".news-slider", {
-
+  const enableSlider = function() {
+    prodSlider = new Swiper(".product-slider", {
       loop: true,
       speed: 1000,
-      slidesPerView: 'auto',
+      slidesPerView: "auto",
+
+      pagination: {
+        el: ".product-slider__pagination",
+        clickable: true
+      }
+    });
+  };
+
+  breakpoint.addListener(breakpointChecker);
+  breakpointChecker();
+};
+
+// News Home Page Slider 
+const newsHomeSlider = () => {
+  let breakpoint = window.matchMedia("(min-width:1199px)");
+  let newsSlider;
+  
+  let breakpointChecker = function() {
+    if (breakpoint.matches === true) {
+      if (newsSlider !== undefined) newsSlider.destroy(true, true);
+      return;
+    } else if (breakpoint.matches === false) {
+      return enableSlider();
+    }
+  };
+
+  const enableSlider = function() {
+    newsSlider = new Swiper(".news-slider", {
+      loop: true,
+      speed: 1000,
+      slidesPerView: "auto",
 
       pagination: {
         el: ".news-slider__pagination",
@@ -150,59 +148,27 @@ const swiperTestimonial = () => {
       },
 
       breakpoints: {
-
         320: {
           slidesPerView: 1,
           spaceBetweenSlides: 40
         },
 
         700: {
-            slidesPerView: 2,
-            spaceBetweenSlides: 30
-        },
+          slidesPerView: 2,
+          spaceBetweenSlides: 30
+        }
       }
-
-    });
-  };
-
-  const enableSwiperProd = function(){
-    prodSlider = new Swiper(".product-slider", {
-
-      loop: true,
-      speed: 1000,
-      slidesPerView: 'auto',
-
-      pagination: {
-        el: ".product-slider__pagination",
-        clickable: true
-      },
-      // breakpoints: {
-      //   // when window width is <= 499px
-      //   499: {
-      //       slidesPerView: 1,
-      //       spaceBetweenSlides: 30
-      //   },
-      //   // when window width is <= 999px
-      //   999: {
-      //       slidesPerView: 1,
-      //       spaceBetweenSlides: 60
-      //   }
-      // }
-
     });
   };
 
   breakpoint.addListener(breakpointChecker);
   breakpointChecker();
-
-  breakpointProd.addListener(breakpointProductChecker);
-  breakpointProductChecker();
 };
 
 // Mobile Menu
-const mobileMenuToggle = () => {
-  const menuBtn = document.querySelector(".hamburger");
-  const sidenav = document.querySelector(".sidenav");
+const mobileMenu = () => {
+  let menuBtn = document.querySelector(".hamburger");
+  let sidenav = document.querySelector(".sidenav");
 
   menuBtn.onclick = function() {
     if (sidenav.classList.contains("sidenav_disabled")) {
@@ -218,184 +184,171 @@ const mobileMenuToggle = () => {
 // Accordion Menu
 const accordionMenu = () => {
   let Accordion = function(el, multiple) {
-		this.el = el || {};
-		this.multiple = multiple || false;
+    this.el = el || {};
+    this.multiple = multiple || false;
 
-		// letiables privadas
-		let links = this.el.find('.link');
-		// Evento
-		links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
-	}
+    // letiables privadas
+    let links = this.el.find(".link");
+    // Evento
+    links.on("click", { el: this.el, multiple: this.multiple }, this.dropdown);
+  };
 
-	Accordion.prototype.dropdown = function(e) {
-		let $el = e.data.el;
-			$this = $(this),
-			$next = $this.next();
+  Accordion.prototype.dropdown = function(e) {
+    let $el = e.data.el;
+    ($this = $(this)), ($next = $this.next());
 
-		$next.slideToggle();
-		$this.toggleClass('mobile-menu__link_active');
+    $next.slideToggle();
+    $this.toggleClass("mobile-menu__link_active");
 
-		if (!e.data.multiple) {
-			$el.find('.dropdown-menu').not($next).slideUp().prev().removeClass('mobile-menu__link_active');
-		};
-	}	
+    if (!e.data.multiple) {
+      $el
+        .find(".dropdown-menu")
+        .not($next)
+        .slideUp()
+        .prev()
+        .removeClass("mobile-menu__link_active");
+    }
+  };
 
-	let accordion = new Accordion($('.mobile-menu'), false);
-}
+  let accordion = new Accordion($(".mobile-menu"), false);
+};
 
-// PopUp Window 
-const popUpWindow = () => {
-  let popup = document.querySelector('.popup');
-  let openPopup = document.querySelectorAll('.button__popup');
-  let popupTitle = document.querySelector('.popup__title');
-  let popupText = document.querySelector('.popup__text');
-  
-  let overlay = document.querySelector('.popup-overlay');
-  let closeBtn = document.querySelector('.popup__close-btn');
+// Modal's 
+const modalTheme = () => {
+  let overlay = document.querySelector(".popup-overlay");
+  let closeBtn = document.querySelector(".popup__close-btn");
 
-  let openPopupVideo = document.querySelector('.button__popup-video');
-  let videoPopup = document.querySelector('.video-popup');
-  let closeVideoPopup = document.querySelector('.video-popup__close-btn');
+  // Modal Form
+  let popup = document.querySelector(".popup");
+  let openPopup = document.querySelectorAll(".button__popup");
+  let popupTitle = document.querySelector(".popup__title");
+  let popupText = document.querySelector(".popup__text");
 
-  for(let i = 0; i < openPopup.length; i++){
+  // Modal Video  
+  let openPopupVideo = document.querySelector(".button__popup-video");
+  let videoPopup = document.querySelector(".video-popup");
+  let closeVideoPopup = document.querySelector(".video-popup__close-btn");
+
+  for (let i = 0; i < openPopup.length; i++) {
     openPopup[i].onclick = function() {
-
-      if (this.hasAttribute('data-popup-title') && this.hasAttribute('data-popup-text')){
+      if (
+        this.hasAttribute("data-popup-title") &&
+        this.hasAttribute("data-popup-text")
+      ) {
         popupTitle.innerHTML = this.dataset.popupTitle;
-        popupText.innerHTML = this.dataset.popupText;       
-
-      } else if (this.hasAttribute('data-popup-text') === false ){
+        popupText.innerHTML = this.dataset.popupText;
+      } else if (this.hasAttribute("data-popup-text") === false) {
         popupTitle.innerHTML = this.dataset.popupTitle;
-
       } else {
-        popupTitle.innerHTML = 'Перезвоните мне';
-        popupText.innerHTML = 'Для получения подробной информации заполните форму и наш менеджер свяжется с Вами в ближайшее время';
-      }      
+        popupTitle.innerHTML = "Перезвоните мне";
+        popupText.innerHTML =
+          "Для получения подробной информации заполните форму и наш менеджер свяжется с Вами в ближайшее время";
+      }
 
-      overlay.classList.add('popup-overlay_opened');
-      popup.classList.add('popup_show');
+      overlay.classList.add("popup-overlay_opened");
+      popup.classList.add("popup_show");
       // document.body.style = "overflow-y:scroll; width:100%; position:fixed;";
-      
     };
   }
 
   closeBtn.onclick = function() {
-    overlay.classList.remove('popup-overlay_opened');
-    popup.classList.remove('popup_show');
-    // document.body.style = "overflow:auto; position:relative; width:auto;";     
+    overlay.classList.remove("popup-overlay_opened");
+    popup.classList.remove("popup_show");
+    // document.body.style = "overflow:auto; position:relative; width:auto;";
   };
 
-  if (openPopupVideo){
-      openPopupVideo.addEventListener('click', function(){
-      overlay.classList.add('popup-overlay_opened');
-      videoPopup.classList.add('video-popup_opened');
+  if (openPopupVideo) {
+    openPopupVideo.addEventListener("click", function() {
+      overlay.classList.add("popup-overlay_opened");
+      videoPopup.classList.add("video-popup_opened");
       // document.body.style = "overflow-y:scroll; width:100%; position:fixed;";
-       
     });
 
-      closeVideoPopup.addEventListener('click', function(){
-      overlay.classList.remove('popup-overlay_opened');
-      videoPopup.classList.remove('video-popup_opened');
-      // document.body.style = "overflow:auto; position:relative; width:auto;"; 
+    closeVideoPopup.addEventListener("click", function() {
+      overlay.classList.remove("popup-overlay_opened");
+      videoPopup.classList.remove("video-popup_opened");
+      // document.body.style = "overflow:auto; position:relative; width:auto;";
     });
   }
 
   window.onclick = function(e) {
     if (e.target == overlay) {
-      overlay.classList.remove('popup-overlay_opened');
-      popup.classList.remove('popup_show');
-      // document.body.style = "overflow:auto; position:relative; width:auto;"; 
+      overlay.classList.remove("popup-overlay_opened");
+      popup.classList.remove("popup_show");
+      // document.body.style = "overflow:auto; position:relative; width:auto;";
     }
-  }
+  };
+};
 
-  
-  
-}
-
-// Text Splitt Effect
+// Title Text Fade + Splitt Effect
 const textSplittEffect = () => {
-
-  const breakpoint = window.matchMedia( '(min-width:575px)' );
+  const breakpoint = window.matchMedia("(min-width:575px)");
 
   const breakpointChecker = function() {
-
-    if ( breakpoint.matches === true ) {
-
+    if (breakpoint.matches === true) {
       Splitting();
       ScrollOut({
-        threshold: .8,
-        once: true,
+        threshold: 0.8,
+        once: true
       });
-      
-
-    } else if ( breakpoint.matches === false ) {
-
-      // Splitting();
+    } else if (breakpoint.matches === false) {
       ScrollOut({
-        threshold: .8,
-        once: true,
+        threshold: 0.8,
+        once: true
       }).teardown();
-      // ScrollOut.teardown();
-      
     }
   };
 
-
   breakpoint.addListener(breakpointChecker);
   breakpointChecker();
-}
+};
 
-// $('.parallax-window').parallax({
-  
-// });
-
+// Nav Menu Fixed + Slide Down
 const slideNav = () => {
+  let didScroll;
+  let lastScrollTop = 0;
+  let delta = 5;
+  let navbarHeight = $(".header").outerHeight();
 
-  var didScroll;
-  var lastScrollTop = 0;
-  var delta = 5;
-  var navbarHeight = $('.header').outerHeight();
-
-  $(window).scroll(function(event){
-      didScroll = true;
+  $(window).scroll(function(event) {
+    didScroll = true;
   });
 
   setInterval(function() {
-      if (didScroll) {
-          hasScrolled();
-          didScroll = false;
-      }
+    if (didScroll) {
+      hasScrolled();
+      didScroll = false;
+    }
   }, 250);
 
   function hasScrolled() {
-      var st = $(this).scrollTop();
-      
-      if(Math.abs(lastScrollTop - st) <= delta)
-          return;
-      
-      if (st > lastScrollTop && st > navbarHeight){
+    var st = $(this).scrollTop();
 
-          $('.header').removeClass('header_down').addClass('header_up');
-      } else {
+    if (Math.abs(lastScrollTop - st) <= delta) return;
 
-          if(st + $(window).height() < $(document).height()) {
-              $('.header').removeClass('header_up').addClass('header_down');
-          }
+    if (st > lastScrollTop && st > navbarHeight) {
+      $(".header")
+        .removeClass("header_down")
+        .addClass("header_up");
+    } else {
+      if (st + $(window).height() < $(document).height()) {
+        $(".header")
+          .removeClass("header_up")
+          .addClass("header_down");
       }
-      
-      lastScrollTop = st;
+    }
+
+    lastScrollTop = st;
   }
-}
+};
 
-// To Top Button 
-
+// To Top Button
 const toTopButton = () => {
-
-  const scrollToTopButton = document.querySelector('.to-top');
+  let scrollToTopButton = document.querySelector(".to-top");
 
   const scrollFunc = () => {
     let y = window.scrollY;
-    
+
     if (y > 400) {
       scrollToTopButton.className = "to-top to-top_show";
     } else {
@@ -407,27 +360,27 @@ const toTopButton = () => {
 
   const scrollToTop = () => {
     const c = document.documentElement.scrollTop || document.body.scrollTop;
-    
+
     if (c > 0) {
       window.requestAnimationFrame(scrollToTop);
       window.scrollTo(0, c - c / 10);
     }
   };
 
-
   scrollToTopButton.onclick = function(e) {
     e.preventDefault();
     scrollToTop();
   };
 };
-// Form Validation 
-const homeFormValidate = () => {
+
+// Form Validation
+const modalFormValidate = () => {
   $(".popup__form").validate({
     errorClass: "send-form__error",
 
     rules: {
       name: {
-        required: true,
+        required: true
       },
       phone: {
         required: true,
@@ -437,45 +390,40 @@ const homeFormValidate = () => {
 
     messages: {
       name: {
-        required: 'Введите ваше Имя'
+        required: "Введите ваше Имя"
       },
       phone: {
-        required: 'Введите ваш номер телефона',
-        minlength: 'Минимальное количество символов - 10'
-      },
+        required: "Введите ваш номер телефона",
+        minlength: "Минимальное количество символов - 10"
+      }
     }
   });
 };
 
-
-// Phone Number Mask
+// Form Phone Mask
 const phoneMask = () => {
-  let element = document.querySelector('.send-form__input_phone');
-  
+  let element = document.querySelector(".send-form__input_phone");
+
   let maskOptions = {
-    mask: '+{00} 000 000 0000'
+    mask: "+{00} 000 000 0000"
   };
   let mask = IMask(element, maskOptions);
 };
 
-// Article Toggle 
+// Article Toggle
 const articleToggle = () => {
+  let btn = document.querySelector(".article__toggle-btn");
+  let content = document.querySelector(".article__content");
 
-  let btn = document.querySelector('.article__toggle-btn');
-  let content = document.querySelector('.article__content');
-
-  if(btn){
-    btn.addEventListener('click', function(){
-      if(content.classList.contains('article-content_toggle')){
-        content.classList.remove('article-content_toggle');
-        btn.innerHTML = 'Скрыть текст';
+  if (btn) {
+    btn.addEventListener("click", function() {
+      if (content.classList.contains("article-content_toggle")) {
+        content.classList.remove("article-content_toggle");
+        btn.innerHTML = "Скрыть текст";
       } else {
-        content.classList.add('article-content_toggle');
-        btn.innerHTML = 'Читать все';
+        content.classList.add("article-content_toggle");
+        btn.innerHTML = "Читать все";
       }
-  
     });
   }
-  
-
 };

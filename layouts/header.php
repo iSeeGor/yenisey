@@ -14,19 +14,19 @@
     <link rel="shortcut icon" href="favicon.png" type="image/png" />
 
     <!--== Bootstrap Grid -->
-    <link rel="stylesheet" href="assets/css/plugins/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="/assets/css/plugins/bootstrap-grid.min.css" />
 
     <!--== Plugins -->
-    <link rel="stylesheet" href="assets/css/plugins/nice-select.css" />
-    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css" />
-    <link rel="stylesheet" href="assets/css/plugins/aos.css" />
-    <link rel="stylesheet" href="assets/css/plugins/splitting.css" />
+    <link rel="stylesheet" href="/assets/css/plugins/nice-select.css" />
+    <link rel="stylesheet" href="/assets/css/plugins/swiper.min.css" />
+    <link rel="stylesheet" href="/assets/css/plugins/aos.css" />
+    <link rel="stylesheet" href="/assets/css/plugins/splitting.css" />
 
     <!--== CSS main style -->
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/main.min.css" />
 
     <!--== CSS @media -->
-    <link rel="stylesheet" href="assets/css/media.css" />
+    <link rel="stylesheet" href="/assets/css/media.min.css" />
 </head>
 <body class="body">
     <!--== Page  -->
@@ -139,13 +139,13 @@
                                 </a>
                                 </li>
                                 <li class="menu__item menu__item_dropdown dropdown">
-                                    <a href="#" class="link menu__item-link" title="Каталог недвижимости">Каталог недвижимости</a>
+                                    <a href="/pages/catalog_real-estate.php" class="link menu__item-link" title="Каталог недвижимости">Каталог недвижимости</a>
 
                                     <ul class="menu menu__dropdown">
-                                        <li class="menu__item"><a href="#" class="link menu__item-link" title="Квартиры">Квартиры</a></li>
-                                        <li class="menu__item"><a href="#" class="link menu__item-link" title="Виллы">Виллы</a></li>
-                                        <li class="menu__item"><a href="#" class="link menu__item-link" title="Коммерческая недвижимость">Коммерческая недвижимость</a></li>
-                                        <li class="menu__item"><a href="#" class="link menu__item-link" title="Аренда">Аренда</a></li>
+                                        <li class="menu__item"><a href="/pages/catalog_rooms.php" class="link menu__item-link" title="Квартиры">Квартиры</a></li>
+                                        <li class="menu__item"><a href="/pages/catalog_villas.php" class="link menu__item-link" title="Виллы">Виллы</a></li>
+                                        <li class="menu__item"><a href="/pages/catalog_comercial.php" class="link menu__item-link" title="Коммерческая недвижимость">Коммерческая недвижимость</a></li>
+                                        <li class="menu__item"><a href="/pages/catalog_rent.php" class="link menu__item-link" title="Аренда">Аренда</a></li>
                                     </ul>
                                 </li>
                                 <li class="menu__item menu__item_dropdown dropdown">

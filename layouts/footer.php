@@ -132,7 +132,7 @@
     </div>
 </footer>
 
-<?php include 'popup.php'; ?>
+<?php include 'modal.php'; ?>
 
 </div>
 
@@ -141,16 +141,16 @@
     
 
     <!--== JS Plugins -->
-    <script src="assets/js/plugins/jquery.nice-select.min.js"></script>
-    <script src="assets/js/plugins/swiper.min.js"></script>
-    <script src="assets/js/plugins/aos.min.js"></script>
-    <script src="assets/js/plugins/scroll-out.min.js"></script>
-    <script src="assets/js/plugins/splitting.js"></script>
-    <script src="assets/js/plugins/jquery.validate.min.js"></script>
+    <script src="/assets/js/plugins/jquery.nice-select.min.js"></script>
+    <script src="/assets/js/plugins/swiper.min.js"></script>
+    <script src="/assets/js/plugins/aos.min.js"></script>
+    <script src="/assets/js/plugins/scroll-out.min.js"></script>
+    <script src="/assets/js/plugins/splitting.js"></script>
+    <script src="/assets/js/plugins/jquery.validate.min.js"></script>
     <script src="https://unpkg.com/imask"></script>
 
     <!--== JS Scripts -->
-    <script src="assets/js/script.min.js"></script>
+    <script src="/assets/js/script.min.js"></script>
 
 </body>
 </html>

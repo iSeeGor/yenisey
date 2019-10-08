@@ -1,4 +1,4 @@
-<?php include 'layouts/header.php'; ?>
+<?php include '../layouts/header.php'; ?>
 
 <!--== Page Header  -->
 <div class="page-header page-header_villas catalog-header">
@@ -41,9 +41,9 @@
         <div class="container villas-info__container">
             <div class="row">
                 
-                <div class="col-md-12 col-lg-7 order-2 villas-info__left-column">
+                <div class="col-md-12 col-lg-7 order-md-2 order-xl-1 villas-info__left-column">
                     <div class="villas-info__image-box">
-                        <img class="villas-info__image" src="assets/images/pages/villas_image.jpg" alt="Villas Info Image">
+                        <img class="villas-info__image" src="/assets/images/pages/villas_image.jpg" alt="Villas Info Image">
                     </div>
 
                     <div class="villas-info__text-box">
@@ -58,7 +58,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-12 col-lg-5 order-1">
+                <div class="col-md-12 col-lg-5 order-md-1 order-xl-2">
                     <h3 class="villas-info__title">Вилла, индивидуальная, на заказ!</h3>
 
                     <div class="villas-info__head-box">
@@ -586,5 +586,5 @@
 
 </main>
 
-<?php include 'layouts/footer.php'; ?>
-<?php include 'layouts/popup.php'; ?>
+<?php include '../layouts/footer.php'; ?>
+<?php include '../layouts/modal.php'; ?>

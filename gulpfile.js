@@ -44,8 +44,17 @@ function sass() {
         .pipe(browserSync.stream())
 }
 
+function cssmin(){
+    return gulp.src("./assets/css/*.css")
+        .pipe(cleanCSS({
+            level: 2 //Level: 0, 1, 2
+        }))
+        .pipe(rename({ suffix: '.min' }))
+        .pipe(gulp.dest("./assets/css"))
+}
+
 function clean() {
-    // return del(['assets/*']) 
+    return del(['./assets/css/*.css']) 
 }
 
 function watch() {
@@ -65,6 +74,8 @@ gulp.task('jscript', js);
 gulp.task('del', clean);
 gulp.task('watch', watch);
 gulp.task('sass', sass);
+gulp.task('cssMin', cssmin);
 
-gulp.task('assets', gulp.series(clean, gulp.parallel(sass, js)));
-gulp.task('dev', gulp.series('assets','watch'));
+// gulp.task('build', gulp.series(clean, gulp.parallel(sass, js)));
+gulp.task('build', gulp.series(clean, gulp.parallel(sass, js), cssmin));
+gulp.task('dev', gulp.series('build','watch'));
