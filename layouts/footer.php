@@ -148,6 +148,7 @@
     <script src="/assets/js/plugins/splitting.js"></script>
     <script src="/assets/js/plugins/jquery.validate.min.js"></script>
     <script src="https://unpkg.com/imask"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
 
     <!--== JS Scripts -->
     <script src="/assets/js/script.min.js"></script>

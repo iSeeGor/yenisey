@@ -118,67 +118,68 @@
                         <!--== Main Slider -->
                         <div class="image-slider__container image-slider__main loading">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <figure class="slide-bgimg" style="background-image:url(/assets/images/image-slider/slide_01.jpg)">
+                                <div class="image-slider__slide swiper-slide ">
+                                    <figure class="image-slider__bgimg" style="background-image:url(/assets/images/image-slider/slide_01.jpg)">
                                         <img src="/assets/images/image-slider/slide_01.jpg" class="entity-img" />
                                     </figure>
                                 </div>
-                                <div class="swiper-slide">
-                                    <figure class="slide-bgimg" style="background-image:url(/assets/images/image-slider/slide_02.jpg)">
+                                <div class="image-slider__slide swiper-slide ">
+                                    <figure class="image-slider__bgimg" style="background-image:url(/assets/images/image-slider/slide_02.jpg)">
                                         <img src="/assets/images/image-slider/slide_02.jpg" class="entity-img" />
                                     </figure>
                                 </div>
-                                <div class="swiper-slide">
-                                    <figure class="slide-bgimg" style="background-image:url(/assets/images/image-slider/slide_06.jpg)">
+                                <div class="image-slider__slide swiper-slide ">
+                                    <figure class="image-slider__bgimg" style="background-image:url(/assets/images/image-slider/slide_06.jpg)">
                                         <img src="/assets/images/image-slider/slide_06.jpg" class="entity-img" />
                                     </figure>
                                 </div>
-                                <div class="swiper-slide">
-                                    <figure class="slide-bgimg" style="background-image:url(/assets/images/image-slider/slide_04.jpg)">
+                                <div class="image-slider__slide swiper-slide ">
+                                    <figure class="image-slider__bgimg" style="background-image:url(/assets/images/image-slider/slide_04.jpg)">
                                         <img src="/assets/images/image-slider/slide_04.jpg" class="entity-img" />
                                     </figure>
                                 </div>
-                                <div class="swiper-slide">
-                                    <figure class="slide-bgimg" style="background-image:url(/assets/images/image-slider/slide_05.jpg)">
+                                <div class="image-slider__slide swiper-slide ">
+                                    <figure class="image-slider__bgimg" style="background-image:url(/assets/images/image-slider/slide_05.jpg)">
                                         <img src="/assets/images/image-slider/slide_05.jpg" class="entity-img" />
                                     </figure>
                                 </div>
                             </div>
-                            <!--== If we need navigation buttons -->
-                            <div class="image-slider__button-prev"></div>
-                            <div class="image-slider__button-next"></div>
                             </div>
+                            
 
                             <!--== Thumbnail navigation -->
                             <div class="image-slider__container image-slider__thumb loading">
                                 <div class="swiper-wrapper" role="navigation">
-                                    <div class="swiper-slide">
-                                        <figure class="slide-bgimg" style="background-image:url(/assets/images/image-slider/slide_01.jpg)">
+                                    <div class="image-slider__slide swiper-slide ">
+                                        <figure class="image-slider__bgimg" style="background-image:url(/assets/images/image-slider/slide_01.jpg)">
                                             <img src="/assets/images/image-slider/slide_01.jpg" class="entity-img" />
                                         </figure>
                                     </div>
-                                    <div class="swiper-slide">
-                                        <figure class="slide-bgimg" style="background-image:url(/assets/images/image-slider/slide_02.jpg)">
+                                    <div class="image-slider__slide swiper-slide ">
+                                        <figure class="image-slider__bgimg" style="background-image:url(/assets/images/image-slider/slide_02.jpg)">
                                             <img src="/assets/images/image-slider/slide_02.jpg" class="entity-img" />
                                         </figure>
                                     </div>
-                                    <div class="swiper-slide">
-                                        <figure class="slide-bgimg" style="background-image:url(/assets/images/image-slider/slide_06.jpg)">
+                                    <div class="image-slider__slide swiper-slide ">
+                                        <figure class="image-slider__bgimg" style="background-image:url(/assets/images/image-slider/slide_06.jpg)">
                                             <img src="/assets/images/image-slider/slide_06.jpg" class="entity-img" />
                                         </figure>
                                     </div>
-                                    <div class="swiper-slide">
-                                        <figure class="slide-bgimg" style="background-image:url(/assets/images/image-slider/slide_04.jpg)">
+                                    <div class="image-slider__slide swiper-slide ">
+                                        <figure class="image-slider__bgimg" style="background-image:url(/assets/images/image-slider/slide_04.jpg)">
                                             <img src="/assets/images/image-slider/slide_04.jpg" class="entity-img" />
                                         </figure>
                                     </div>
-                                    <div class="swiper-slide">
-                                        <figure class="slide-bgimg" style="background-image:url(/assets/images/image-slider/slide_05.jpg)">
+                                    <div class="image-slider__slide swiper-slide ">
+                                        <figure class="image-slider__bgimg" style="background-image:url(/assets/images/image-slider/slide_05.jpg)">
                                             <img src="/assets/images/image-slider/slide_05.jpg" class="entity-img" />
                                         </figure>
-                                    </div>
-                                </div>    
+                                    </div>                           
+                                </div>
+                                <div class="image-slider__button-prev"></div>
+                                <div class="image-slider__button-next"></div>
                             </div>
+
                         </div>
                     </div>
                 </div>

@@ -655,7 +655,7 @@
 
     /* #Popup Window */
     .popup {
-        padding: 25px 25px;
+        // padding: 25px 25px;
         // width: 95%;
         // margin:20px;
     }
@@ -789,6 +789,17 @@
         transform: translateX(-50%);
         
     }
+
+    /* Modal */
+    .popup__title {
+        font-size: 2.2rem;
+    }
+    .popup__header {
+        margin: 30px 30px 20px 30px;
+    }
+    .send-form {
+        margin: 0px 30px 20px 30px;
+    }
 }
 
 @media screen and (max-width:420px){
@@ -859,16 +870,7 @@
 
 // Height
 @media screen and (max-height: 640px){
-    .popup__title {
-        margin-bottom: 10px;
-    }
-    .popup__header {
-        max-height: 120px;
-        overflow: hidden;
-    }
-    .popup::before {
-        top: 160px;
-    }
+
     .send-form__row {
         margin-bottom: 12px;
     }

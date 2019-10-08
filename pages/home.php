@@ -11,7 +11,7 @@
                 <h2 class="hero__subtitle" data-aos="fade-up"
      data-aos-duration="1200" data-aos-delay="1400">Мечтаете жить на побережье Средиземного моря?<br> С нашей компанией Ваши мечты становятся реальностью!</h2>
 
-                <button class="button hero__button button__popup" data-aos="fade-up"
+                <button class="button hero__button button__popup" id="search-anchor" data-aos="fade-up"
      data-aos-duration="1200" data-aos-delay="1800" data-popup-title="Заказать бесплатную консультацию">Заказать бесплатную консультацию</button>
             </div>
 
@@ -20,7 +20,8 @@
 
     <!--== Search  -->
     <section class="section-search search" data-aos="fade-up"
-     data-aos-duration="1200" data-aos-delay="2200">
+     data-aos-duration="1200" data-aos-delay="2200" data-aos-anchor="#search-anchor"
+     data-aos-anchor-placement="top-bottom">
         <div class="container search__container">
 
             <form action="" class="search-form search__area">
@@ -460,118 +461,116 @@
 
                 <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 
-                <div class="swiper-container testimonial__slider">
+                    <div class="swiper-container testimonial__slider">
 
-                    <div class="swiper-wrapper">
+                        <div class="swiper-wrapper">
 
-                        <div class="testimonial__card swiper-slide">
+                            <div class="testimonial__card swiper-slide">
 
-                            <div class="testimonial__image-area">
-                                <img src="../assets/images/testimonial_avatar.png" alt="Testimonial Avatar" width="355">
-                            </div>
-
-                            <div class="testimonial__body">
-
-                                <h4 class="testimonial__client-name">Семья Московчук</h4>
-                                
-                                <div class="testimonial__meta">
-                                    <div class="testimonial__city">Киев</div>
-                                    <div class="testimonial__date">10.09.2019</div>
+                                <div class="testimonial__image-area">
+                                    <img src="../assets/images/testimonial_avatar.png" alt="Testimonial Avatar" width="355">
                                 </div>
 
-                                <p class="testimonial__massage">
-                                    Когда встал вопрос о покупке недвижимости в Турции, пересмотрев много разных вариантов, случайно наткнулись на офис компании застройщика “Yenisey” и решили зайти. Очень доброжелательные сотрудники  ответили на все интересующие нас вопросы, рассказали очень подробно о дальнейшем оформлении документов и получении ВНЖ на территории Турции. Индивидуальный подход к каждому клиенту позволил нам без проблем общаться со специалистом отдела продаж строительной компания “Yenisey” - Анастасией. Общение оказалось очень продуктивным, и мы решили посмотреть имеющиеся на рынке недвижимости предложения от компании “Yenisey”.
-                                </p>
+                                <div class="testimonial__body">
+
+                                    <h4 class="testimonial__client-name">Семья Московчук</h4>
+                                    
+                                    <div class="testimonial__meta">
+                                        <div class="testimonial__city">Киев</div>
+                                        <div class="testimonial__date">10.09.2019</div>
+                                    </div>
+
+                                    <p class="testimonial__massage">
+                                        Когда встал вопрос о покупке недвижимости в Турции, пересмотрев много разных вариантов, случайно наткнулись на офис компании застройщика “Yenisey” и решили зайти. Очень доброжелательные сотрудники  ответили на все интересующие нас вопросы, рассказали очень подробно о дальнейшем оформлении документов и получении ВНЖ на территории Турции. Индивидуальный подход к каждому клиенту позволил нам без проблем общаться со специалистом отдела продаж строительной компания “Yenisey” - Анастасией. Общение оказалось очень продуктивным, и мы решили посмотреть имеющиеся на рынке недвижимости предложения от компании “Yenisey”.
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="testimonial__card swiper-slide">
+
+                                <div class="testimonial__image-area">
+                                    <img src="../assets/images/testimonial_avatar.png" alt="Testimonial Avatar" width="355">
+                                </div>
+
+                                <div class="testimonial__body">
+
+                                    <h4 class="testimonial__client-name">Семья Московчук</h4>
+                                    
+                                    <div class="testimonial__meta">
+                                        <div class="testimonial__city">Киев</div>
+                                        <div class="testimonial__date">10.09.2019</div>
+                                    </div>
+
+                                    <p class="testimonial__massage">
+                                    <iframe width="100%" height="260" src="https://www.youtube.com/embed/Bey4XXJAqS8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </p>
+                                
+                                </div>
+
+                            </div>
+
+                            <div class="testimonial__card swiper-slide">
+
+                                <div class="testimonial__image-area">
+                                    <img src="../assets/images/testimonial_avatar.png" alt="Testimonial Avatar" width="355">
+                                </div>
+
+                                <div class="testimonial__body">
+
+                                    <h4 class="testimonial__client-name">Семья Московчук</h4>
+                                    
+                                    <div class="testimonial__meta">
+                                        <div class="testimonial__city">Киев</div>
+                                        <div class="testimonial__date">10.09.2019</div>
+                                    </div>
+
+                                    <p class="testimonial__massage">
+                                        Когда встал вопрос о покупке недвижимости в Турции, пересмотрев много разных вариантов, случайно наткнулись на офис компании застройщика “Yenisey” и решили зайти. Очень доброжелательные сотрудники  ответили на все интересующие нас вопросы, рассказали очень подробно о дальнейшем оформлении документов и получении ВНЖ на территории Турции. Индивидуальный подход к каждому клиенту позволил нам без проблем общаться со специалистом отдела продаж строительной компания “Yenisey” - Анастасией. Общение оказалось очень продуктивным, и мы решили посмотреть имеющиеся на рынке недвижимости предложения от компании “Yenisey”.
+                                    </p>
+
+                                    
+                                </div>
+
+                            </div>
+
+                            <div class="testimonial__card swiper-slide">
+
+                                <div class="testimonial__image-area">
+                                    <img src="../assets/images/testimonial_avatar.png" alt="Testimonial Avatar" width="355">
+                                </div>
+
+                                <div class="testimonial__body">
+
+                                    <h4 class="testimonial__client-name">Семья Московчук</h4>
+                                    
+                                    <div class="testimonial__meta">
+                                        <div class="testimonial__city">Киев</div>
+                                        <div class="testimonial__date">10.09.2019</div>
+                                    </div>
+
+                                    <p class="testimonial__massage">
+                                        Когда встал вопрос о покупке недвижимости в Турции, пересмотрев много разных вариантов, случайно наткнулись на офис компании застройщика “Yenisey” и решили зайти. Очень доброжелательные сотрудники  ответили на все интересующие нас вопросы, рассказали очень подробно о дальнейшем оформлении документов и получении ВНЖ на территории Турции. Индивидуальный подход к каждому клиенту позволил нам без проблем общаться со специалистом отдела продаж строительной компания “Yenisey” - Анастасией. Общение оказалось очень продуктивным, и мы решили посмотреть имеющиеся на рынке недвижимости предложения от компании “Yenisey”.
+                                    </p>
+
+                                    
+                                </div>
 
                             </div>
 
                         </div>
 
-                        <div class="testimonial__card swiper-slide">
-
-                            <div class="testimonial__image-area">
-                                <img src="../assets/images/testimonial_avatar.png" alt="Testimonial Avatar" width="355">
-                            </div>
-
-                            <div class="testimonial__body">
-
-                                <h4 class="testimonial__client-name">Семья Московчук</h4>
-                                
-                                <div class="testimonial__meta">
-                                    <div class="testimonial__city">Киев</div>
-                                    <div class="testimonial__date">10.09.2019</div>
-                                </div>
-
-                                <p class="testimonial__massage">
-                                <iframe width="100%" height="260" src="https://www.youtube.com/embed/Bey4XXJAqS8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </p>
-                               
-                            </div>
-
-                        </div>
-
-                        <div class="testimonial__card swiper-slide">
-
-                            <div class="testimonial__image-area">
-                                <img src="../assets/images/testimonial_avatar.png" alt="Testimonial Avatar" width="355">
-                            </div>
-
-                            <div class="testimonial__body">
-
-                                <h4 class="testimonial__client-name">Семья Московчук</h4>
-                                
-                                <div class="testimonial__meta">
-                                    <div class="testimonial__city">Киев</div>
-                                    <div class="testimonial__date">10.09.2019</div>
-                                </div>
-
-                                <p class="testimonial__massage">
-                                    Когда встал вопрос о покупке недвижимости в Турции, пересмотрев много разных вариантов, случайно наткнулись на офис компании застройщика “Yenisey” и решили зайти. Очень доброжелательные сотрудники  ответили на все интересующие нас вопросы, рассказали очень подробно о дальнейшем оформлении документов и получении ВНЖ на территории Турции. Индивидуальный подход к каждому клиенту позволил нам без проблем общаться со специалистом отдела продаж строительной компания “Yenisey” - Анастасией. Общение оказалось очень продуктивным, и мы решили посмотреть имеющиеся на рынке недвижимости предложения от компании “Yenisey”.
-                                </p>
-
-                                
-                            </div>
-
-                        </div>
-
-                        <div class="testimonial__card swiper-slide">
-
-                            <div class="testimonial__image-area">
-                                <img src="../assets/images/testimonial_avatar.png" alt="Testimonial Avatar" width="355">
-                            </div>
-
-                            <div class="testimonial__body">
-
-                                <h4 class="testimonial__client-name">Семья Московчук</h4>
-                                
-                                <div class="testimonial__meta">
-                                    <div class="testimonial__city">Киев</div>
-                                    <div class="testimonial__date">10.09.2019</div>
-                                </div>
-
-                                <p class="testimonial__massage">
-                                    Когда встал вопрос о покупке недвижимости в Турции, пересмотрев много разных вариантов, случайно наткнулись на офис компании застройщика “Yenisey” и решили зайти. Очень доброжелательные сотрудники  ответили на все интересующие нас вопросы, рассказали очень подробно о дальнейшем оформлении документов и получении ВНЖ на территории Турции. Индивидуальный подход к каждому клиенту позволил нам без проблем общаться со специалистом отдела продаж строительной компания “Yenisey” - Анастасией. Общение оказалось очень продуктивным, и мы решили посмотреть имеющиеся на рынке недвижимости предложения от компании “Yenisey”.
-                                </p>
-
-                                
-                            </div>
-
-                        </div>
+                        <div class="testimonial__button-prev"></div>
+                        <div class="testimonial__button-next"></div>
 
                     </div>
-
-                    </div>
-
-                    <div class="testimonial__button-prev"></div>
-                    <div class="testimonial__button-next"></div>
 
                     <div class="testimonial__pagination"></div>
 
                 </div>
 
             </div>
-
-            
 
         </div>
     </section>

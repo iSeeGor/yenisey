@@ -11,7 +11,7 @@
     <meta name="keywords" content="Turkey State keywords" />
 
     <!--== Favicons -->
-    <link rel="shortcut icon" href="favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="/favicon.png" type="image/png" />
 
     <!--== Bootstrap Grid -->
     <link rel="stylesheet" href="/assets/css/plugins/bootstrap-grid.min.css" />

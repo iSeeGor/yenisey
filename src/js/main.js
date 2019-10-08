@@ -489,7 +489,7 @@ const productSlider = () => {
               innerOffset = swiper.width * interleaveOffset,
               innerTranslate = slideProgress * innerOffset;
         
-          swiper.slides[i].querySelector(".slide-bgimg").style.transform =
+          swiper.slides[i].querySelector(".image-slider__bgimg").style.transform =
             "translateX(" + innerTranslate + "px)";
         }
       },
@@ -503,7 +503,7 @@ const productSlider = () => {
         let swiper = this;
         for (let i = 0; i < swiper.slides.length; i++) {
           swiper.slides[i].style.transition = speed + "ms";
-          swiper.slides[i].querySelector(".slide-bgimg").style.transition =
+          swiper.slides[i].querySelector(".image-slider__bgimg").style.transition =
             speed + "ms";
         }
       }
@@ -516,8 +516,8 @@ const productSlider = () => {
     loop: true,
     loopAdditionalSlides: 10,
     speed:1000,
-    spaceBetween: 30,
-    slidesPerView: 5,
+    spaceBetween: 16,
+    slidesPerView: 3,
     centeredSlides : true,
     touchRatio: 0.2,
     slideToClickedSlide: true,
@@ -529,11 +529,31 @@ const productSlider = () => {
       click: function(){
         mainSlider.autoplay.stop();
       }
+    },
+    breakpoints: {
+      420: {
+        slidesPerView: 4,
+        spaceBetween: 16,
+      },
+      767: {
+        slidesPerView: 5,
+        spaceBetween: 16,
+      },
+      991: {
+        spaceBetween: 30,
+        slidesPerView: 5,
+      },
     }
   };
   let navSlider = new Swiper(navSliderSelector, navSliderOptions);
 
   // Matching sliders
-  mainSlider.controller.control = navSlider;
-  navSlider.controller.control = mainSlider;
+  if(document.querySelector('.image-slider__main')){
+    mainSlider.controller.control = navSlider;
+    navSlider.controller.control = mainSlider;
+  }
+    
 };
+
+
+SmoothScroll({ stepSize: 60 })
