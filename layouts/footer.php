@@ -7,7 +7,7 @@
                 <div class="offset-sm-4 col-sm-4 offset-lg-0 col-lg-2 col-xl-3">
                     <div class="widget footer__social-widget">
                         <div class="widget-logo">
-                            <a href="#" title="Footer Logo"><img src="../assets/images/yenisey_footer_logo.png" alt="Footer Logo" width="127" class="widget-logo__image"></a>
+                            <a href="#" title="Footer Logo"><img src="/assets/images/yenisey_footer_logo.png" alt="Footer Logo" width="127" class="widget-logo__image"></a>
                         </div>
                     </div>
                 </div>
@@ -122,7 +122,7 @@
                     <div class="art-sites copyrights__art-sites">
                         <span class="art-sites__text">Сайт разработан и поддерживается: 
                             <a href="https://art-sites.org" class="art-sites__link" title="art-sites.org">
-                                <img src="../assets/images/art-sites_logo.svg" alt="art-sites.org" width="115">
+                                <img src="/assets/images/art-sites_logo.svg" alt="art-sites.org" width="115">
                             </a>
                         </span>
                     </div>    

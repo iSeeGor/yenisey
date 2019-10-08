@@ -20,8 +20,8 @@
     }
 }
 
-/* #Favorits */
-.favorits {
+/* #Favorits Counter*/
+.favorits-counter {
     font-size: 1.6rem;
     
     &__link {
@@ -29,13 +29,18 @@
         text-decoration: underline;
     }
 
-    &__count {
+    &__num {
         @include font_semiBold;
         color: $sky_color;
         text-decoration: none;
         padding-left: 5px;
         @include transition(color);
         cursor: pointer;
+    }
+
+    &:hover .favorits-counter__num,
+    &:hover .favorits-counter__link{
+        color: $orange_color;
     }
 }
 
@@ -81,11 +86,6 @@
     &__favorits {
         margin-bottom: 20px;
         display: inline-block;
-
-        &:hover .favorits__count,
-        &:hover .favorits__link{
-            color: $orange_color;
-        }
     }
 
 }
@@ -177,7 +177,7 @@
     cursor: pointer;
 
     &__icon {
-        fill: $bace_color;
+        fill: $font_color;
         margin: 1px 0 0 1px;
 
         &_active .to-favorits__path-star {

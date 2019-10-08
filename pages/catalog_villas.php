@@ -15,8 +15,8 @@
                         </nav>
                     </div>
 
-                    <div class="page-header__favorits favorits">
-                        <a href="#" class="link favorits__link">Избранное:</a><span class="favorits__count">2</stron>
+                    <div class="page-header__favorits favorits-counter">
+                        <a href="#" class="link favorits-counter__link">Избранное:</a><span class="favorits-counter__num">2</stron>
                     </div>
 
                 </div>

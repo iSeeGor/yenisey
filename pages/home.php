@@ -600,7 +600,7 @@
 
                     <div class="col-md-12 col-lg-6">
                         <div class="excellence__image-box">
-                            <img src="../assets/images/exellence-image.png" class="excellence__icon" alt="Excellence Image" width="488" height="586">
+                            <img src="../assets/images/exellence-image.png" class="excellence__icon" alt="Excellence Image" width="488">
                         </div>                       
                     </div>
 

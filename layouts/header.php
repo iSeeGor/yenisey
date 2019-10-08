@@ -23,10 +23,10 @@
     <link rel="stylesheet" href="/assets/css/plugins/splitting.css" />
 
     <!--== CSS main style -->
-    <link rel="stylesheet" href="/assets/css/main.min.css" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
 
     <!--== CSS @media -->
-    <link rel="stylesheet" href="/assets/css/media.min.css" />
+    <link rel="stylesheet" href="/assets/css/media.css" />
 </head>
 <body class="body">
     <!--== Page  -->
@@ -94,7 +94,7 @@
             
             <div class="mobile-header header__mobile-header">
                 <div class="logo mobile-logo">
-                    <a href="/" title="Yenisey Logo"><img src="../assets/images/yenisey_logo.png" alt="Yenisey Logo" width="117"></a>
+                    <a href="/" title="Yenisey Logo"><img src="/assets/images/yenisey_logo.png" alt="Yenisey Logo" width="117"></a>
                 </div>
 
                 <div class="hamburger">                   
@@ -116,7 +116,7 @@
                                     </ul>
                                 </div>
                                 <div class="logo">
-                                    <a href="/" title="Yenisey Logo"><img src="../assets/images/yenisey_logo.png" alt="Yenisey Logo" width="142"></a>
+                                    <a href="/" title="Yenisey Logo"><img src="/assets/images/yenisey_logo.png" alt="Yenisey Logo" width="142"></a>
                                 </div>
                                 <button class="button button--blue button--small button__popup"
                                     data-popup-title="Перезвоните мне"
@@ -135,7 +135,7 @@
                             <ul class="menu nav__menu">
                                 <li class="menu__item menu__item_home">
                                     <a href="/" class="link menu__item-link home-link" title="Главная"><span class="home__link-text">Главная</span>
-                                    <img src="../assets/images/yenisey_logo.png" alt="Yenisey Logo" width="117" class="menu__image-logo">
+                                    <img src="/assets/images/yenisey_logo.png" alt="Yenisey Logo" width="117" class="menu__image-logo">
                                 </a>
                                 </li>
                                 <li class="menu__item menu__item_dropdown dropdown">
