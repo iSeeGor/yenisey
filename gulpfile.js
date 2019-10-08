@@ -32,8 +32,8 @@ function sass() {
         .pipe(sourcemaps.init())
         .pipe(gulpsass())
         .pipe(autoprefixer({
-            browsers: ['> 1%', 'last 2 versions', 'Firefox ESR'],
-            cascade: false
+            browsers: ['> 50%', 'last 20 versions', 'Firefox ESR'],
+            cascade: true
         }))
         // .pipe(cleanCSS({
         //     level: 2 //Level: 0, 1, 2
