@@ -27,10 +27,10 @@
 </div>
 
 <!--== Page Content  -->
-<main class="content page__content">
+<main class="main-content page__content">
 
     <!--== Content Title  -->
-    <div class="content__title">
+    <div class="main-content__title">
         <div class="container">
             <h1 class="content-title">Строительство Вилл под заказ <br>от Yenisey в Алании</h1>
         </div>
@@ -366,7 +366,7 @@
     </div>
 
     <!--== Testimonial  -->
-    <div class="testimonial content__testimonial">
+    <div class="testimonial main-content__testimonial">
         <div class="container testimonial__container">
             <div class="row">
 

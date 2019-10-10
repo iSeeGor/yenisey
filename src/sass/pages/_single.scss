@@ -1,6 +1,9 @@
-.single-header {
+.single {
+  
+  &__header {
   margin-top: 110px;
   border-top: 2px solid $font_color;
+  }
 
   &__breadcrumb {
     padding-top: 20px;
@@ -14,7 +17,7 @@
   }
 }
 
-.single {
+.single-content {
   &__title {
     font-size: 3.6rem;
     margin-bottom: 40px;
@@ -232,4 +235,376 @@
 .image-slider:hover .image-slider__button-prev {
   bottom: 40px;
   opacity: 1;
+}
+
+/* Table */
+.simple-table {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-size: 1.4rem;
+  border: 1px solid $border-color;
+  color: $bace_color;
+  text-align: center;
+
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__col {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+  }
+
+  &__item {
+    flex: 1 1 auto;
+    border: 1px solid $border-color;
+  }
+
+  &__head-item {
+    @include font_semiBold;
+    padding: 10px 10px;
+  }
+
+  &__body-item {
+    @include font_medium;
+    padding: 20px 10px;
+  }
+}
+
+/* Player Box */
+.player-box {
+  margin-bottom: 30px;
+
+  &__row {
+    position: relative;
+    width: 100%;
+  }
+
+  &__responsive-block {
+    padding-top: 56.25%;
+  }
+
+  &__iframe {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+  }
+}
+
+/* Single Section */ 
+.single-section {
+  &__title {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
+/* Single Description */
+.single__description {
+  margin-bottom: 30px;
+}
+
+.single-description {
+  &__simple-table {
+    margin-bottom: 40px;
+  }
+}
+
+/* Single Property */
+.single-propery {
+
+  &__row {
+    margin-bottom: 60px;
+  }
+
+  &__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  &__list-item {
+    color: $bace_color;
+    @include font_medium;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 42px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: -4px;
+      left: 0;
+      width: 22px;
+      height: 22px;
+      background: url('../images/icons/check.svg') no-repeat center;     
+    }
+  }
+}
+
+/* Single Map */
+.single__map {
+  margin-bottom: 60px;
+}
+.single-map {
+
+  &__holder {
+    height: 300px;
+    width: 100%;
+    background: #ccc;
+  }
+}
+
+/* Single Credits */
+.single-credit {
+  margin-bottom: 60px;
+
+  &__row {
+    padding-top: 10px;
+  }
+  
+  &__image-box {
+    height: 320px;
+    max-width: 360px;
+    border-radius: 20px;
+    overflow: hidden; 
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+  }
+
+  &__icon {
+    margin-bottom: 25px;
+    margin-left: 20px;
+  }
+}
+
+/* Single Product List/Grid */ 
+.single__prodList {
+  margin: 0 0 60px 0;
+}
+
+.single-prodList {
+
+  &__button {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/* Managers Section */
+.manager {
+  display: flex;
+  min-height: 306px;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 16px 46px rgba(202, 205, 214, 0.25);
+
+  &__image-box {
+    max-width: 293px;
+    flex: 0 0 293px;
+    height: auto;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  &__image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__body {
+    margin: 25px 10px 25px 30px;
+    color: #15427A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .link {
+    color: #15427A;
+
+    &:hover {
+      color: $orange_color;
+    }
+  }
+
+  &__name {
+    font-size: 2rem;
+    @include font_medium;
+    margin-bottom: 10px;
+    line-height: 1.22;
+  }
+
+  &__proffesional {
+    @include font_medium;
+    line-height: 1.42;
+    margin-bottom: 10px;
+  }
+
+  &__contact-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__contact-item {
+    padding-left: 36px;
+    position: relative;
+    margin-bottom: 15px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 1px;
+      left: 0;
+      height: 19px;
+      width: 19px;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &__contact-item_mail::before {
+    background-image: url('../images/icons/address_mail.svg');
+    background-size: cover;
+  }
+
+  &__contact-item_phone::before {
+    background-image: url('../images/icons/address_phone.svg');
+    background-size: cover;
+  }
+
+  &__contact-item_language::before {
+    background-image: url('../images/icons/language.svg');
+  }
+
+  &__contact-item_massangers {
+    margin-top: -10px;
+    font-size: 0;
+  }
+
+  &__massanger-link {
+    display: inline-block;
+    margin-right: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__contact-phone-link {
+    display: block;
+    margin-bottom: 15px;
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+
+/* Single Managers */
+.single__managers {
+  margin-bottom: 60px;
+}
+
+.single-managers__title {
+  margin-bottom: 40px;
+}
+
+/* Request Form */
+.request {
+  border-radius: 20px;
+  padding: 19px 30px 30px;
+  margin: 0 auto;
+  // background: white;
+  overflow: hidden;
+  width: 810px;
+  max-width: 100%;
+  box-shadow: 0px 16px 46px rgba(202, 205, 214, 0.25);
+
+  &__header {
+    position: relative;
+    margin-bottom: 25px;
+
+    &::before {
+      content: '';
+      width: 1513px;
+      height: 1513px;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 50%;
+      background: #C8E4F9;
+      z-index: -1;
+    }
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  &__text {
+    padding-bottom: 60px;
+    max-width: 470px;
+    margin: 0 auto;
+    text-align: center;
+    color: #15427A;
+    @include font_medium;
+    // line-height: 1.42;
+  }
+
+  &__form {
+    margin: 0!important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__textarea {
+    height: 132px !important;
+  }
+
+  &__submit {
+    width: 356px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+}
+
+.send-form__col {
+  max-width: 47%;
+  flex: 0 0 47%;
+  margin-bottom: 17px;
+}
+
+/* Single Request */
+.single__request {
+  margin-bottom: 100px;
 }

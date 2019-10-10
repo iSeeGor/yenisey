@@ -25,17 +25,17 @@
 </div>
 
 <!--== Page Content  -->
-<main class="content page__content">
+<main class="main-content page__content">
 
     <!--== Content Title  -->
-    <div class="content__title">
+    <div class="main-content__title">
         <div class="container">
             <h1 class="content-title">Аренда недвижимости в Алании</h1>
         </div>
     </div>
 
     <!--== Search  -->
-    <div class="section-search search content__search">
+    <div class="section-search search main-content__search">
         <div class="container search__container">
 
             <form action="" class="search-form search__area">
@@ -902,7 +902,7 @@
     </div>
 
     <!--== Testimonial  -->
-    <div class="testimonial content__testimonial">
+    <div class="testimonial main-content__testimonial">
         <div class="container testimonial__container">
             <div class="row">
 

@@ -41,6 +41,18 @@
     .image-slider:hover .image-slider__button-prev {
         bottom: 20px;
     }
+
+    /* Tables */
+    .simple-table__col {
+        max-width: 25%;
+        flex: 0 0 25%;
+
+    }
+
+    /* Single Credits */
+    .single-credit__image-box {
+        height: 280px;
+    }
 }
 
 @media screen and (max-width: 767px){
@@ -67,10 +79,99 @@
     .image-slider__thumb {
         height: 70px;
     }
+
+    /* Table */
+    .simple-table__head-item {
+        padding: 10px 0;
+    }
+
+    /* Single Propertyes */
+    .single-propery__list-item:last-child {
+        margin-bottom: 20px;
+    }
+
+    /* Single Credits */
+    .single-credit__image-box {
+       max-width: 100%;
+       margin-bottom: 30px;
+    }
+
+    /* Managers */
+    .manager__image-box {
+        max-width: 260px;
+        flex: 0 0 260px;
+    }
+    
+    /* Request Form */
+    .request__form {
+        flex-direction: column;
+    }
+
+    .send-form__col {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px){
+    /* Table */
+    .simple-table__col {
+        max-width: 50%;
+        flex: 0 0 50%;
+
+    }
+}
+
+@media screen and (max-width: 520px){
+    .manager {
+        flex-direction: column;
+        max-width: 360px;
+        margin: auto;
+    }
+
+    .manager__image-box {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
 }
 
 @media screen and (max-width: 420px){
     .image-slider__main {
         height: 270px;
+    }
+
+    /* Table */
+    .simple-table {
+        text-align: left;
+    }
+
+    .simple-table__col {
+        max-width: 100%;
+        flex: 0 0 100%;
+        flex-direction: row;
+    }
+
+    .simple-table__item {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .simple-table__head-item,
+    .simple-table__body-item {
+        padding: 10px 10px;
+    }
+
+    /* Request Form */
+    .request {
+        padding: 20px;
+    }
+
+    .request__header::before {
+        height: 800px;
+        width: 800px;
+    }
+    
+    .request__text {
+        padding-bottom: 40px;
     }
 }
