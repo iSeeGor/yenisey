@@ -6,10 +6,8 @@ $(function() {
   testimonialSlider();
   poductHomeSlider();
   newsHomeSlider();
-  mobileMenu();
-
+  mobileMenu();                                                                                                                                                                                                                                                                                                                                                         
   // accordionMenu();
-
   modalTheme();
   textSplittEffect();
   slideNav();
@@ -38,7 +36,7 @@ const aosRun = () => {
 };
 
 // Testimonial Text Readmore
-const testimonalTextExpand = () => {
+const testimonalTextExpand = () => {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
   let showChar = 330;
   let ellipsestext = "...";
   let moretext = "Читать полностью";
@@ -379,7 +377,7 @@ const toTopButton = () => {
 
 // Form Validation
 const modalFormValidate = () => {
-  $(".popup__form").validate({
+  $(".send-form").validate({
     errorClass: "send-form__error",
 
     rules: {

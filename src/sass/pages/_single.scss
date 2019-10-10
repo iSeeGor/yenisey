@@ -11,16 +11,14 @@
   }
 
   &__favorits-counter {
-    margin-bottom: 15px;
+    margin-bottom: 11px;
     display: flex;
     justify-content: flex-end;
   }
-}
 
-.single-content {
   &__title {
     font-size: 3.6rem;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
   }
 }
 
@@ -32,15 +30,15 @@
 }
 
 .meta {
-  margin-bottom: 40px;
 
   &__price {
     font-size: 1.8rem;
     border-radius: 40px;
     background-color: #f3f3f3;
-    width: 254px;
+    min-width: 254px;
     text-align: center;
-    padding: 7px 0;
+    padding: 10px 25px 4px 25px;
+    display: inline-block;
   }
 
   &__price-num {
@@ -128,6 +126,9 @@
     transition: transform 0.5s ease, opacity 0.5s ease, visibility 0.5s ease;
   }
 }
+.single__meta {
+  margin-bottom: 40px;
+}
 
 /* Image Slider */
 
@@ -150,13 +151,13 @@
 
   &__main {
     width: 100%;
-    height: 540px;
+    height: 542px;
     margin-bottom: 16px;
   }
 
   &__thumb {
     width: 100%;
-    height: 110px;
+    height: 95px;
 
     .image-slider__slide {
       cursor: pointer;
@@ -276,7 +277,8 @@
 
 /* Player Box */
 .player-box {
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 32px;
 
   &__row {
     position: relative;
@@ -312,9 +314,66 @@
 }
 
 .single-description {
+  @include font_medium;
+  letter-spacing: 0.04em;
+
   &__simple-table {
     margin-bottom: 40px;
   }
+
+  &__list {
+    padding: 0;
+  }
+
+  &__properties {
+    position: relative;
+    margin-bottom: 25px;
+    
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: -30px;
+      width: calc(100% + 60px);
+      height: 2px;
+      background-color: $border-color;
+    }
+  }
+
+  &__detail-list {
+    letter-spacing: 0;
+    margin-bottom: 40px;
+  }
+
+  &__custom-list {
+    margin-bottom: 40px;
+  }
+}
+
+/* Product Details List */
+.product__detail-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 1.6rem;
+}
+
+.product__detail-list-item {
+  color: $bace_color;
+  @include font_semiBold;
+  margin-bottom: 17px;
+  &::before {
+    display: none !important;
+    
+  }
+}
+
+.product__detail-list-num {
+  color: $sky_color;
+  @include font_medium;
+  padding-left: 14px;
+  display: inline-block;
+
 }
 
 /* Single Property */
@@ -333,7 +392,7 @@
   &__list-item {
     color: $bace_color;
     @include font_medium;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     position: relative;
     padding-left: 42px;
 
@@ -360,7 +419,7 @@
 .single-map {
 
   &__holder {
-    height: 300px;
+    height: 288px;
     width: 100%;
     background: #ccc;
   }
@@ -368,7 +427,7 @@
 
 /* Single Credits */
 .single-credit {
-  margin-bottom: 60px;
+  margin-bottom: 33px;
 
   &__row {
     padding-top: 10px;
@@ -391,18 +450,23 @@
     margin-bottom: 25px;
     margin-left: 20px;
   }
+
+  &__text-box {
+    @include font_medium;
+  }
 }
 
 /* Single Product List/Grid */ 
 .single__prodList {
-  margin: 0 0 60px 0;
+  margin: 0 0 62px 0;
 }
 
 .single-prodList {
 
   &__button {
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
+    width: 200px;
   }
 }
 
@@ -430,7 +494,7 @@
   }
 
   &__body {
-    margin: 25px 10px 25px 30px;
+    margin: 22px 10px 23px 30px;
     color: #15427A;
     display: flex;
     flex-direction: column;
@@ -467,7 +531,8 @@
   &__contact-item {
     padding-left: 36px;
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
+    line-height: 1.45;
 
     &:last-child {
       margin-bottom: 0;
@@ -500,7 +565,7 @@
   }
 
   &__contact-item_massangers {
-    margin-top: -10px;
+    margin-top: -6px;
     font-size: 0;
   }
 
@@ -530,13 +595,13 @@
 }
 
 .single-managers__title {
-  margin-bottom: 40px;
+  margin-bottom: 38px;
 }
 
 /* Request Form */
 .request {
   border-radius: 20px;
-  padding: 19px 30px 30px;
+  padding: 17px 30px 30px;
   margin: 0 auto;
   // background: white;
   overflow: hidden;
@@ -558,24 +623,28 @@
       transform: translateX(-50%);
       border-radius: 50%;
       background: #C8E4F9;
-      z-index: -1;
+      // z-index: -1;
     }
   }
 
   &__title {
+    position: relative;
     font-size: 2.5rem;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 11px;
+    z-index: 10;
   }
 
   &__text {
-    padding-bottom: 60px;
+    position: relative;
+    padding-bottom: 55px;
     max-width: 470px;
     margin: 0 auto;
     text-align: center;
     color: #15427A;
     @include font_medium;
     // line-height: 1.42;
+    z-index: 10;
   }
 
   &__form {
@@ -594,6 +663,13 @@
     max-width: 100%;
     display: block;
     margin: 0 auto;
+
+    &::before {
+      transform: translate(15%, 270%) rotate(-30deg);
+    }
+    &::after {
+      transform: translate(-15%, -270%) rotate(-30deg);
+    }
   }
   
 }
@@ -601,10 +677,12 @@
 .send-form__col {
   max-width: 47%;
   flex: 0 0 47%;
-  margin-bottom: 17px;
+  margin-bottom: 11px;
 }
 
 /* Single Request */
 .single__request {
   margin-bottom: 100px;
 }
+
+/* Villas Single Page */ 

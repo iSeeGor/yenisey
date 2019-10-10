@@ -13,6 +13,10 @@
     .single-header {
         margin-top: 60px;
     }
+
+    .single__favorits-counter {
+        justify-content: flex-start;
+    }
     
     .single__title {
         font-size: 3rem;
@@ -83,6 +87,12 @@
     /* Table */
     .simple-table__head-item {
         padding: 10px 0;
+    }
+
+    /* Single Description */
+    .single-description__properties:after {
+        width: 100%;
+        left: 0;
     }
 
     /* Single Propertyes */

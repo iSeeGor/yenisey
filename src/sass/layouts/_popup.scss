@@ -101,6 +101,12 @@
 
   &__submit {
     width: 100%;
+    &::before {
+      transform: translate(15%, 270%) rotate(-30deg);
+    }
+    &::after {
+      transform: translate(-15%, -270%) rotate(-30deg);
+    }
   }
 }
 
@@ -133,15 +139,6 @@
 
   &__error {
     color: red;
-  }
-
-  .button{
-    &::before {
-      transform: translate(15%, 270%) rotate(-30deg);
-    }
-    &::after {
-      transform: translate(-15%, -270%) rotate(-30deg);
-    }
   }
 }
 

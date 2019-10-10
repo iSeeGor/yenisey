@@ -169,6 +169,26 @@ img {
     padding: 0 27px; 
 }
 
+// Theme Ul List
+.custom-list {
+    margin: 0 0 30px 0;
+    padding: 0;
+    list-style: none;
+
+    &__item {
+
+        &::before {
+            content: '';
+            width: 7px;
+            height: 7px;
+            background: #FF8617;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 8px;
+        }
+    }
+}
+
 
 /* Blog Text Content Styles */
 .article-content {
