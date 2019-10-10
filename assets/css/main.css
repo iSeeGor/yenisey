@@ -209,6 +209,13 @@ img {
   -o-transition-delay: 0.2s;
      transition-delay: 0.2s; }
 
+.button_big {
+  width: 274px;
+  line-height: 1.4;
+  height: auto;
+  padding-top: 11px;
+  padding-bottom: 11px; }
+
 .button--blue {
   background-color: #0A3163;
   -webkit-transition: background-color 0.3s ease;
@@ -1479,6 +1486,21 @@ strong {
   .card__body {
     margin: 28px 20px 0px 22px;
     position: relative; }
+    .card__body_complexes {
+      margin: 20px 20px 20px 22px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
   .card__title {
     overflow: hidden;
     height: 4.8rem;
@@ -2160,6 +2182,8 @@ strong {
     background-image: url("../images/pages/page-header__real-estate_rent_bg.png"); }
   .page-header_villas {
     background-image: url("../images/pages/page-header__real-estate_villas_bg.png"); }
+  .page-header_complexes {
+    background-image: url("../images/pages/page-header__complexes_bg.png"); }
   .page-header__inner {
     padding: 0 20px; }
   .page-header__breadcrumb {
@@ -2269,6 +2293,37 @@ strong {
     -webkit-transition: fill 0.4s ease;
     -o-transition: fill 0.4s ease;
     transition: fill 0.4s ease; }
+
+.status {
+  width: 80px;
+  height: 34px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-border-top-left-radius: 20px;
+          border-top-left-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+          border-bottom-right-radius: 20px;
+  background: white; }
+  .status__text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500; }
+    .status__text_new {
+      color: #FF8617; }
+
+.card__status {
+  position: absolute;
+  top: 0;
+  left: 0; }
 
 .product-list {
   margin: 48px 0 100px; }

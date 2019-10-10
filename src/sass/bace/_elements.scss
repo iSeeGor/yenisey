@@ -153,6 +153,14 @@ img {
     transition-delay: 0.2s;
 }
 
+.button_big {
+    width: 274px;
+    line-height: 1.4;
+    height: auto;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
 .button--blue {
     background-color: $font_color;
     @include transition(background-color);

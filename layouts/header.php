@@ -40,11 +40,12 @@
                     <a href="#" class="link mobile-menu__link" title="Каталог недвижимости">Каталог недвижимости</a>
 
                     <ul class="mobile-menu dropdown-menu">
-                        <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Квартиры">Квартиры</a></li>
-                        <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Виллы">Виллы</a></li>
-                        <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link"
+                        <li class="dropdown-menu__item"><a href="/pages/catalog_real-estate.php" class="link dropdown-menu__link" title="Каталог недвижимости">Каталог недвижимости</a></li>
+                        <li class="dropdown-menu__item"><a href="/pages/catalog_rooms.php" class="link dropdown-menu__link" title="Квартиры">Квартиры</a></li>
+                        <li class="dropdown-menu__item"><a href="/pages/catalog_villas.php" class="link dropdown-menu__link" title="Виллы">Виллы</a></li>
+                        <li class="dropdown-menu__item"><a href="/pages/catalog_comercial.php" class="link dropdown-menu__link"
                                 title="Коммерческая недвижимость">Коммерческая недвижимость</a></li>
-                        <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Аренда">Аренда</a></li>
+                        <li class="dropdown-menu__item"><a href="/pages/catalog_rent.php" class="link dropdown-menu__link" title="Аренда">Аренда</a></li>
                     </ul>
                 </li>
                 <li class="mobile-menu__item mobile-menu__item_dropdown is-dropdown">

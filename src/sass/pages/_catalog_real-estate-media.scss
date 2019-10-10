@@ -1,4 +1,9 @@
 @media screen and (max-width:1200px){
+    /* Product Card */
+    .card__status {
+        left: 99px;
+    }
+
     /* Catalog -- Villas Info */
     .villas-info__container {
         padding: 0;
@@ -29,6 +34,10 @@
 }
 
 @media screen and (max-width:992px){
+    /* Product Card */
+    .card__status {
+        left: 0;
+    }
 
     /* Page Headers */
     .page-header {
@@ -84,6 +93,11 @@
 }
 
 @media screen and (max-width:767px){
+    /* Product Card */
+    .card__status {
+        left: 60px;
+    }
+
     /* Page Headers */
     .order-by__select-block {
         margin-bottom: 30px;
@@ -98,6 +112,10 @@
 }
 
 @media screen and (max-width:575px){
+    /* Product Card */
+    .card__status {
+        left: 0px;
+    }
 
     /* Product List/Grid */
     .product-list__card {

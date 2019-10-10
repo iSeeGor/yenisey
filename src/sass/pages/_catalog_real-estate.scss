@@ -75,6 +75,10 @@
         background-image: url('../images/pages/page-header__real-estate_villas_bg.png');
     }
 
+    &_complexes {
+        background-image: url('../images/pages/page-header__complexes_bg.png');
+    }
+
     &__inner {
         padding: 0 20px;
     }
@@ -189,6 +193,32 @@
         fill: transparent;
         @include transition(fill,0.4s);
     }
+}
+
+.status {
+    width: 80px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: white;
+
+    &__text {
+        @include font_medium;
+
+        &_new {
+            color: $orange_color;
+        }
+    }
+  
+}
+
+.card__status {
+    position: absolute;
+    top:0;
+    left: 0;
 }
 
 .product-list {
