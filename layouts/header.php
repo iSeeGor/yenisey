@@ -52,6 +52,7 @@
                     <a href="#" class="link mobile-menu__link" title="Наши комплексы">Наши комплексы</a>
 
                     <ul class="mobile-menu dropdown-menu">
+                        <li class="dropdown-menu__item"><a href="/pages/catalog_complexes.php" class="link dropdown-menu__link" title="Все">Все</a></li>
                         <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Yenisey Residence">Yenisey Residence</a></li>
                         <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Yaparlı VI">Yaparlı VI</a></li>
                         <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Yenisey V">Yenisey V</a></li>
@@ -150,7 +151,7 @@
                                     </ul>
                                 </li>
                                 <li class="menu__item menu__item_dropdown dropdown">
-                                    <a href="#" class="link menu__item-link" title="Наши комплексы">Наши комплексы</a>
+                                    <a href="/pages/catalog_complexes.php" class="link menu__item-link" title="Наши комплексы">Наши комплексы</a>
 
                                     <div class="menu__dropdown mega-menu">
                                         <ul class="menu mega-menu__column">

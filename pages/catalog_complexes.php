@@ -193,7 +193,7 @@
                         <div class="card__body card__body_complexes">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence
+                                <a href="/pages/single_complexe.php" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence
                                     asasaad ada asdasdddasdas sdddsaas asdasasdd</a>
                             </div>
 
@@ -259,7 +259,7 @@
                         <div class="card__body card__body_complexes">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_complexe.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -325,7 +325,7 @@
                         <div class="card__body card__body_complexes">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence
+                                <a href="/pages/single_complexe.php" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence
                                     asasaad ada asdasdddasdas sdddsaas asdasasdd</a>
                             </div>
 
@@ -391,7 +391,7 @@
                         <div class="card__body card__body_complexes">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_complexe.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -457,7 +457,7 @@
                         <div class="card__body card__body_complexes">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence
+                                <a href="/pages/single_complexe.php" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence
                                     asasaad ada asdasdddasdas sdddsaas asdasasdd</a>
                             </div>
 
@@ -523,7 +523,7 @@
                         <div class="card__body card__body_complexes">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_complexe.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 

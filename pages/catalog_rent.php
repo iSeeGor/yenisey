@@ -10,7 +10,7 @@
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb__item"><a href="/" class="breadcrumb__link link">Главная</a></li>
-                                <li class="breadcrumb__item active" aria-current="page">Все объекты</li>
+                                <li class="breadcrumb__item active" aria-current="page">Аренда</li>
                             </ol>
                         </nav>
                     </div>
@@ -186,7 +186,7 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence
+                                <a href="/pages/single_rent.php" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence
                                     asasaad ada asdasdddasdas sdddsaas asdasasdd</a>
                             </div>
 
@@ -247,7 +247,7 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_rent.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -308,7 +308,7 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_rent.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -369,7 +369,7 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_rent.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -430,7 +430,7 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence
+                                <a href="/pages/single_rent.php" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence
                                     asasaad ada asdasdddasdas sdddsaas asdasasdd</a>
                             </div>
 
@@ -491,7 +491,7 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_rent.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -551,7 +551,7 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_rent.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -612,7 +612,7 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_rent.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -672,7 +672,7 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_rent.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -733,7 +733,7 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_rent.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -793,7 +793,7 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_rent.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -854,7 +854,7 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_rent.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 

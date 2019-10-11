@@ -11,7 +11,7 @@
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb__item"><a href="/" class="breadcrumb__link link">Главная</a></li>
-                                <li class="breadcrumb__item"><a href="/" class="breadcrumb__link link">Каталог недвижимости</a></li>
+                                <li class="breadcrumb__item"><a href="/pages/catalog_real-estate.php" class="breadcrumb__link link">Каталог недвижимости</a></li>
                                 <li class="breadcrumb__item active" aria-current="page">Yenisey Residence 2+1 All included</li>
                             </ol>
                         </nav>

@@ -10,7 +10,7 @@
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb__item"><a href="/" class="breadcrumb__link link">Главная</a></li>
-                                <li class="breadcrumb__item active" aria-current="page">Все объекты</li>
+                                <li class="breadcrumb__item active" aria-current="page">Виллы</li>
                             </ol>
                         </nav>
                     </div>
@@ -97,7 +97,7 @@
                     <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/company-bio_image.png" class="card__image"
+                            <img src="../assets/images/products/card_image_01.png" class="card__image"
                                 alt="Product Image #03" >
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
@@ -136,7 +136,7 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_villas.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -157,7 +157,7 @@
                     <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/benefit_title_bg.png" class="card__image"
+                            <img src="../assets/images/products/card_image_02.png" class="card__image"
                                 alt="Product Image #04" >
 
                             <div class="to-favorits card__to-favorits">
@@ -197,7 +197,7 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_villas.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -257,7 +257,7 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_villas.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -318,7 +318,7 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_villas.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 

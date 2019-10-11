@@ -11,7 +11,7 @@
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb__item"><a href="/" class="breadcrumb__link link">Главная</a></li>
-                                <li class="breadcrumb__item"><a href="/" class="breadcrumb__link link">Коммерческая недвижимость</a></li>
+                                <li class="breadcrumb__item"><a href="/pages/catalog_comercial.php" class="breadcrumb__link link">Коммерческая недвижимость</a></li>
                                 <li class="breadcrumb__item active" aria-current="page">Магазин в Yaparli VI</li>
                             </ol>
                         </nav>
