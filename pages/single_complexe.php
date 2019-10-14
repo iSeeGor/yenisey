@@ -52,12 +52,12 @@
                         </div>
                         <div class="col-md-7 col-lg-6 meta__right-col">
                             <div class="meta__download meta-download">
-                                <svg class="download-icon" fill="none" width="42" height="42" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg">
-                                    <path class="download-icon__path-main" d="m30.5 18.2v-7.9c0-0.2-0.1-0.4-0.3-0.6l-8.9-9.4c-0.1-0.2-0.3-0.3-0.6-0.3h-14.1c-2.6 0-4.7 2.1-4.7 4.7v26.7c0 2.6 2.1 4.7 4.7 4.7h11.2c2.1 3.5 5.9 5.8 10.3 5.8 6.6 0 12.1-5.4 12.1-12-0.1-5.7-4.3-10.6-9.7-11.7z" />
-                                    <path class="download-icon__path-second" d="m28.1 40.3c-5.7 0-10.3-4.6-10.3-10.3s4.6-10.3 10.3-10.3 10.3 4.6 10.3 10.3-4.7 10.3-10.3 10.3z"/>
-                                    <path d="m30.5 18.2v-7.9c0-0.2-0.1-0.4-0.3-0.6l-8.9-9.4c-0.1-0.2-0.4-0.3-0.6-0.3h-14.1c-2.6 0-4.7 2.1-4.7 4.7v26.7c0 2.6 2.1 4.7 4.7 4.7h11.2c2 3.6 5.9 5.9 10.2 5.9 6.6 0 12.1-5.4 12.1-12 0-5.8-4.2-10.7-9.6-11.8zm-8.9-15.1l6 6.3h-3.9c-1.2 0-2.1-1-2.1-2.1v-4.2zm-15 31.3c-1.6 0-2.9-1.3-2.9-3v-26.7c0-1.6 1.3-3 2.9-3h13.3v5.5c0 2.1 1.7 3.9 3.9 3.9h5.1v6.9h-0.7c-3.1 0-5.9 1.2-8 3h-11.2c-0.5 0-0.9 0.4-0.9 0.9s0.4 0.9 0.9 0.9h9.5c-0.6 0.9-1.1 1.8-1.5 2.7h-8c-0.5 0-0.9 0.4-0.9 0.9s0.4 0.9 0.9 0.9h7.4c-0.3 0.7-0.4 1.7-0.4 2.7 0 1.6 0.3 3.1 0.9 4.4h-10.3zm21.5 5.9c-5.7 0-10.3-4.6-10.3-10.3s4.6-10.3 10.3-10.3 10.3 4.6 10.3 10.3-4.7 10.3-10.3 10.3z" fill="#0A3163"/>
-                                    <path d="m9.0006 18.3h8.9c0.5 0 0.9-0.4 0.9-0.9s-0.4-0.9-0.9-0.9h-8.9c-0.5 0-0.9 0.4-0.9 0.9s0.4 0.9 0.9 0.9z" fill="#0A3163"/>
-                                    <path d="m32.5 29.8l-3.6 3.9v-9.6c0-0.5-0.4-0.9-0.9-0.9s-0.9 0.4-0.9 0.9v9.6l-3.6-3.9c-0.3-0.3-0.9-0.4-1.2 0-0.4 0.3-0.4 0.9 0 1.2l5.1 5.5c0.2 0.2 0.4 0.3 0.6 0.3s0.5-0.1 0.6-0.3l5.1-5.5c0.3-0.4 0.3-0.9 0-1.2-0.3-0.4-0.8-0.4-1.2 0z" fill="#0A3163"/>
+                                <svg class="download-icon" fill="none" widtd="42" height="42" viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg">
+                                    <patd class="download-icon__patd-main" d="m30.5 18.2v-7.9c0-0.2-0.1-0.4-0.3-0.6l-8.9-9.4c-0.1-0.2-0.3-0.3-0.6-0.3h-14.1c-2.6 0-4.7 2.1-4.7 4.7v26.7c0 2.6 2.1 4.7 4.7 4.7h11.2c2.1 3.5 5.9 5.8 10.3 5.8 6.6 0 12.1-5.4 12.1-12-0.1-5.7-4.3-10.6-9.7-11.7z" />
+                                    <patd class="download-icon__patd-second" d="m28.1 40.3c-5.7 0-10.3-4.6-10.3-10.3s4.6-10.3 10.3-10.3 10.3 4.6 10.3 10.3-4.7 10.3-10.3 10.3z"/>
+                                    <patd d="m30.5 18.2v-7.9c0-0.2-0.1-0.4-0.3-0.6l-8.9-9.4c-0.1-0.2-0.4-0.3-0.6-0.3h-14.1c-2.6 0-4.7 2.1-4.7 4.7v26.7c0 2.6 2.1 4.7 4.7 4.7h11.2c2 3.6 5.9 5.9 10.2 5.9 6.6 0 12.1-5.4 12.1-12 0-5.8-4.2-10.7-9.6-11.8zm-8.9-15.1l6 6.3h-3.9c-1.2 0-2.1-1-2.1-2.1v-4.2zm-15 31.3c-1.6 0-2.9-1.3-2.9-3v-26.7c0-1.6 1.3-3 2.9-3h13.3v5.5c0 2.1 1.7 3.9 3.9 3.9h5.1v6.9h-0.7c-3.1 0-5.9 1.2-8 3h-11.2c-0.5 0-0.9 0.4-0.9 0.9s0.4 0.9 0.9 0.9h9.5c-0.6 0.9-1.1 1.8-1.5 2.7h-8c-0.5 0-0.9 0.4-0.9 0.9s0.4 0.9 0.9 0.9h7.4c-0.3 0.7-0.4 1.7-0.4 2.7 0 1.6 0.3 3.1 0.9 4.4h-10.3zm21.5 5.9c-5.7 0-10.3-4.6-10.3-10.3s4.6-10.3 10.3-10.3 10.3 4.6 10.3 10.3-4.7 10.3-10.3 10.3z" fill="#0A3163"/>
+                                    <patd d="m9.0006 18.3h8.9c0.5 0 0.9-0.4 0.9-0.9s-0.4-0.9-0.9-0.9h-8.9c-0.5 0-0.9 0.4-0.9 0.9s0.4 0.9 0.9 0.9z" fill="#0A3163"/>
+                                    <patd d="m32.5 29.8l-3.6 3.9v-9.6c0-0.5-0.4-0.9-0.9-0.9s-0.9 0.4-0.9 0.9v9.6l-3.6-3.9c-0.3-0.3-0.9-0.4-1.2 0-0.4 0.3-0.4 0.9 0 1.2l5.1 5.5c0.2 0.2 0.4 0.3 0.6 0.3s0.5-0.1 0.6-0.3l5.1-5.5c0.3-0.4 0.3-0.9 0-1.2-0.3-0.4-0.8-0.4-1.2 0z" fill="#0A3163"/>
                                 </svg>
 
                                 <div class="tooltip meta-download__tooltip">
@@ -150,7 +150,7 @@
         </div>
     </section>
     
-    <section class="single-description single__description single-section">
+    <section class="single-description single__description">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-10 offset-xl-1 ">
@@ -178,18 +178,25 @@
                         </div>
                     </div>
 
+                    <div class="single-description__branding">
+                        <div class="single-description__brand">
+                            <img src="../assets/images/pages/yenisey_residence_logo.png" alt="Complex Logo" class="single-description__brand-logo">
+                        </div>
+                    </div>
 
-                    <p><strong>Yenisey Residence</strong> - жилой комплекс на берегу Средиземного моря только для Вас - настоящих ценителей качества и роскоши! 
+                    <div class="single__text-area">
+                        <p><strong>Yenisey Residence</strong> - жилой комплекс на берегу Средиземного моря только для Вас - настоящих ценителей качества и роскоши! 
                         Недвижимость в Турции – это не только отличное вложение средств, но и комфортное проживание в апартаментах класса люкс, 
                         где есть всё необходимое для отдыха.</p>
-                    <p>К Вашим услугам: два открытых бассейна с водными горками, оборудованный детский парк, крытый зимний бассейн с подогревом, 
+                        <p>К Вашим услугам: два открытых бассейна с водными горками, оборудованный детский парк, крытый зимний бассейн с подогревом, 
                         СПА-зона включает в себя: турецкий хамам, финскую сауну, массажные комнаты, душевые комнаты, тренажерный зал, 
                         бильярдные и теннисные столы.</p>
-                    <p>14-ти этажное здание с двумя панорамными лифтами состоит из 80-ти апартаментов и 8-ми пентхаусов, 
+                        <p>14-ти этажное здание с двумя панорамными лифтами состоит из 80-ти апартаментов и 8-ми пентхаусов, 
                         занимая общую площадь в 3458 м2. - 279.9 м2</p>
 
-                    <p>Ландшафтный дизайн, у жилого комплекса есть свой садовник, декоративный водопад, и кафе-бар на первом этаже комплекса, 
-                        где можно отведать чашечку чая или кофе и пообщаться с друзьями.</p>                 
+                        <p>Ландшафтный дизайн, у жилого комплекса есть свой садовник, декоративный водопад, и кафе-бар на первом этаже комплекса, 
+                        где можно отведать чашечку чая или кофе и пообщаться с друзьями.</p>
+                    </div>                     
 
                     <div class="player-box single-description__video-box">
                         <div class="player-box__row">
@@ -202,7 +209,7 @@
         </div>
     </section>
 
-    <section class="single-propery single__propery single-section">
+    <section class="single-propery single__propery">
         <div class="container">
                 
             <div class="row single-propery__row">
@@ -237,7 +244,133 @@
         </div>
     </section>
 
-    <section class="single-map single__map single-section">
+    <section class="single-appartments single__appartments">
+        <div class="container">
+            <div class="row">
+                <div class="col-12"><h3 class="single-section__title">Квартиры в Yenisey Residence</h3></div>
+                <div class="col-xl-10 offset-xl-1">
+                    <table class="table single-appartments__table">
+                        <thead>
+                            <tr>
+                                <th>Тип</th>
+                                <th data-breakpoint="sm">Планировка</th>
+                                <th data-breakpoint="md">Кол-во квартир</th>
+                                <th data-breakpoint="lg">Площадь</th>
+                                <th>Стоимость</th>
+                                <th data-breakpoint="xl"></th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Квартиры</td>
+                                <td>2+1</td>
+                                <td>40</td>
+                                <td>74 м2</td>
+                                <td>от 67 000 €</td>
+                                <td><a href="#" class="link single-appartments__readmore">Посмотреть квартиры</a></td>
+                            </tr>
+                            <tr>
+                                <td>Квартиры</td>
+                                <td>2+1</td>
+                                <td>40</td>
+                                <td>132.7 - 139.1 м2</td>
+                                <td>от 180 000 €</td>
+                                <td><a href="#" class="link single-appartments__readmore">Посмотреть квартиры</a></td>
+                            </tr>
+                            <tr>
+                                <td>Пентхаус</td>
+                                <td>2+1</td>
+                                <td>4</td>
+                                <td>147.7 м2</td>
+                                <td>от 180 000 €</td>
+                                <td><a href="#" class="link single-appartments__readmore">Посмотреть квартиры</a></td>
+                            </tr>
+                            <tr>
+                                <td>Пентхаус</td>
+                                <td>2+1</td>
+                                <td>4</td>
+                                <td>132.7 - 139.1 м2</td>
+                                <td>от 180 000 €</td>
+                                <td><a href="#" class="link single-appartments__readmore">Посмотреть квартиры</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- <table class="table mt-4 table-bordered table-striped single-appartments__table jsmartable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th data-breakpoint="xs">1 Column</th>
+                            <th>2 Column</th>
+                            <th data-breakpoint="sm">3 Column</th>
+                            <th data-breakpoint="md">4 Column</th>
+                            <th data-breakpoint="lg">Lastname</th>
+                            <th data-breakpoint="lg">Firstname</th>
+                            <th data-breakpoint="md">Title</th>
+                            <th data-breakpoint="md">Description</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Alii</td>
+                            <td>summum</td>
+                            <td>decus</td>
+                            <td>in</td>
+                            <td>carruchis</td>
+                            <td>solito</td>
+                            <td>altioribus</td>
+                            <td>et</td>
+                            <td>ambitioso</td>
+                            <td>vestium</td>
+                        </tr>
+                        <tr>
+                            <td>cultu</td>
+                            <td>ponentes</td>
+                            <td>sudant</td>
+                            <td>sub</td>
+                            <td>ponderibus</td>
+                            <td>lacernarum</td>
+                            <td>collis</td>
+                            <td>in</td>
+                            <td>insertas</td>
+                            <td>cingulis</td>
+                        </tr>
+                        <tr>
+                            <td>multiformes</td>
+                            <td>species</td>
+                            <td>liciorum</td>
+                            <td>luceant</td>
+                            <td>perspicue</td>
+                            <td>tunicaeque</td>
+                            <td>fimbriae</td>
+                            <td>ut</td>
+                            <td>longiores</td>
+                            <td>maximeque</td>
+                        </tr>
+                        <tr>
+                            <td>ipsis</td>
+                            <td>adnectunt</td>
+                            <td>nimia</td>
+                            <td>effigiatae</td>
+                            <td>tenuitate</td>
+                            <td>expandentes</td>
+                            <td>crebris</td>
+                            <td>eas</td>
+                            <td>agitationibus</td>
+                            <td>sinistra</td>
+                        </tr>
+                    </tbody>
+                </table> -->
+                    
+                    <button class="button single-appartments__button">Все квартиры комплекса</button>
+                </div>
+            </div>
+
+        </div>
+    </section>  
+
+    <section class="single-map single__map">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-10 offset-xl-1">
@@ -384,7 +517,7 @@
         </div>
     </section>
 
-    <section class="single-credit single__credit single-section">
+    <section class="single-credit single__credit">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-xl-10 offset-xl-1">
@@ -416,13 +549,12 @@
             </div>
     </section>
 
-    <section class="single-prodList single__prodList product-list">
+    <section class="single-complexesList single__complexesList product-list ">
         <div class="container">
             <h2 class="product-list__title">Похожие предложения</h2>
+                <div class="row">
 
-            <div class="row">
-
-            <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
+                <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
                     <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
                         data-aos-delay="300" data-aos-offset="0">
 
@@ -553,8 +685,7 @@
 
                     </div>
                 </div>
-
-            </div>
+            </div>                   
 
             <button class="button single-prodList__button">Смотреть все</button>
 

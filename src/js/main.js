@@ -18,6 +18,8 @@ $(function() {
   metaIconsToggle();
   productSlider();
   googleMap();
+  smoothScroll();
+  addToFavoritToggle();
 });
 
 // Select Custom
@@ -554,7 +556,11 @@ const productSlider = () => {
     
 };
 
-SmoothScroll({ stepSize: 60 })
+
+// SmoothScroll
+const smoothScroll = () => {
+  SmoothScroll({ stepSize: 60 })
+}
 
 // Google Map Api
 const googleMap = () => {
@@ -616,7 +622,15 @@ const googleMap = () => {
       infowindow.open(map, marker);
     });
   }
-  initMap();
+  if(document.querySelector('.map-holder')){
+    initMap();
+  }
+  
 };
 
-
+// Toggle Catalog Add to Favorits
+const addToFavoritToggle = () => {
+  $('.card__to-favorits').click(function(){
+    $(this).children().toggleClass('to-favorits__icon_active');
+  });
+}

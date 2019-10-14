@@ -348,6 +348,27 @@
   &__custom-list {
     margin-bottom: 40px;
   }
+
+  &__branding {
+    margin: 40px 0;
+    text-align: center;
+  }
+
+  &__brand {
+    padding: 40px 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 16px 46px rgba(202, 205, 214, 0.25);
+    border-radius: 20px;
+    display: inline-block;
+  }
+
+  &__brand-logo {
+    width: 243px;
+  }
+
+  .single__text-area {
+    margin-bottom: 40px;
+  }
 }
 
 /* Product Details List */
@@ -412,6 +433,27 @@
   }
 }
 
+/* Single Appartmants Table */
+.single__appartments {
+  margin-bottom: 60px;
+}
+.single-appartments {
+
+  &__table {
+    margin-bottom: 40px;
+  }
+
+  &__readmore {
+    text-decoration: underline;
+    color: $sky_color;
+  }
+
+  &__button {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 /* Single Map */
 .single__map {
   margin-bottom: 60px;
@@ -457,7 +499,8 @@
 }
 
 /* Single Product List/Grid */ 
-.single__prodList {
+.single__prodList,
+.single__complexesList {
   margin: 0 0 62px 0;
 }
 

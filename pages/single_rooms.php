@@ -188,7 +188,7 @@
         </div>
     </section>
     
-    <section class="single-description single__description single-section">
+    <section class="single-description single__description ">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-10 offset-xl-1">
@@ -230,13 +230,15 @@
                             </div>      
                         </div>
                     </div>
+                    <div class="single__text-area">
 
-                    <p>Квартиры в Алании, Турция напрямую от ведущего застройщика на Аланийском побережье Yenisey!</p>
-                    <p>Квартиры 2 + 1 площадью 139,1 м2 подойдут как для отдыха, так и для постоянного проживания. 
-                        Мы постарались сделать наши апартаменты очень комфортными для Вас, удобная планировка с большим 
-                        залом и кухней американского типа, две спальни, с собственными ванными комнатами, два больших балкона, 
-                        полы с подогревом, жалюзи на окнах с дистанционным управлением и многое другое Вы найдёте в своих 
-                        апартаментах типа 2+1. Квартиры от застройщика в Алании – Ваш правильный выбор!</p>
+                        <p>Квартиры в Алании, Турция напрямую от ведущего застройщика на Аланийском побережье Yenisey!</p>
+                        <p>Квартиры 2 + 1 площадью 139,1 м2 подойдут как для отдыха, так и для постоянного проживания. 
+                            Мы постарались сделать наши апартаменты очень комфортными для Вас, удобная планировка с большим 
+                            залом и кухней американского типа, две спальни, с собственными ванными комнатами, два больших балкона, 
+                            полы с подогревом, жалюзи на окнах с дистанционным управлением и многое другое Вы найдёте в своих 
+                            апартаментах типа 2+1. Квартиры от застройщика в Алании – Ваш правильный выбор!</p>
+                    </div>
 
                     <div class="player-box single-description__video-box">
                         <div class="player-box__row">
@@ -249,7 +251,7 @@
         </div>
     </section>
 
-    <section class="single-propery single__propery single-section">
+    <section class="single-propery single__propery ">
         <div class="container">
                 
             <div class="row single-propery__row">
@@ -313,7 +315,7 @@
         </div>
     </section>
 
-    <section class="single-map single__map single-section">
+    <section class="single-map single__map ">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-10 offset-xl-1">
@@ -325,7 +327,7 @@
         </div>
     </section>
 
-    <section class="single-credit single__credit single-section">
+    <section class="single-credit single__credit ">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-xl-10 offset-xl-1">

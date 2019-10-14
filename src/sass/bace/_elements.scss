@@ -197,30 +197,100 @@ img {
     }
 }
 
+.table {
+    color: $bace_color;
+    border-collapse: collapse;
+    width: 100%;
+    // table-layout: fixed;
 
-/* Blog Text Content Styles */
-.article-content {
-
-    & > *:not(img) {
-        padding-left: 166px;
-        padding-right: 166px;
+    th {
+        @include font_semiBold;
+        letter-spacing: 0.04em;
+        line-height: 1.5;
+        text-align: center;
+        border: 2px solid $border-color;
+        padding: 12px 20px;
+        position: relative;       
     }
 
+    td {
+        @include font_medium;
+        border: 2px solid $border-color;
+        text-align: center;
+        // vertical-align: top;
+        padding: 22px 20px;
+        position: relative;   
+    }
+}
+
+/* Responsive Table Buttons */
+    .jsmartable-collapse {
+        position: absolute;
+        left: -14px;
+        top: 50%;
+        transform: translateY(-50%);
+        text-decoration: none;
+        display: flex;
+        // margin-left: 10px;
+
+    }
+    .table-collapse__icon {
+        height: 26px;
+        width: 26px;
+        border-radius: 50%;
+        background: $border_color;
+        display: inline-block;
+        position: relative;
+    }
+    .table-collapse__icon_minus::before,
+    .table-collapse__icon_plus::before {
+        font-size: 24px;
+        font-style: normal;
+        font-family: 'Times New Roman', serif, Helvetica, sans-serif;
+        line-height: 1;
+        position: absolute;
+        top: calc(50%);
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .table-collapse__icon_plus::before {
+        content: '+';
+    }
+    .table-collapse__icon_minus::before {
+        content: '_';
+        top:1px;
+    }
+
+    .jsmartable-subcol {
+        padding: 10px 20px !important;
+
+        &:first-child {
+        background: none !important;
+        @include font_semiBold;
+        letter-spacing: 0.04em!important;
+        line-height: 1.5!important;
+        }
+    }
+
+    .jsmartable-col {
+        padding: 5px !important;
+    }
+
+/* Blog Text Content Styles */
+.article-content,
+.single__text-area {
+ 
     p { 
         margin: 0 0 22px 0; 
     }
 
     img {
-        margin: 16px 0 42px;
-        width: 100%;
-        padding: 0 66px;
-        
+        margin: 16px 0 42px;    
     }
     
     ul {
         margin: 0 0 23px 0;
-        padding-top: 0;
-        padding-bottom: 0;
+        padding: 0;
         list-style: none;
 
         li {
@@ -247,4 +317,17 @@ img {
         display: inline-block;
     }
 
+}
+
+.article-content {
+    & > *:not(img) {
+        padding-left: 166px;
+        padding-right: 166px;
+    }
+
+    img {
+        padding: 0 66px;
+        width: 100%;  
+        
+    }
 }

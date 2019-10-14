@@ -188,7 +188,7 @@
         </div>
     </section>
     
-    <section class="single-description single__description single-section">
+    <section class="single-description single__description">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-10 offset-xl-1 ">
@@ -215,22 +215,22 @@
                             </div>
                         </div>
                     </div>
+                    <div class="single__text-area">
+                        <p>Этот магазин расположен в центре Махмутлара, всего в 100 метрах от улицы Барбарос, общей площадью 307 м2. 
+                            Он состоит из двух этажей, верхний - 207 м2, подвал - 100 м2. Магазин имеет очень хорошее расположение 
+                            рядом с крупнейшим торговым центром в Алании на улице, где каждую субботу располагается фермерский рынок. 
+                            Большая проходимость обеспечена.</p>
 
-
-                    <p>Этот магазин расположен в центре Махмутлара, всего в 100 метрах от улицы Барбарос, общей площадью 307 м2. 
-                        Он состоит из двух этажей, верхний - 207 м2, подвал - 100 м2. Магазин имеет очень хорошее расположение 
-                        рядом с крупнейшим торговым центром в Алании на улице, где каждую субботу располагается фермерский рынок. 
-                        Большая проходимость обеспечена.</p>
-
-                    <strong>Площадь магазина полностью отремонтирована:</strong>
-                    <ul class="custom-list single-description__custom-list">
-                        <li class="custom-list__item">Витражные окна во всю стену</li>
-                        <li class="custom-list__item">Стены обшиты гипсокартоном и оштукатурены</li>
-                        <li class="custom-list__item">Керамические полы</li>
-                        <li class="custom-list__item">Встроенное освещение на потолке</li>
-                    </ul>
-                    
-                    <p>В настоящее время магазин сдается в аренду и все права по договору аренды будут переданы новому владельцу.</p>
+                        <strong>Площадь магазина полностью отремонтирована:</strong>
+                        <ul>
+                            <li>Витражные окна во всю стену</li>
+                            <li>Стены обшиты гипсокартоном и оштукатурены</li>
+                            <li>Керамические полы</li>
+                            <li>Встроенное освещение на потолке</li>
+                        </ul>
+                        
+                        <p>В настоящее время магазин сдается в аренду и все права по договору аренды будут переданы новому владельцу.</p>
+                    </div>
                     
                     <div class="player-box single-description__video-box">
                         <div class="player-box__row">
@@ -243,7 +243,7 @@
         </div>
     </section>
 
-    <section class="single-propery single__propery single-section">
+    <section class="single-propery single__propery">
         <div class="container">
                 
             <div class="row single-propery__row">
@@ -307,7 +307,7 @@
         </div>
     </section>
 
-    <section class="single-map single__map single-section">
+    <section class="single-map single__map">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-10 offset-xl-1">
