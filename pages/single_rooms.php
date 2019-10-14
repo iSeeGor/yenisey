@@ -12,7 +12,7 @@
                             <ol class="breadcrumb">
                                 <li class="breadcrumb__item"><a href="/" class="breadcrumb__link link">Главная</a></li>
                                 <li class="breadcrumb__item"><a href="/pages/catalog_real-estate.php" class="breadcrumb__link link">Каталог недвижимости</a></li>
-                                <li class="breadcrumb__item active" aria-current="page">Yenisey Residence 2+1 All included</li>
+                                <li class="breadcrumb__item breadcrumb__item_active" aria-current="page">Yenisey Residence 2+1 All included</li>
                             </ol>
                         </nav>
                     </div>
@@ -194,42 +194,33 @@
                 <div class="col-12 col-xl-10 offset-xl-1">
                     <h3 class="single-section__title">Описание квартиры</h3>
 
-                    <div class="simple-table single-description__simple-table">
-                        <div class="simple-table__row">
-                            <div class="simple-table__col">
-                                <div class="simple-table__item simple-table__head-item">Тип</div>
-                                <div class="simple-table__item simple-table__body-item">Апартаменты</div>
-                            </div>
-                            <div class="simple-table__col">
-                                <div class="simple-table__item simple-table__head-item">Площадь</div>
-                                <div class="simple-table__item simple-table__body-item">74 м2</div>
-                            </div> 
-                            <div class="simple-table__col">
-                                <div class="simple-table__item simple-table__head-item">Этаж</div>
-                                <div class="simple-table__item simple-table__body-item">3</div>
-                            </div> 
-                            <div class="simple-table__col">
-                                <div class="simple-table__item simple-table__head-item">Комнат</div>
-                                <div class="simple-table__item simple-table__body-item">5</div>
-                            </div> 
-                            <div class="simple-table__col">
-                                <div class="simple-table__item simple-table__head-item">Гостинные</div>
-                                <div class="simple-table__item simple-table__body-item">2</div>
-                            </div> 
-                            <div class="simple-table__col">
-                                <div class="simple-table__item simple-table__head-item">Ванная</div>
-                                <div class="simple-table__item simple-table__body-item">2</div>
-                            </div> 
-                            <div class="simple-table__col">
-                                <div class="simple-table__item simple-table__head-item">Балконы</div>
-                                <div class="simple-table__item simple-table__body-item">2</div>
-                            </div>
-                            <div class="simple-table__col">
-                                <div class="simple-table__item simple-table__head-item">Кондиционеры</div>
-                                <div class="simple-table__item simple-table__body-item">2</div>
-                            </div>      
-                        </div>
-                    </div>
+                    <table class="table single-appartments__table">
+                        <thead>
+                            <tr>
+                                <th>Тип</th>
+                                <th>Площадь</th>
+                                <th data-breakpoint="sm">Этаж</th>
+                                <th data-breakpoint="sm">Комнат</th>
+                                <th data-breakpoint="md">Гостинные</th>
+                                <th data-breakpoint="md">Ванная</th>
+                                <th data-breakpoint="lg">Балконы</th>
+                                <th data-breakpoint="xl">Кондиционеры</th> 
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Апартаменты</td>
+                                <td>74 м2</td>
+                                <td>3</td>
+                                <td>5</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td>2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
                     <div class="single__text-area">
 
                         <p>Квартиры в Алании, Турция напрямую от ведущего застройщика на Аланийском побережье Yenisey!</p>
@@ -372,8 +363,8 @@
                             <img src="../assets/images/products/card_image_01.png" class="card__image"
                                 alt="Product Image #03" >
                             <div class="to-favorits card__to-favorits">
-                                <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
-                                    viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg class="to-favorits__icon to-favorits__icon_active" width="23" heigth="23"
+                                    viewBox="0 0 23 23" fill="none" xmlns="thtp://www.w3.org/2000/svg">
                                     <path
                                         d="M21.2121 9.06129C21.6285 8.65533 21.7756 8.05953 21.5959 7.50641C21.4161 6.95328 20.947 6.55775 20.3714 6.47415L15.3388 5.74286C15.24 5.72853 15.1547 5.6665 15.1104 5.57692L12.8598 1.01668C12.6025 0.495134 12.0813 0.171158 11.4997 0.171158C10.9181 0.171158 10.3969 0.495134 10.1395 1.01668L7.8889 5.57697C7.84465 5.6665 7.7593 5.72853 7.66047 5.74291L2.62796 6.47415C2.05242 6.55775 1.5833 6.95328 1.40353 7.50641C1.22375 8.05953 1.37082 8.65533 1.78734 9.06129L5.42893 12.611C5.5004 12.6807 5.53306 12.7811 5.51617 12.8795L4.6565 17.8917C4.55821 18.465 4.78938 19.0334 5.25989 19.3752C5.7304 19.7172 6.3426 19.7613 6.85731 19.4908L11.3585 17.1243C11.4469 17.0778 11.5525 17.0778 11.6409 17.1243L16.1422 19.4908C16.3661 19.6085 16.6083 19.6666 16.8494 19.6666C17.1625 19.6666 17.4737 19.5685 17.7395 19.3752C18.21 19.0333 18.4412 18.4648 18.3428 17.8917L17.4832 12.8795C17.4663 12.781 17.4989 12.6806 17.5704 12.6109L21.2121 9.06129ZM16.2873 13.0847L17.147 18.097C17.1757 18.2647 17.0722 18.3603 17.0263 18.3936C16.9804 18.4269 16.8574 18.4959 16.7068 18.4167L12.2056 16.0502C11.9846 15.9341 11.7422 15.876 11.4998 15.876C11.2573 15.876 11.0149 15.9341 10.794 16.0502L6.29273 18.4166C6.14207 18.4958 6.01911 18.4268 5.97325 18.3935C5.92738 18.3603 5.82379 18.2646 5.85259 18.0969L6.71226 13.0847C6.79667 12.5926 6.63365 12.0907 6.27602 11.7421L2.63443 8.19245C2.51256 8.07359 2.54014 7.93537 2.5577 7.88146C2.57518 7.82751 2.63416 7.69944 2.80257 7.675L7.83504 6.94372C8.32913 6.87193 8.75612 6.56179 8.97713 6.11396L11.2278 1.55367C11.3031 1.40107 11.4431 1.38459 11.4998 1.38459C11.5565 1.38459 11.6964 1.40103 11.7718 1.55367V1.55372L14.0224 6.11401C14.2434 6.56183 14.6704 6.87197 15.1644 6.94376L20.197 7.67504C20.3654 7.69948 20.4243 7.82755 20.4419 7.8815C20.4594 7.93546 20.487 8.07372 20.3651 8.1925L16.7235 11.7422C16.3659 12.0907 16.2029 12.5926 16.2873 13.0847Z" />
                                     <path
@@ -433,8 +424,8 @@
                                 alt="Product Image #04" >
 
                             <div class="to-favorits card__to-favorits">
-                                <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
+                                <svg class="to-favorits__icon" width="23" heigth="23" viewBox="0 0 23 23" fill="none"
+                                    xmlns="thtp://www.w3.org/2000/svg">
                                     <path
                                         d="M21.2121 9.06129C21.6285 8.65533 21.7756 8.05953 21.5959 7.50641C21.4161 6.95328 20.947 6.55775 20.3714 6.47415L15.3388 5.74286C15.24 5.72853 15.1547 5.6665 15.1104 5.57692L12.8598 1.01668C12.6025 0.495134 12.0813 0.171158 11.4997 0.171158C10.9181 0.171158 10.3969 0.495134 10.1395 1.01668L7.8889 5.57697C7.84465 5.6665 7.7593 5.72853 7.66047 5.74291L2.62796 6.47415C2.05242 6.55775 1.5833 6.95328 1.40353 7.50641C1.22375 8.05953 1.37082 8.65533 1.78734 9.06129L5.42893 12.611C5.5004 12.6807 5.53306 12.7811 5.51617 12.8795L4.6565 17.8917C4.55821 18.465 4.78938 19.0334 5.25989 19.3752C5.7304 19.7172 6.3426 19.7613 6.85731 19.4908L11.3585 17.1243C11.4469 17.0778 11.5525 17.0778 11.6409 17.1243L16.1422 19.4908C16.3661 19.6085 16.6083 19.6666 16.8494 19.6666C17.1625 19.6666 17.4737 19.5685 17.7395 19.3752C18.21 19.0333 18.4412 18.4648 18.3428 17.8917L17.4832 12.8795C17.4663 12.781 17.4989 12.6806 17.5704 12.6109L21.2121 9.06129ZM16.2873 13.0847L17.147 18.097C17.1757 18.2647 17.0722 18.3603 17.0263 18.3936C16.9804 18.4269 16.8574 18.4959 16.7068 18.4167L12.2056 16.0502C11.9846 15.9341 11.7422 15.876 11.4998 15.876C11.2573 15.876 11.0149 15.9341 10.794 16.0502L6.29273 18.4166C6.14207 18.4958 6.01911 18.4268 5.97325 18.3935C5.92738 18.3603 5.82379 18.2646 5.85259 18.0969L6.71226 13.0847C6.79667 12.5926 6.63365 12.0907 6.27602 11.7421L2.63443 8.19245C2.51256 8.07359 2.54014 7.93537 2.5577 7.88146C2.57518 7.82751 2.63416 7.69944 2.80257 7.675L7.83504 6.94372C8.32913 6.87193 8.75612 6.56179 8.97713 6.11396L11.2278 1.55367C11.3031 1.40107 11.4431 1.38459 11.4998 1.38459C11.5565 1.38459 11.6964 1.40103 11.7718 1.55367V1.55372L14.0224 6.11401C14.2434 6.56183 14.6704 6.87197 15.1644 6.94376L20.197 7.67504C20.3654 7.69948 20.4243 7.82755 20.4419 7.8815C20.4594 7.93546 20.487 8.07372 20.3651 8.1925L16.7235 11.7422C16.3659 12.0907 16.2029 12.5926 16.2873 13.0847Z" />
                                     <path

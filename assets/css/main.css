@@ -2541,6 +2541,14 @@ strong {
     cursor: pointer;
     display: none; }
 
+/* Breadcrumbs */
+.breadcrumb__item_active {
+  width: 60%;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis; }
+
 .single__header {
   margin-top: 110px;
   border-top: 2px solid #0A3163; }

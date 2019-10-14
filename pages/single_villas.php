@@ -13,7 +13,7 @@
                                 <li class="breadcrumb__item"><a href="/" class="breadcrumb__link link">Главная</a></li>
                                 <li class="breadcrumb__item"><a href="/pages/catalog_real-estate.php" class="breadcrumb__link link">Каталог недвижимости</a></li>
                                 <li class="breadcrumb__item"><a href="/pages/catalog_villas.php" class="breadcrumb__link link">Виллы</a></li>
-                                <li class="breadcrumb__item active" aria-current="page">Yenisey Residence</li>
+                                <li class="breadcrumb__item breadcrumb__item_active" aria-current="page">Yenisey Residence</li>
                             </ol>
                         </nav>
                     </div>

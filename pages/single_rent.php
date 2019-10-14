@@ -13,7 +13,7 @@
                                 <li class="breadcrumb__item"><a href="/" class="breadcrumb__link link">Главная</a></li>
                                 <li class="breadcrumb__item"><a href="/pages/catalog_real-estate.php" class="breadcrumb__link link">Каталог недвижимости</a></li>
                                 <li class="breadcrumb__item"><a href="/pages/catalog_rooms.php" class="breadcrumb__link link">Аренда</a></li>
-                                <li class="breadcrumb__item active" aria-current="page">Апартаменты типа 2+1</li>
+                                <li class="breadcrumb__item breadcrumb__item_active" aria-current="page">Апартаменты типа 2+1</li>
                             </ol>
                         </nav>
                     </div>

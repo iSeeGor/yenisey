@@ -12,6 +12,12 @@
 @media screen and (max-width: 991px){
 
     /* Breadcrumbs */
+    .single__breadcrumb {
+        padding-bottom: 20px;
+    }
+    .single__favorits-counter {
+        margin-bottom: 20px;
+    }
     .page-header__inner {
         padding: 0 50px;
     }
@@ -135,6 +141,10 @@
 }
 
 @media screen and (max-width: 575px){
+    .meta__favorits, .meta__download {
+        margin-right: 30px;
+    }
+
     /* Table */
     .simple-table__col {
         max-width: 50%;
@@ -153,6 +163,13 @@
 
     .table th {
         width: 50%;
+    }
+
+    /* Credits */
+    .single-credit__icon {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 

@@ -4,13 +4,13 @@
 <div class="page-header page-header_villas catalog-header">
     <div class="container">
         <div class="row">
-            <div class="col-sm-10 offset-sm-1">
+            <div class="col-lg-10 offset-lg-1">
                 <div class="page-header__inner">
                     <div class="page-header__breadcrumb">
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb__item"><a href="/" class="breadcrumb__link link">Главная</a></li>
-                                <li class="breadcrumb__item active" aria-current="page">Виллы</li>
+                                <li class="breadcrumb__item breadcrumb__item_active" aria-current="page">Виллы</li>
                             </ol>
                         </nav>
                     </div>
