@@ -691,10 +691,16 @@
 
     &__image-area {
         margin: -2px;
-        overflow: hidden; 
-        border-radius: 20px;
+        // overflow: hidden; 
+        
         max-width: 293px;
         flex: 0 0 293px;
+    }
+
+    &__image-inner {
+        border-radius: 20px;
+        overflow: hidden;
+        height: 100%;
     }
 
     &__image {
@@ -764,7 +770,7 @@
             border-radius: 30px;
             position: absolute;
             left: 0;
-            top: calc(50% - 4px);
+            top: 7px;
         }
     }
 
@@ -859,17 +865,18 @@
 
     &__slider {
         // width: 758px;
+        padding: 0 0 30px 0;
     }
 
     &__card {
         position: relative;
         // width: 758px;
         margin-bottom: 30px;
-        margin-right: 300px;
+        // margin-right: 300px;
 
-        &:last-child {
-            margin-right: 0;
-        }
+        // &:last-child {
+        //     margin-right: 0;
+        // }
     }
 
     &__image-area {
@@ -925,13 +932,18 @@
     }
 
     &__massage {
-        // margin-bottom: 26px;
+        margin-bottom: 0px;
+
+        iframe {
+            height: 340px !important;
+            width: 100% !important;
+        }
     }
 
     &__readmore-link {
         text-decoration: underline;
         color: #1072BF;
-        margin-top: 26px;
+        margin: 26px 0 20px;
         display: block;
         cursor: pointer;
     }

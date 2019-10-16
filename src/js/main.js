@@ -2,8 +2,8 @@ $(function() {
   accordionMenu();
   selectCustom();
   aosRun();
-  testimonalTextExpand();
   testimonialSlider();
+  testimonalTextExpand();
   poductHomeSlider();
   newsHomeSlider();
   mobileMenu();                                                                                                                                                                                                                                                                                                                                                         
@@ -39,6 +39,29 @@ const aosRun = () => {
   });
 };
 
+// Testimonial Slider -
+const testimonialSlider = () => {
+  testimonialsSlider = new Swiper(".testimonial__slider", {
+    loop: true,
+    speed: 1000,
+    slidesPerView: "auto",
+    autoHeight: true,
+    threshold: 10,
+    grabCursor: true,
+    spaceBetween: 200,
+
+    pagination: {
+      el: ".testimonial__pagination",
+      clickable: true
+    },
+    navigation: {
+      nextEl: ".testimonial__button-next",
+      prevEl: ".testimonial__button-prev"
+    },
+
+  });
+};  
+
 // Testimonial Text Readmore
 const testimonalTextExpand = () => {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
   let showChar = 330;
@@ -60,6 +83,7 @@ const testimonalTextExpand = () => {
   });
 
   $(".testimonial__readmore-link").click(function() {
+    
     if ($(this).hasClass("less")) {
       $(this).removeClass("less");
       $(this).html(moretext);
@@ -74,29 +98,14 @@ const testimonalTextExpand = () => {
     $(this)
       .prev()
       .toggle();
+      testimonialsSlider.updateAutoHeight(400);
     return false;
   });
+  
+  if(document.querySelector('.testimonial')){
+    testimonialsSlider.updateAutoHeight(400);
+  } 
 };
-
-// Testimonial Slider -
-const testimonialSlider = () => {
-  let testimonialsSlider = new Swiper(".testimonial__slider", {
-    loop: true,
-    speed: 1000,
-    slidesPerView: "auto",
-    // autoHeight: true,
-
-    pagination: {
-      el: ".testimonial__pagination",
-      clickable: true
-    },
-    navigation: {
-      nextEl: ".testimonial__button-next",
-      prevEl: ".testimonial__button-prev"
-    }
-  });
-
-};  
 
 // Product Home Page Slider 
 const poductHomeSlider = () => {
@@ -251,17 +260,23 @@ const modalTheme = () => {
         popupText.innerHTML =
           "Для получения подробной информации заполните форму и наш менеджер свяжется с Вами в ближайшее время";
       }
-
+      
+      document.querySelector('.popup-overlay').style = "margin-right: 0px;"
       overlay.classList.add("popup-overlay_opened");
       popup.classList.add("popup_show");
-      // document.body.style = "overflow-y:scroll; width:100%; position:fixed;";
+      document.body.style = "overflow:hidden; padding-right: 16px;";
+      
     };
   }
 
   closeBtn.onclick = function() {
+    document.querySelector('.popup-overlay').style = "margin-right: -16px;"
+    
+    
     overlay.classList.remove("popup-overlay_opened");
     popup.classList.remove("popup_show");
-    // document.body.style = "overflow:auto; position:relative; width:auto;";
+    document.body.style = "overflow:auto; padding-right: 0;";
+    
   };
 
   if (openPopupVideo) {
@@ -382,7 +397,31 @@ const toTopButton = () => {
 
 // Form Validation
 const modalFormValidate = () => {
-  $(".send-form").validate({
+  $(".send-form_validate").validate({
+    errorClass: "send-form__error",
+
+    rules: {
+      name: {
+        required: true
+      },
+      phone: {
+        required: true,
+        minlength: 10
+      }
+    },
+
+    messages: {
+      name: {
+        required: "Введите ваше Имя"
+      },
+      phone: {
+        required: "Введите ваш номер телефона",
+        minlength: "Минимальное количество символов - 10"
+      }
+    }
+  });
+
+  $(".request__form").validate({
     errorClass: "send-form__error",
 
     rules: {
@@ -638,7 +677,7 @@ const addToFavoritToggle = () => {
   });
 }
 
-//Archive tabs Toggle
+// Archive tabs Toggle
 const archiveTabsToggle = () => {
 	
     $('.archive-tab').click(function(){
@@ -659,9 +698,10 @@ const favoritTabsToggle = () => {
     let tabNum = $(this).attr('data-tab');
 
     $('.favorit-tabs__list-item').removeClass('favorit-tabs__list-item_current');
-    // $('.tab-content').removeClass('tab-content_current');
+    $('.tab-content').removeClass('tab-content_current');
 
     $(this).addClass('favorit-tabs__list-item_current');
-    // $("."+tabNum).addClass('tab-content_current');
+    $("."+tabNum).addClass('tab-content_current');
   })
+  
 };

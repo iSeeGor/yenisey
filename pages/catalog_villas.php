@@ -16,7 +16,7 @@
                     </div>
 
                     <div class="page-header__favorits favorits-counter">
-                        <a href="#" class="link favorits-counter__link">Избранное:</a><span class="favorits-counter__num">2</stron>
+                        <a href="/pages/favorits.php" class="link favorits-counter__link">Избранное:</a><span class="favorits-counter__num">2</stron>
                     </div>
 
                 </div>
@@ -97,8 +97,11 @@
                     <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_01.png" class="card__image"
-                                alt="Product Image #03" >
+                            <div class="card__image-inner">
+                                <a href="/pages/single_villas.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_03.png" class="card__image" alt="Product Image #03">
+                                </a>
+                            </div>
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
                                     viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -157,8 +160,11 @@
                     <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_02.png" class="card__image"
-                                alt="Product Image #04" >
+                            <div class="card__image-inner">
+                                <a href="/pages/single_villas.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_04.png" class="card__image" alt="Product Image #04">
+                                </a>
+                            </div>
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -218,8 +224,11 @@
                     <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_03.png" class="card__image"
-                                alt="Product Image #03" >
+                            <div class="card__image-inner">
+                                <a href="/pages/single_villas.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_03.png" class="card__image" alt="Product Image #03">
+                                </a>
+                            </div>
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
                                     viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -278,8 +287,11 @@
                     <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_04.png" class="card__image"
-                                alt="Product Image #04" >
+                            <div class="card__image-inner">
+                                <a href="/pages/single_villas.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_04.png" class="card__image" alt="Product Image #04">
+                                </a>
+                            </div>
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"

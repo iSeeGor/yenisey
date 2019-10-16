@@ -31,7 +31,10 @@
 }
 
 @media screen and (max-width:992px){
-    /* Product Card */
+    /* Breadcrumbs */
+    .breadcrumb {
+        width: 90%;
+    }
 
     /* Page Headers */
     .page-header {
@@ -120,15 +123,23 @@
 }
 
 @media screen and (max-width:575px){
-    /* Product Card */
+    /* Breadcrumbs */
+    .breadcrumb {
+        white-space: normal;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .breadcrumb__item_active {
+        width: 80%;
+    }
 
     /* Product List/Grid */
     .product-list__card {
         margin-bottom: 40px;
     } 
     .product-list__card .card__image-area {
-        max-width: 100%;
-        margin: 0;
+        max-width: calc(100% + 4px);
+        // margin: 0;
     }
 
     /* Article */

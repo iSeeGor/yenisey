@@ -119,6 +119,10 @@
     .testimonial__body::after {
         left: 40px;
     }
+    .testimonial__massage iframe {
+        height: 280px !important;
+        width: 100% !important;
+    }
 
     /* #Featured */
     .featured__header {
@@ -268,11 +272,10 @@
     .testimonial__button-next {
         right: -40px;
     }
-    // .testimonial__body::before, .testimonial__body::after {
-    //     z-index: 11;
-    // }
-
-
+    .testimonial__massage iframe {
+        height: 240px !important;
+        width: 100% !important;
+    }
 
     /* #Excellence */
     .excellence__text-box {
@@ -540,8 +543,7 @@
     }
 
     .card__image-area{
-        max-width: 100%;
-        margin: 0;
+        max-width: calc(100% + 4px);
         margin-left: -60px;
     }
     .card__body {
@@ -611,6 +613,11 @@
     .testimonial__image-area {
         margin: 0 auto -100px;
         width: 260px;
+    }
+
+    .testimonial__massage iframe {
+        height: 220px !important;
+        width: 100% !important;
     }
 
     /* News */

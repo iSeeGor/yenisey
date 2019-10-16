@@ -32,7 +32,7 @@ function sass() {
         .pipe(sourcemaps.init())
         .pipe(gulpsass())
         .pipe(autoprefixer({
-            browsers: ['> 50%', 'last 20 versions', 'Firefox ESR'],
+            overrideBrowserslist: ['> 50%', 'last 20 versions', 'Firefox ESR'],
             cascade: true
         }))
         // .pipe(cleanCSS({

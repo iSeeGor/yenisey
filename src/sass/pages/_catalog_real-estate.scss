@@ -4,7 +4,9 @@
     margin: 0;
     padding: 0;
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
+    width: 70%;
+    white-space: nowrap;
     
     
     &__item {
@@ -201,7 +203,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top-left-radius: 20px;
+    border-top-left-radius: 16px;
     border-bottom-right-radius: 20px;
     background: white;
 
@@ -405,4 +407,20 @@
         display: none; 
     }
 
+}
+
+/* Complexes */
+.product-list__card_complexe {
+    height: 306px;
+
+    .card__title {
+        margin-bottom: 14px;
+    }
+
+    .card__property-item:last-child {
+        margin-bottom: 0;
+    }
+}
+.card__body_complexes .card__property-item {
+    white-space: normal;
 }

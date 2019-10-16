@@ -277,7 +277,8 @@ img {
     border: 2px solid #C8E4F9;
     text-align: center;
     padding: 22px 20px;
-    position: relative; }
+    position: relative;
+    color: #0071C2; }
 
 /* Responsive Table Buttons */
 .jsmartable-collapse {
@@ -620,8 +621,8 @@ strong {
   width: 100%;
   top: 0;
   z-index: 20;
-  -webkit-box-shadow: 0px 0px 16px 46px rgba(207, 207, 207, 0.25);
-          box-shadow: 0px 0px 16px 46px rgba(207, 207, 207, 0.25); }
+  -webkit-box-shadow: 0px 16px 46px rgba(207, 207, 207, 0.25);
+          box-shadow: 0px 16px 46px rgba(207, 207, 207, 0.25); }
 
 .phones__select-list {
   position: absolute;
@@ -1574,14 +1575,16 @@ strong {
     border-color: #FF8617; }
   .card__image-area {
     margin: -2px;
-    overflow: hidden;
-    -webkit-border-radius: 20px;
-            border-radius: 20px;
     max-width: 293px;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 293px;
         -ms-flex: 0 0 293px;
             flex: 0 0 293px; }
+  .card__image-inner {
+    -webkit-border-radius: 20px;
+            border-radius: 20px;
+    overflow: hidden;
+    height: 100%; }
   .card__image {
     cursor: pointer;
     -webkit-transition: -webkit-transform 0.3s ease;
@@ -1651,8 +1654,7 @@ strong {
               border-radius: 30px;
       position: absolute;
       left: 0;
-      top: -webkit-calc(50% - 4px);
-      top: calc(50% - 4px); }
+      top: 7px; }
   .card__price {
     margin-top: -2px;
     padding: 15px 0 0 0;
@@ -1718,12 +1720,11 @@ strong {
   background: url("../images/testimonial_bg.png") no-repeat center 120px; }
   .testimonial__container {
     position: relative; }
+  .testimonial__slider {
+    padding: 0 0 30px 0; }
   .testimonial__card {
     position: relative;
-    margin-bottom: 30px;
-    margin-right: 300px; }
-    .testimonial__card:last-child {
-      margin-right: 0; }
+    margin-bottom: 30px; }
   .testimonial__image-area {
     position: relative;
     width: 355px;
@@ -1771,10 +1772,15 @@ strong {
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin-bottom: 20px; }
+  .testimonial__massage {
+    margin-bottom: 0px; }
+    .testimonial__massage iframe {
+      height: 340px !important;
+      width: 100% !important; }
   .testimonial__readmore-link {
     text-decoration: underline;
     color: #1072BF;
-    margin-top: 26px;
+    margin: 26px 0 20px;
     display: block;
     cursor: pointer; }
   .testimonial__expanded-text {
@@ -2255,9 +2261,8 @@ strong {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap; }
+  width: 70%;
+  white-space: nowrap; }
   .breadcrumb__item:not(:last-child)::after {
     content: '/';
     display: inline-block;
@@ -2431,8 +2436,8 @@ strong {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-border-top-left-radius: 20px;
-          border-top-left-radius: 20px;
+  -webkit-border-top-left-radius: 16px;
+          border-top-left-radius: 16px;
   -webkit-border-bottom-right-radius: 20px;
           border-bottom-right-radius: 20px;
   background: white; }
@@ -2578,9 +2583,19 @@ strong {
     cursor: pointer;
     display: none; }
 
+/* Complexes */
+.product-list__card_complexe {
+  height: 306px; }
+  .product-list__card_complexe .card__title {
+    margin-bottom: 14px; }
+  .product-list__card_complexe .card__property-item:last-child {
+    margin-bottom: 0; }
+
+.card__body_complexes .card__property-item {
+  white-space: normal; }
+
 /* Breadcrumbs */
 .breadcrumb__item_active {
-  width: 60%;
   overflow: hidden;
   white-space: nowrap;
   -o-text-overflow: ellipsis;
@@ -3696,8 +3711,7 @@ strong {
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
           align-items: flex-start;
-  margin: auto;
-  padding: 20px; }
+  margin: auto; }
 
 .popup-overlay_opened.popup-overlay {
   visibility: visible;

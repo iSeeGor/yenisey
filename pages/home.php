@@ -276,13 +276,17 @@
                         <div class="card featured__card">
                             
                             <div class="card__image-area">
-                                <img src="../assets/images/products/card_image_01.png" class="card__image" alt="Product Image #01" >
+                                <div class="card__image-inner">
+                                    <a href="/pages/single_real-estate.php" title="Product Image">
+                                        <img src="../assets/images/products/card_image_01.png" class="card__image" alt="Product Image #01">
+                                    </a>
+                                </div>
                             </div>
 
                             <div class="card__body">
 
                                 <div class="card__title">
-                                    <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence asasaad ada asdasdddasdas sdddsaas asdasasdd</a>
+                                    <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence </a>
                                 </div>
 
                                 <ul class="card__property">
@@ -302,7 +306,11 @@
                         <div class="card featured__card">
                             
                             <div class="card__image-area">
-                                <img src="../assets/images/products/card_image_02.png" class="card__image" alt="Product Image #02" >
+                                <div class="card__image-inner">
+                                    <a href="/pages/single_real-estate.php" title="Product Image">
+                                        <img src="../assets/images/products/card_image_02.png" class="card__image" alt="Product Image #01">
+                                    </a>
+                                </div>
                             </div>
 
                             <div class="card__body">
@@ -328,7 +336,11 @@
                         <div class="card featured__card">
                             
                             <div class="card__image-area">
-                                <img src="../assets/images/products/card_image_03.png" class="card__image" alt="Product Image #03" >
+                                <div class="card__image-inner">
+                                    <a href="/pages/single_real-estate.php" title="Product Image">
+                                        <img src="../assets/images/products/card_image_03.png" class="card__image" alt="Product Image #01">
+                                    </a>
+                                </div>
                             </div>
 
                             <div class="card__body">
@@ -354,7 +366,11 @@
                         <div class="card featured__card">
                             
                             <div class="card__image-area">
-                                <img src="../assets/images/products/card_image_04.png" class="card__image" alt="Product Image #04" >
+                                <div class="card__image-inner">
+                                    <a href="/pages/single_real-estate.php" title="Product Image">
+                                        <img src="../assets/images/products/card_image_04.png" class="card__image" alt="Product Image #01">
+                                    </a>
+                                </div>
                             </div>
 
                             <div class="card__body">
@@ -458,11 +474,9 @@
     <section class="section-testimonial testimonial">
         <div class="container testimonial__container">
             <div class="row">
-
                 <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 
                     <div class="swiper-container testimonial__slider">
-
                         <div class="swiper-wrapper">
 
                             <div class="testimonial__card swiper-slide">
@@ -481,7 +495,7 @@
                                     </div>
 
                                     <p class="testimonial__massage">
-                                        Когда встал вопрос о покупке недвижимости в Турции, пересмотрев много разных вариантов, случайно наткнулись на офис компании застройщика “Yenisey” и решили зайти. Очень доброжелательные сотрудники  ответили на все интересующие нас вопросы, рассказали очень подробно о дальнейшем оформлении документов и получении ВНЖ на территории Турции. Индивидуальный подход к каждому клиенту позволил нам без проблем общаться со специалистом отдела продаж строительной компания “Yenisey” - Анастасией. Общение оказалось очень продуктивным, и мы решили посмотреть имеющиеся на рынке недвижимости предложения от компании “Yenisey”.
+                                        1 Когда встал вопрос о покупке недвижимости в Турции, пересмотрев много разных вариантов, случайно наткнулись на офис компании застройщика “Yenisey” и решили зайти. Очень доброжелательные сотрудники  ответили на все интересующие нас вопросы, рассказали очень подробно о дальнейшем оформлении документов и получении ВНЖ на территории Турции. Индивидуальный подход к каждому клиенту позволил нам без проблем общаться со специалистом отдела продаж строительной компания “Yenisey” - Анастасией. Общение оказалось очень продуктивным, и мы решили посмотреть имеющиеся на рынке недвижимости предложения от компании “Yenisey”.
                                     </p>
 
                                 </div>
@@ -504,7 +518,7 @@
                                     </div>
 
                                     <p class="testimonial__massage">
-                                    <iframe width="100%" height="260" src="https://www.youtube.com/embed/Bey4XXJAqS8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe width="100%" height="360" src="https://www.youtube.com/embed/Bey4XXJAqS8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </p>
                                 
                                 </div>
@@ -530,7 +544,6 @@
                                         Когда встал вопрос о покупке недвижимости в Турции, пересмотрев много разных вариантов, случайно наткнулись на офис компании застройщика “Yenisey” и решили зайти. Очень доброжелательные сотрудники  ответили на все интересующие нас вопросы, рассказали очень подробно о дальнейшем оформлении документов и получении ВНЖ на территории Турции. Индивидуальный подход к каждому клиенту позволил нам без проблем общаться со специалистом отдела продаж строительной компания “Yenisey” - Анастасией. Общение оказалось очень продуктивным, и мы решили посмотреть имеющиеся на рынке недвижимости предложения от компании “Yenisey”.
                                     </p>
 
-                                    
                                 </div>
 
                             </div>
@@ -554,19 +567,19 @@
                                         Когда встал вопрос о покупке недвижимости в Турции, пересмотрев много разных вариантов, случайно наткнулись на офис компании застройщика “Yenisey” и решили зайти. Очень доброжелательные сотрудники  ответили на все интересующие нас вопросы, рассказали очень подробно о дальнейшем оформлении документов и получении ВНЖ на территории Турции. Индивидуальный подход к каждому клиенту позволил нам без проблем общаться со специалистом отдела продаж строительной компания “Yenisey” - Анастасией. Общение оказалось очень продуктивным, и мы решили посмотреть имеющиеся на рынке недвижимости предложения от компании “Yenisey”.
                                     </p>
 
-                                    
                                 </div>
 
                             </div>
 
                         </div>
 
-                        <div class="testimonial__button-prev"></div>
-                        <div class="testimonial__button-next"></div>
-
                     </div>
 
+                    <div class="testimonial__button-prev"></div>
+                    <div class="testimonial__button-next"></div>
+
                     <div class="testimonial__pagination"></div>
+                    
 
                 </div>
 

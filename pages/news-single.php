@@ -9,7 +9,7 @@
                     <ol class="breadcrumb">
                         <li class="breadcrumb__item"><a href="/" class="post-breadcrumb__link breadcrumb__link link">Главная</a></li>
                         <li class="breadcrumb__item"><a href="/" class="post-breadcrumb__link breadcrumb__link link">Полезные публикации</a></li>
-                        <li class="post-breadcrumb__item breadcrumb__item post-breadcrumb__item_active breadcrumb__item_active" aria-current="page">Термальный туризм в Турции</li>
+                        <li class="post-breadcrumb__item breadcrumb__item post-breadcrumb__item_active breadcrumb__item_active" aria-current="page">Термальный туризм в Турции использования термальных источников</li>
                     </ol>
                 </nav>
             </div>

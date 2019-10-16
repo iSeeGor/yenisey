@@ -7,7 +7,7 @@
             <p class="popup__text">Для получения подробной информации заполните форму и наш менеджер свяжется с Вами в ближайшее время</p>
         </header>
 
-        <form class="popup__form send-form" action="">
+        <form class="popup__form send-form send-form_validate" action="">
             <div class="send-form__row">
                 <span class="send-form__label">Ваше имя*</span>
                 <input class="input send-form__input" type="text" name="name" placeholder="Имя*">

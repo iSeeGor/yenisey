@@ -10,13 +10,15 @@
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb__item"><a href="/" class="breadcrumb__link link">Главная</a></li>
-                                <li class="breadcrumb__item breadcrumb__item_active" aria-current="page">Коммерческая недвижимость</li>
+                                <li class="breadcrumb__item breadcrumb__item_active" aria-current="page">Коммерческая
+                                    недвижимость</li>
                             </ol>
                         </nav>
                     </div>
 
                     <div class="page-header__favorits favorits-counter">
-                        <a href="#" class="link favorits-counter__link">Избранное:</a><span class="favorits-counter__num">2</stron>
+                        <a href="/pages/favorits.php" class="link favorits-counter__link">Избранное:</a><span
+                            class="favorits-counter__num">2</stron>
                     </div>
 
                 </div>
@@ -145,11 +147,15 @@
             <div class="row">
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_01.png" class="card__image"
-                                alt="Product Image #01" >
+                            <div class="card__image-inner">
+                                <a href="/pages/single_comercial.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_01.png" class="card__image" alt="Product Image #01">
+                                </a>
+                            </div>
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
@@ -188,8 +194,9 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="/pages/single_comercial.php" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence
-                                    asasaad ada asdasdddasdas sdddsaas asdasasdd</a>
+                                <a href="/pages/single_comercial.php" class="card__link_title link"
+                                    title="Yenisey Residence ">Yenisey Residence
+                                </a>
                             </div>
 
                             <ul class="card__property">
@@ -206,11 +213,15 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_02.png" class="card__image"
-                                alt="Product Image #02" >
+                            <div class="card__image-inner">
+                                <a href="/pages/single_comercial.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_02.png" class="card__image" alt="Product Image #02">
+                                </a>
+                            </div>
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -249,7 +260,8 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="/pages/single_comercial.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_comercial.php" class="card__link_title link"
+                                    title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -267,11 +279,15 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_03.png" class="card__image"
-                                alt="Product Image #03" >
+                            <div class="card__image-inner">
+                                <a href="/pages/single_comercial.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_03.png" class="card__image" alt="Product Image #03">
+                                </a>
+                            </div>
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
@@ -310,7 +326,8 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="/pages/single_comercial.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_comercial.php" class="card__link_title link"
+                                    title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -328,11 +345,15 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_04.png" class="card__image"
-                                alt="Product Image #04" >
+                            <div class="card__image-inner">
+                                <a href="/pages/single_comercial.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_04.png" class="card__image" alt="Product Image #04">
+                                </a>
+                            </div>
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -371,7 +392,8 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="/pages/single_comercial.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_comercial.php" class="card__link_title link"
+                                    title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -389,11 +411,15 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_01.png" class="card__image"
-                                alt="Product Image #01" >
+                            <div class="card__image-inner">
+                                <a href="/pages/single_comercial.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_01.png" class="card__image" alt="Product Image #01">
+                                </a>
+                            </div>
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
@@ -432,8 +458,9 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="/pages/single_comercial.php" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence
-                                    asasaad ada asdasdddasdas sdddsaas asdasasdd</a>
+                                <a href="/pages/single_comercial.php" class="card__link_title link"
+                                    title="Yenisey Residence ">Yenisey Residence
+                                </a>
                             </div>
 
                             <ul class="card__property">
@@ -450,11 +477,15 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_02.png" class="card__image"
-                                alt="Product Image #02" >
+                            <div class="card__image-inner">
+                                <a href="/pages/single_comercial.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_02.png" class="card__image" alt="Product Image #02">
+                                </a>
+                            </div>
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -493,7 +524,8 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="/pages/single_comercial.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_comercial.php" class="card__link_title link"
+                                    title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -511,11 +543,15 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_03.png" class="card__image"
-                                alt="Product Image #03" >
+                            <div class="card__image-inner">
+                                <a href="/pages/single_comercial.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_03.png" class="card__image" alt="Product Image #03">
+                                </a>
+                            </div>
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
                                     viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -553,7 +589,8 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="/pages/single_comercial.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_comercial.php" class="card__link_title link"
+                                    title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -571,11 +608,15 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_04.png" class="card__image"
-                                alt="Product Image #04" >
+                            <div class="card__image-inner">
+                                <a href="/pages/single_comercial.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_04.png" class="card__image" alt="Product Image #04">
+                                </a>
+                            </div>
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -614,7 +655,8 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="/pages/single_comercial.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_comercial.php" class="card__link_title link"
+                                    title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -632,11 +674,15 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_03.png" class="card__image"
-                                alt="Product Image #03" >
+                            <div class="card__image-inner">
+                                <a href="/pages/single_comercial.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_03.png" class="card__image" alt="Product Image #03">
+                                </a>
+                            </div>
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
                                     viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -674,7 +720,8 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="/pages/single_comercial.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_comercial.php" class="card__link_title link"
+                                    title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -692,11 +739,15 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_04.png" class="card__image"
-                                alt="Product Image #04" >
+                            <div class="card__image-inner">
+                                <a href="/pages/single_comercial.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_04.png" class="card__image" alt="Product Image #04">
+                                </a>
+                            </div>
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -735,7 +786,8 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="/pages/single_comercial.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_comercial.php" class="card__link_title link"
+                                    title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -753,11 +805,15 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_03.png" class="card__image"
-                                alt="Product Image #03" >
+                            <div class="card__image-inner">
+                                <a href="/pages/single_comercial.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_03.png" class="card__image" alt="Product Image #03">
+                                </a>
+                            </div>
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
                                     viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -795,7 +851,8 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="/pages/single_comercial.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_comercial.php" class="card__link_title link"
+                                    title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -813,11 +870,15 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                        data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_04.png" class="card__image"
-                                alt="Product Image #04" >
+                            <div class="card__image-inner">
+                                <a href="/pages/single_comercial.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_04.png" class="card__image" alt="Product Image #04">
+                                </a>
+                            </div>
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -856,7 +917,8 @@
                         <div class="card__body">
 
                             <div class="card__title">
-                                <a href="/pages/single_comercial.php" class="card__link_title link" title="Yenisey Residence ">Yenisey
+                                <a href="/pages/single_comercial.php" class="card__link_title link"
+                                    title="Yenisey Residence ">Yenisey
                                     Residence</a>
                             </div>
 
@@ -938,7 +1000,7 @@
                                         получении ВНЖ на территории Турции.
                                     </p>
 
-                                    
+
                                 </div>
 
                             </div>
@@ -967,7 +1029,7 @@
                                         получении ВНЖ на территории Турции.
                                     </p>
 
-                                    
+
                                 </div>
 
                             </div>
@@ -996,7 +1058,7 @@
                                         получении ВНЖ на территории Турции.
                                     </p>
 
-                                    
+
                                 </div>
 
                             </div>
@@ -1025,7 +1087,7 @@
                                         получении ВНЖ на территории Турции.
                                     </p>
 
-                                    
+
                                 </div>
 
                             </div>
@@ -1053,7 +1115,7 @@
 
             <div class="article__content article-content article-content_toggle">
 
-                <p><strong>Коммерческая недвижимость</strong> – одно из самых привлекательных направлений в 
+                <p><strong>Коммерческая недвижимость</strong> – одно из самых привлекательных направлений в
                     области инвестиционно-строительной сферы. В особенности если речь идет об активно
                     развивающихся странах, где ведется широкая застройка территорий новыми жилыми
                     комплексами, растет количество предприятий малого, среднего и большого бизнеса
@@ -1064,7 +1126,7 @@
                     туризма.</p>
 
                 <strong>Под понятие деловой недвижимости подпадают такие помещения, как:</strong>
-                
+
                 <ul>
                     <li>офисы; </li>
                     <li>магазины; </li>
@@ -1076,8 +1138,8 @@
                 <p>Коммерческая недвижимость в Турции и других государствах приобретается, как правило,
                     для сдачи метров квадратных в аренду, для перепродажи, после проведения ремонтных
                     работ или организации и ведения собственного дела.
-                    </p>
-                
+                </p>
+
                 <p><strong>Бизнес-собственность </strong> – это основа дальнейшей доходности Вашего предприятия,
                     поэтому к её выбору стоит подходить очень ответственно и взвешенно, как и в процессе
                     просмотра жилой площади.</p>
@@ -1109,42 +1171,42 @@
                     <li>Условия сделки и наличие полной документации.</li>
                 </ul>
 
-                <img src="../assets/images/pages/article__real-estate_commercial_image_01.jpg" alt="Seo Block Image 02" >
+                <img src="../assets/images/pages/article__real-estate_commercial_image_01.jpg" alt="Seo Block Image 02">
 
                 <h3>Как выбрать хорошую коммерческую недвижимость в Аланье?</h3>
 
                 <p>Турецкая республика – место для шикарного отдыха, а также постоянного проживания и
                     трудовой деятельности жителей из многих стран мира. Особенно заманчивыми с
                     инвестиционной точки зрения являются такие курортные города, как Antalya и Alanya.
-                    </p>
+                </p>
 
                 <p>Строительная компания Yenisey – безусловный лидер Аланийского региона. На
                     протяжении многих лет мы занимаемся возведением своих собственных, полностью
                     благоустроенных жилых комплексов в лучших районах Алании. Наше жильё пользуется
                     высоким спросом среди иностранных граждан, так как предполагает всё необходимое для
                     комфортного проживания.
-                    </p>
+                </p>
 
                 <p>Зная потребности своих клиентов, мы позаботились и о таком направлении, как
                     коммерческая недвижимость. На первых этажах построенных нами домов расположены
                     специальные помещения, которые, без сомнения, обладают всеми характеристиками
-                    ликвидных объектов для ведения бизнеса.</p>    
+                    ликвидных объектов для ведения бизнеса.</p>
 
                 <strong>Торговые площади Алании от Yenisey это:</strong>
 
                 <ul>
                     <li>Хорошее расположение. Все наши новостройки размещаются в активно
-                    развивающихся районах (например в Махмутларе). Поэтому, Вам не придется
-                    беспокоиться о доходности предприятия.</li>
+                        развивающихся районах (например в Махмутларе). Поэтому, Вам не придется
+                        беспокоиться о доходности предприятия.</li>
                     <li>Высочайшее качество строительства. Применяем современные материалы, новые
-                    технологии. Работы производятся опытными мастерами в соответствии всем
-                    международным нормам и правилам.</li>
+                        технологии. Работы производятся опытными мастерами в соответствии всем
+                        международным нормам и правилам.</li>
                     <li>Мы готовы предоставить гарантию на внутреннюю и фасадную отделку.</li>
                     <li>Территория наших комплексов полностью облагорожена, с функционирующей
-                    инфраструктурой и озеленением.</li>
+                        инфраструктурой и озеленением.</li>
                 </ul>
 
-                <p>Связывайтесь с нами для получения дополнительной консультации. 
+                <p>Связывайтесь с нами для получения дополнительной консультации.
                     Мы с радостью
                     пригласим Вас в ознакомительную поездку, а также предложим всестороннюю помощь и
                     поддержку в процессе покупки, и оформления.</p>

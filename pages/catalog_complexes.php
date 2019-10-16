@@ -16,7 +16,7 @@
                     </div>
 
                     <div class="page-header__favorits favorits-counter">
-                        <a href="#" class="link favorits-counter__link">Избранное:</a><span class="favorits-counter__num">2</stron>
+                        <a href="/pages/favorits.php" class="link favorits-counter__link">Избранное:</a><span class="favorits-counter__num">2</stron>
                     </div>
 
                 </div>
@@ -145,12 +145,15 @@
             <div class="row">
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                    <div class="card product-list__card product-list__card_complexe" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
                         data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_01.png" class="card__image"
-                                alt="Product Image #01">
+                            <div class="card__image-inner">
+                                <a href="/pages/single_complexe.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_01.png" class="card__image" alt="Product Image #01">
+                                </a>
+                            </div>                           
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
@@ -194,11 +197,11 @@
 
                             <div class="card__title">
                                 <a href="/pages/single_complexe.php" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence
-                                    asasaad ada asdasdddasdas sdddsaas asdasasdd</a>
+                                    </a>
                             </div>
 
                             <ul class="card__property">
-                                <li class="card__property-item">Квартира / 2+1 / 65 м2 asdada asdad asd ad</li>
+                                <li class="card__property-item">Квартиры, Пентхаусы /1+1, 2+1, 3+1 </li>
                                 <li class="card__property-item">Расстояние до моря / 200м</li>
                                 <li class="card__property-item">Аланья, Махмутлар</li>
                             </ul>
@@ -211,12 +214,15 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                    <div class="card product-list__card product-list__card_complexe" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
                         data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_02.png" class="card__image"
-                                alt="Product Image #02">
+                            <div class="card__image-inner">
+                                <a href="/pages/single_complexe.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_02.png" class="card__image" alt="Product Image #02">
+                                </a>
+                            </div>
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -264,7 +270,7 @@
                             </div>
 
                             <ul class="card__property">
-                                <li class="card__property-item">Квартира / 2+1 / 65 м2 </li>
+                                <li class="card__property-item">Квартиры, Пентхаусы / 1+1, 2+1, 3+1  </li>
                                 <li class="card__property-item">Расстояние до моря / 200м</li>
                                 <li class="card__property-item">Аланья, Махмутлар</li>
                             </ul>
@@ -277,12 +283,15 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                    <div class="card product-list__card product-list__card_complexe" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
                         data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_01.png" class="card__image"
-                                alt="Product Image #01">
+                            <div class="card__image-inner">
+                                <a href="/pages/single_complexe.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_01.png" class="card__image" alt="Product Image #01">
+                                </a>
+                            </div>  
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
@@ -326,11 +335,11 @@
 
                             <div class="card__title">
                                 <a href="/pages/single_complexe.php" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence
-                                    asasaad ada asdasdddasdas sdddsaas asdasasdd</a>
+                                    </a>
                             </div>
 
                             <ul class="card__property">
-                                <li class="card__property-item">Квартира / 2+1 / 65 м2 asdada asdad asd ad</li>
+                                <li class="card__property-item">Квартиры, Пентхаусы / 1+1, 2+1, 3+1  asdada asdad asd ad</li>
                                 <li class="card__property-item">Расстояние до моря / 200м</li>
                                 <li class="card__property-item">Аланья, Махмутлар</li>
                             </ul>
@@ -343,12 +352,15 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                    <div class="card product-list__card product-list__card_complexe" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
                         data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_02.png" class="card__image"
-                                alt="Product Image #02">
+                            <div class="card__image-inner">
+                                <a href="/pages/single_complexe.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_02.png" class="card__image" alt="Product Image #02">
+                                </a>
+                            </div>
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -396,7 +408,7 @@
                             </div>
 
                             <ul class="card__property">
-                                <li class="card__property-item">Квартира / 2+1 / 65 м2 </li>
+                                <li class="card__property-item">Квартиры, Пентхаусы / 1+1, 2+1, 3+1  </li>
                                 <li class="card__property-item">Расстояние до моря / 200м</li>
                                 <li class="card__property-item">Аланья, Махмутлар</li>
                             </ul>
@@ -409,12 +421,15 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                    <div class="card product-list__card product-list__card_complexe" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
                         data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_01.png" class="card__image"
-                                alt="Product Image #01">
+                            <div class="card__image-inner">
+                                <a href="/pages/single_complexe.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_01.png" class="card__image" alt="Product Image #01">
+                                </a>
+                            </div>  
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon to-favorits__icon_active" width="23" height="23"
@@ -458,11 +473,11 @@
 
                             <div class="card__title">
                                 <a href="/pages/single_complexe.php" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence
-                                    asasaad ada asdasdddasdas sdddsaas asdasasdd</a>
+                                    </a>
                             </div>
 
                             <ul class="card__property">
-                                <li class="card__property-item">Квартира / 2+1 / 65 м2 asdada asdad asd ad</li>
+                                <li class="card__property-item">Квартиры, Пентхаусы / 1+1, 2+1, 3+1  asdada asdad asd ad</li>
                                 <li class="card__property-item">Расстояние до моря / 200м</li>
                                 <li class="card__property-item">Аланья, Махмутлар</li>
                             </ul>
@@ -475,12 +490,15 @@
                 </div>
 
                 <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                    <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                    <div class="card product-list__card product-list__card_complexe" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
                         data-aos-delay="300" data-aos-offset="0">
 
                         <div class="card__image-area">
-                            <img src="../assets/images/products/card_image_02.png" class="card__image"
-                                alt="Product Image #02">
+                            <div class="card__image-inner">
+                                <a href="/pages/single_complexe.php" title="Product Image">
+                                    <img src="../assets/images/products/card_image_02.png" class="card__image" alt="Product Image #02">
+                                </a>
+                            </div>  
 
                             <div class="to-favorits card__to-favorits">
                                 <svg class="to-favorits__icon" width="23" height="23" viewBox="0 0 23 23" fill="none"
@@ -528,7 +546,7 @@
                             </div>
 
                             <ul class="card__property">
-                                <li class="card__property-item">Квартира / 2+1 / 65 м2 </li>
+                                <li class="card__property-item">Квартиры, Пентхаусы / 1+1, 2+1, 3+1  </li>
                                 <li class="card__property-item">Расстояние до моря / 200м</li>
                                 <li class="card__property-item">Аланья, Махмутлар</li>
                             </ul>
