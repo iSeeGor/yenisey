@@ -272,7 +272,7 @@
             <div class="product-slider">
                 <div class="swiper-wrapper row">
 
-                    <div class="offset-md-1 col-md-10 col-lg-8 offset-lg-2 col-xl-6 offset-xl-0 swiper-slide">
+                    <div class="offset-md-1 col-md-10 offset-lg-0 col-lg-6 swiper-slide">
                         <div class="card featured__card">
                             
                             <div class="card__image-area">
@@ -298,7 +298,7 @@
                         </div>
                     </div>
 
-                    <div class="offset-md-1 col-md-10 col-lg-8 offset-lg-2 col-xl-6 offset-xl-0 swiper-slide">
+                    <div class="offset-md-1 col-md-10 offset-lg-0 col-lg-6 swiper-slide">
                         <div class="card featured__card">
                             
                             <div class="card__image-area">
@@ -324,7 +324,7 @@
                         </div>
                     </div>
 
-                    <div class="offset-md-1 col-md-10 col-lg-8 offset-lg-2 col-xl-6 offset-xl-0 swiper-slide">
+                    <div class="offset-md-1 col-md-10 offset-lg-0 col-lg-6 swiper-slide">
                         <div class="card featured__card">
                             
                             <div class="card__image-area">
@@ -350,7 +350,7 @@
                         </div>
                     </div>
 
-                    <div class="offset-md-1 col-md-10 col-lg-8 offset-lg-2 col-xl-6 offset-xl-0 swiper-slide">
+                    <div class="offset-md-1 col-md-10 offset-lg-0 col-lg-6 swiper-slide">
                         <div class="card featured__card">
                             
                             <div class="card__image-area">

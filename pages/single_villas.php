@@ -204,7 +204,7 @@
         <div class="container">
                 
             <div class="row single-propery__row">
-                <div class="col-12"><h3 class="single-section__title">Инфраструктура комплекса</h3></div>
+                <div class="col-12"><h3 class="single-section__title">Инфраструктура виллы</h3></div>
 
                 <div class="col-md-4 col-xl-3 offset-xl-1">
                     <ul class="single-propery__list">
@@ -268,7 +268,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-10 offset-xl-1">
-                    <h3 class="single-section__title">Yenisey Residence на карте</h3>
+                    <h3 class="single-section__title">Вилла на карте</h3>
 
                     <div class="single-map__holder map-holder"></div>
                 </div>

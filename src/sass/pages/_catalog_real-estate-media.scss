@@ -1,8 +1,5 @@
 @media screen and (max-width:1200px){
     /* Product Card */
-    .card__status {
-        left: 99px;
-    }
 
     /* Catalog -- Villas Info */
     .villas-info__container {
@@ -35,9 +32,6 @@
 
 @media screen and (max-width:992px){
     /* Product Card */
-    .card__status {
-        left: 0;
-    }
 
     /* Page Headers */
     .page-header {
@@ -104,8 +98,12 @@
     }
 
     /* Product Card */
-    .card__status {
-        left: 60px;
+    .product-list__card .card__image-area {
+        margin: -2px;
+        max-width: 242px;
+    }
+    .product-list__card .card__image {
+        transform: translate(0);
     }
 
     /* Page Headers */
@@ -123,14 +121,15 @@
 
 @media screen and (max-width:575px){
     /* Product Card */
-    .card__status {
-        left: 0px;
-    }
 
     /* Product List/Grid */
     .product-list__card {
         margin-bottom: 40px;
     } 
+    .product-list__card .card__image-area {
+        max-width: 100%;
+        margin: 0;
+    }
 
     /* Article */
     .main-content-title {
@@ -152,13 +151,8 @@
 @media (min-width:992px) and (max-width:1200px){
 
     /* Product List/Grid */ 
-
-    .product-list .card__image-area {
-        margin-left: -100px;
-    }
-
-    .product-list .card__image {
-        transform: translateX(50px);
+    .card__image-area {
+        max-width: 196px;
     }
 }
 

@@ -192,7 +192,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-10 offset-xl-1 ">
-                    <h3 class="single-section__title">Описание виллы</h3>
+                    <h3 class="single-section__title">Описание</h3>
 
                     <div class="single-description__properties">
                         <div class="row">
@@ -311,7 +311,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-10 offset-xl-1">
-                    <h3 class="single-section__title">Yenisey Residence на карте</h3>
+                    <h3 class="single-section__title">На карте</h3>
 
                     <div class="single-map__holder map-holder"></div>
                 </div>

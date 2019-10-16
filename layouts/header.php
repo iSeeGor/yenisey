@@ -75,7 +75,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="mobile-menu__item"><a href="#" class="link mobile-menu__link">Полезные публикации</a></li>
+                <li class="mobile-menu__item"><a href="/pages/news-archive.php" class="link mobile-menu__link">Полезные публикации</a></li>
             </ul>
 
             <ul class="phones__select-list_sidenav">
@@ -207,7 +207,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="menu__item"><a href="#" class="link menu__item-link">Полезные публикации</a></li>
+                                <li class="menu__item"><a href="/pages/news-archive.php" class="link menu__item-link">Полезные публикации</a></li>
                             </ul>
                         </div>
                     </div>

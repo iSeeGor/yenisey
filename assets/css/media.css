@@ -605,8 +605,6 @@
 
 @media screen and (max-width: 1200px) {
   /* Product Card */
-  .card__status {
-    left: 99px; }
   /* Catalog -- Villas Info */
   .villas-info__container {
     padding: 0; }
@@ -633,8 +631,6 @@
 
 @media screen and (max-width: 992px) {
   /* Product Card */
-  .card__status {
-    left: 0; }
   /* Page Headers */
   .page-header {
     margin-top: 60px; }
@@ -676,8 +672,13 @@
   .content-title {
     font-size: 2.8rem; }
   /* Product Card */
-  .card__status {
-    left: 60px; }
+  .product-list__card .card__image-area {
+    margin: -2px;
+    max-width: 242px; }
+  .product-list__card .card__image {
+    -webkit-transform: translate(0);
+        -ms-transform: translate(0);
+            transform: translate(0); }
   /* Page Headers */
   .order-by__select-block {
     margin-bottom: 30px; }
@@ -688,11 +689,12 @@
 
 @media screen and (max-width: 575px) {
   /* Product Card */
-  .card__status {
-    left: 0px; }
   /* Product List/Grid */
   .product-list__card {
     margin-bottom: 40px; }
+  .product-list__card .card__image-area {
+    max-width: 100%;
+    margin: 0; }
   /* Article */
   .main-content-title {
     font-size: 2.8rem; }
@@ -705,12 +707,8 @@
 /* Media Queries Ranges */
 @media (min-width: 992px) and (max-width: 1200px) {
   /* Product List/Grid */
-  .product-list .card__image-area {
-    margin-left: -100px; }
-  .product-list .card__image {
-    -webkit-transform: translateX(50px);
-        -ms-transform: translateX(50px);
-            transform: translateX(50px); } }
+  .card__image-area {
+    max-width: 196px; } }
 
 /* Custom Queries */
 @media screen and (max-width: 420px) {
@@ -929,6 +927,97 @@
   /* Order By */
   .order-by__container {
     padding-left: 15px; } }
+
+@media screen and (max-width: 1200px) {
+  .archive-header__inner {
+    padding: 0; }
+  .archive-page__inner {
+    padding: 0 15px; }
+  .article-item__image-block {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 63%;
+        -ms-flex: 0 0 63%;
+            flex: 0 0 63%;
+    max-width: 63%; } }
+
+@media screen and (max-width: 991px) {
+  .post__breadcrumb {
+    margin-top: 60px;
+    padding-left: 0; }
+  .archive-header {
+    padding-top: 200px;
+    padding-bottom: 60px;
+    background-size: cover;
+    background-position-x: -170px; }
+  .archive-header__breadcrumb {
+    margin-bottom: 30px; }
+  .article-item,
+  .article-item__image-block {
+    height: 340px; }
+  .article-item__image-block {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%; }
+  .article-item__body {
+    padding: 30px 35px; }
+  .archive-list__pagination {
+    margin: 40px 0; }
+  .similar-news .section-news__inner {
+    padding: 0; }
+  .post__header {
+    padding: 0; }
+  .article-content iframe {
+    height: 380px; } }
+
+@media screen and (max-width: 767px) {
+  .article-item {
+    height: auto;
+    -webkit-border-radius: 0px 0 30px 30px;
+            border-radius: 0px 0 30px 30px; }
+  .article-item__image-block {
+    max-width: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    height: 300px; }
+  .article-item__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .article-item__body {
+    padding: 40px 35px; }
+  .article-item__date {
+    margin-bottom: 20px; }
+  .article-content iframe {
+    height: 280px; } }
+
+@media screen and (max-width: 575px) {
+  .archive-tabs__list {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .archive-tabs__list-item {
+    margin: 0 0 20px 0; }
+  .post-header__title {
+    font-size: 3rem; }
+  .article-content iframe {
+    height: 240px; } }
+
+@media screen and (max-width: 420px) {
+  .archive-header {
+    padding-top: 220px;
+    padding-bottom: 60px;
+    background-size: 1500px;
+    background-position-x: -340px; } }
 
 /* Media Footer
    ============================================================== */

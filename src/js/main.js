@@ -20,6 +20,8 @@ $(function() {
   googleMap();
   smoothScroll();
   addToFavoritToggle();
+  archiveTabsToggle();
+  favoritTabsToggle();
 });
 
 // Select Custom
@@ -51,7 +53,7 @@ const testimonalTextExpand = () => {
       let c = content.substr(0, showChar);
       let h = content.substr(showChar, content.length - showChar);
 
-      let html = `${c} <span class="moreellipses"> ${ellipsestext} &nbsp;</span><span class="morecontent"><span class="testimonial__expanded-text"> ${h} </span>&nbsp;&nbsp;<a href="" class="testimonial__readmore-link link"> ${moretext} </a></span>`;
+      let html = `${c} <span class="moreellipses"> ${ellipsestext} &nbsp;</span><span class="morecontent"><span class="testimonial__expanded-text"> ${h} </span>&nbsp;&nbsp;<div class="testimonial__readmore-link link"> ${moretext} </div></span>`;
 
       $(this).html(html);
     }
@@ -82,6 +84,7 @@ const testimonialSlider = () => {
     loop: true,
     speed: 1000,
     slidesPerView: "auto",
+    // autoHeight: true,
 
     pagination: {
       el: ".testimonial__pagination",
@@ -634,3 +637,31 @@ const addToFavoritToggle = () => {
     $(this).children().toggleClass('to-favorits__icon_active');
   });
 }
+
+//Archive tabs Toggle
+const archiveTabsToggle = () => {
+	
+    $('.archive-tab').click(function(){
+      let tabNum = $(this).attr('data-tab');
+  
+      $('.archive-tab').removeClass('archive-tab_active');
+      $('.tab-content').removeClass('tab-content_current');
+  
+      $(this).addClass('archive-tab_active');
+      $("."+tabNum).addClass('tab-content_current');
+    })
+};
+
+// Favorit Page Tabs
+const favoritTabsToggle = () => {
+	
+  $('.favorit-tabs__list-item').click(function(){
+    let tabNum = $(this).attr('data-tab');
+
+    $('.favorit-tabs__list-item').removeClass('favorit-tabs__list-item_current');
+    // $('.tab-content').removeClass('tab-content_current');
+
+    $(this).addClass('favorit-tabs__list-item_current');
+    // $("."+tabNum).addClass('tab-content_current');
+  })
+};
