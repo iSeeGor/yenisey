@@ -1,0 +1,336 @@
+.coop-content {
+    margin-top: 110px;
+    padding-top: 320px;
+    background-image: url('../images/pages/cooperation_header_bg.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.coop-about {
+    margin-bottom: 80px;
+
+    &__title {
+        text-align: center;
+        margin-bottom: 34px;
+    }
+
+    &__textarea {
+        @include font_medium;
+        letter-spacing: 0.04em;
+
+    }
+}
+
+.coop-whyUs {
+
+    padding-bottom: 100px;
+    background-image: url('../images/pages/cooperation_about_bg.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    &__row {
+        padding: 0 68px;
+    }
+
+    &__title {
+        position: relative;
+        padding-top: 30px;
+        margin-bottom: 27px;
+
+        &::before {
+            content: '';
+            width: 290px;
+            height: 2px;
+            top: 0;
+            background: $border_color;
+            position: absolute;
+        }
+    }
+
+    &__textarea {
+        @include font_medium;
+    }
+
+    &__slogan {
+        margin-top: 40px;
+        padding: 35px 0;
+        position: relative;
+        text-align: center;
+
+        &::before, &::after {
+            content: '';
+            width: 400px;
+            height: 2px;
+            background: $border_color;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        &::before {
+            top: 0;
+        }
+        &::after {
+            bottom: 0;
+        }
+    }
+
+    &__slogan-text {
+        @include font_semiBold;
+        font-size: 1.6rem;
+
+        &_eng {
+            margin-top: 28px;
+            color: $sky_color;
+        }
+    }
+
+    &__button {
+        width: 274px;
+        display: block;
+        margin: 40px auto 0;
+    }
+}
+
+.coop-video {
+
+    margin-bottom: 92px;
+    &__inner {
+        padding: 0 68px;
+    }
+}
+
+.managers {
+
+    &__header {
+        padding-bottom: 330px;
+        margin-bottom: 60px;
+    }
+
+    &__header-title {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    &__grid-list {
+        .manager {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.managers-section {
+    background: url('../images/pages/manager_section_bg.png') no-repeat;
+    background-position: center 86px;
+    margin-bottom: 70px;
+}
+
+.certificates-section {
+
+    &__title {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+}
+
+.certificates {
+
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+.certificate-box {
+    margin:0 30px 30px;
+    position: relative;
+    width: 292px;
+    height: 414px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 16px 46px rgba(202, 205, 214, 0.25);
+
+    &__image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: #174682;
+        opacity: 0;
+        visibility: hidden;
+        top: 0;
+        cursor: pointer;
+        transition: opacity 0.3s ease,
+                    visibility 0.3s ease;
+    }
+
+    &__overlay-icon {
+        display: block;
+        height: 100%;
+        position: relative;
+
+        &::before {
+            content: url('../images/icons/search-plus.svg');
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
+
+    &:hover .certificate-box__overlay {
+        visibility: visible;
+        opacity: 0.6;
+    }
+}
+
+/* # About Us Contacts + Map */
+
+.contactMap__aboutUs {
+    background: url('../images/pages/aboutUs_contact_bg.png') no-repeat center top;
+    transition: background-position-y  2s cubic-bezier(1,.12,.21,.89);
+}
+
+.contactMap {
+    padding-top: 370px;
+
+    &__container {
+        padding: 0 40px;
+    }
+
+    &__inner {
+        padding: 65px 40px 70px;
+        background: white;
+        border-radius: 40px 40px 0 0;
+    }
+
+    &__map {
+        width: 100%;
+        height: 430px;
+        margin-bottom: 60px;
+        overflow: hidden;
+        border-radius: 40px;
+
+        .map-holder {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    &__contacts * {
+        color: $font_color !important;
+        font-size: 1.6rem;
+        @include font_medium;
+              
+    }
+
+    &__contacts {
+        .link:hover {
+            color: $orange_color !important;
+        }
+
+        .widget-address__item {
+            margin-bottom: 30px;
+        }
+
+        .phones__select-list {
+            position: initial;
+            min-width: auto;
+            height: auto;
+            padding: 0 12px 10px 0;
+        }
+
+        .phones__item-link {
+            padding-left: 45px;
+        }
+
+        .phones__select-list::after {
+            display: none;
+        }
+
+        .phones__item-link::before {
+            width: 26px;height: 26px;
+            background-size: 26px;
+        }
+
+        .phones__item:first-child {
+            margin-bottom: 18px;
+        }
+
+        .widget-address__item-title {
+            color: $sky_color !important;
+        }
+        
+    }
+
+    &__address-col {
+        padding-left: 52px;
+    }
+
+    &__workTime {
+        margin-left: -20px;
+        margin-top: 4px;
+        display: flex;
+    }
+}
+
+//Map BG Animation 
+@media screen and (min-width:1200px ){
+    [data-scroll="out"].contactMap__aboutUs {
+        background-position-y: 800px;
+    }
+}
+
+[data-scroll="in"].contactMap__aboutUs {
+    background-position-y: center;
+}
+
+.imageSlideAnim {
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        transition: transform 1s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+        z-index: 1;
+        position: absolute;
+        background: #fff;
+        top: 1px;
+        width: 100%;
+        height: 100%;
+        transform: translateX(100%);
+    }
+    
+    img {
+        transition: transform 1s cubic-bezier(1, 0.03, 0.515, 0.955) ;
+    }
+}
+
+
+[data-scroll="out"].imageSlideAnim {
+    
+    &::before {
+        transform: translateX(0);    
+    }
+
+    img {
+        transform: scale(1.2) rotate(-5deg);    
+    }
+}
+
+
+[data-scroll="in"].imageSlideAnim {
+    &::before {
+        transform: translateX(100%);
+    }
+
+    img {
+        transform: scale(1) rotate(0);
+    }
+    
+}

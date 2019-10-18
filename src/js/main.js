@@ -7,7 +7,6 @@ $(function() {
   poductHomeSlider();
   newsHomeSlider();
   mobileMenu();                                                                                                                                                                                                                                                                                                                                                         
-  // accordionMenu();
   modalTheme();
   textSplittEffect();
   slideNav();
@@ -22,6 +21,7 @@ $(function() {
   addToFavoritToggle();
   archiveTabsToggle();
   favoritTabsToggle();
+  magnificPopup();
 });
 
 // Select Custom
@@ -233,6 +233,7 @@ const accordionMenu = () => {
 const modalTheme = () => {
   let overlay = document.querySelector(".popup-overlay");
   let closeBtn = document.querySelector(".popup__close-btn");
+  let header = document.querySelector('.header');
 
   // Modal Form
   let popup = document.querySelector(".popup");
@@ -244,6 +245,20 @@ const modalTheme = () => {
   let openPopupVideo = document.querySelector(".button__popup-video");
   let videoPopup = document.querySelector(".video-popup");
   let closeVideoPopup = document.querySelector(".video-popup__close-btn");
+
+  // Add Styles when popup open
+  function bodyOverflowHide(){
+    overlay.style = "margin-right:auto";
+    document.body.style = "overflow:hidden; padding-right:16px";
+    header.style = "padding-right:16px";
+  }
+
+  // Add styles when popup close
+  function bodyOverflowShow(){
+    overlay.style = "margin-right:-16px";
+    header.style = "padding-right:0px";
+    document.body.style = "overflow:auto;";
+  }
 
   for (let i = 0; i < openPopup.length; i++) {
     openPopup[i].onclick = function() {
@@ -260,62 +275,79 @@ const modalTheme = () => {
         popupText.innerHTML =
           "Для получения подробной информации заполните форму и наш менеджер свяжется с Вами в ближайшее время";
       }
-      
-      document.querySelector('.popup-overlay').style = "margin-right: 0px;"
+
+      if (window.matchMedia("(min-width: 1025px)").matches){
+        bodyOverflowHide();        
+      } else {
+        document.body.style = "overflow:hidden;";
+      }
+
       overlay.classList.add("popup-overlay_opened");
       popup.classList.add("popup_show");
-      document.body.style = "overflow:hidden; padding-right: 16px;";
-      
     };
   }
 
   closeBtn.onclick = function() {
-    document.querySelector('.popup-overlay').style = "margin-right: -16px;"
-    
-    
+    if (window.matchMedia("(min-width: 1025px)").matches){
+      bodyOverflowShow();
+    } else {
+      document.body.style = "overflow:auto;";
+    }
     overlay.classList.remove("popup-overlay_opened");
     popup.classList.remove("popup_show");
-    document.body.style = "overflow:auto; padding-right: 0;";
-    
   };
 
   if (openPopupVideo) {
     openPopupVideo.addEventListener("click", function() {
+
+      if (window.matchMedia("(min-width: 1025px)").matches){
+        bodyOverflowHide();        
+      } else {
+        document.body.style = "overflow:hidden;";
+      }
+
       overlay.classList.add("popup-overlay_opened");
       videoPopup.classList.add("video-popup_opened");
-      // document.body.style = "overflow-y:scroll; width:100%; position:fixed;";
     });
 
     closeVideoPopup.addEventListener("click", function() {
+      if (window.matchMedia("(min-width: 1025px)").matches){
+        bodyOverflowShow();
+      } else {
+        document.body.style = "overflow:auto;";
+      }
       overlay.classList.remove("popup-overlay_opened");
       videoPopup.classList.remove("video-popup_opened");
-      // document.body.style = "overflow:auto; position:relative; width:auto;";
     });
   }
 
   window.onclick = function(e) {
     if (e.target == overlay) {
+      if (window.matchMedia("(min-width: 1025px)").matches){
+        bodyOverflowShow();
+      } else {
+        document.body.style = "overflow:auto;";
+      }
       overlay.classList.remove("popup-overlay_opened");
       popup.classList.remove("popup_show");
-      // document.body.style = "overflow:auto; position:relative; width:auto;";
     }
   };
 };
 
 // Title Text Fade + Splitt Effect
 const textSplittEffect = () => {
-  const breakpoint = window.matchMedia("(min-width:575px)");
+  const breakpoint = window.matchMedia("(min-width:1025px)");
 
   const breakpointChecker = function() {
     if (breakpoint.matches === true) {
       Splitting();
       ScrollOut({
-        threshold: 0.8,
+        threshold: 0.6,
         once: true
       });
     } else if (breakpoint.matches === false) {
       ScrollOut({
-        threshold: 0.8,
+        threshold: 0.6,
         once: true
       }).teardown();
     }
@@ -704,4 +736,13 @@ const favoritTabsToggle = () => {
     $("."+tabNum).addClass('tab-content_current');
   })
   
+};
+
+// Image Popup
+const magnificPopup = () => {
+
+  $('.image-popup').magnificPopup({
+    type: 'image'
+  });
+
 };

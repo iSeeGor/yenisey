@@ -58,3 +58,27 @@
 .order-by__container_favorits {
     padding: 10px 132px;
 }
+
+.favorits-error__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 200px;
+}
+
+.favorits-error__title {
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.favorits-error__button {
+    position: relative;
+    z-index: 20;
+    display: block;
+    max-width: 220px;
+    text-align: center;
+    text-decoration: none;
+}

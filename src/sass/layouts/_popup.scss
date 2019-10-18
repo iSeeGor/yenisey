@@ -17,7 +17,7 @@
   justify-content: center;
   align-items: flex-start;
   margin: auto;
-  // padding: 20px;
+  padding: 20px;
   // padding-right:0 ;
   
   
@@ -54,7 +54,8 @@
     z-index: 11;
     text-align: center;
     min-height: 150px;
-    margin: 30px 50px 20px 50px;
+    padding: 30px 50px 20px 50px;
+    overflow: hidden;
     &::after {
       content: "";
       position: absolute;
@@ -254,7 +255,7 @@ label.send-form__error {
 }
 
 @media screen and (max-width: 991px){
-  .input {
+  .input, .textarea {
     font-size: 1.6rem;
   }
 }

@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <meta name="description" content="Turkey State site description" />
-    <meta name="keywords" content="Turkey State keywords" />
+    <meta name="description" content="Yenisey site description" />
+    <meta name="keywords" content="Yenisey keywords" />
 
     <!--== Favicons -->
     <link rel="shortcut icon" href="/favicon.png" type="image/png" />
@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="/assets/css/plugins/swiper.min.css" />
     <link rel="stylesheet" href="/assets/css/plugins/aos.css" />
     <link rel="stylesheet" href="/assets/css/plugins/splitting.css" />
+    <link rel="stylesheet" href="/assets/css/plugins/magnific-popup.css" />
 
     <!--== CSS main style -->
     <link rel="stylesheet" href="/assets/css/main.css" />
@@ -64,14 +65,14 @@
                         <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Yenisey VII">Yenisey VII</a><span class="pref-new">New</span></li>
                     </ul>
                 </li>
-                <li class="mobile-menu__item"><a href="#" class="link mobile-menu__link" title="О нас">О нас</a></li>
+                <li class="mobile-menu__item"><a href="/pages/about-us.php" class="link mobile-menu__link" title="О нас">О нас</a></li>
                 <li class="mobile-menu__item mobile-menu__item_dropdown is-dropdown">
                     <a href="#" class="link mobile-menu__link" title="Для вас">Для вас</a>
 
                     <ul class="mobile-menu dropdown-menu">
                         <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Услуги для клиентов">Услуги для
                                 клиентов</a></li>
-                        <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Сотрудничество">Сотрудничество</a>
+                        <li class="dropdown-menu__item"><a href="/pages/partnership.php" class="link dropdown-menu__link" title="Сотрудничество">Сотрудничество</a>
                         </li>
                     </ul>
                 </li>
@@ -176,7 +177,7 @@
                                     </div>
                                     
                                 </li>
-                                <li class="menu__item"><a href="#" class="link menu__item-link" title="О нас">О нас</a></li>
+                                <li class="menu__item"><a href="/pages/about-us.php" class="link menu__item-link" title="О нас">О нас</a></li>
                                 <li class="menu__item menu__item_dropdown dropdown">
                                     <a href="#" class="link menu__item-link" title="Для вас">Для вас</a>
 
@@ -197,7 +198,7 @@
                                             </ul>
                                         </li>
                                         <li class="menu__item menu__item_submenu">
-                                            <a href="#" class="link menu__item-link" title="Сотрудничество">Сотрудничество</a>
+                                            <a href="/pages/partnership.php" class="link menu__item-link" title="Сотрудничество">Сотрудничество</a>
 
                                             <ul class="menu sub-menu__dropdown sub-menu">
                                                 <li class="menu__item"><a href="#" class="link menu__item-link" title="Для агентов по недвижимости">Для агентов по недвижимости</a></li>

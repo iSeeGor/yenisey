@@ -69,8 +69,7 @@
                 <div class="row">
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -134,8 +133,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -199,8 +197,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -264,8 +261,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -329,8 +325,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -394,8 +389,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -459,8 +453,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -523,8 +516,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -594,8 +586,7 @@
                 <div class="row">
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -659,8 +650,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -724,8 +714,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -789,8 +778,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -854,8 +842,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -919,8 +906,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -984,8 +970,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -1048,8 +1033,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -1119,8 +1103,7 @@
                 <div class="row">
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -1184,8 +1167,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -1249,8 +1231,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -1314,8 +1295,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -1379,8 +1359,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -1444,8 +1423,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -1509,8 +1487,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -1573,8 +1550,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -1644,8 +1620,7 @@
                 <div class="row">
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -1709,8 +1684,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -1774,8 +1748,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -1839,8 +1812,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -1904,8 +1876,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -1969,8 +1940,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -2034,8 +2004,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">
@@ -2098,8 +2067,7 @@
                     </div>
 
                     <div class="offset-md-1 col-md-10 col-lg-6 offset-lg-0 col-xl-6">
-                        <div class="card product-list__card" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
-                            data-aos-delay="300" data-aos-offset="0">
+                        <div class="card product-list__card" >
 
                             <div class="card__image-area">
                                 <div class="card__image-inner">

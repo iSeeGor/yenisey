@@ -151,6 +151,7 @@
     <script src="https://unpkg.com/imask"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnmv8rDSzIL4RVE5EBt6Kt4hqdFXU2mA4" async defer></script>
+    <script src="/assets/js/plugins/jquery.magnific-popup.min.js"></script>
 
     <!--== JS Scripts -->
     <script src="/assets/js/script.min.js"></script>

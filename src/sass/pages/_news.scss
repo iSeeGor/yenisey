@@ -1,6 +1,6 @@
 .archive-header {
     padding-top: 325px;
-    padding-bottom: 125px;
+    padding-bottom: 80px;
     min-height: auto;
     background-image: url('../images/pages/news-archive.png');
     background-size: inherit;
@@ -234,9 +234,18 @@
 
 /* Tabs */
 .tab-content {
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    // display: none;
+    // position: absolute;
+    transition: opacity 1.2s ease;
 }
 
 .tab-content_current {
-    display: block;
+    // display: block;
+    // position: relative;
+    visibility: visible;
+    opacity: 1;
+    height: auto;
 }
