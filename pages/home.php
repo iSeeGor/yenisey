@@ -108,7 +108,7 @@
         <div class="container">
             <div class="about__content">
                 <div class="about__text">
-                    <h4 class="about__text-heading">Компания Yenisey</h4> – это не только строительство современных жилых комплексов бизнес-класса, но и бессрочный постпродажный сервис для наших клиентов, которые по праву могут считать себя частью семьи Yenisey.
+                    <h4 class="about__text-heading">Компания Yenisey</h4> – это не только строительство современных жилых комплексов у моря, но и бессрочный постпродажный сервис для наших клиентов, которые по праву могут считать себя частью семьи Yenisey.
                 </div>
             </div>
         </div>
@@ -129,7 +129,7 @@
                     <span class="video__button-overlay"></span>
                 </div>
 
-                <h2 class="section-title section-video__title" data-scroll="" data-splitting="">Видео о компании Yenisey</h2>
+                <h2 class="section-title section-video__title" data-scroll="" data-splitting="">Приветствие<br> президента<br> компании<br> Yenisey</h2>
             </div>
         
         </div>
