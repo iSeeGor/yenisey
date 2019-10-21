@@ -456,9 +456,9 @@
   /* #Video */
   .section-video {
     padding-top: 40px;
-    background-position-x: 40%;
+    background-position-x: 38%;
     background-position-y: 0px;
-    min-height: 700px; }
+    min-height: 760px; }
     .section-video__title {
       width: auto;
       text-align: center;
@@ -467,6 +467,8 @@
       -webkit-order: 0;
           -ms-flex-order: 0;
               order: 0; }
+  .video__button-box {
+    margin-right: 0; }
   .video__content {
     left: 0; }
   .video__content {
@@ -665,8 +667,7 @@
     margin-bottom: 60px; }
   /* Villas */
   .villas-privilages__item:nth-child(3)::before {
-    top: auto;
-    bottom: -5px; }
+    top: 10px; }
   /* Article */
   .article-content > *:not(img) {
     padding-right: 0;
@@ -807,7 +808,18 @@
             flex: 0 0 25%; }
   /* Single Credits */
   .single-credit__image-box {
-    height: 280px; } }
+    height: 280px; }
+  .single-propery__list {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .single-propery__list-item {
+    max-width: 40%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 40%;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%; } }
 
 @media screen and (max-width: 767px) {
   /* Meta */
@@ -891,7 +903,13 @@
   .single-credit__icon {
     display: block;
     margin-left: auto;
-    margin-right: auto; } }
+    margin-right: auto; }
+  .single-propery__list-item {
+    max-width: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%; } }
 
 @media screen and (max-width: 520px) {
   .manager {
@@ -982,7 +1000,8 @@
     padding-top: 200px;
     padding-bottom: 60px;
     background-size: cover;
-    background-position-x: -170px; }
+    background-position-x: -170px;
+    background-position-y: -30px; }
   .post__content > *:not(img):not(iframe) {
     padding-left: 0px;
     padding-right: 0px; }
@@ -1043,18 +1062,33 @@
   .post-header__title {
     font-size: 3rem; }
   .article-content iframe {
-    height: 240px; } }
+    height: 240px; }
+  .archive-header {
+    padding-bottom: 20px; } }
 
 @media screen and (max-width: 420px) {
   .archive-header {
-    padding-top: 220px;
-    padding-bottom: 60px;
     background-size: 1500px;
     background-position-x: -340px; }
+  .archive-tabs__list {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
   .archive-tab {
-    font-size: 1.7rem; }
+    font-size: 1.4rem;
+    width: 100%;
+    padding: 8px;
+    display: block;
+    height: 100%; }
   .archive-tabs__list-item {
-    margin-right: 0; } }
+    margin-right: 0;
+    max-width: 49%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 49%;
+        -ms-flex: 0 0 49%;
+            flex: 0 0 49%;
+    text-align: center; } }
 
 @media screen and (max-width: 1200px) {
   .favorits-header {
@@ -1091,17 +1125,30 @@
   .favorits-error__title {
     font-size: 2.2rem; }
   .favorits-error__body {
-    padding: 20px 0 100px; } }
+    padding: 0 0 100px; }
+  .favorits-error__title {
+    font-size: 1.8rem; } }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 575px) {
+  .favorit-tabs {
+    margin-bottom: 10px; }
+  .favorit-tabs__list {
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch; }
   .favorit-tabs__list-item {
     max-width: 100%;
     -webkit-box-flex: 0;
-    -webkit-flex: 0 0 100%;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-    font-size: 1.6rem;
-    height: 50px; } }
+    -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    padding: 10px 30px; }
+  .favorit-tabs__list-item {
+    margin-right: 15px;
+    font-size: 1.4rem;
+    height: auto; } }
 
 @media screen and (max-width: 1200px) {
   .partnership-header {
@@ -1121,7 +1168,9 @@
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 56%;
         -ms-flex: 0 0 56%;
-            flex: 0 0 56%; } }
+            flex: 0 0 56%; }
+  .partnership-content {
+    margin-top: -88px; } }
 
 @media screen and (max-width: 991px) {
   .page-header_partnership {
@@ -1140,7 +1189,13 @@
     -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
-    margin: 0 auto 40px; } }
+    margin: 0 auto 40px; }
+  .side-info__desc-icon {
+    text-align: center;
+    padding-left: 0; }
+  .partnership-content__title-text {
+    max-width: 380px;
+    margin: 0 auto; } }
 
 @media screen and (max-width: 767px) {
   .page-header_partnership {
@@ -1157,6 +1212,15 @@
 @media screen and (max-width: 575px) {
   .partnership-header {
     background-position-x: 65%; } }
+
+@media screen and (max-width: 420px) {
+  .side-info__desc-icon img {
+    width: 50px;
+    height: 50px; } }
+
+@media screen and (max-width: 1440px) {
+  .managers-section {
+    background-position-x: 40%; } }
 
 @media screen and (max-width: 1200px) {
   .coop-content {
@@ -1187,6 +1251,13 @@
     margin-top: 60px; }
   .coop-whyUs__row {
     padding: 0; }
+  .coop-whyUs__title {
+    text-align: center; }
+  .coop-whyUs__title::before {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%); }
   .coop-whyUs__image {
     text-align: center;
     margin-bottom: 40px; }
@@ -1200,7 +1271,11 @@
   .contactMap__container {
     padding: 0px; }
   .contactMap__workTime {
-    margin-left: 0; } }
+    margin-left: 0; }
+  .contactMap {
+    padding-top: 60px; }
+  .contactMap__workTime {
+    margin-top: 30px; } }
 
 @media screen and (max-width: 767px) {
   .certificate-box {
@@ -1214,11 +1289,28 @@
   .managers__header-title {
     font-size: 2.8rem; }
   .certificates-section__title {
-    font-size: 2.8rem; } }
+    font-size: 2.8rem; }
+  .contactMap__contacts .phones__select-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; } }
 
 @media screen and (max-width: 575px) {
   .contactMap__inner {
-    padding: 15px; } }
+    padding: 15px; }
+  .contactMap__contacts .phones__select-list {
+    display: block; }
+  .contactMap__contacts {
+    width: 300px;
+    margin: 0 auto; } }
 
 /* Media Footer
    ============================================================== */

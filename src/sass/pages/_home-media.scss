@@ -687,9 +687,9 @@
     /* #Video */
     .section-video {
         padding-top: 40px;
-        background-position-x: 40%;
+        background-position-x: 38%;
         background-position-y: 0px;
-        min-height: 700px;
+        min-height: 760px;
 
         &__title {
             width: auto;
@@ -697,6 +697,10 @@
             margin-bottom: 60px;
             order: 0;
         }
+    }
+
+    .video__button-box {
+        margin-right: 0;
     }
     
 

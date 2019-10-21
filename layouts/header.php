@@ -70,32 +70,12 @@
                     <a href="#" class="link mobile-menu__link" title="Для вас">Для вас</a>
 
                     <ul class="mobile-menu dropdown-menu">
-                        <li class="dropdown-menu__item dropdown-menu__item_submenu">
-                            <a href="#" class="link dropdown-menu__link is-sub-mobile" title="Услуги для клиентов">Услуги для клиентов</a>
-
-                            <ul class="mobile-menu sub-mobile__dropdown sub-mobile">
-                                <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Все">Все</a></li>
-                                <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Ознакомительный тур">Ознакомительный тур</a></li>
-                                <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Сопроваждение сделки и оформление документов">Сопроваждение сделки и оформление документов</a></li>
-                                <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Продажа апартаментов под ключ">Продажа апартаментов под ключ</a></li>
-                                <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Бесплатный пост-продажный сервис">Бесплатный пост-продажный сервис</a></li>
-                                <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Менеджмент и обслуживание комплексов ">Менеджмент и обслуживание комплексов </a></li>
-                                <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Ипотека в Турции">Ипотека в Турции</a></li>
-                                <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Обмен недвижимости">Обмен недвижимости</a></li>
-                                <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Помощ в оформлении ВНЖ">Помощ в оформлении ВНЖ</a></li>
-                                <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Трансфер в аеропорт">Трансфер в аеропорт</a></li>
-                            </ul>
+                        <li class="dropdown-menu__item">
+                            <a href="#" class="link dropdown-menu__link" title="Услуги для клиентов">Услуги для клиентов</a>
                         </li>
                         
-                        <li class="dropdown-menu__item dropdown-menu__item_submenu ">
-                            <a href="#" class="link dropdown-menu__link is-sub-mobile" title="Сотрудничество">Сотрудничество</a>
-
-                            <ul class="mobile-menu sub-mobile__dropdown sub-mobile">
-                                <li class="dropdown-menu__item"><a href="/pages/partnership.php" class="link dropdown-menu__link" title="Сотрудничество">Сотрудничество</a></li>
-                                <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Для агентов по недвижимости">Для агентов по недвижимости</a></li>
-                                <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Для инвесторов">Для инвесторов</a></li>
-                                <li class="dropdown-menu__item"><a href="#" class="link dropdown-menu__link" title="Застройщикам">Застройщикам</a></li>
-                            </ul>
+                        <li class="dropdown-menu__item">
+                            <a href="/pages/partnership.php" class="link dropdown-menu__link" title="Сотрудничество">Сотрудничество</a>
                         </li>
                     </ul>
                 </li>

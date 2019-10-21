@@ -206,24 +206,16 @@
             <div class="row single-propery__row">
                 <div class="col-12"><h3 class="single-section__title">Инфраструктура виллы</h3></div>
 
-                <div class="col-md-4 col-xl-3 offset-xl-1">
+                <div class="col-lx-10 offset-lg-1">
                     <ul class="single-propery__list">
                         <li class="single-propery__list-item">Огороженная территория</li>
                         <li class="single-propery__list-item">Летний бассейн</li>
                         <li class="single-propery__list-item">Зимний бассейн</li>
                         <li class="single-propery__list-item">Сауна</li>
-                    </ul>
-                </div>
-                <div class="col-md-4 d-xl-flex justify-content-xl-center">
-                    <ul class="single-propery__list">
                         <li class="single-propery__list-item">Огороженная территория</li>
                         <li class="single-propery__list-item">Летний бассейн</li>
                         <li class="single-propery__list-item">Зимний бассейн</li>
                         <li class="single-propery__list-item">Сауна</li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="single-propery__list">
                         <li class="single-propery__list-item">Огороженная территория</li>
                         <li class="single-propery__list-item">Летний бассейн</li>
                         <li class="single-propery__list-item">Зимний бассейн</li>
@@ -235,24 +227,16 @@
             <div class="row single-propery__row">
                 <div class="col-12"><h3 class="single-section__title">Комплектация виллы</h3></div>
 
-                <div class="col-md-4 col-xl-3 offset-xl-1">
+                <div class="col-lx-10 offset-lg-1">
                     <ul class="single-propery__list">
                         <li class="single-propery__list-item">Огороженная территория</li>
                         <li class="single-propery__list-item">Летний бассейн</li>
                         <li class="single-propery__list-item">Зимний бассейн</li>
                         <li class="single-propery__list-item">Сауна</li>
-                    </ul>
-                </div>
-                <div class="col-md-4 d-xl-flex justify-content-xl-center">
-                    <ul class="single-propery__list">
                         <li class="single-propery__list-item">Огороженная территория</li>
                         <li class="single-propery__list-item">Летний бассейн</li>
                         <li class="single-propery__list-item">Зимний бассейн</li>
                         <li class="single-propery__list-item">Сауна</li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="single-propery__list">
                         <li class="single-propery__list-item">Огороженная территория</li>
                         <li class="single-propery__list-item">Летний бассейн</li>
                         <li class="single-propery__list-item">Зимний бассейн</li>

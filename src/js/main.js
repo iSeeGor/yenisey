@@ -67,7 +67,7 @@ const testimonalTextExpand = () => {
   let showChar = 330;
   let ellipsestext = "...";
   let moretext = "Читать полностью";
-  let lesstext = "Сверныть отзыв";
+  let lesstext = "Свернуть текст";
 
   $(".testimonial__massage").each(function() {
     let content = $(this).html();

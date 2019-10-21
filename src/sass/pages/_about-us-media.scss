@@ -1,3 +1,9 @@
+@media screen and (max-width: 1440px){
+    .managers-section {
+        background-position-x: 40%;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .coop-content {
         background-size: 1200px;
@@ -41,6 +47,16 @@
     .coop-whyUs__row {
         padding: 0;
     }
+
+    .coop-whyUs__title{
+        text-align: center;
+    }
+
+    .coop-whyUs__title::before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
     .coop-whyUs__image {
         text-align: center;
         margin-bottom: 40px;
@@ -60,6 +76,14 @@
     }
     .contactMap__workTime {
         margin-left: 0;
+    }
+
+    .contactMap {
+        padding-top: 60px;
+    }
+    
+    .contactMap__workTime{
+        margin-top: 30px;
     }
 }
 
@@ -87,10 +111,25 @@
     .certificates-section__title {
         font-size: 2.8rem;
     }
+
+    .contactMap__contacts .phones__select-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }
 
 @media screen and (max-width:575px){
     .contactMap__inner {
         padding: 15px;
+    }
+
+    .contactMap__contacts .phones__select-list {
+        display: block;
+    }
+
+    .contactMap__contacts {
+        width: 300px;
+        margin: 0 auto;
     }
 }

@@ -195,42 +195,32 @@
                 <div class="col-12 col-xl-10 offset-xl-1">
                     <h3 class="single-section__title">Описание квартиры</h3>
 
-                    <div class="simple-table single-description__simple-table">
-                        <div class="simple-table__row">
-                            <div class="simple-table__col">
-                                <div class="simple-table__item simple-table__head-item">Тип</div>
-                                <div class="simple-table__item simple-table__body-item">Апартаменты</div>
-                            </div>
-                            <div class="simple-table__col">
-                                <div class="simple-table__item simple-table__head-item">Площадь</div>
-                                <div class="simple-table__item simple-table__body-item">74 м2</div>
-                            </div> 
-                            <div class="simple-table__col">
-                                <div class="simple-table__item simple-table__head-item">Этаж</div>
-                                <div class="simple-table__item simple-table__body-item">3</div>
-                            </div> 
-                            <div class="simple-table__col">
-                                <div class="simple-table__item simple-table__head-item">Комнат</div>
-                                <div class="simple-table__item simple-table__body-item">5</div>
-                            </div> 
-                            <div class="simple-table__col">
-                                <div class="simple-table__item simple-table__head-item">Гостинные</div>
-                                <div class="simple-table__item simple-table__body-item">2</div>
-                            </div> 
-                            <div class="simple-table__col">
-                                <div class="simple-table__item simple-table__head-item">Ванная</div>
-                                <div class="simple-table__item simple-table__body-item">2</div>
-                            </div> 
-                            <div class="simple-table__col">
-                                <div class="simple-table__item simple-table__head-item">Балконы</div>
-                                <div class="simple-table__item simple-table__body-item">2</div>
-                            </div>
-                            <div class="simple-table__col">
-                                <div class="simple-table__item simple-table__head-item">Кондиционеры</div>
-                                <div class="simple-table__item simple-table__body-item">2</div>
-                            </div>      
-                        </div>
-                    </div>
+                    <table class="table single-appartments__table">
+                        <thead>
+                            <tr>
+                                <th>Тип</th>
+                                <th>Площадь</th>
+                                <th data-breakpoint="sm">Этаж</th>
+                                <th data-breakpoint="sm">Комнат</th>
+                                <th data-breakpoint="md">Гостинные</th>
+                                <th data-breakpoint="md">Ванная</th>
+                                <th data-breakpoint="lg">Балконы</th>
+                                <th data-breakpoint="xl">Кондиционеры</th> 
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Апартаменты</td>
+                                <td>74 м2</td>
+                                <td>3</td>
+                                <td>5</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td>2</td>
+                            </tr>
+                        </tbody>
+                    </table>
                     <div class="single__text-area">
 
                         <p>Квартиры в Алании, Турция напрямую от ведущего застройщика на Аланийском побережье Yenisey!</p>
@@ -258,24 +248,16 @@
             <div class="row single-propery__row">
                 <div class="col-12"><h3 class="single-section__title">Инфраструктура квартиры</h3></div>
 
-                <div class="col-md-4 col-xl-3 offset-xl-1">
+                <div class="col-lx-10 offset-lg-1">
                     <ul class="single-propery__list">
                         <li class="single-propery__list-item">Огороженная территория</li>
                         <li class="single-propery__list-item">Летний бассейн</li>
                         <li class="single-propery__list-item">Зимний бассейн</li>
                         <li class="single-propery__list-item">Сауна</li>
-                    </ul>
-                </div>
-                <div class="col-md-4 d-xl-flex justify-content-xl-center">
-                    <ul class="single-propery__list">
                         <li class="single-propery__list-item">Огороженная территория</li>
                         <li class="single-propery__list-item">Летний бассейн</li>
                         <li class="single-propery__list-item">Зимний бассейн</li>
                         <li class="single-propery__list-item">Сауна</li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="single-propery__list">
                         <li class="single-propery__list-item">Огороженная территория</li>
                         <li class="single-propery__list-item">Летний бассейн</li>
                         <li class="single-propery__list-item">Зимний бассейн</li>
@@ -287,24 +269,16 @@
             <div class="row single-propery__row">
                 <div class="col-12"><h3 class="single-section__title">Комплектация квартиры</h3></div>
 
-                <div class="col-md-4 col-xl-3 offset-xl-1">
+                <div class="col-lx-10 offset-lg-1">
                     <ul class="single-propery__list">
                         <li class="single-propery__list-item">Огороженная территория</li>
                         <li class="single-propery__list-item">Летний бассейн</li>
                         <li class="single-propery__list-item">Зимний бассейн</li>
                         <li class="single-propery__list-item">Сауна</li>
-                    </ul>
-                </div>
-                <div class="col-md-4 d-xl-flex justify-content-xl-center">
-                    <ul class="single-propery__list">
                         <li class="single-propery__list-item">Огороженная территория</li>
                         <li class="single-propery__list-item">Летний бассейн</li>
                         <li class="single-propery__list-item">Зимний бассейн</li>
                         <li class="single-propery__list-item">Сауна</li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="single-propery__list">
                         <li class="single-propery__list-item">Огороженная территория</li>
                         <li class="single-propery__list-item">Летний бассейн</li>
                         <li class="single-propery__list-item">Зимний бассейн</li>

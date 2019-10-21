@@ -21,7 +21,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 d-flex">
-                    <div class="side-info__image-area side-info__image-area_left imageSlideAnim" data-scroll="">
+                    <div class="side-info__image-area side-info__image-area_left imageSlideAnim" data-scroll="out">
                         <img src="../assets/images/partnership/partnership_text-block_image_01.jpg"  alt="Partnership Image #01">
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                     </div>
                 </div>
                 <div class="order-0 col-lg-6 order-lg-1 d-flex">
-                    <div class="side-info__image-area side-info__image-area_right imageSlideAnim" data-scroll="">
+                    <div class="side-info__image-area side-info__image-area_right imageSlideAnim" data-scroll="out">
                         <img src="../assets/images/partnership/partnership_text-block_image_02.jpg" alt="Partnership Image #01">
                     </div>
                 </div>
@@ -87,7 +87,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 d-flex">
-                    <div class="side-info__image-area side-info__image-area_left imageSlideAnim" data-scroll="">
+                    <div class="side-info__image-area side-info__image-area_left imageSlideAnim" data-scroll="out">
                         <img src="../assets/images/partnership/partnership_text-block_image_03.jpg" alt="Partnership Image #01">
                     </div>
                 </div>

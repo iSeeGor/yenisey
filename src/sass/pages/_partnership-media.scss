@@ -21,6 +21,10 @@
         max-width: 56%;
         flex: 0 0 56%;
     }
+
+    .partnership-content {
+        margin-top: -88px;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -48,6 +52,16 @@
         flex: 0 0 auto;
         margin: 0 auto 40px;
     }
+
+    .side-info__desc-icon {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .partnership-content__title-text {
+        max-width: 380px;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -73,3 +87,11 @@
         background-position-x: 65%;
     }
 }
+
+@media screen and (max-width: 420px) {
+    .side-info__desc-icon img {
+        width: 50px;
+        height: 50px;
+    }
+}
+

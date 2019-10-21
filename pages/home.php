@@ -158,7 +158,7 @@
                 <div class="privilages__item col-sm-6 col-lg-4">
                     <div class="privilages__icon" data-aos="fade-up" data-aos-delay="300"><img src="../assets/images/icons/privilages/item_icon_03.svg" alt="Достоинства #03"></div>
 
-                    <p class="privilages__text">Большой экономический потенциал и активные темпы развития державы во всех сферах деятельности обеспечивают благоприятные перспективы уже сейчас для иностранных инвесторов. </p>
+                    <p class="privilages__text">Большой экономический потенциал и активные темпы развития государства во всех сферах деятельности обеспечивают благоприятные перспективы уже сейчас для иностранных инвесторов. </p>
                 </div>
 
                 <div class="privilages__item col-sm-6 col-lg-4">
@@ -462,7 +462,7 @@
                         <img src="../assets/images/icons/advantage/item_icon_07.svg" alt="Advantage Icon #07">
                     </div>
 
-                    <p class="advantage__item-text">Бесперебойная подача э/энергии (генератор)</p>
+                    <p class="advantage__item-text">Бесперебойная подача э/энергии (генератор),<br>охрана 24/7</p>
                 </div>
 
             </div>
@@ -600,19 +600,22 @@
                         <div class="excellence__text-box">
                             <h2 class="section-title excellence__title " data-scroll="" data-splitting="">Преимущества компании Yenisey</h2>
 
-                            <p class="paragraph">Строительная компания "Yenisey&Yaparli" является ведущим девелопером региона.</p>
+                            <p class="paragraph">Строительная компания "Yenisey&Yaparli" является ведущим застройщиком региона.</p>
 
-                            <p class="paragraph">Наши проекты пользуются большим спросом у покупателей из разных держав. Поэтому среди первенствующих, серьезных застройщиков Аланьи лидирующие позиции по праву занимает Yenisey.</p>
+                            <p class="paragraph">Наши проекты пользуются большим спросом среди покупателей из разных стран мира, поэтому «Yenisey» по праву занимает лидирующие позиции среди строительных компаний в Алании. Мы заслужили свою репутацию благодаря упорному труду, скрупулезной точности, постоянному обучению и использованию новых технологий в строительстве.</p>
 
-                            <p class="paragraph">Наша безупречная репутация складывается из многолетнего опыта деятельности, упорного труда, где усилия каждого складываются в единый позитивный результат, скрупулезной точности и понимания ответственности за каждый шаг, постоянного обучения и использования новых технологий в строительстве, наличия хорошей финансовой и технической базы, четкой организации и субординации в коллективе.</p>
+                            <p class="paragraph">Для реализации крупных строительных проектов требуется четкая организация производственного процесса, сплоченный коллектив, высококвалифицированные специалисты и собственные производственные мощности. Бесценный практический опыт, впечатляющий портфель уже реализованных проектов, которые в полной мере демонстрируют нашу компетенцию – ещё одно преимущество нашей компании.</p>
 
-                            <p class="paragraph">Именно этим отличается Yenisey от рядовых строительных фирм. В каждый проект мы вкладываем нечто большее, чем профессионализм и инновационные технологические решения. Мы вкладываем частичку себя, своих наилучших намерений и строим с любовью к нашим будущим клиентам.</p>
+                            <p class="paragraph">Мы любим то, что мы делаем и поможем реализовать Ваши мечты уже сегодня!</p>
+
+                            <p class="paragraph">В каждый проект мы вкладываем также свою душу, строим с любовью к нашим будущим клиентам.</p>
+                            <p class="paragraph">Yenisey – это больше, чем просто дом!<br>Yenisey – much more than a house!</p>
                         </div>    
                     </div>
 
                     <div class="col-md-12 col-lg-6">
                         <div class="excellence__image-box">
-                            <img src="../assets/images/exellence-image.png" class="excellence__icon" alt="Excellence Image" width="488">
+                            <img src="../assets/images/exellence-image.jpg" class="excellence__icon" alt="Excellence Image" width="488">
                         </div>                       
                     </div>
 
@@ -890,7 +893,7 @@
 
                 <div class="col-lg-6 property__image-column">
                     <div class="property__image-block">                
-                        <img src="../assets/images/property_body-image.png" class="excellence__icon excellence__image" alt="Excellence Image" width="488" height="586">
+                        <img src="../assets/images/property_body-image.jpg" class="excellence__icon excellence__image" alt="Excellence Image" width="488" height="586">
                     </div>
                 </div>
                 
@@ -910,7 +913,7 @@
                     </div>
 
                     <div class="col-lg-6 how-buy__right">
-                        <img src="../assets/images/how-buy_image_02.png" class="how-buy__image" alt="Image 02" data-aos="fade-up-left">
+                        <img src="../assets/images/how-buy_image_02.jpg" class="how-buy__image" alt="Image 02" data-aos="fade-up-left">
 
                         <p class="paragraph"><strong>Популярность покупки жилья от застройщика в Турции обоснована следующими важными особенностями: </strong></p>
                         <p class="paragraph paragraph_dott">Девелоперские компании предлагают соискателям купить новые квартиры на этапе строительства. Вкладывая таким образом свои деньги, можно значительно сэкономить.</p>
@@ -929,7 +932,7 @@
                 
                 <div class="col-lg-6">
                     <div class="company-bio__image-block">
-                        <img src="../assets/images/company-bio_image.png" alt="company photo" class="company-bio__image">
+                        <img src="../assets/images/company-bio_image.jpg" alt="company photo" class="company-bio__image">
                     </div>
                 </div>                
             </div>

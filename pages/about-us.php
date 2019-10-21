@@ -22,7 +22,7 @@
     <section class="coop-whyUs">
         <div class="container">
             <div class="row coop-whyUs__row">
-                <div class="col-lg-6 order-md-1 order-lg-0">
+                <div class="col-lg-6 order-1 order-lg-0">
                     <h3 class="coop-whyUs__title">Почему Yenisey?</h3>
                     <div class="coop-whyUs__textarea">
                         <p>Строительная компания &quot;Yenisey&amp;Yaparli&quot; является ведущим застройщиком региона.</p>
@@ -41,11 +41,11 @@
                     </div>
                 </div>
                 <div class="col-lg-6 order-md-0 order-lg-1">
-                    <div class="coop-whyUs__image imageSlideAnim" data-scroll="">
+                    <div class="coop-whyUs__image imageSlideAnim" data-scroll="out">
                         <img src="../assets/images/pages/cooperation_image_01.jpg" alt="Cooperation Image">
                     </div>
                 </div>
-                <div class="col-12 order-md-2 order-lg-2">
+                <div class="col-12 order-2 order-lg-2">
                     <div class="coop-whyUs__slogan">
                         <div class="coop-whyUs__slogan-text">
                             Мы любим то, что мы делаем и поможем реализовать Ваши мечты уже сегодня!<br>
@@ -75,19 +75,23 @@
     <section class="managers-section managers">
         <header class="managers__header">
             <div class="container">
-                <h2 class="managers__header-title">Наши сотрудники</h2>
-                <div class="managers__header-text article__content article-content">
-                    <p>Сотрудники компании – это опытные архитекторы, инженеры, дизайнеры, которые
-                        имеют высшее профильное образование и проектируют жилые
-                        комплексы с учетом всех современных норм и правил, пожеланий и потребностей
-                        наших клиентов, а также внутреннего понимания, что такое дом, где хочется жить.</p>
-                    <p>Также это строители и прорабы, качественно, оперативно, квалифицированно
-                        выполняющие контроль и строительство зданий; маркетологи, юристы, специалисты
-                        по продажам, офис-менеджеры и водители, каждый из которых ответственно и
-                        творчески подходит к решению поставленных задач, помогая сориентироваться
-                        покупателям в процессе приобретения недвижимости в Аланье от застройщика.</p>
-                    <p>Разнообразие проектов нашего портфеля позволяет подобрать клиенту наилучший
-                        вариант жилья, исходя из его потребностей и финансовых возможностей.</p>
+                <div class="row">
+                    <div class="col-12"><h2 class="managers__header-title">Наши сотрудники</h2></div>
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="managers__header-text article__content article-content">
+                            <p>Сотрудники компании – это опытные архитекторы, инженеры, дизайнеры, которые
+                                имеют высшее профильное образование и проектируют жилые
+                                комплексы с учетом всех современных норм и правил, пожеланий и потребностей
+                                наших клиентов, а также внутреннего понимания, что такое дом, где хочется жить.</p>
+                            <p>Также это строители и прорабы, качественно, оперативно, квалифицированно
+                                выполняющие контроль и строительство зданий; маркетологи, юристы, специалисты
+                                по продажам, офис-менеджеры и водители, каждый из которых ответственно и
+                                творчески подходит к решению поставленных задач, помогая сориентироваться
+                                покупателям в процессе приобретения недвижимости в Аланье от застройщика.</p>
+                            <p>Разнообразие проектов нашего портфеля позволяет подобрать клиенту наилучший
+                                вариант жилья, исходя из его потребностей и финансовых возможностей.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
@@ -241,7 +245,7 @@
             <div class="row">
                 <div class="col-12"><h2 class="certificates-section__title">Сертификаты</h2></div>
 
-                <div class="col-12">
+                <div class="col-xl-8 offset-xl-2">
                     <div class="certificates__content">
                         <div class="certificate-box">
                             <img class="certificate-box__image" src="../assets/images/certificate_01.jpg" alt="Certificate Image">

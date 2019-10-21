@@ -270,9 +270,11 @@ img {
 
     .jsmartable-subcol {
         padding: 10px 20px !important;
+       
 
         &:first-child {
         background: none !important;
+        color: $bace_color !important;
         @include font_semiBold;
         letter-spacing: 0.04em!important;
         line-height: 1.5!important;

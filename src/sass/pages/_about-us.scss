@@ -101,6 +101,10 @@
 
 .managers {
 
+    &__container {
+        background: white;
+    }
+
     &__header {
         padding-bottom: 330px;
         margin-bottom: 60px;
@@ -114,6 +118,16 @@
     &__grid-list {
         .manager {
             margin-bottom: 30px;
+        }
+    }
+
+    &__header-text{
+        padding-bottom: 20px;
+        background: white;
+
+        &.article-content > *:not(img) {
+            padding-left: 100px;
+            padding-right: 100px;
         }
     }
 }
@@ -300,7 +314,6 @@
         z-index: 1;
         position: absolute;
         background: #fff;
-        top: 1px;
         width: 100%;
         height: 100%;
         transform: translateX(100%);
@@ -311,17 +324,19 @@
     }
 }
 
-
-[data-scroll="out"].imageSlideAnim {
+@media screen and (min-width: 991px){
+    [data-scroll="out"].imageSlideAnim {
     
-    &::before {
-        transform: translateX(0);    
-    }
-
-    img {
-        transform: scale(1.2) rotate(-5deg);    
+        &::before {
+            transform: translateX(0);    
+        }
+    
+        img {
+            transform: scale(1.2) rotate(-5deg);    
+        }
     }
 }
+
 
 
 [data-scroll="in"].imageSlideAnim {
