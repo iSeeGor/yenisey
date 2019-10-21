@@ -71,7 +71,7 @@
 
                     <ul class="mobile-menu dropdown-menu">
                         <li class="dropdown-menu__item">
-                            <a href="#" class="link dropdown-menu__link" title="Услуги для клиентов">Услуги для клиентов</a>
+                            <a href="/pages/services.php" class="link dropdown-menu__link" title="Услуги для клиентов">Услуги для клиентов</a>
                         </li>
                         
                         <li class="dropdown-menu__item">
@@ -186,7 +186,7 @@
 
                                     <ul class="menu menu__dropdown">
                                         <li class="menu__item menu__item_submenu">
-                                            <a href="#" class="link menu__item-link" title="Услуги для клиентов">Услуги для клиентов</a>
+                                            <a href="/pages/services.php" class="link menu__item-link" title="Услуги для клиентов">Услуги для клиентов</a>
 
                                             <ul class="menu sub-menu__dropdown sub-menu">
                                                 <li class="menu__item"><a href="#" class="link menu__item-link" title="Ознакомительный тур">Ознакомительный тур</a></li>
