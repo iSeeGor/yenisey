@@ -600,6 +600,30 @@ strong {
     font-size: 1.8rem;
     color: #174782; }
 
+.sub-mobile__dropdown {
+  display: none;
+  margin: 10px 0; }
+  .sub-mobile__dropdown .dropdown-menu__link {
+    font-size: 1.6rem; }
+
+.is-sub-mobile {
+  position: relative;
+  padding-right: 20px; }
+  .is-sub-mobile::after {
+    content: '';
+    position: absolute;
+    top: 6px;
+    right: 0;
+    width: 13px;
+    height: 13px;
+    background: url(../images/icons/menu_angel_arrow.svg) no-repeat center center;
+    background-size: contain;
+    -webkit-transition: -webkit-transform 0.4s ease;
+    transition: -webkit-transform 0.4s ease;
+    -o-transition: transform 0.4s ease;
+    transition: transform 0.4s ease;
+    transition: transform 0.4s ease, -webkit-transform 0.4s ease; }
+
 .phones__select-list_sidenav {
   padding: 0;
   margin: 0 0 40px 0;

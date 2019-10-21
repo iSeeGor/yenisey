@@ -199,34 +199,19 @@ const mobileMenu = () => {
 
 // Accordion Menu
 const accordionMenu = () => {
-  let Accordion = function(el, multiple) {
-    this.el = el || {};
-    this.multiple = multiple || false;
+    // mobile menu 
+  $('.mobile-menu__link').click(function(){
+    $(this).next().slideToggle();
+    $(this).toggleClass("mobile-menu__link_active");
+  }); 
 
-    // letiables privadas
-    let links = this.el.find(".link");
-    // Evento
-    links.on("click", { el: this.el, multiple: this.multiple }, this.dropdown);
-  };
+  //sub mobile menu
+  $('.is-sub-mobile').click(function(){
+    // $('.is-sub-mobile').next().hide();
+    $(this).next().slideToggle();
+    $(this).toggleClass("mobile-menu__link_active");
 
-  Accordion.prototype.dropdown = function(e) {
-    let $el = e.data.el;
-    ($this = $(this)), ($next = $this.next());
-
-    $next.slideToggle();
-    $this.toggleClass("mobile-menu__link_active");
-
-    if (!e.data.multiple) {
-      $el
-        .find(".dropdown-menu")
-        .not($next)
-        .slideUp()
-        .prev()
-        .removeClass("mobile-menu__link_active");
-    }
-  };
-
-  let accordion = new Accordion($(".mobile-menu"), false);
+  }); 
 };
 
 // Modal's 
