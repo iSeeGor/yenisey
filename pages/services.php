@@ -23,7 +23,7 @@
 </section>
 
 <main class="page__services page-services">
-    <div class="services-tour" data-scroll="">
+    <section class="services-tour" data-scroll="">
         <div class="container">
             <div class="services-tour__inner">
                 <div class="services-tour__inner-wrap">
@@ -119,7 +119,224 @@
                 </div>    
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="services-txtBlocks servicesGrid">
+        <div class="container">
+
+            <!-- one -->
+            <div class="row servicesGrid__one">
+                <div class="col-lg-5 offset-lg-2">
+                    <div class="services-txtBlock services-txtBlock_blue">
+                        <div class="services-txtBlock__icon-box">
+                            <img src="../assets/images/icons/services/exam.svg" alt="Services txt Block Icon">
+                        </div>
+                        <h3 class="services-txtBlock__title">Сопровождение сделки и оформление документов</h3>
+                        <div class="services-txtBlock__content">
+                            <p>Мы знаем, как наши покупатели ценят время и готовы предложить профессиональную юридическую 
+                                помощь в подготовке к сделке купли-продажи, а также на этапе оформления всех документов. </p>
+                            <p>Наша репутация опытного и надежного девелопера позволит Вам не беспокоиться о текущих 
+                                организационных вопросах и просто наслаждаться покупкой собственности в Турции.</p>    
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-1">
+                    <div class="services-txtBlock__image-box servicesGrid__image_one">
+                        <img class="services-txtBlock__image" src="../assets/images/services/serviceGrid_image_01.jpg" alt="Services Image">
+                    </div>
+                </div>
+            </div>
+
+            <!-- two -->
+            <div class="row servicesGrid__two">
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="services-txtBlock__image-box servicesGrid__image_two">
+                        <img class="services-txtBlock__image" src="../assets/images/services/serviceGrid_image_02.jpg" alt="Services Image">
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="services-txtBlock services-txtBlock_orange">
+                        <div class="services-txtBlock__icon-box">
+                            <img src="../assets/images/icons/services/building.svg" alt="Services txt Block Icon">
+                        </div>
+                        <h3 class="services-txtBlock__title">Продажа апартаментов под ключ</h3>
+                        <div class="services-txtBlock__content">
+                            <p><strong>Компания Yenisey – застройщик полного цикла. </strong></p>
+                            <p>Мы являемся заказчиком и исполнителем работ в своих жилых комплексах. Проявляя заботу о 
+                                покупателях и понимая их потребности, мы предлагаем полностью готовые просторные квартиры, 
+                                где с любовью продумана каждая деталь интерьера, установлена высококачественная техника, 
+                                мебель, декор, чтобы Вы могли получать удовольствие от уютного проживания уже сейчас.</p>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- three -->
+            <div class="row servicesGrid__three">
+                <div class="col-lg-5 offset-lg-2">
+                    <div class="services-txtBlock services-txtBlock_blue">
+                        <div class="services-txtBlock__icon-box">
+                            <img src="../assets/images/icons/services/group.svg" alt="Services txt Block Icon">
+                        </div>
+                        <h3 class="services-txtBlock__title">Бесплатный пост-продажный сервис</h3>
+                        <div class="services-txtBlock__content">
+                            <p>Современные жилые комплексы Yenisey - это оазисы яркого жизненного пространства, где есть всё 
+                                необходимое и даже больше. </p>
+                            <p>Тем не менее, мы понимаем, что нашим владельцам требуется помощь на этапе обустройства и
+                                после переезда в решении возникающих бытовых вопросов, будь то уборка, присмотр за жильём, 
+                                подключение счетчиков или покупка мебели в магазинах Алании.</p>
+                            <p>Наш Департамент по обслуживанию клиентов оказывает всестороннюю поддержку всем жильцам на 
+                                бесплатной и бессрочной основе.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- four -->
+            <div class="row servicesGrid__four">
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="services-txtBlock__image-box servicesGrid__image_four">
+                        <img class="services-txtBlock__image" src="../assets/images/services/serviceGrid_image_03.jpg" alt="Services Image">
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="services-txtBlock services-txtBlock_orange">
+                        <div class="services-txtBlock__icon-box ">
+                            <img src="../assets/images/icons/services/Frame.svg" alt="Services txt Block Icon">
+                        </div>
+                        <h3 class="services-txtBlock__title">Менеджмент и обслуживание комплексов</h3>
+                        <div class="services-txtBlock__content">
+                            <p>Выбрав проживание в новых домах от Yenisey, Вы получаете массу преимуществ: продуманная 
+                                планировка и дизайн, комфортная атмосфера, ухоженная территория, ландшафтное озеленение, 
+                                развитая инфраструктура, широкий спектр услуг. </p>
+                            <p>Всё это составные части общего жилищного механизма, требующие эффективного контроля и управления. 
+                                Мы организовали собственную профессиональную команду по обслуживанию наших ЖК, которая поддерживает в
+                                надлежащем порядке придомовую территорию и объекты общественногопользования.</p>   
+                            <p>Вам же остается только наслаждаться отдыхом и жизнью в Турции!</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- five -->
+            <div class="row servicesGrid__five">
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="services-txtBlock services-txtBlock_blue">
+                        <div class="services-txtBlock__icon-box">
+                            <img src="../assets/images/icons/services/money.svg" alt="Services txt Block Icon">
+                        </div>
+                        <h3 class="services-txtBlock__title">Ипотека в Турции</h3>
+                        <div class="services-txtBlock__content">
+                            <p>Жить на побережье Средиземного моря – заветная мечта для многих иностранных граждан. 
+                                И она может осуществиться даже для тех, кто не имеет на руках всей суммы, необходимой 
+                                для покупки собственности. Речь идет об ипотеке на недвижимость в Турции, которая 
+                                позволит в короткие сроки получить недостающие средства для оплаты новой квартиры.</p>
+                            <p>Строительная компания Yenisey всячески поддерживает и помогает своим клиентам в выборе 
+                                банка и оформлении ипотечного кредита.</p>    
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-1">
+                    <div class="services-txtBlock__image-box servicesGrid__image_five">
+                        <img class="services-txtBlock__image" src="../assets/images/services/serviceGrid_image_04.jpg" alt="Services Image">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Six -->
+            <div class="row servicesGrid__six">
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="services-txtBlock services-txtBlock_orange">
+                        <div class="services-txtBlock__icon-box ">
+                            <img src="../assets/images/icons/services/frame_01.svg" alt="Services txt Block Icon">
+                        </div>
+                        <h3 class="services-txtBlock__title">Обмен недвижимости</h3>
+                        <div class="services-txtBlock__content">
+                            <p>Вы уже собственник жилья в Турции, но мечтаете о квартире в новостройке?</p>
+                            <p>Строительный холдинг Yenisey предоставляет возможность обменять имеющуюся у Вас недвижимость 
+                                на новую. Для этого наши квалифицированные сотрудники проведут осмотр и составят оценку Вашей 
+                                собственности. </p>   
+                            <p>Перерасчет производится исходя из актуальных цен на момент сделки и ориентируясь на 
+                                ситуацию на рынке. При наличии полного пакета документов и по согласию сторон
+                                обмен недвижимостью станет прекрасной альтернативой для желающих стать владельцем новых апартаментов.</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- seven -->
+            <div class="row servicesGrid__seven">
+                <div class="col-lg-5 offset-lg-6">
+                    <div class="services-txtBlock services-txtBlock_blue">
+                        <div class="services-txtBlock__icon-box">
+                            <img src="../assets/images/icons/services/mortgage.svg" alt="Services txt Block Icon">
+                        </div>
+                        <h3 class="services-txtBlock__title">Беспроцентная рассрочка</h3>
+                        <div class="services-txtBlock__content">
+                            <p>Среди многих преимуществ покупки жилья напрямую от строительной компании часто решающим фактором является предоставление беспроцентной рассрочки.</p>
+                            <p>В данном случае нет никаких начисляемых процентов от банка или агентства. Покупатель оплачивает лишь стоимость квартиры по первоначальной цене
+                                непосредственно от девелопера, то есть от нас.
+                                Yenisey предоставляет рассрочку сроком до двух лет. После внесения первоначального взноса мы составляем график платежей, который прилагается к договору. </p>    
+                            <p>Мы всегда идем на встречу нашим клиентам и стараемся, чтобы система оплат была для них комфортной и необременительной!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- eight -->
+            <div class="row servicesGrid__eight">
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="services-txtBlock services-txtBlock_orange">
+                        <div class="services-txtBlock__icon-box">
+                            <img src="../assets/images/icons/services/exam_2.svg" alt="Services txt Block Icon">
+                        </div>
+                        <h3 class="services-txtBlock__title">Помощь в оформлении ВНЖ</h3>
+                        <div class="services-txtBlock__content">
+                            <p>Покупка квартиры в Турции – важный и долгожданный шаг. </p>
+                            <p>Многие иностранные граждане уже стали полноправными владельцами комфортабельных апартаментов на средиземноморском берегу. Правительство государства
+                                всячески поощряет собственников из-за рубежа и предлагает простой способ получения вида на жительство, в качестве бонуса за инвестиции в недвижимость.</p>    
+                            <p>Наша компания готова оказать всестороннюю поддержку новым участникам семьи Yenisey, помочь с оформлением ВНЖ и проконсультировать, упростив процесс регистрации.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-1">
+                    <div class="services-txtBlock__image-box servicesGrid__image_eight">
+                        <img class="services-txtBlock__image" src="../assets/images/services/serviceGrid_image_05.jpg" alt="Services Image">
+                    </div>
+                </div>
+            </div>
+        
+            <!-- nine -->
+            <div class="row servicesGrid__nine">
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="services-txtBlock__image-box servicesGrid__image_nine">
+                        <img class="services-txtBlock__image" src="../assets/images/services/serviceGrid_image_06.jpg" alt="Services Image">
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="services-txtBlock services-txtBlock_blue">
+                        <div class="services-txtBlock__icon-box ">
+                            <img src="../assets/images/icons/services/taxi.svg" alt="Services txt Block Icon">
+                        </div>
+                        <h3 class="services-txtBlock__title">Трансфер в аэропорт</h3>
+                        <div class="services-txtBlock__content">
+                            <p>Компания Yenisey с радостью поможет потенциальным покупателям и собственникам жилья в наших ЖК 
+                                организовать трансфер из/в аэропорт Анталии или Газипаши. </p>
+                            <p>Для этого Вам нужно будет всего лишь сообщить дату прилёта и номер рейса. Наши сотрудники позаботятся о том, 
+                                чтобы комфортабельный автомобиль был подан в аэропорт вовремя.</p>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <button class="button button__popup services-txtBlocks__button" data-popup-title="Перезвоните мне">Отправить запрос</button>
+                </div>
+            </div>
+        
+        </div>
+    </section>
 </main>
 
 <?php include '../layouts/footer.php'; ?>
