@@ -4021,7 +4021,7 @@ strong {
     transition: transform 1s cubic-bezier(1, 0.03, 0.515, 0.955);
     transition: transform 1s cubic-bezier(1, 0.03, 0.515, 0.955), -webkit-transform 1s cubic-bezier(1, 0.03, 0.515, 0.955); }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1025px) {
   [data-scroll="out"].imageSlideAnim::before {
     -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
@@ -4230,12 +4230,14 @@ strong {
     position: absolute;
     top: -180px;
     right: -380px;
-    content: url("../images/services/serviceGrid_image_04_1.jpg"); }
+    content: url("../images/services/serviceGrid_image_04_1.jpg");
+    z-index: 10; }
   .servicesGrid__image_five::after {
     position: absolute;
     right: -314px;
     bottom: -260px;
-    content: url("../images/services/serviceGrid_image_04_2.jpg"); }
+    content: url("../images/services/serviceGrid_image_04_2.jpg");
+    z-index: 10; }
 
 .servicesGrid__six {
   margin-bottom: 90px; }
@@ -4300,7 +4302,9 @@ strong {
   line-height: 1.4;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 2.4rem; }
+  font-size: 2.4rem;
+  max-width: 500px;
+  margin: 0 auto; }
 
 .notfound__button {
   height: 40px;
@@ -4324,7 +4328,9 @@ strong {
   font-weight: 600;
   font-size: 1.8rem;
   line-height: 1.6;
-  color: #174782; }
+  color: #174782;
+  max-width: 470px;
+  margin: 0 auto; }
 
 /* Footer
    ============================================================== */

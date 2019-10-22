@@ -269,9 +269,11 @@
     .testimonial__button-prev {
         left: -40px;
     } 
+
     .testimonial__button-next {
         right: -40px;
     }
+
     .testimonial__massage iframe {
         height: 240px !important;
         width: 100% !important;
@@ -281,6 +283,11 @@
     .excellence__text-box {
         padding: 0;
     }
+
+    .excellence__image-box::before {
+        display: none;
+    }
+
     .excellence__image-box {
         padding: 0;
         max-width: 100%;
@@ -291,6 +298,7 @@
     .excellence__item::after {
         display: none;
     }
+
     .excellence__inner {
         padding-top: 20px;
     }
@@ -641,6 +649,10 @@
 
     .excellence__top {
         margin-bottom: 60px;
+    }
+
+    .excellence__image-box {
+        display: block;
     }
 
     /* #Property */

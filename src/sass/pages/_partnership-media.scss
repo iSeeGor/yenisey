@@ -62,9 +62,22 @@
         max-width: 380px;
         margin: 0 auto;
     }
+
+    .side-info__desc-header {
+        text-align: center;
+        max-width: 76%;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 767px) {
+
+    .side-info__desc-header {
+        text-align: center;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
     .page-header_partnership {
         background-size: 1000px;
     }

@@ -85,6 +85,11 @@
     .contactMap__workTime{
         margin-top: 30px;
     }
+
+    .managers__header-text.article-content > *:not(img) {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media screen and (max-width:767px){

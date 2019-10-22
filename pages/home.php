@@ -606,19 +606,27 @@
 
                             <p class="paragraph">Для реализации крупных строительных проектов требуется четкая организация производственного процесса, сплоченный коллектив, высококвалифицированные специалисты и собственные производственные мощности. Бесценный практический опыт, впечатляющий портфель уже реализованных проектов, которые в полной мере демонстрируют нашу компетенцию – ещё одно преимущество нашей компании.</p>
 
-                            <p class="paragraph">Мы любим то, что мы делаем и поможем реализовать Ваши мечты уже сегодня!</p>
-
-                            <p class="paragraph">В каждый проект мы вкладываем также свою душу, строим с любовью к нашим будущим клиентам.</p>
-                            <p class="paragraph">Yenisey – это больше, чем просто дом!<br>Yenisey – much more than a house!</p>
                         </div>    
                     </div>
 
                     <div class="col-md-12 col-lg-6">
                         <div class="excellence__image-box">
-                            <img src="../assets/images/exellence-image.jpg" class="excellence__icon" alt="Excellence Image" width="488">
+                            <img src="../assets/images/exellence-image.jpg" class="excellence__icon" alt="Excellence Image">
                         </div>                       
                     </div>
 
+                    <div class="col-12">
+                        <div class="coop-whyUs__slogan">
+                            <div class="coop-whyUs__slogan-text">
+                                Мы любим то, что мы делаем и поможем реализовать Ваши мечты уже сегодня!<br>
+                                В каждый проект мы вкладываем также свою душу, строим с любовью к нашим будущим клиентам.<br>
+                                Yenisey – это больше, чем просто дом!
+                            </div>
+                            <div class="coop-whyUs__slogan-text coop-whyUs__slogan-text_eng">
+                                Yenisey – much more than a house!
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="excellence__items row">

@@ -26,6 +26,7 @@
     .notfound__title {
         font-size: 2.8rem;
         margin-bottom: 25px;
+        line-height: 1.2;
     }
 
     .notfound__subtitle {
@@ -60,4 +61,41 @@
         line-height: 1.4;
         padding: 10px 20px 11px;
     }
+
+    .notfound__subtitle {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .page-notfound {
+        padding: 20px 0 30px;
+        background-position-y: 0;
+        background-size: 800px;
+    }
+
+    .notfound__header {
+        margin-bottom: 60px;
+    }
+    
+    .notfound__title {
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+        line-height: 1.2;
+    }
+
+    .notfound__subtitle {
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+
+    .notfound__header {
+        margin-bottom: 170px;
+    }
+
+    .notfound__text {
+        font-size: 1.4rem;
+        line-height: 1.3;
+    }
+    
 }
