@@ -965,7 +965,9 @@
     height: 800px;
     width: 800px; }
   .request__text {
-    padding-bottom: 40px; } }
+    padding-bottom: 40px; }
+  .page-header__inner {
+    padding: 0 0px; } }
 
 @media screen and (max-width: 330px) {
   /* Order By */

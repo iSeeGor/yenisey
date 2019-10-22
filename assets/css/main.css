@@ -3595,7 +3595,7 @@ strong {
 
 .favorits-error__button {
   position: relative;
-  z-index: 20;
+  z-index: 10;
   display: block;
   max-width: 220px;
   text-align: center;
