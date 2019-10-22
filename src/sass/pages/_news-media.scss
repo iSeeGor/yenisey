@@ -167,7 +167,19 @@
         text-align: center;
         
     }
+
+    .search-form .nice-select:after {
+        right: 10px;
+    }
 }
 
+@media screen and (max-width: 320px){
+    .search__area {
+        padding: 30px 10px 30px;
+    }
+    .section-advantage {
+        overflow: hidden;
+    }
+}
 
 

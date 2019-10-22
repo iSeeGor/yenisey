@@ -1094,7 +1094,15 @@
     -webkit-flex: 0 0 49%;
         -ms-flex: 0 0 49%;
             flex: 0 0 49%;
-    text-align: center; } }
+    text-align: center; }
+  .search-form .nice-select:after {
+    right: 10px; } }
+
+@media screen and (max-width: 320px) {
+  .search__area {
+    padding: 30px 10px 30px; }
+  .section-advantage {
+    overflow: hidden; } }
 
 @media screen and (max-width: 1200px) {
   .favorits-header {
