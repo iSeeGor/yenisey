@@ -3319,7 +3319,8 @@ strong {
   margin-bottom: 60px; }
 
 .archive-page__inner {
-  padding: 0 80px 0 70px; }
+  padding: 0 80px 0 70px;
+  overflow: hidden; }
 
 .archive-tabs__list {
   margin: 0;

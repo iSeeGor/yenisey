@@ -29,8 +29,8 @@
                 <div class="services-tour__inner-wrap">
                     <div class="row">
                         <div class="col-12">
-                            <h2 class="services-tour__title" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"  data-aos-offset="0" data-aos-duration="2000">Ознакомительный тур</h2>
-                            <p class="services-tour__subtitle" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"  data-aos-offset="0" data-aos-duration="2000" data-aos-delay="100">Приглашаем Вас в увлекательный ознакомительный тур в солнечную Аланью!</p>
+                            <h2 class="services-tour__title" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"  data-aos-offset="0" data-aos-duration="1500">Ознакомительный тур</h2>
+                            <p class="services-tour__subtitle" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"  data-aos-offset="0" data-aos-duration="1500" data-aos-delay="100">Приглашаем Вас в увлекательный ознакомительный тур в солнечную Аланью!</p>
                         </div>
                         <div class="col-lg-10 offset-lg-1">
                             <div class="row">

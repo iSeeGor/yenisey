@@ -20,8 +20,15 @@
 
     .services-txtBlocks {
         padding-bottom: 80px;
-        background: url(../images/pages/services_grid_bg_01.png) no-repeat 312px 624px, 
-                    url(../images/pages/services_grid_bg_02.png) no-repeat -230px 3464px;
+        background: url('../images/pages/services_grid_bg_01.png') no-repeat 312px 624px, 
+                    url('../images/pages/services_grid_bg_02.png') no-repeat -230px 3464px;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .services-txtBlocks {
+        background: url('../images/pages/services_grid_bg_01.png') no-repeat 312px 624px, 
+        url('../images/pages/services_grid_bg_02.png') no-repeat -330px 3464px;
     }
 }
 

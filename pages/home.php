@@ -6,22 +6,17 @@
         <div class="container hero__container">
 
             <div class="hero__inner">
-                <h1 class="hero__title" data-aos="fade-up"
-     data-aos-duration="1200" data-aos-delay="1000">Квартиры от застройщика <br> в солнечной Аланье</h1>
-                <h2 class="hero__subtitle" data-aos="fade-up"
-     data-aos-duration="1200" data-aos-delay="1400">Мечтаете жить на побережье Средиземного моря?<br> С нашей компанией Ваши мечты становятся реальностью!</h2>
+                <h1 class="hero__title" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1000">Квартиры от застройщика <br> в солнечной Аланье</h1>
+                <h2 class="hero__subtitle" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1400">Мечтаете жить на побережье Средиземного моря?<br> С нашей компанией Ваши мечты становятся реальностью!</h2>
 
-                <button class="button hero__button button__popup" id="search-anchor" data-aos="fade-up"
-     data-aos-duration="1200" data-aos-delay="1800" data-popup-title="Заказать бесплатную консультацию">Заказать бесплатную консультацию</button>
+                <button class="button hero__button button__popup" id="aosButtonAnchor" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1800" data-popup-title="Заказать бесплатную консультацию">Заказать бесплатную консультацию</button>
             </div>
 
         </div>
     </section>
 
     <!--== Search  -->
-    <section class="section-search search" data-aos="fade-up"
-     data-aos-duration="1200" data-aos-delay="2200" data-aos-anchor="#search-anchor"
-     data-aos-anchor-placement="top-bottom">
+    <section class="section-search search" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="2200" data-aos-anchor="#aosButtonAnchor" data-aos-anchor-placement="top-bottom">
         <div class="container search__container">
 
             <form action="" class="search-form search__area">
