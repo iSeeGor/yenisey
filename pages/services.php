@@ -23,7 +23,7 @@
 </section>
 
 <main class="page__services page-services">
-    <section class="services-tour" data-scroll="">
+    <section class="services-tour" data-scroll="out">
         <div class="container">
             <div class="services-tour__inner">
                 <div class="services-tour__inner-wrap">
@@ -126,7 +126,7 @@
 
             <!-- one -->
             <div class="row servicesGrid__one">
-                <div class="col-lg-5 offset-lg-2">
+                <div class="order-1 order-lg-0 col-lg-5 offset-lg-2">
                     <div class="services-txtBlock services-txtBlock_blue">
                         <div class="services-txtBlock__icon-box">
                             <img src="../assets/images/icons/services/exam.svg" alt="Services txt Block Icon">
@@ -140,8 +140,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 offset-lg-1">
-                    <div class="services-txtBlock__image-box servicesGrid__image_one">
+                <div class="order-0 order-lg-1  col-lg-4 offset-lg-1">
+                    <div class="services-txtBlock__image-box servicesGrid__image_one imageSlideAnim" data-scroll="out">
                         <img class="services-txtBlock__image" src="../assets/images/services/serviceGrid_image_01.jpg" alt="Services Image">
                     </div>
                 </div>
@@ -151,7 +151,9 @@
             <div class="row servicesGrid__two">
                 <div class="col-lg-5 offset-lg-1">
                     <div class="services-txtBlock__image-box servicesGrid__image_two">
+                        <div class="imageSlideAnim" data-scroll="out">
                         <img class="services-txtBlock__image" src="../assets/images/services/serviceGrid_image_02.jpg" alt="Services Image">
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-5">
@@ -195,7 +197,7 @@
             <!-- four -->
             <div class="row servicesGrid__four">
                 <div class="col-lg-5 offset-lg-1">
-                    <div class="services-txtBlock__image-box servicesGrid__image_four">
+                    <div class="services-txtBlock__image-box servicesGrid__image_four imageSlideAnim" data-scroll="out">
                         <img class="services-txtBlock__image" src="../assets/images/services/serviceGrid_image_03.jpg" alt="Services Image">
                     </div>
                 </div>
@@ -220,7 +222,7 @@
 
             <!-- five -->
             <div class="row servicesGrid__five">
-                <div class="col-lg-5 offset-lg-1">
+                <div class="order-1 order-lg-0 col-lg-5 offset-lg-1">
                     <div class="services-txtBlock services-txtBlock_blue">
                         <div class="services-txtBlock__icon-box">
                             <img src="../assets/images/icons/services/money.svg" alt="Services txt Block Icon">
@@ -236,9 +238,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 offset-lg-1">
+                <div class="order-0 order-lg-1 col-lg-4 offset-lg-1">
                     <div class="services-txtBlock__image-box servicesGrid__image_five">
-                        <img class="services-txtBlock__image" src="../assets/images/services/serviceGrid_image_04.jpg" alt="Services Image">
+                        <div class="imageSlideAnim" data-scroll="out">
+                            <img class="services-txtBlock__image" src="../assets/images/services/serviceGrid_image_04.jpg" alt="Services Image">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -285,7 +289,7 @@
 
             <!-- eight -->
             <div class="row servicesGrid__eight">
-                <div class="col-lg-5 offset-lg-1">
+                <div class="order-1 order-lg-0 col-lg-5 offset-lg-1">
                     <div class="services-txtBlock services-txtBlock_orange">
                         <div class="services-txtBlock__icon-box">
                             <img src="../assets/images/icons/services/exam_2.svg" alt="Services txt Block Icon">
@@ -299,8 +303,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 offset-lg-1">
-                    <div class="services-txtBlock__image-box servicesGrid__image_eight">
+                <div class="order-0 order-lg-1 col-lg-4 offset-lg-1">
+                    <div class="services-txtBlock__image-box servicesGrid__image_eight imageSlideAnim" data-scroll="out">
                         <img class="services-txtBlock__image" src="../assets/images/services/serviceGrid_image_05.jpg" alt="Services Image">
                     </div>
                 </div>
@@ -309,7 +313,7 @@
             <!-- nine -->
             <div class="row servicesGrid__nine">
                 <div class="col-lg-5 offset-lg-1">
-                    <div class="services-txtBlock__image-box servicesGrid__image_nine">
+                    <div class="services-txtBlock__image-box servicesGrid__image_nine imageSlideAnim" data-scroll="out">
                         <img class="services-txtBlock__image" src="../assets/images/services/serviceGrid_image_06.jpg" alt="Services Image">
                     </div>
                 </div>

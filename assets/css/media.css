@@ -1312,10 +1312,30 @@
     width: 300px;
     margin: 0 auto; } }
 
+@media screen and (max-width: 1200px) {
+  .servicesGrid__image_two::before,
+  .servicesGrid__image_two::after,
+  .servicesGrid__image_five::before,
+  .servicesGrid__image_five::after {
+    display: none; }
+  .servicesGrid__image_two {
+    left: -40px; }
+  .servicesGrid__image_four {
+    left: -240px; }
+  .servicesGrid__image_nine {
+    left: -180px; }
+  .services-txtBlocks {
+    padding-bottom: 80px;
+    background: url(../images/pages/services_grid_bg_01.png) no-repeat 312px 624px, url(../images/pages/services_grid_bg_02.png) no-repeat center 3464px; } }
+
 @media screen and (max-width: 991px) {
   .services-header {
     margin-top: 60px;
-    padding-top: 240px; }
+    padding-top: 240px;
+    padding-bottom: 20px; }
+  .services-tour {
+    padding-top: 180px;
+    padding-bottom: 80px; }
   .services-tour__inner {
     margin: 0 -15px;
     padding-left: 15px;
@@ -1333,7 +1353,21 @@
     left: 50%;
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
-            transform: translateX(-50%); } }
+            transform: translateX(-50%); }
+  .services-txtBlock__image-box {
+    position: inherit;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    margin-bottom: 50px;
+    width: auto; }
+  .services-txtBlock__image {
+    width: 100%; }
+  .servicesGrid .container > .row {
+    margin-bottom: 60px !important; }
+  .services-txtBlocks {
+    background: none; } }
 
 @media screen and (max-width: 767px) {
   .services-header {
@@ -1346,6 +1380,44 @@
     font-size: 2.8rem; }
   .services-tour__subtitle {
     max-width: 100%; } }
+
+@media screen and (max-width: 991px) {
+  .page-notfound {
+    margin-top: 60px;
+    background-size: 1600px;
+    height: auto;
+    padding: 70px 0 80px; }
+  .notfound__title {
+    font-size: 3.3rem; }
+  .notfound__header {
+    margin-bottom: 380px; } }
+
+@media screen and (max-width: 767px) {
+  .page-notfound {
+    background-size: 1400px;
+    padding: 50px 0 60px; }
+  .notfound__title {
+    font-size: 2.8rem;
+    margin-bottom: 25px; }
+  .notfound__subtitle {
+    font-size: 2rem; }
+  .notfound__header {
+    margin-bottom: 310px; } }
+
+@media screen and (max-width: 575px) {
+  .page-notfound {
+    background-size: cover;
+    padding: 40px 0 40px; }
+  .notfound__header {
+    margin-bottom: 280px; } }
+
+@media screen and (max-width: 420px) {
+  .notfound__header {
+    margin-bottom: 240px; }
+  .notfound__button {
+    height: auto;
+    line-height: 1.4;
+    padding: 10px 20px 11px; } }
 
 /* Media Footer
    ============================================================== */

@@ -4268,6 +4268,64 @@ strong {
   display: block;
   margin: 0 auto; }
 
+@media screen and (min-width: 1200px) {
+  [data-scroll="out"].services-tour {
+    background-position-y: 800px; } }
+
+[data-scroll="in"].contactMap__aboutUs {
+  background-position-y: -180px; }
+
+.page-notfound {
+  margin-top: 110px;
+  padding: 100px 0 145px;
+  background: url("../images/404.jpg") no-repeat center top; }
+
+.notfound__inner {
+  text-align: center; }
+
+.notfound__header {
+  margin-bottom: 480px; }
+
+.notfound__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 3.6rem;
+  color: #0A3163;
+  text-align: center;
+  margin-bottom: 30px; }
+
+.notfound__subtitle {
+  color: #174782;
+  text-align: center;
+  line-height: 1.4;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 2.4rem; }
+
+.notfound__button {
+  height: 40px;
+  overflow: hidden;
+  display: block;
+  max-width: 338px;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-bottom: 25px; }
+  .notfound__button::before {
+    -webkit-transform: translate(25%, 210%) rotate(-30deg);
+        -ms-transform: translate(25%, 210%) rotate(-30deg);
+            transform: translate(25%, 210%) rotate(-30deg); }
+  .notfound__button::after {
+    -webkit-transform: translate(-25%, -210%) rotate(-30deg);
+        -ms-transform: translate(-25%, -210%) rotate(-30deg);
+            transform: translate(-25%, -210%) rotate(-30deg); }
+
+.notfound__text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #174782; }
+
 /* Footer
    ============================================================== */
 .social-media {

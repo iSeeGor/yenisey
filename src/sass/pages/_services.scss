@@ -283,12 +283,12 @@
     margin: 0 auto;
 }
 // BG Animation 
-// @media screen and (min-width:1200px ){
-//     [data-scroll="out"].services-tour {
-//         background-position-y: 800px;
-//     }
-// }
+@media screen and (min-width:1200px ){
+    [data-scroll="out"].services-tour {
+        background-position-y: 800px;
+    }
+}
 
-// [data-scroll="in"].contactMap__aboutUs {
-//     background-position-y: -180px;
-// }
+[data-scroll="in"].contactMap__aboutUs {
+    background-position-y: -180px;
+}
