@@ -7,7 +7,6 @@ $(function() {
   poductHomeSlider();
   newsHomeSlider();
   mobileMenu();                                                                                                                                                                                                                                                                                                                                                         
-  modalTheme();
   textSplittEffect();
   slideNav();
   toTopButton();
@@ -22,6 +21,7 @@ $(function() {
   archiveTabsToggle();
   favoritTabsToggle();
   magnificPopup();
+  
 });
 
 // Select Custom
@@ -212,111 +212,6 @@ const accordionMenu = () => {
     $(this).toggleClass("mobile-menu__link_active");
 
   }); 
-};
-
-// Modal's 
-const modalTheme = () => {
-  let overlay = document.querySelector(".popup-overlay");
-  let closeBtn = document.querySelector(".popup__close-btn");
-  let header = document.querySelector('.header');
-
-  // Modal Form
-  let popup = document.querySelector(".popup");
-  let openPopup = document.querySelectorAll(".button__popup");
-  let popupTitle = document.querySelector(".popup__title");
-  let popupText = document.querySelector(".popup__text");
-
-  // Modal Video  
-  let openPopupVideo = document.querySelector(".button__popup-video");
-  let videoPopup = document.querySelector(".video-popup");
-  let closeVideoPopup = document.querySelector(".video-popup__close-btn");
-
-  // Add Styles when popup open
-  function bodyOverflowHide(){
-    overlay.style = "margin-right:auto";
-    document.body.style = "overflow:hidden; padding-right:16px";
-    header.style = "padding-right:16px";
-  }
-
-  // Add styles when popup close
-  function bodyOverflowShow(){
-    overlay.style = "margin-right:-16px";
-    header.style = "padding-right:0px";
-    document.body.style = "overflow:auto;";
-  }
-
-  for (let i = 0; i < openPopup.length; i++) {
-    openPopup[i].onclick = function() {
-      if (
-        this.hasAttribute("data-popup-title") &&
-        this.hasAttribute("data-popup-text")
-      ) {
-        popupTitle.innerHTML = this.dataset.popupTitle;
-        popupText.innerHTML = this.dataset.popupText;
-      } else if (this.hasAttribute("data-popup-text") === false) {
-        popupTitle.innerHTML = this.dataset.popupTitle;
-      } else {
-        popupTitle.innerHTML = "Перезвоните мне";
-        popupText.innerHTML =
-          "Для получения подробной информации заполните форму и наш менеджер свяжется с Вами в ближайшее время";
-      }
-
-      if (window.matchMedia("(min-width: 1025px)").matches){
-        bodyOverflowHide();        
-      } else {
-        document.body.style = "overflow:hidden;";
-      }
-
-      overlay.classList.add("popup-overlay_opened");
-      popup.classList.add("popup_show");
-    };
-  }
-
-  closeBtn.onclick = function() {
-    if (window.matchMedia("(min-width: 1025px)").matches){
-      bodyOverflowShow();
-    } else {
-      document.body.style = "overflow:auto;";
-    }
-    overlay.classList.remove("popup-overlay_opened");
-    popup.classList.remove("popup_show");
-  };
-
-  if (openPopupVideo) {
-    openPopupVideo.addEventListener("click", function() {
-
-      if (window.matchMedia("(min-width: 1025px)").matches){
-        bodyOverflowHide();        
-      } else {
-        document.body.style = "overflow:hidden;";
-      }
-
-      overlay.classList.add("popup-overlay_opened");
-      videoPopup.classList.add("video-popup_opened");
-    });
-
-    closeVideoPopup.addEventListener("click", function() {
-      if (window.matchMedia("(min-width: 1025px)").matches){
-        bodyOverflowShow();
-      } else {
-        document.body.style = "overflow:auto;";
-      }
-      overlay.classList.remove("popup-overlay_opened");
-      videoPopup.classList.remove("video-popup_opened");
-    });
-  }
-
-  window.onclick = function(e) {
-    if (e.target == overlay) {
-      if (window.matchMedia("(min-width: 1025px)").matches){
-        bodyOverflowShow();
-      } else {
-        document.body.style = "overflow:auto;";
-      }
-      overlay.classList.remove("popup-overlay_opened");
-      popup.classList.remove("popup_show");
-    }
-  };
 };
 
 // Title Text Fade + Splitt Effect

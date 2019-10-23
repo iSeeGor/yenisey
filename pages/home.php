@@ -9,7 +9,7 @@
                 <h1 class="hero__title" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1000">Квартиры от застройщика <br> в солнечной Аланье</h1>
                 <h2 class="hero__subtitle" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1400">Мечтаете жить на побережье Средиземного моря?<br> С нашей компанией Ваши мечты становятся реальностью!</h2>
 
-                <button class="button hero__button button__popup" id="aosButtonAnchor" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1800" data-popup-title="Заказать бесплатную консультацию">Заказать бесплатную консультацию</button>
+                <button class="button hero__button" id="aosButtonAnchor" data-fancybox data-src="#openModalMainForm" data-modal="true" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1800" data-popup-title="Заказать бесплатную консультацию">Заказать бесплатную консультацию</button>
             </div>
 
         </div>
@@ -116,7 +116,7 @@
             <div class="video__content">
 
                 <div class="video__button-box">
-                    <button class="video__button button__popup-video" title="play button">
+                    <button class="video__button button__popup-video" title="play button" data-fancybox data-src="#openModalVideo" data-modal="true">
                         <svg class="video__icon" width="27" height="30" viewBox="0 0 27 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M25.0007 11.4636C27.6674 13.0032 27.6674 16.8522 25.0007 18.3918L6.25073 29.2172C3.58406 30.7568 0.250731 28.8323 0.250731 25.7531L0.250732 4.10242C0.250732 1.02321 3.58407 -0.901287 6.25073 0.638314L25.0007 11.4636Z" fill="white"/>
                         </svg>
@@ -251,7 +251,8 @@
                 В идеальном месте идеально всё!
             </div>
 
-            <button class="button benefit__button button__popup" 
+            <button class="button benefit__button "
+            data-fancybox data-src="#openModalMainForm" data-modal="true"
             data-popup-title="Получить подробную информацию">Получить подробную информацию</button>
         
         </div>
@@ -736,7 +737,9 @@
 
                 </div>
 
-                <button class="button excellence__button button__popup" data-popup-title="Задать вопрос">Задать вопрос</button>
+                <button class="button excellence__button" 
+                data-fancybox data-src="#openModalMainForm" data-modal="true"
+                data-popup-title="Задать вопрос">Задать вопрос</button>
 
             </div>
         </div>

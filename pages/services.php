@@ -114,7 +114,9 @@
                             </div>
                         </div>
 
-                        <button class="button services-tour__button button__popup" data-popup-title="Перезвоните мне">Оставить заявку на бесплатный тур</button>
+                        <button class="button services-tour__button"
+                        data-fancybox data-src="#openModalMainForm" data-modal="true"
+                        data-popup-title="Перезвоните мне">Оставить заявку на бесплатный тур</button>
                     </div>
                 </div>    
             </div>
@@ -335,7 +337,9 @@
 
             <div class="row">
                 <div class="col-12">
-                    <button class="button button__popup services-txtBlocks__button" data-popup-title="Перезвоните мне">Отправить запрос</button>
+                    <button class="button services-txtBlocks__button" 
+                    data-fancybox data-src="#openModalMainForm" data-modal="true"
+                    data-popup-title="Перезвоните мне">Отправить запрос</button>
                 </div>
             </div>
         

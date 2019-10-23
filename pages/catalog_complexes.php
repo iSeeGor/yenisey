@@ -580,7 +580,8 @@
                 </ul>
             </div>
 
-            <button class="button product-list__button button_big button__popup"
+            <button class="button product-list__button button_big"
+                data-fancybox data-src="#openModalMainForm" data-modal="true"
                 data-popup-title="Получить подробную информацию"
                 data-popup-text="Пожалуйста, заполните форму и нажмите кнопку «Отправить». Наш специалист свяжется с Вами, согласует параметры для подбора объектов и предоставит всю необходимую информацию.">
                 Получить подробную информацию</button>

@@ -132,7 +132,8 @@
                 <div class="director__info">
                     <div class="director__name" data-scroll="" data-splitting="">ÖMER ÖZBEK</div>
                     <div class="director__profeshion" data-scroll="" data-splitting="">Генеральный Директор</div>
-                    <button class="button button__popup director__button" 
+                    <button class="button director__button"
+                        data-fancybox data-src="#openModalMainForm" data-modal="true"
                         data-popup-title="Обсудить с директором"
                         data-popup-text="Чтобы обсудить Ваш вопрос с директором, пожалуйста, заполните форму">Обсудить с директором</button>
                 </div>

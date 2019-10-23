@@ -369,7 +369,8 @@
                 </ul>
             </div>
 
-            <button class="button product-list__button button__popup"
+            <button class="button product-list__button"
+                data-fancybox data-src="#openModalMainForm" data-modal="true"
                 data-popup-title="Отправить запрос на подбор недвижимости"
                 data-popup-text="Пожалуйста, заполните форму и нажмите кнопку «Отправить». Наш специалист свяжется с Вами, согласует параметры для подбора объектов и предоставит всю необходимую информацию.">
                 Отправить запрос</button>

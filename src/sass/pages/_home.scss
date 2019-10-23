@@ -75,6 +75,7 @@
             border-radius: 45%;
             top: -15%;
             filter: blur(42px);
+            -ms-filter: blur(42px);
             transform: scale(1.25);
         }
     }

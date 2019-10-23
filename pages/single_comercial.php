@@ -104,7 +104,9 @@
                                 </div>
                             </div>
                             <div class="meta__button-block">
-                                <button class="button meta__button button__popup" data-popup-title="Получить подробную информацию"
+                                <button class="button meta__button" 
+                                data-fancybox data-src="#openModalMainForm" data-modal="true"
+                                data-popup-title="Получить подробную информацию"
                                 data-popup-text="Пожалуйста, заполните форму и нажмите кнопку «Отправить». Наш специалист свяжется с Вами, согласует параметры для подбора объектов и предоставит всю необходимую информацию."
                                 >Получить подробную информацию</button>
                             </div>     

@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <div class="col-12 order-2 order-lg-2">
-                    <button class="button coop-whyUs__button button__popup" data-popup-title="Задать вопрос">Задать вопрос</button>
+                    <button class="button coop-whyUs__button" data-fancybox data-src="#openModalMainForm" data-modal="true" data-popup-title="Задать вопрос">Задать вопрос</button>
                 </div>           
             </div>
         </div>

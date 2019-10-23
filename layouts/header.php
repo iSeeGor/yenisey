@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="/assets/css/plugins/aos.css" />
     <link rel="stylesheet" href="/assets/css/plugins/splitting.css" />
     <link rel="stylesheet" href="/assets/css/plugins/magnific-popup.css" />
+    <link rel="stylesheet" href="/assets/css/plugins/jquery.fancybox.css" />
 
     <!--== CSS main style -->
     <link rel="stylesheet" href="/assets/css/main.css" />
@@ -89,7 +90,8 @@
                 <li class="phones__item"><a href="tel:+902425283388" class="link phones__item-link phones__item-link_rus" title="+902425283388">+90 242 528 3388</a></li>
             </ul>
 
-            <button class="button button--blue button--small button__popup"
+            <button class="button button--blue button--small"
+            data-fancybox data-src="#openModalMainForm" data-modal="true"
             data-popup-title="Перезвоните мне"
             data-popup-text="Для получения подробной информации заполните форму и наш менеджер свяжется с Вами в ближайшее время">
             Перезвоните мне</button>
@@ -124,7 +126,8 @@
                                 <div class="logo">
                                     <a href="/" title="Yenisey Logo"><img src="/assets/images/yenisey_logo.png" alt="Yenisey Logo" width="142"></a>
                                 </div>
-                                <button class="button button--blue button--small button__popup"
+                                <button class="button button--blue button--small"
+                                data-fancybox data-src="#openModalMainForm" data-modal="true"
                                     data-popup-title="Перезвоните мне"
                                     data-popup-text="Для получения подробной информации заполните форму и наш менеджер свяжется с Вами в ближайшее время">
                                     Перезвоните мне</button>
