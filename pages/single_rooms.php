@@ -250,7 +250,7 @@
             <div class="row single-propery__row">
                 <div class="col-12"><h3 class="single-section__title">Инфраструктура комплекса</h3></div>
 
-                <div class="col-lg-10 offset-lg-1">
+                <div class="col-lg-12 col-xl-11 offset-xl-1">
                     <ul class="single-propery__list">
                         <li class="single-propery__list-item">Огороженная территория</li>
                         <li class="single-propery__list-item">Летний бассейн</li>
@@ -271,7 +271,7 @@
             <div class="row single-propery__row">
                 <div class="col-12"><h3 class="single-section__title">Комплектация квартиры</h3></div>
 
-                <div class="col-lg-10 offset-lg-1">
+                <div class="col-lg-12 col-xl-11 offset-xl-1">
                     <ul class="single-propery__list">
                         <li class="single-propery__list-item">Огороженная территория</li>
                         <li class="single-propery__list-item">Летний бассейн</li>
