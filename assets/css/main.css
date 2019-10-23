@@ -1057,9 +1057,8 @@ strong {
       -webkit-border-radius: 45%;
               border-radius: 45%;
       top: -15%;
-      -webkit-filter: blur(42px);
-              filter: blur(42px);
-      -ms-filter: blur(42px);
+      -webkit-filter: blur(43px);
+              filter: blur(43px);
       -webkit-transform: scale(1.25);
           -ms-transform: scale(1.25);
               transform: scale(1.25); }

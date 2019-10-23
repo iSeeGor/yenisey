@@ -21,7 +21,6 @@ $(function() {
   archiveTabsToggle();
   favoritTabsToggle();
   magnificPopup();
-  
 });
 
 // Select Custom
