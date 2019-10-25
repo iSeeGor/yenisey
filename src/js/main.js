@@ -1,4 +1,5 @@
 $(function() {
+  smoothScroll();
   accordionMenu();
   selectCustom();
   aosRun();
@@ -16,7 +17,6 @@ $(function() {
   metaIconsToggle();
   productSlider();
   googleMap();
-  smoothScroll();
   addToFavoritToggle();
   archiveTabsToggle();
   favoritTabsToggle();
@@ -273,37 +273,56 @@ const slideNav = () => {
 
     lastScrollTop = st;
   }
+  
 };
 
 // To Top Button
 const toTopButton = () => {
-  let scrollToTopButton = document.querySelector(".to-top");
+  
 
-  const scrollFunc = () => {
-    let y = window.scrollY;
+  // const scrollFunc = () => {
+  //   let y = window.scrollY;
 
-    if (y > 400) {
-      scrollToTopButton.className = "to-top to-top_show";
+  //   if (y > 400) {
+  //     scrollToTopButton.className = "to-top to-top_show";
+  //   } else {
+  //     scrollToTopButton.className = "to-top to-top_hide";
+  //   }
+  // };
+
+  // window.addEventListener("scroll", scrollFunc);
+
+  // const scrollToTop = () => {
+  //   const c = document.documentElement.scrollTop || document.body.scrollTop;
+
+  //   if (c > 0) {
+  //     window.requestAnimationFrame(scrollToTop);
+  //     window.scrollTo(0, c - c / 10);
+  //   }
+  // };
+
+  // scrollToTopButton.onclick = function(e) {
+  //   e.preventDefault();
+  //   scrollToTop();
+  // };
+
+  let scrollToTopButton = $(".to-top");
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 400) {
+      scrollToTopButton.addClass('o-top_show');
+      scrollToTopButton.removeClass('to-top_hide');
+      
     } else {
-      scrollToTopButton.className = "to-top to-top_hide";
+      scrollToTopButton.removeClass('o-top_show');
+      scrollToTopButton.addClass('to-top_hide');
     }
-  };
-
-  window.addEventListener("scroll", scrollFunc);
-
-  const scrollToTop = () => {
-    const c = document.documentElement.scrollTop || document.body.scrollTop;
-
-    if (c > 0) {
-      window.requestAnimationFrame(scrollToTop);
-      window.scrollTo(0, c - c / 10);
-    }
-  };
-
-  scrollToTopButton.onclick = function(e) {
+  });
+  
+  scrollToTopButton.on('click', function(e) {
     e.preventDefault();
-    scrollToTop();
-  };
+    $('html, body').animate({scrollTop:0}, 1000);
+  });
 };
 
 // Form Validation
