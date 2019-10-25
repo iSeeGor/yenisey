@@ -417,7 +417,6 @@
       top: 5px;
       left: 16px; }
   .testimonial__image-area {
-    margin: 0 auto -100px;
     width: 260px; }
   .testimonial__massage iframe {
     height: 220px !important;
@@ -579,6 +578,12 @@
     width: 280px; }
   .property__paralax {
     top: 580px; } }
+
+@media screen and (max-width: 520px) {
+  .testimonial__image-area {
+    height: 220px; }
+  .testimonial__body::before {
+    content: none; } }
 
 @media screen and (min-width: 1199px) {
   .news-slider__pagination {

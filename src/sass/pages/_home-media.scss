@@ -619,7 +619,7 @@
         }
     }
     .testimonial__image-area {
-        margin: 0 auto -100px;
+        // margin: 0 auto -100px;
         width: 260px;
     }
 
@@ -846,6 +846,16 @@
 
     .property__paralax {
         top: 580px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .testimonial__image-area {
+        height: 220px;
+    }
+
+    .testimonial__body::before {
+        content: none;
     }
 }
 

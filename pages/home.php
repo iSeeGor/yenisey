@@ -476,7 +476,7 @@
                             <div class="testimonial__card swiper-slide">
 
                                 <div class="testimonial__image-area">
-                                    <img src="../assets/images/testimonial_avatar.png" alt="Testimonial Avatar" width="355">
+                                    <img src="../assets/images/exellence-image.jpg" alt="Testimonial Avatar" width="355">
                                 </div>
 
                                 <div class="testimonial__body">
