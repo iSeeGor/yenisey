@@ -112,6 +112,7 @@ img {
     background-color: $orange_color;
     @include transition(background-color);
     overflow: hidden;
+    -webkit-appearance: button;
 
     &::before{
         content: '';

@@ -19,7 +19,7 @@
     <!--== Plugins -->
     <link rel="stylesheet" href="/assets/css/plugins/nice-select.css" />
     <link rel="stylesheet" href="/assets/css/plugins/swiper.min.css" />
-    <link rel="stylesheet" href="/assets/css/plugins/aos.css" />
+    <!-- <link rel="stylesheet" href="/assets/css/plugins/aos.css" /> -->
     <link rel="stylesheet" href="/assets/css/plugins/splitting.css" />
     <link rel="stylesheet" href="/assets/css/plugins/magnific-popup.css" />
     <link rel="stylesheet" href="/assets/css/plugins/jquery.fancybox.css" />

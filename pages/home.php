@@ -261,147 +261,145 @@
     <!--== Featured  -->
     <section class="section-featured featured">
         <div class="section__header featured__header" ></div>
-        <div class="container">
-          
-            <h2 class="section-title featured__section-title">Горячие предложения</h2>
+            <div class="container">
+            
+                <h2 class="section-title featured__section-title">Горячие предложения</h2>
 
-            <div class="product-slider">
-                <div class="swiper-wrapper row">
+                <div class="product-slider">
+                    <div class="swiper-wrapper row">
 
-                    <div class="offset-md-1 col-md-10 offset-lg-0 col-lg-6 swiper-slide">
-                        <div class="card featured__card">
-                            
-                            <div class="card__image-area">
-                                <div class="card__image-inner">
-                                    <a href="/pages/single_real-estate.php" title="Product Image">
-                                        <img src="../assets/images/products/card_image_01.png" class="card__image" alt="Product Image #01">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="card__body">
-
-                                <div class="card__title">
-                                    <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence </a>
+                        <div class="offset-md-1 col-md-10 offset-lg-0 col-lg-6 swiper-slide">
+                            <div class="card featured__card">
+                                
+                                <div class="card__image-area">
+                                    <div class="card__image-inner">
+                                        <a href="/pages/single_real-estate.php" title="Product Image">
+                                            <img src="../assets/images/products/card_image_01.png" class="card__image" alt="Product Image #01">
+                                        </a>
+                                    </div>
                                 </div>
 
-                                <ul class="card__property">
-                                    <li class="card__property-item">Квартира / 2+1 / 65 м2 asdada asdad asd ad</li>
-                                    <li class="card__property-item">Расстояние до моря / 200м</li>
-                                    <li class="card__property-item">Аланья, Махмутлар</li>
-                                </ul>
+                                <div class="card__body">
 
-                                <div class="card__price">132 000 €</div>
+                                    <div class="card__title">
+                                        <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence </a>
+                                    </div>
+
+                                    <ul class="card__property">
+                                        <li class="card__property-item">Квартира / 2+1 / 65 м2 asdada asdad asd ad</li>
+                                        <li class="card__property-item">Расстояние до моря / 200м</li>
+                                        <li class="card__property-item">Аланья, Махмутлар</li>
+                                    </ul>
+
+                                    <div class="card__price">132 000 €</div>
+
+                                </div>
 
                             </div>
-
                         </div>
+
+                        <div class="offset-md-1 col-md-10 offset-lg-0 col-lg-6 swiper-slide">
+                            <div class="card featured__card">
+                                
+                                <div class="card__image-area">
+                                    <div class="card__image-inner">
+                                        <a href="/pages/single_real-estate.php" title="Product Image">
+                                            <img src="../assets/images/products/card_image_02.png" class="card__image" alt="Product Image #01">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="card__body">
+
+                                    <div class="card__title">
+                                        <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence</a>
+                                    </div>
+
+                                    <ul class="card__property">
+                                        <li class="card__property-item">Квартира / 2+1 / 65 м2 </li>
+                                        <li class="card__property-item">Расстояние до моря / 200м</li>
+                                        <li class="card__property-item">Аланья, Махмутлар</li>
+                                    </ul>
+
+                                    <div class="card__price">132 000 €</div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="offset-md-1 col-md-10 offset-lg-0 col-lg-6 swiper-slide">
+                            <div class="card featured__card">
+                                
+                                <div class="card__image-area">
+                                    <div class="card__image-inner">
+                                        <a href="/pages/single_real-estate.php" title="Product Image">
+                                            <img src="../assets/images/products/card_image_03.png" class="card__image" alt="Product Image #01">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="card__body">
+
+                                    <div class="card__title">
+                                        <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence</a>
+                                    </div>
+
+                                    <ul class="card__property">
+                                        <li class="card__property-item">Квартира / 2+1 / 65 м2 </li>
+                                        <li class="card__property-item">Расстояние до моря / 200м</li>
+                                        <li class="card__property-item">Аланья, Махмутлар</li>
+                                    </ul>
+
+                                    <div class="card__price">132 000 €</div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="offset-md-1 col-md-10 offset-lg-0 col-lg-6 swiper-slide">
+                            <div class="card featured__card">
+                                
+                                <div class="card__image-area">
+                                    <div class="card__image-inner">
+                                        <a href="/pages/single_real-estate.php" title="Product Image">
+                                            <img src="../assets/images/products/card_image_04.png" class="card__image" alt="Product Image #01">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="card__body">
+
+                                    <div class="card__title">
+                                        <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence</a>
+                                    </div>
+
+                                    <ul class="card__property">
+                                        <li class="card__property-item">Квартира / 2+1 / 65 м2 </li>
+                                        <li class="card__property-item">Расстояние до моря / 200м</li>
+                                        <li class="card__property-item">Аланья, Махмутлар</li>
+                                    </ul>
+
+                                    <div class="card__price">132 000 €</div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        
+
                     </div>
 
-                    <div class="offset-md-1 col-md-10 offset-lg-0 col-lg-6 swiper-slide">
-                        <div class="card featured__card">
-                            
-                            <div class="card__image-area">
-                                <div class="card__image-inner">
-                                    <a href="/pages/single_real-estate.php" title="Product Image">
-                                        <img src="../assets/images/products/card_image_02.png" class="card__image" alt="Product Image #01">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="card__body">
-
-                                <div class="card__title">
-                                    <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence</a>
-                                </div>
-
-                                <ul class="card__property">
-                                    <li class="card__property-item">Квартира / 2+1 / 65 м2 </li>
-                                    <li class="card__property-item">Расстояние до моря / 200м</li>
-                                    <li class="card__property-item">Аланья, Махмутлар</li>
-                                </ul>
-
-                                <div class="card__price">132 000 €</div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="offset-md-1 col-md-10 offset-lg-0 col-lg-6 swiper-slide">
-                        <div class="card featured__card">
-                            
-                            <div class="card__image-area">
-                                <div class="card__image-inner">
-                                    <a href="/pages/single_real-estate.php" title="Product Image">
-                                        <img src="../assets/images/products/card_image_03.png" class="card__image" alt="Product Image #01">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="card__body">
-
-                                <div class="card__title">
-                                    <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence</a>
-                                </div>
-
-                                <ul class="card__property">
-                                    <li class="card__property-item">Квартира / 2+1 / 65 м2 </li>
-                                    <li class="card__property-item">Расстояние до моря / 200м</li>
-                                    <li class="card__property-item">Аланья, Махмутлар</li>
-                                </ul>
-
-                                <div class="card__price">132 000 €</div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="offset-md-1 col-md-10 offset-lg-0 col-lg-6 swiper-slide">
-                        <div class="card featured__card">
-                            
-                            <div class="card__image-area">
-                                <div class="card__image-inner">
-                                    <a href="/pages/single_real-estate.php" title="Product Image">
-                                        <img src="../assets/images/products/card_image_04.png" class="card__image" alt="Product Image #01">
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="card__body">
-
-                                <div class="card__title">
-                                    <a href="#" class="card__link_title link" title="Yenisey Residence ">Yenisey Residence</a>
-                                </div>
-
-                                <ul class="card__property">
-                                    <li class="card__property-item">Квартира / 2+1 / 65 м2 </li>
-                                    <li class="card__property-item">Расстояние до моря / 200м</li>
-                                    <li class="card__property-item">Аланья, Махмутлар</li>
-                                </ul>
-
-                                <div class="card__price">132 000 €</div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
+                    <div class="product-slider__pagination"></div>
                     
-
                 </div>
 
-                <div class="product-slider__pagination"></div>
-                
             </div>
 
-            
-
             <button class="button featured__button">Смотреть все</button>
-
-
-        </div>
+            
     </section>
 
     <!--== Advantage  -->

@@ -30,14 +30,12 @@ const selectCustom = () => {
 
 // AOS Aniation
 const aosRun = () => {
-  if (window.matchMedia("(min-width:991px)").matches){
     AOS.init({
       disable: 'phone',
       offset: 140,
       duration: 800,
       once: true
     });
-  }
 };
 
 // Testimonial Slider -
