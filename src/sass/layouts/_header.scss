@@ -97,14 +97,14 @@
 .is-dropdown > {
 
     .link {
-        padding-right: 30px;
+        // padding-right: 30px;
         position: relative;
 
         &::after {
             content: '';
             position: absolute;
             top: 6px;
-            right: 0;
+            right: -30px;
             width: 16px;
             height: 16px;
             background: url('../images/icons/menu_angel_arrow.svg') no-repeat center center;
