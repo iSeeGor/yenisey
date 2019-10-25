@@ -1780,6 +1780,11 @@ strong {
     overflow: hidden;
     margin: 0 auto -46px;
     z-index: 11; }
+    .testimonial__image-area img {
+      height: 100%;
+      width: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
   .testimonial__body {
     position: relative;
     padding: 74px 49px 48px;
