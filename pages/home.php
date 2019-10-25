@@ -19,7 +19,7 @@
     <section class="section-search search" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="2200" data-aos-anchor="#aosButtonAnchor" data-aos-anchor-placement="top-bottom">
         <div class="container search__container">
 
-            <form action="" class="search-form search__area">
+            <form action="#" class="search-form search__area">
 
                 <div class="search-form__row-top">
                     <span class="search-form__item">
