@@ -63,17 +63,17 @@
 	    // -webkit-overflow-scrolling:touch;
     }
 
-    ::-webkit-scrollbar {
+    .favorit-tabs__list::-webkit-scrollbar {
         -webkit-appearance: none;
         width: 6px;
         height: 6px;
     }
-    ::-webkit-scrollbar-thumb {
+    .favorit-tabs__list::-webkit-scrollbar-thumb {
     border-radius: 8px;
     background-color: rgba(0,0,0,.5);
     box-shadow: 0 0 1px rgba(255,255,255,.5);
     }
-    ::-webkit-scrollbar-track {
+    .favorit-tabs__list::-webkit-scrollbar-track {
         background: #ececec;
         border-radius: 8px;
     }

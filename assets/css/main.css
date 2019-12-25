@@ -379,7 +379,7 @@ img {
 .single__text-area strong {
   display: inline-block; }
 
-.article-content > *:not(img) {
+.article-content > * {
   padding-left: 166px;
   padding-right: 166px; }
 

@@ -1156,17 +1156,17 @@
         -ms-flex-wrap: nowrap;
             flex-wrap: nowrap;
     overflow-y: auto; }
-  ::-webkit-scrollbar {
+  .favorit-tabs__list::-webkit-scrollbar {
     -webkit-appearance: none;
     width: 6px;
     height: 6px; }
-  ::-webkit-scrollbar-thumb {
+  .favorit-tabs__list::-webkit-scrollbar-thumb {
     -webkit-border-radius: 8px;
             border-radius: 8px;
     background-color: rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
             box-shadow: 0 0 1px rgba(255, 255, 255, 0.5); }
-  ::-webkit-scrollbar-track {
+  .favorit-tabs__list::-webkit-scrollbar-track {
     background: #ececec;
     -webkit-border-radius: 8px;
             border-radius: 8px; }

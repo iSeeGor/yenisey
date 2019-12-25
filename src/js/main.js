@@ -644,3 +644,10 @@ const magnificPopup = () => {
   });
 
 };
+
+
+// const imgPadding = () => {
+//   console.log(1);
+//   $('.article-content p > img').parent().css({'padding-left': '0', 'padding-right': '0'});
+// }
+// imgPadding();

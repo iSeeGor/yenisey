@@ -336,7 +336,7 @@ img {
 }
 
 .article-content {
-    & > *:not(img) {
+    & > *:not(p > img) {
         padding-left: 166px;
         padding-right: 166px;
     }
